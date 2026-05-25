@@ -1,0 +1,333 @@
+/* ══════════════════════════════════════
+   About page – unique sections
+   ══════════════════════════════════════ */
+
+/* ── Hero ── */
+.about-hero {
+  position: relative;
+  overflow: hidden;
+  background: url('/assets/BG.png') center / cover no-repeat;
+  padding-bottom: 0;
+}
+
+.about-hero__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 0;
+}
+
+.about-hero__copy {
+  max-width: 805px;
+  margin: 0 auto;
+}
+
+.about-hero__copy h1 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -1.44px;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.about-hero__copy p {
+  margin: 20px auto 0;
+  max-width: 500px;
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: -0.36px;
+}
+
+.about-hero__image {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1000px;
+  overflow: hidden;
+  max-height: 400px;
+}
+
+.about-hero__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-top: -10%;
+}
+
+/* ── Expert section override (rounded top like home) ── */
+.about-hero + .expert-section {
+  background: var(--surface);
+  border-radius: 40px 40px 0 0;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Approach section – "Why choose us?" icon cards ── */
+.about-approach {
+  padding: 70px 0;
+}
+
+.about-approach .section-heading {
+  font-size: 40px;
+  letter-spacing: -1.2px;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.approach-card {
+  background: #f8f9f9;
+  border: 1px solid rgba(50, 45, 83, 0.1);
+  border-radius: 36px;
+  padding: 20px 20px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.approach-card__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(50, 45, 83, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+
+.approach-card__icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.approach-card__icon--yellow { background: #f7ed88; }
+.approach-card__icon--blue   { background: #a9e0ff; }
+.approach-card__icon--purple { background: #d1b7ff; }
+
+.approach-card h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #121224;
+  opacity: 0.8;
+}
+
+.approach-card p {
+  margin: 0;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.25;
+  letter-spacing: -0.16px;
+}
+
+/* ── Areas of expertise heading ── */
+.about-expertise-heading {
+  padding: 60px 0 0;
+}
+
+.about-expertise-heading .section-heading {
+  font-size: 40px;
+  letter-spacing: -1.2px;
+}
+
+/* ── Facilities accordion section ── */
+.about-facilities {
+  padding: 60px 0 60px;
+}
+
+.about-facilities__grid {
+  display: grid;
+  grid-template-columns: 570px 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+/* Accordion – div-based, animated */
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion__item {
+  border-top: 1px solid rgba(3, 33, 38, 0.1);
+}
+
+.accordion__item:last-child {
+  border-bottom: 1px solid rgba(3, 33, 38, 0.1);
+}
+
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 24px 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ink);
+  opacity: 0.8;
+  text-align: left;
+}
+
+.accordion__header i {
+  font-size: 14px;
+  transition: transform 0.35s ease;
+  color: var(--ink);
+  flex-shrink: 0;
+}
+
+.accordion__item.is-open > .accordion__header i {
+  transform: rotate(180deg);
+}
+
+.accordion__body {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.accordion__item.is-open > .accordion__body {
+  opacity: 1;
+}
+
+.accordion__body-inner {
+  padding: 0 0 24px;
+}
+
+.accordion__body p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.4;
+  letter-spacing: -0.16px;
+}
+
+.about-facilities__image {
+  border-radius: 36px;
+  overflow: hidden;
+}
+
+.about-facilities__image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 36px;
+}
+
+/* (mission/why-choose-us section now reuses .beliefs-section from style.css) */
+
+/* ══════════════════════════════════════
+   About page – Mobile (≤ 780px)
+   ══════════════════════════════════════ */
+@media (max-width: 780px) {
+
+  /* Hero */
+  .about-hero__inner {
+    padding-top: 120px;
+  }
+
+  .about-hero__copy h1 {
+    font-size: 30px;
+    letter-spacing: -0.9px;
+  }
+
+  .about-hero__copy p {
+    font-size: 15px;
+    max-width: 320px;
+  }
+
+  .about-hero__image {
+    max-height: 260px;
+    margin-top: 28px;
+  }
+
+  /* Approach – vertical stack */
+  .about-approach {
+    padding: 60px 0;
+  }
+
+  .about-approach .section-heading {
+    font-size: 28px;
+    letter-spacing: -0.84px;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 36px;
+  }
+
+  .approach-card {
+    border-radius: 28px;
+    padding: 24px 20px 28px;
+    gap: 16px;
+  }
+
+  .approach-card h3 {
+    font-size: 20px;
+  }
+
+  .approach-card p {
+    font-size: 15px;
+  }
+
+  /* Areas of expertise heading */
+  .about-expertise-heading {
+    padding: 50px 0 0;
+  }
+
+  .about-expertise-heading .section-heading {
+    font-size: 28px;
+    letter-spacing: -0.84px;
+  }
+
+  /* Facilities accordion – single column, image below */
+  .about-facilities {
+    padding: 32px 0 60px;
+  }
+
+  .about-facilities__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .accordion__header {
+    font-size: 18px;
+    padding: 20px 0;
+  }
+
+  .accordion__body p {
+    font-size: 15px;
+  }
+
+  .about-facilities__image img {
+    height: 300px;
+    border-radius: 24px;
+  }
+}

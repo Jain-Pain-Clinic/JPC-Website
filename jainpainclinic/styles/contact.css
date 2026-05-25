@@ -1,0 +1,296 @@
+/* ───────────────────────────────────────────
+   Contact Us page – contact.css
+   ─────────────────────────────────────────── */
+
+/* ── Hero ── */
+.contact-hero {
+  background: linear-gradient(180deg, #b4ccfc 0%, transparent 100%);
+  padding: 200px 0 100px;
+  text-align: center;
+}
+
+.contact-hero__title {
+  font-size: 55px;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1.15;
+  letter-spacing: -1.65px;
+  margin: 0 0 20px;
+}
+
+.contact-hero__subtitle {
+  font-size: 20px;
+  color: var(--muted);
+  max-width: 563px;
+  margin: 0 auto;
+  line-height: 1.32;
+  letter-spacing: -0.4px;
+}
+
+/* ── Scroll icon ── */
+.contact-scroll-icon {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 48px;
+}
+
+.contact-scroll-icon img {
+  width: 32px;
+  height: 58px;
+  opacity: 0.7;
+}
+
+@keyframes scrollBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+/* ── Info cards ── */
+.contact-info {
+  padding: 0 0 64px;
+}
+
+.contact-info__cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-info__card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--surface-alt);
+  border-radius: 24px;
+  padding: 20px 18px;
+  text-decoration: none;
+  color: var(--ink);
+  flex: 1;
+  max-width: none;
+  transition: box-shadow 0.2s;
+}
+
+a.contact-info__card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--blue);
+  color: #fff;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.contact-info__body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-info__label {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: -0.16px;
+}
+
+.contact-info__value {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.2px;
+}
+
+/* ── Doctor / Location card ── */
+.contact-doctor {
+  padding: 0 0 64px;
+}
+
+.contact-doctor__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.contact-doctor__image {
+  flex: 0 0 543px;
+  width: 543px;
+  height: 433px;
+  overflow: hidden;
+  border-radius: 0 90px 90px 90px;
+  background: linear-gradient(180deg, #ccdbff 0%, #f4f7f8 100%);
+}
+
+.contact-doctor__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.contact-doctor__details {
+  flex: 0 0 531px;
+  width: 531px;
+  padding: 56px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-doctor__content {
+  width: 100%;
+}
+
+.contact-doctor__meta {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: -0.4px;
+  line-height: 1.32;
+  margin: 0 0 20px;
+}
+
+.contact-doctor__name {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1;
+  letter-spacing: -1.2px;
+  margin: 0 0 28px;
+}
+
+.contact-doctor__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.32;
+  letter-spacing: -0.4px;
+  color: var(--ink);
+  width: 100%;
+}
+
+.contact-doctor__row img {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.contact-doctor__row a {
+  color: #0869fa;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  line-height: 1.32;
+  max-width: 487px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1100px) {
+  .contact-hero__title {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 780px) {
+  .contact-hero {
+    padding: 140px 0 60px;
+  }
+
+  .contact-hero__title {
+    font-size: 32px;
+  }
+
+  .contact-hero__subtitle {
+    font-size: 16px;
+    max-width: none;
+  }
+
+  .contact-info__cards {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-info__card {
+    max-width: none;
+  }
+
+  .contact-doctor {
+    padding: 24px 0 32px;
+  }
+
+  .appointment-section {
+    padding-top: 32px;
+  }
+
+  .contact-doctor__card {
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0;
+    background: transparent;
+    max-width: none;
+  }
+
+  .contact-doctor__image {
+    flex: none;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 343 / 240;
+    border-radius: 0 60px 60px 60px;
+  }
+
+  .contact-doctor__details {
+    flex: none;
+    width: 100%;
+    padding: 24px 0 0;
+  }
+
+  .contact-doctor__content {
+    width: 100%;
+  }
+
+  .contact-doctor__meta {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    margin-bottom: 20px;
+  }
+
+  .contact-doctor__name {
+    font-size: 32px;
+    letter-spacing: -0.96px;
+    margin-bottom: 16px;
+  }
+
+  .contact-doctor__row {
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 1.32;
+    letter-spacing: -0.32px;
+    margin-bottom: 16px;
+  }
+
+  .contact-doctor__row img {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+  }
+
+  .contact-doctor__row a {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    max-width: none;
+  }
+}

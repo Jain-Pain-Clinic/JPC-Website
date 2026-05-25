@@ -1,0 +1,327 @@
+/* ══════════════════════════════════════════
+   Procedure Detail Page Styles
+   ══════════════════════════════════════════ */
+
+/* ── Hero ── */
+.treatment-hero {
+  position: relative;
+  padding: 100px 0 32px;
+  overflow: hidden;
+}
+.treatment-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #b4ccfc 0%, rgba(255,255,255,0) 100%);
+  z-index: 0;
+}
+.treatment-hero .wrap {
+  position: relative;
+  z-index: 1;
+}
+.treatment-hero__title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -1.44px;
+  margin-bottom: 24px;
+}
+.treatment-hero__subtitle {
+  font-size: 20px;
+  color: var(--ink);
+  letter-spacing: -0.4px;
+  line-height: 1.32;
+}
+
+/* ── Banner image ── */
+.treatment-banner {
+  margin-top: 0;
+  margin-bottom: 16px;
+  border-radius: 24px;
+  overflow: hidden;
+  max-height: 496px;
+}
+.treatment-banner img {
+  width: 100%;
+  height: 496px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── FAQ section ── */
+.treatment-faq {
+  padding: 48px 0;
+}
+.treatment-faq__title {
+  font-size: 46px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -1.38px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.treatment-faq__list {
+  display: flex;
+  flex-direction: column;
+}
+.treatment-faq__item {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: 24px 0;
+}
+.treatment-faq__item:first-child {
+  border-top: none;
+}
+.treatment-faq__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  cursor: pointer;
+}
+.treatment-faq__q {
+  font-size: 20px;
+  font-weight: 600;
+  color: #121224;
+  opacity: 0.8;
+  line-height: 1.3;
+  flex: 1;
+}
+.treatment-faq__toggle {
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  background: none;
+  color: var(--blue);
+  font-size: 13px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+.treatment-faq__item.is-open .treatment-faq__toggle {
+  transform: rotate(45deg);
+}
+.treatment-faq__answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.treatment-faq__answer p {
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1.4;
+  letter-spacing: -0.16px;
+  padding-top: 8px;
+}
+
+/* ══════════════════════════════════════════
+   Your Journey – Procedure Explorer
+   ══════════════════════════════════════════ */
+.journey { padding: 64px 0; }
+
+.journey__header { text-align: center; margin-bottom: 48px; }
+.journey__subtitle { font-size: 20px; line-height: 1.32; letter-spacing: -0.4px; color: var(--muted); margin-bottom: 12px; }
+.journey__title { font-size: 46px; line-height: normal; letter-spacing: -1.38px; color: var(--ink); font-weight: 600; }
+
+/* Desktop layout */
+.journey__desktop { display: flex; gap: 24px; align-items: stretch; }
+.journey__mobile { display: none; }
+
+@media (max-width: 1023px) {
+  .journey__desktop { display: none; }
+  .journey__mobile { display: block; }
+}
+
+/* Stage sidebar – Desktop vertical */
+.journey-sidebar { width: 220px; flex-shrink: 0; background: #fff; border-radius: 24px; padding: 24px 16px; border: 1px solid rgba(3,33,38,0.1); position: relative; }
+.journey-stage-list { display: flex; flex-direction: column; justify-content: space-between; height: 100%; position: relative; }
+
+/* Connecting line */
+.journey-stage-line { position: absolute; left: 24px; top: 32px; bottom: 32px; width: 4px; background: #e5e7eb; border-radius: 9999px; }
+.journey-stage-line__fill { position: absolute; top: 0; left: 0; width: 100%; background: linear-gradient(to bottom, var(--blue), #0a3d7a); border-radius: 9999px; transition: height 0.5s ease; }
+
+.journey-stage-btn { position: relative; display: flex; align-items: center; gap: 16px; padding: 12px 16px; border-radius: 12px; border: none; background: transparent; cursor: pointer; transition: all 0.3s; width: 100%; text-align: left; font-family: inherit; }
+.journey-stage-btn:hover { background: #f9fafb; }
+.journey-stage-btn.active { background: linear-gradient(to right, var(--blue), #0a3d7a); color: #fff; box-shadow: 0 10px 25px rgba(18,83,163,0.3); transform: scale(1.05); z-index: 10; }
+.journey-stage-btn.past { color: #4b5563; }
+.journey-stage-btn.future { color: #9ca3af; }
+
+.journey-stage-icon { position: relative; z-index: 10; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: all 0.3s; }
+.journey-stage-btn.active .journey-stage-icon { background: #fff; color: var(--blue); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.journey-stage-btn.past .journey-stage-icon { background: var(--blue); color: #fff; }
+.journey-stage-btn.future .journey-stage-icon { background: #f3f4f6; color: #9ca3af; }
+.journey-stage-icon svg { width: 24px; height: 24px; }
+
+.journey-stage-label { flex: 1; }
+.journey-stage-number { font-size: 12px; margin-bottom: 4px; color: #9ca3af; }
+.journey-stage-btn.active .journey-stage-number { color: #bfdbfe; }
+.journey-stage-name { font-size: 14px; font-weight: 500; }
+.journey-stage-btn.active .journey-stage-name { color: #fff; }
+
+.journey-stage-bar { display: none; }
+.journey-stage-btn.active .journey-stage-bar { display: block; position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 4px; height: 32px; background: #fff; border-radius: 9999px 0 0 9999px; }
+
+/* Content panel */
+.journey-content { flex: 1; background: #fff; border-radius: 24px; padding: 8px 32px 32px; border: 1px solid rgba(3,33,38,0.1); overflow-y: auto; max-height: 750px; }
+.journey-content__title { font-size: 32px; letter-spacing: -0.96px; color: var(--ink); font-weight: 600; margin-bottom: 12px; }
+.journey-content__desc { font-size: 18px; line-height: 1.15; letter-spacing: -0.18px; color: var(--muted); margin-bottom: 24px; }
+
+.journey-duration { display: inline-flex; align-items: center; gap: 8px; background: #fff; padding: 8px 16px; border-radius: 16px; border: 1px solid rgba(3,33,38,0.1); margin-bottom: 24px; font-size: 14px; color: var(--blue); }
+.journey-duration svg { width: 16px; height: 16px; }
+
+.journey-keypoints__title { font-size: 20px; color: var(--ink); font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+.journey-keypoints__title svg { width: 20px; height: 20px; color: var(--blue); }
+
+.journey-keypoint { display: flex; align-items: flex-start; gap: 12px; background: #fff; padding: 16px; border-radius: 16px; border: 1px solid rgba(3,33,38,0.1); margin-bottom: 12px; }
+.journey-keypoint__dot { width: 24px; height: 24px; border-radius: 50%; background: #CCE8FF; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+.journey-keypoint__dot-inner { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); }
+.journey-keypoint__text { font-size: 16px; line-height: 1.45; letter-spacing: -0.32px; color: rgba(3,33,38,0.7); }
+
+.journey-info { background: #fff; border-radius: 24px; padding: 24px; border: 1px solid rgba(3,33,38,0.1); margin-top: 24px; }
+.journey-info__title { font-size: 20px; color: var(--ink); font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.journey-info__title svg { width: 20px; height: 20px; color: var(--blue); }
+.journey-info__text { font-size: 16px; line-height: 1.45; letter-spacing: -0.32px; color: rgba(3,33,38,0.7); }
+
+.journey-tips { list-style: none; padding: 0; }
+.journey-tips li { display: flex; align-items: flex-start; gap: 8px; font-size: 16px; line-height: 1.45; letter-spacing: -0.32px; color: rgba(3,33,38,0.7); margin-bottom: 8px; }
+
+/* Patient state */
+.journey-patient-col { width: 280px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.journey-patient { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.journey-patient__img { width: 260px; height: auto; border-radius: 16px; object-fit: cover; animation: journeyFloat 3s ease-in-out infinite; }
+@keyframes journeyFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.journey-patient__badge { display: inline-block; padding: 12px 24px; background: var(--blue); color: #fff; border-radius: 32px; font-size: 15px; font-weight: 600; margin-bottom: 12px; border: 1px solid rgba(0,0,0,0.1); }
+.journey-patient__desc { font-size: 15px; line-height: 1.4; letter-spacing: -0.15px; color: var(--muted); max-width: 200px; }
+
+/* Mobile stage scroller */
+.journey-m-scroller { overflow-x: auto; padding-bottom: 16px; -ms-overflow-style: none; scrollbar-width: none; }
+.journey-m-scroller::-webkit-scrollbar { display: none; }
+.journey-m-row { display: flex; gap: 12px; min-width: max-content; padding: 0 8px; }
+.journey-m-btn { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 12px 16px; border-radius: 16px; border: 1px solid rgba(3,33,38,0.1); background: #fff; cursor: pointer; width: 120px; flex: 0 0 120px; transition: all 0.3s; font-family: inherit; }
+.journey-m-btn.active { background: var(--blue); color: #fff; box-shadow: 0 8px 20px rgba(18,83,163,0.3); transform: scale(1.05); border-color: rgba(0,0,0,0.1); }
+.journey-m-btn__icon { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; background: #e5e7eb; color: #9ca3af; }
+.journey-m-btn.active .journey-m-btn__icon { background: #fff; color: var(--blue); }
+.journey-m-btn.past .journey-m-btn__icon { background: var(--blue); color: #fff; }
+.journey-m-btn__icon svg { width: 20px; height: 20px; }
+.journey-m-btn__num { font-size: 10px; color: #9ca3af; margin-bottom: 2px; }
+.journey-m-btn.active .journey-m-btn__num { color: #bfdbfe; }
+.journey-m-btn__name { font-size: 12px; font-weight: 500; line-height: 1.2; }
+
+.journey-swipe-hint { text-align: center; font-size: 14px; color: rgba(3,33,38,0.4); margin: 16px 0; }
+
+.journey-m-card { background: #fff; border-radius: 24px; padding: 24px; border: 1px solid rgba(3,33,38,0.1); margin-bottom: 24px; }
+.journey-m-patient { display: flex; justify-content: center; margin-bottom: 24px; }
+.journey-m-patient .journey-patient__img { width: 100px; }
+
+/* Sticky nav bar mobile */
+.journey-m-nav { position: sticky; bottom: 16px; z-index: 20; }
+.journey-nav-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); border-radius: 24px; padding: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); border: 1px solid rgba(3,33,38,0.1); }
+.journey-nav-btn { display: flex; align-items: center; gap: 4px; padding: 10px 16px; border-radius: 16px; border: none; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; font-family: inherit; }
+.journey-nav-btn.enabled { background: var(--blue); color: #fff; border: 1px solid rgba(0,0,0,0.1); }
+.journey-nav-btn.enabled:hover { opacity: 0.9; }
+.journey-nav-btn.enabled:active { transform: scale(0.95); }
+.journey-nav-btn.disabled { background: #F8F9F9; color: rgba(3,33,38,0.3); cursor: not-allowed; border: none; }
+.journey-nav-btn svg { width: 20px; height: 20px; }
+.journey-nav-center { flex: 1; text-align: center; min-width: 0; padding: 0 8px; }
+.journey-nav-center__num { font-size: 10px; color: var(--muted); margin-bottom: 2px; }
+.journey-nav-center__name { font-size: 12px; font-weight: 500; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ══════════════════════════════════════════
+   Quiz + YouTube – Two-column section
+   ══════════════════════════════════════════ */
+.quiz-video { padding: 64px 0; }
+.quiz-video__header { text-align: center; margin-bottom: 48px; }
+.quiz-video__subtitle { font-size: 20px; line-height: 1.32; letter-spacing: -0.4px; color: var(--muted); margin-bottom: 12px; }
+.quiz-video__title { font-size: 46px; line-height: normal; letter-spacing: -1.38px; color: var(--ink); font-weight: 600; }
+.quiz-video__grid { display: grid; grid-template-columns: 1fr 380px; gap: 32px; align-items: start; }
+
+/* ── Quiz card ── */
+.quiz-card { background: #fff; border-radius: 24px; padding: 32px; border: 1px solid rgba(3,33,38,0.1); min-height: 480px; display: flex; flex-direction: column; }
+.quiz-card__progress { display: flex; gap: 6px; margin-bottom: 24px; }
+.quiz-card__progress-dot { flex: 1; height: 4px; border-radius: 9999px; background: #e5e7eb; transition: background 0.3s; }
+.quiz-card__progress-dot.done { background: var(--blue); }
+.quiz-card__progress-dot.active { background: var(--blue); opacity: 0.5; }
+
+.quiz-card__counter { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
+.quiz-card__question { font-size: 22px; font-weight: 600; color: var(--ink); line-height: 1.35; letter-spacing: -0.44px; margin-bottom: 24px; }
+
+.quiz-card__options { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+.quiz-card__option { display: flex; align-items: center; gap: 14px; padding: 14px 18px; border-radius: 16px; border: 1px solid rgba(3,33,38,0.12); background: #fff; cursor: pointer; transition: all 0.2s; font-family: inherit; font-size: 16px; color: var(--ink); text-align: left; width: 100%; }
+.quiz-card__option:hover { border-color: var(--blue); background: rgba(18,83,163,0.04); }
+.quiz-card__option-letter { width: 32px; height: 32px; border-radius: 50%; background: #f3f4f6; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 14px; flex-shrink: 0; transition: all 0.2s; }
+.quiz-card__option:hover .quiz-card__option-letter { background: rgba(18,83,163,0.1); color: var(--blue); }
+.quiz-card__option.correct { border-color: var(--blue); background: rgba(18,83,163,0.06); }
+.quiz-card__option.correct .quiz-card__option-letter { background: var(--blue); color: #fff; }
+.quiz-card__option.wrong { border-color: var(--ink); background: rgba(3,33,38,0.04); }
+.quiz-card__option.wrong .quiz-card__option-letter { background: rgba(3,33,38,0.6); color: #fff; }
+.quiz-card__option.disabled { pointer-events: none; opacity: 0.55; }
+.quiz-card__option.disabled.correct { opacity: 1; }
+
+.quiz-card__explanation { padding: 16px; border-radius: 16px; background: rgba(18,83,163,0.04); border: 1px solid rgba(18,83,163,0.1); margin-bottom: 24px; font-size: 15px; line-height: 1.5; color: rgba(3,33,38,0.7); }
+.quiz-card__explanation strong { color: var(--ink); }
+
+.quiz-card__next { display: inline-flex; align-items: center; gap: 8px; padding: 12px 28px; border-radius: 16px; border: none; background: var(--blue); color: #fff; font-size: 16px; font-weight: 500; cursor: pointer; transition: opacity 0.2s; font-family: inherit; }
+.quiz-card__next:hover { opacity: 0.9; }
+
+/* Result */
+.quiz-result { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; flex: 1; }
+.quiz-result__img { width: 240px; height: auto; border-radius: 16px; margin-bottom: 24px; object-fit: cover; }
+.quiz-result__heading { font-size: 24px; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+.quiz-result__score { font-size: 18px; color: var(--muted); margin-bottom: 24px; }
+.quiz-result__restart { display: inline-flex; align-items: center; gap: 8px; padding: 12px 28px; border-radius: 16px; border: none; background: var(--blue); color: #fff; font-size: 16px; font-weight: 500; cursor: pointer; transition: opacity 0.2s; font-family: inherit; }
+.quiz-result__restart:hover { opacity: 0.9; }
+
+/* ── YouTube sidebar (procedures) ── */
+.proc-sidebar { position: sticky; top: 100px; }
+.proc-sidebar__video { border-radius: 16px; overflow: hidden; display: block; position: relative; }
+.proc-sidebar__video img { width: 100%; display: block; border-radius: 16px; }
+.proc-sidebar__video-play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.25); border-radius: 16px; transition: background 0.2s; }
+.proc-sidebar__video:hover .proc-sidebar__video-play { background: rgba(0,0,0,0.35); }
+.proc-sidebar__video-play i { font-size: 48px; color: #fff; }
+.proc-sidebar__heading { font-size: 24px; font-weight: 600; color: var(--ink); margin-top: 32px; line-height: 1.3; opacity: 0.8; }
+.proc-sidebar__desc { font-size: 18px; color: var(--muted); line-height: 1.15; letter-spacing: -0.18px; margin-top: 12px; }
+
+/* ── Appointment override ── */
+.appointment-section {
+  padding: 48px 0;
+}
+
+/* ══════════════════════════════════════════
+   Responsive – 1100px
+   ══════════════════════════════════════════ */
+@media (max-width: 1100px) {
+  .treatment-hero__title { font-size: 38px; }
+  .treatment-faq__title { font-size: 36px; }
+  .journey__title { font-size: 36px; }
+  .quiz-video__title { font-size: 36px; }
+}
+
+/* ══════════════════════════════════════════
+   Responsive – 780px (mobile)
+   ══════════════════════════════════════════ */
+@media (max-width: 780px) {
+  .treatment-hero { padding: 80px 0 40px; }
+  .treatment-hero__title { font-size: 28px; letter-spacing: -0.84px; }
+  .treatment-hero__subtitle { font-size: 16px; }
+  .treatment-banner img { height: 240px; }
+
+  .treatment-faq { padding: 32px 0; }
+  .treatment-faq__title { font-size: 28px; letter-spacing: -0.84px; }
+  .treatment-faq__q { font-size: 16px; }
+
+  .journey { padding: 32px 0; }
+  .journey__title { font-size: 28px; letter-spacing: -0.84px; }
+  .journey__subtitle { font-size: 16px; }
+
+  .quiz-video { padding: 32px 0; }
+  .quiz-video__title { font-size: 28px; letter-spacing: -0.84px; }
+  .quiz-video__subtitle { font-size: 16px; }
+  .quiz-video__grid { grid-template-columns: 1fr; }
+  .quiz-card { padding: 24px; }
+  .quiz-card__question { font-size: 18px; }
+  .proc-sidebar { position: static; }
+}
