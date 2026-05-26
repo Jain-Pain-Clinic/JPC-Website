@@ -735,7 +735,263 @@ const rawBlogs = [
         }
       ]
     }
+  },
+  {
+  "slug": "how-to-talk-to-doctor-about-pain",
+  "title": "How to Talk to a Doctor About Pain So You Get Better Help",
+  "seoTitle": "How to Talk to a Doctor About Pain | Jain Pain Clinic",
+  "description": "Learn how to explain pain clearly to your doctor, including location, severity, triggers, daily impact, medicine history, and warning signs.",
+  "keywords": "how to talk to doctor about pain, how to describe pain, pain consultation, pain specialist, chronic pain symptoms, pain diary, Jain Pain Clinic, Dr Ashu Kumar Jain",
+  "canonicalPath": "/blog/how-to-talk-to-doctor-about-pain",
+  "ogImage": "/assets/blog/doctor-pain-consultation-hero.jpg",
+  "category": "Patient Guide",
+  "readTime": "7 min read",
+  "excerpt": "A clear pain story helps your doctor understand what is happening. Learn what details to share before and during your consultation.",
+  "heroSubtitle": "Pain is personal. A doctor cannot see exactly what you feel, so the way you describe your pain can make a real difference in your diagnosis and treatment plan.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-05-21",
+  "publishedLabel": "May 21, 2026",
+  "cardImage": "/assets/blog/doctor-pain-consultation-hero.jpg",
+  "cardAlt": "Doctor listening to patient during pain consultation",
+  "bannerImage": "/assets/blog/doctor-pain-consultation-hero.jpg",
+  "bannerAlt": "Patient explaining pain symptoms to a doctor",
+  "tags": [
+    "Pain Consultation",
+    "Chronic Pain",
+    "Patient Guide",
+    "Pain Specialist"
+  ],
+  "content": {
+  "intro": "Most patients know their pain very well, but explaining it in a clinic can still feel difficult. The pain may change during the day. It may move from one area to another. Sometimes the scan report says one thing, while the body feels something else. A good consultation starts with a clear pain story.",
+  "blocks": [
+    {
+      "type": "section",
+      "heading": "Why Clear Communication Matters",
+      "paragraphs": [
+        "Pain is personal. A doctor cannot see pain the same way they can see swelling, fever, or a wound. They depend on your description to understand what is happening.",
+        "This does not mean you need medical words. In fact, simple words are often better. Where does it hurt? When does it happen? What makes it worse? What helps? These answers can guide the examination and treatment plan.",
+        "A clear explanation also saves time. It helps the doctor focus on the pattern of pain instead of guessing from scattered details."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Start With Your Pain Story",
+      "paragraphs": [
+        "Before going into small details, start with a short summary. Think of it as the first version of your pain story.",
+        "A helpful summary sounds like this: I have had lower back pain for three months. It travels to my right leg when I sit for a long time. Painkillers help for a few hours, but the pain comes back.",
+        "This one sentence tells the doctor the location, duration, spread, trigger, and response to medicine. That is far more useful than saying only, I have back pain."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What Does the Doctor Usually Want to Know?",
+      "paragraphs": [
+        "Most pain consultations begin with a few basic questions. The doctor wants to know where the pain starts, where it travels, how long it has been there, and what kind of pain it feels like.",
+        "They may also ask if the pain is constant or comes and goes. They may ask if it is worse in the morning, after walking, after sitting, while sleeping, or during certain movements.",
+        "These questions are not random. They help the doctor understand whether the pain may be coming from a joint, muscle, nerve, disc, or another structure."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Use Simple Words for the Type of Pain",
+      "paragraphs": [
+        "Patients often worry that they are not using the right words. That is not a problem. Use the closest word you can find.",
+        "You can say the pain is burning, sharp, dull, heavy, tight, throbbing, shooting, or electric. If you feel numbness, tingling, pins and needles, or weakness, mention it clearly.",
+        "These words help because different pain patterns can point toward different causes. For example, burning or electric pain may suggest nerve irritation, while stiffness and aching may suggest a different source."
+      ]
+    },
+    {
+      "type": "image",
+      "src": "/assets/blog/pain-consultation-notes.jpg",
+      "alt": "Patient notes prepared before a pain specialist consultation"
+    },
+    {
+      "type": "section",
+      "heading": "Talk About Daily Life, Not Just Pain Score",
+      "paragraphs": [
+        "A pain score from 0 to 10 can be useful, but it does not tell the whole story.",
+        "Two patients may both say their pain is 7 out of 10. One may still be able to work and sleep. Another may be unable to sit, walk, drive, or climb stairs. The number is the same, but the impact is very different.",
+        "Tell your doctor what pain has changed in your life. Can you sleep properly? Can you travel? Can you work? Can you care for your family? These details help the doctor understand how serious the pain is for you."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "What Makes Pain Better or Worse?",
+      "paragraphs": [
+        "This is one of the most important parts of the discussion. Pain usually has a pattern.",
+        "Some patients feel worse after sitting. Some feel worse after walking. Some feel pain while bending, coughing, climbing stairs, or lying down at night. Others feel better with rest, heat, movement, or a certain posture.",
+        "Do not ignore these small details. They can help your doctor decide what to examine and which treatment options may be suitable."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Should You Mention Old Reports and Medicines?",
+      "paragraphs": [
+        "Yes. Bring old prescriptions, MRI or X-ray reports, blood tests, discharge summaries, and previous treatment details.",
+        "Also tell your doctor what helped and what did not help. If physiotherapy helped only for a short time, say that. If a medicine caused acidity, sleepiness, dizziness, or no relief, mention it.",
+        "This avoids repeating the same treatment without a clear reason. It also helps the doctor understand how your pain has behaved over time."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "A Small Pain Note Can Help",
+      "paragraphs": [
+        "You do not need a long pain diary. A short note on your phone is enough.",
+        "Before the consultation, write down five things: where the pain is, when it started, what makes it worse, what gives relief, and how it affects daily life.",
+        "This is especially useful if you feel nervous during appointments or forget details when the doctor starts asking questions."
+      ],
+      "quote": "\"When patients describe pain clearly, the consultation becomes more focused, and the treatment plan becomes more personal.\""
+    },
+    {
+      "type": "section",
+      "heading": "When Should You Speak Urgently?",
+      "paragraphs": [
+        "Some symptoms should be discussed without delay. Pain with new weakness, loss of bladder or bowel control, fever, unexplained weight loss, severe injury, or sudden severe pain needs timely medical attention.",
+        "These signs do not always mean something dangerous, but they should not be ignored.",
+        "If something feels very different from your usual pain, tell your doctor clearly."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Questions You Can Ask Your Doctor",
+      "paragraphs": [
+        "A good consultation should help you understand the next step. It is completely okay to ask questions.",
+        "You can ask what may be causing the pain, whether tests are needed, what treatment options are available, what activities to avoid, and when to follow up.",
+        "These questions make the consultation more useful. They also help you leave with a clearer plan."
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "The Takeaway",
+      "paragraphs": [
+        "You do not need to explain pain like a medical expert. You only need to explain it honestly and clearly.",
+        "Tell your doctor where it hurts, what it feels like, when it happens, what affects it, and how it changes your daily life.",
+        "At Jain Pain Clinic, these details help the team understand the pattern of pain and plan treatment around the patient, not just the report."
+      ]
+    }
+  ]
   }
+  },
+  {
+  "slug": "sacroiliac-joint-injection-back-pain-pelvis",
+  "title": "Sacroiliac Joint Injection: When Back Pain Is Actually Coming From the Pelvis",
+  "seoTitle": "Sacroiliac Joint Injection for Back and Pelvic Pain | Jain Pain Clinic",
+  "description": "Learn how sacroiliac joint pain can mimic lower back pain or sciatica, and how an image-guided SI joint injection can help diagnose and treat the pain source.",
+  "keywords": "sacroiliac joint injection, SI joint pain, sacroiliac joint pain treatment, lower back pain from pelvis, SI joint injection Gurugram, back pain specialist, pelvic pain, Jain Pain Clinic",
+  "canonicalPath": "/blog/sacroiliac-joint-injection-back-pain-pelvis",
+  "ogImage": "/assets/blog/si-joint-pain-hero.jpg",
+  "category": "Back Pain",
+  "readTime": "8 min read",
+  "excerpt": "Not all lower back pain comes from the spine. Sometimes the real source is the sacroiliac joint, where the spine meets the pelvis.",
+  "heroSubtitle": "Sacroiliac joint pain often hides behind common back pain symptoms. An image-guided SI joint injection can help confirm the source of pain and provide targeted relief.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-05-25",
+  "publishedLabel": "May 25, 2026",
+  "cardImage": "/assets/blog/si-joint-pain-hero.jpg",
+  "cardAlt": "Doctor examining lower back and pelvis area for sacroiliac joint pain",
+  "bannerImage": "/assets/blog/si-joint-pain-hero.jpg",
+  "bannerAlt": "Doctor examining lower back and pelvis area for sacroiliac joint pain",
+  "tags": [
+    "Sacroiliac Joint",
+    "Back Pain",
+    "Pelvic Pain",
+    "Pain Injection"
+  ],
+  "content": {
+    "intro": "Many patients with lower back pain assume the problem is always in the spine. Sometimes it is. But in some cases, the pain comes from a small but important joint where the lower spine meets the pelvis. This is called the sacroiliac joint, or SI joint. When this joint becomes painful, it can feel very similar to back pain, hip pain, or even sciatica.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why the Sacroiliac Joint Is Often Missed",
+        "paragraphs": [
+          "The sacroiliac joint sits deep at the back of the pelvis. There is one SI joint on each side, connecting the sacrum at the bottom of the spine to the ilium of the pelvis.",
+          "Because of its location, SI joint pain does not always feel like pelvic pain. It may feel like lower back pain, buttock pain, hip pain, or pain going toward the thigh.",
+          "This overlap is the reason many patients spend months treating the lower back, while the real pain source is lower down near the pelvis."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Does SI Joint Pain Feel Like?",
+        "paragraphs": [
+          "SI joint pain is often felt on one side of the lower back or buttock. Some patients feel it close to the dimple area at the back of the pelvis. Others feel pain around the hip, groin, or upper thigh.",
+          "The pain may increase while standing for long periods, climbing stairs, turning in bed, getting up from a chair, or walking on uneven ground.",
+          "It can also feel worse after a fall, injury, pregnancy-related pelvic strain, or previous spine surgery. The exact pattern is different for every patient, which is why a careful examination matters."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/sacroiliac-joint-anatomy.jpg",
+        "alt": "Anatomy illustration showing the sacroiliac joint between the sacrum and ilium"
+      },
+      {
+        "type": "section",
+        "heading": "Why It Can Look Like Disc Pain or Sciatica",
+        "paragraphs": [
+          "Disc pain and sciatica are common causes of lower back and leg pain, so they are often suspected first. But SI joint pain can overlap with both.",
+          "A patient may feel pain in the lower back, buttock, or back of the thigh and assume it is a nerve problem. Sometimes MRI findings may also show disc changes, but those changes may not be the main pain source.",
+          "This is why treatment should not be based only on a scan report. The doctor has to match the scan with the pain pattern, physical examination, and response to treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Does a Doctor Suspect SI Joint Pain?",
+        "paragraphs": [
+          "A pain specialist looks for clues in the history and examination. The location of pain, the movements that trigger it, and the way the pain behaves during daily activities all matter.",
+          "The doctor may perform specific physical tests that gently stress the sacroiliac joint. If these tests reproduce the familiar pain, the SI joint becomes a stronger suspect.",
+          "Still, diagnosis can be difficult. Imaging may help rule out other problems, but it does not always prove that the SI joint is the active pain source."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Is a Sacroiliac Joint Injection?",
+        "paragraphs": [
+          "A sacroiliac joint injection is a targeted procedure where medicine is placed into or around the SI joint. It usually contains a local anaesthetic and a steroid.",
+          "The local anaesthetic can give short-term relief and help confirm whether the SI joint is generating the pain. The steroid can reduce inflammation and provide longer relief in selected patients.",
+          "The injection is performed under image guidance, such as fluoroscopy or ultrasound, so the medicine reaches the correct area. This accuracy is important because the SI joint is deep and narrow."
+        ],
+        "quote": "\"A sacroiliac joint injection is not just about pain relief. It can also help confirm whether the pelvis is the real source of pain.\""
+      },
+      {
+        "type": "section",
+        "heading": "How Can One Injection Diagnose and Treat?",
+        "paragraphs": [
+          "The diagnostic part is simple. If the pain reduces clearly after the injection, it supports the SI joint as the pain source.",
+          "The treatment part depends on the cause of pain. If inflammation is playing a role, the steroid may reduce irritation and help the patient move better.",
+          "This relief can also make physiotherapy and strengthening easier. In many patients, the injection is one step in a larger plan, not the only treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Who May Benefit From SI Joint Injection?",
+        "paragraphs": [
+          "This injection may be considered when the pain pattern and examination suggest SI joint involvement, especially when regular treatment for lower back pain has not helped enough.",
+          "It may also be useful in patients with one-sided lower back or buttock pain, pain after spine surgery, pain after trauma, or pain that increases with standing, stairs, or turning in bed.",
+          "Not every patient with back pain needs this injection. The decision should come after proper evaluation by a pain specialist."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Happens After the Injection?",
+        "paragraphs": [
+          "After the injection, the doctor may ask you to track your pain relief. This is important because the response helps confirm whether the SI joint was truly involved.",
+          "Some patients feel relief quickly because of the local anaesthetic. Steroid-related relief may take longer. Mild soreness at the injection site can happen for a short time.",
+          "Your doctor may also advise activity changes, exercises, physiotherapy, or follow-up treatment depending on your response."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Not all lower back pain comes from the disc or spine. Sometimes the sacroiliac joint is the missing source.",
+          "If pain is felt low in the back, near the buttock or pelvis, and it has not improved with routine care, SI joint pain should be considered.",
+          "At Jain Pain Clinic, Dr Ashu Kumar Jain evaluates the full pain pattern before recommending treatment. The goal is to identify the true source of pain and choose the least invasive option that makes sense."
+        ]
+      }
+    ]
+  }
+}
 ];
 
 export const blogs = [...rawBlogs].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
