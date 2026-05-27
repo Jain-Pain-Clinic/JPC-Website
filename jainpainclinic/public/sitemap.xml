@@ -31,6 +31,23 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.jainpainclinic.com/blog/page-3</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/sacroiliac-joint-injection-back-pain-pelvis</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/how-to-talk-to-doctor-about-pain</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.jainpainclinic.com/blog/neck-pain-and-headaches</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -69,6 +86,36 @@
   <url>
     <loc>https://www.jainpainclinic.com/blog/link-between-chronic-pain-nausea-and-vomiting</loc>
     <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/mri-shows-disc-bulge-should-you-be-worried</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/shoulder-pain-at-night-frozen-shoulder-or-rotator-cuff</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/why-painkillers-stop-working-chronic-pain</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/chest-wall-pain-when-not-heart</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/painful-diabetic-neuropathy-sugar-damages-nerves</loc>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
