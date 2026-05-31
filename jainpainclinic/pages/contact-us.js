@@ -92,18 +92,6 @@ export default function ContactPage({ contactMarkup }) {
 
       <div dangerouslySetInnerHTML={{ __html: contactMarkup }} />
 
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-2R0G1WLVX7"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics-contact" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-2R0G1WLVX7');
-        `}
-      </Script>
       <Script src="/home-script.js" strategy="afterInteractive" />
     </>
   );
