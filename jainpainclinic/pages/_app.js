@@ -5,6 +5,7 @@ import { Manrope } from "next/font/google";
 import "@/styles/globals.css";
 
 const GTM_CONTAINER_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-NRQQSQST";
+const GTM_LOAD_DELAY_MS = 1000;
 const manrope = Manrope({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
@@ -31,6 +32,8 @@ function GoogleTagManager() {
     if (!GTM_CONTAINER_ID) {
       return undefined;
     }
+
+    window.dataLayer = window.dataLayer || [];
 
     const handleRouteChange = (url) => {
       pushDataLayerEvent("page_view", {
@@ -115,11 +118,42 @@ function GoogleTagManager() {
   return (
     <Script id="google-tag-manager" strategy="lazyOnload">
       {`
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','${GTM_CONTAINER_ID}');
+        (function() {
+          window.dataLayer = window.dataLayer || [];
+
+          if (window.__jpcGtmLoaded || window.__jpcGtmTimer) {
+            return;
+          }
+
+          function loadGoogleTagManager() {
+            if (window.__jpcGtmLoaded) {
+              return;
+            }
+
+            window.__jpcGtmTimer = null;
+            window.__jpcGtmLoaded = true;
+
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','${GTM_CONTAINER_ID}');
+          }
+
+          function scheduleGoogleTagManager() {
+            if (window.__jpcGtmLoaded || window.__jpcGtmTimer) {
+              return;
+            }
+
+            window.__jpcGtmTimer = window.setTimeout(loadGoogleTagManager, ${GTM_LOAD_DELAY_MS});
+          }
+
+          if (document.readyState === 'complete') {
+            scheduleGoogleTagManager();
+          } else {
+            window.addEventListener('load', scheduleGoogleTagManager, { once: true });
+          }
+        })();
       `}
     </Script>
   );

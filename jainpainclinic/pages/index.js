@@ -10,6 +10,34 @@ function normalizeHomepageMarkup(html) {
     .replace(
       '<img class="hero-figure" src="/assets/hero-right.png" alt="Doctor with 50,000+ happy patients and 4 expert doctors" />',
       '<picture class="hero-figure"><source srcset="/assets/hero-right.webp" type="image/webp" /><img src="/assets/hero-right.png" width="1143" height="1200" loading="eager" decoding="async" fetchpriority="high" alt="Doctor with 50,000+ happy patients and 4 expert doctors" /></picture>'
+    )
+    .replace(
+      '<img src="/assets/about-us.jpg" alt="Doctors supporting patients" />',
+      '<picture><source srcset="/assets/about-us.webp" type="image/webp" /><img src="/assets/about-us.jpg" alt="Doctors supporting patients" /></picture>'
+    )
+    .replace(
+      '<img src="/assets/sitting doctor.png" alt="Dr Ashu Kumar Jain" />',
+      '<picture><source srcset="/assets/sitting%20doctor.webp" type="image/webp" /><img src="/assets/sitting doctor.png" alt="Dr Ashu Kumar Jain" /></picture>'
+    )
+    .replace(
+      '<img src="/assets/meenu.png" alt="Dr. Meenu Gupta" />',
+      '<picture><source srcset="/assets/meenu.webp" type="image/webp" /><img src="/assets/meenu.png" alt="Dr. Meenu Gupta" /></picture>'
+    )
+    .replace(
+      '<img src="/assets/mohit.png" alt="Dr. Mohit Gupta" />',
+      '<picture><source srcset="/assets/mohit.webp" type="image/webp" /><img src="/assets/mohit.png" alt="Dr. Mohit Gupta" /></picture>'
+    )
+    .replace(
+      '<img src="/assets/belief-1.jpg" alt="Doctors at Jain Pain Clinic" />',
+      '<picture><source srcset="/assets/belief-1.webp" type="image/webp" /><img src="/assets/belief-1.jpg" alt="Doctors at Jain Pain Clinic" /></picture>'
+    )
+    .replace(
+      '<img src="/assets/belief-2.jpg" alt="Jain Pain Clinic medical team" />',
+      '<picture><source srcset="/assets/belief-2.webp" type="image/webp" /><img src="/assets/belief-2.jpg" alt="Jain Pain Clinic medical team" /></picture>'
+    )
+    .replace(
+      '<img src="/assets/belief-3.jpg" alt="Interventional pain procedure" />',
+      '<picture><source srcset="/assets/belief-3.webp" type="image/webp" /><img src="/assets/belief-3.jpg" alt="Interventional pain procedure" /></picture>'
     );
 }
 

@@ -228,26 +228,6 @@
   });
 })();
 
-/* —— Scroll reveal animations —— */
-(function () {
-  var els = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
-  if (!els.length || !('IntersectionObserver' in window)) {
-    els.forEach(function (el) { el.classList.add('is-visible'); });
-    return;
-  }
-
-  var observer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-
-  els.forEach(function (el) { observer.observe(el); });
-})();
-
 /* —— Exclusive accordion (only one item open at a time, animated) —— */
 (function () {
   var accordion = document.getElementById('facilitiesAccordion');
@@ -356,23 +336,6 @@
         if (card) {
           card.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
-      }
-    });
-  });
-})();
-
-/* —— Nav dropdown toggle (mobile) —— */
-(function () {
-  var dropdowns = document.querySelectorAll('.nav__item.has-dropdown');
-  if (!dropdowns.length) return;
-
-  dropdowns.forEach(function (dd) {
-    var trigger = dd.querySelector(':scope > a');
-    if (!trigger) return;
-    trigger.addEventListener('click', function (e) {
-      if (window.innerWidth <= 780) {
-        e.preventDefault();
-        dd.classList.toggle('is-open');
       }
     });
   });
