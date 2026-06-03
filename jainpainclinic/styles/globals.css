@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./icons.css";
 @import "./home.css";
 @import "./about.css";
 @import "./exercise.css";

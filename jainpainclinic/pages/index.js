@@ -6,7 +6,11 @@ import Script from "next/script";
 function normalizeHomepageMarkup(html) {
   return html
     .replace(/href="assets\//g, 'href="/assets/')
-    .replace(/src="assets\//g, 'src="/assets/');
+    .replace(/src="assets\//g, 'src="/assets/')
+    .replace(
+      '<img class="hero-figure" src="/assets/hero-right.png" alt="Doctor with 50,000+ happy patients and 4 expert doctors" />',
+      '<picture class="hero-figure"><source srcset="/assets/hero-right.webp" type="image/webp" /><img src="/assets/hero-right.png" width="1143" height="1200" loading="eager" decoding="async" fetchpriority="high" alt="Doctor with 50,000+ happy patients and 4 expert doctors" /></picture>'
+    );
 }
 
 export default function HomePage({ homepageMarkup }) {
@@ -23,6 +27,19 @@ export default function HomePage({ homepageMarkup }) {
           content="Jain Pain Clinic, Dr Ashu Kumar Jain, chronic pain, pain management, interventional pain, Gurugram, NCR, back pain, neck pain, sciatica, knee pain, palliative care"
         />
         <link rel="canonical" href="https://www.jainpainclinic.com/" />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/hero-right.webp"
+          type="image/webp"
+          fetchPriority="high"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/BG.png"
+          fetchPriority="high"
+        />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"

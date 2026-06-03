@@ -1,9 +1,15 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Script from "next/script";
+import { Manrope } from "next/font/google";
 import "@/styles/globals.css";
 
 const GTM_CONTAINER_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-NRQQSQST";
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+});
 
 function getElementText(element) {
   return element.textContent?.replace(/\s+/g, " ").trim() || "";
@@ -107,7 +113,7 @@ function GoogleTagManager() {
   }
 
   return (
-    <Script id="google-tag-manager" strategy="afterInteractive">
+    <Script id="google-tag-manager" strategy="lazyOnload">
       {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -121,9 +127,9 @@ function GoogleTagManager() {
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <div className={manrope.className}>
       <GoogleTagManager />
       <Component {...pageProps} />
-    </>
+    </div>
   );
 }
