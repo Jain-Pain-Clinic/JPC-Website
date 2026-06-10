@@ -1700,6 +1700,307 @@ const rawBlogs = [
       }
     ]
   }
+},
+{
+  "slug": "when-pain-affects-walking-what-gait-can-reveal",
+  "title": "When Pain Affects Walking: What Your Gait Can Reveal",
+  "seoTitle": "When Pain Affects Walking: What Your Gait Can Reveal | Jain Pain Clinic",
+  "description": "Pain can change the way you walk. Learn what limping, short steps, weakness, balance problems, and walking pain may reveal about the real pain source.",
+  "keywords": "pain while walking, limping due to pain, gait problem, antalgic gait, walking difficulty, leg pain while walking, knee pain walking, hip pain walking, back pain affects walking, nerve pain while walking, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/when-pain-affects-walking-what-gait-can-reveal",
+  "ogImage": "/assets/blog/walking-pain-gait-hero.jpg",
+  "category": "Pain Management",
+  "readTime": "8 min read",
+  "excerpt": "A limp is not just a habit. The way you walk can reveal clues about knee, hip, spine, nerve, foot, or balance-related pain.",
+  "heroSubtitle": "Walking is one of the clearest tests of how pain affects the body. A limp, shorter step, dragging foot, or fear of putting weight on one side can reveal where the real problem may be starting.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-05-29",
+  "publishedLabel": "May 29, 2026",
+  "cardImage": "/assets/blog/walking-pain-gait-hero.jpg",
+  "cardAlt": "Person using a walking aid because pain affects walking",
+  "bannerImage": "/assets/blog/walking-pain-gait-hero.jpg",
+  "bannerAlt": "Person walking with a mobility aid due to pain and gait difficulty",
+  "tags": [
+    "Walking Pain",
+    "Gait",
+    "Limping",
+    "Nerve Pain",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "When pain affects walking, the body often changes its movement pattern automatically. You may take shorter steps, avoid putting weight on one side, lean forward, drag a foot, or start using support without realising how much your gait has changed. These changes are not random. They can give important clues about whether pain is coming from the knee, hip, spine, nerves, foot, ankle, or balance system.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Does Gait Mean?",
+        "paragraphs": [
+          "Gait simply means the way a person walks. It includes step length, speed, balance, posture, foot placement, arm swing, and how weight shifts from one leg to the other.",
+          "A normal gait is smooth and balanced. When pain appears, the body tries to protect the painful area. This can make walking uneven, slower, or more tiring.",
+          "A changed gait is not only a walking problem. It is often a sign that the body is compensating for pain, weakness, stiffness, or nerve irritation."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why Pain Changes the Way You Walk",
+        "paragraphs": [
+          "Pain makes the body avoid pressure. If the knee hurts, you may spend less time standing on that leg. If the hip is stiff, you may swing the leg differently. If a nerve is compressed, the leg may feel weak, heavy, burning, or unreliable.",
+          "Doctors sometimes call this an antalgic gait, which means a pain-avoiding walking pattern. The person is not walking differently by choice. The body is trying to reduce pain with each step.",
+          "This is why watching someone walk can sometimes reveal more than a scan report alone."
+        ],
+        "quote": "\"A limp is the body's way of telling us that something is being protected. The key is to find what it is protecting and why.\""
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/gait-leg-assessment-therapy.jpg",
+        "alt": "Physiotherapist assessing leg movement as part of gait and walking pain evaluation"
+      },
+      {
+        "type": "section",
+        "heading": "What Different Walking Changes Can Suggest",
+        "paragraphs": [
+          "Different pain sources can change gait in different ways. These patterns are not a diagnosis by themselves, but they help guide the examination.",
+          "For example, knee pain may make a patient avoid bending the knee or putting full weight on that side. Hip pain may cause a side-to-side sway or difficulty taking longer steps. Spine or nerve pain may cause shooting pain, heaviness, numbness, or weakness while walking.",
+          "Foot and ankle pain can also change the way the whole leg moves, because the foot is the first point of contact with the ground."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Knee pain: limping, avoiding stairs, reduced knee bend, or fear of putting weight on one side",
+            "Hip pain: short steps, groin pain while walking, side-to-side swaying, or difficulty standing from a chair",
+            "Spine or nerve pain: leg pain, heaviness, tingling, numbness, or weakness after walking",
+            "Foot or ankle pain: altered foot placement, heel pain, toe pain, or walking on the outer edge of the foot",
+            "Balance problems: wide-based walking, fear of falling, frequent support-seeking, or unsteadiness on turns"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Walking Pain Comes From the Spine",
+        "paragraphs": [
+          "Sometimes the pain is felt in the leg, but the source is in the lower back. Conditions such as disc herniation, spinal stenosis, or nerve root irritation can affect walking.",
+          "A patient may feel pain going down the leg, numbness in the foot, heaviness after walking, or relief when bending forward or sitting. These clues suggest that the nerves supplying the leg may be involved.",
+          "This is why leg pain while walking should not always be treated as only a knee or muscle problem."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How a Limp Can Create More Pain",
+        "paragraphs": [
+          "A limp may begin as a protective response, but if it continues for weeks, it can create new problems.",
+          "When one leg is protected, the other leg often carries extra load. The lower back, hip, knee, ankle, and even neck can start compensating. Over time, the original pain may improve slightly, but secondary pain can appear elsewhere.",
+          "This is one reason early evaluation matters. Correcting the pain source and walking pattern can prevent a small problem from becoming a chain of pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Warning Signs You Should Not Ignore",
+        "paragraphs": [
+          "Some walking changes need urgent medical attention, especially when they suggest nerve or neurological involvement.",
+          "Seek prompt evaluation if walking difficulty appears suddenly, is getting worse, or is associated with weakness, numbness, falls, or loss of control.",
+          "Do not delay care if there is foot drop, new inability to lift the front of the foot, loss of bladder or bowel control, fever, severe injury, unexplained weight loss, or rapidly worsening leg weakness."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Evaluates Walking Pain",
+        "paragraphs": [
+          "Evaluation starts with the pain story. Where does the pain begin? How far can you walk before it starts? Does it improve with rest, sitting, bending forward, or changing position? Is there numbness, tingling, weakness, stiffness, or swelling?",
+          "The examination may include watching the patient walk, checking joint movement, testing muscle strength, assessing sensation and reflexes, and looking for tender structures.",
+          "Imaging such as X-ray, MRI, or ultrasound may be useful in selected cases, but the scan should be matched with the walking pattern and physical examination."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Treatments Can Help?",
+        "paragraphs": [
+          "Treatment depends on the source of pain. A knee-driven limp needs a different plan from nerve-related walking pain. Hip stiffness, foot pain, balance issues, and spinal stenosis also need different approaches.",
+          "Some patients improve with targeted physiotherapy, strengthening, footwear correction, activity pacing, and short-term use of a walking aid. A walking aid is not a failure. Used correctly, it can reduce load, prevent falls, and allow safer movement while the real cause is treated.",
+          "When pain is persistent or clearly coming from a specific pain generator, image-guided injections, nerve blocks, radiofrequency ablation, or other interventional pain procedures may be considered."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Identify whether the pain source is joint, nerve, spine, muscle, foot, or balance-related",
+            "Reduce pain enough to restore safer walking",
+            "Use physiotherapy to rebuild strength and confidence",
+            "Correct compensatory movement before it creates secondary pain",
+            "Choose targeted procedures only when the pain generator is clear"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Seek Help?",
+        "paragraphs": [
+          "You should consider evaluation if pain is changing the way you walk, making you avoid stairs, limiting distance, causing fear of falling, or forcing you to rely on support.",
+          "You should also seek help if walking pain is associated with numbness, tingling, weakness, night pain, swelling, or pain that keeps returning despite rest and medicines.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates walking pain by looking at the full pattern: symptoms, gait, examination findings, and imaging when needed. The goal is to identify the true pain source and restore movement with the least invasive treatment that makes sense."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "The way you walk can reveal important clues about pain.",
+          "A limp, short step, dragging foot, or reduced walking distance should not be ignored, especially if it is worsening or affecting daily life.",
+          "Treating walking pain properly means finding the source, not just treating the limp. With the right evaluation, many patients can walk more safely, confidently, and comfortably again."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "pain-after-chemotherapy-hands-feet-burn-tingle",
+  "title": "Pain After Chemotherapy: Why Hands and Feet Can Burn or Tingle",
+  "seoTitle": "Pain After Chemotherapy: Burning Hands and Feet | Jain Pain Clinic",
+  "description": "Chemotherapy can sometimes damage peripheral nerves, causing burning, tingling, numbness, electric pain, or sensitivity in the hands and feet. Learn what it means and when to seek help.",
+  "keywords": "pain after chemotherapy, chemotherapy nerve pain, burning hands and feet after chemo, tingling after chemotherapy, chemotherapy induced peripheral neuropathy, CIPN symptoms, numbness after chemotherapy, cancer treatment nerve pain, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/pain-after-chemotherapy-hands-feet-burn-tingle",
+  "ogImage": "/assets/blog/chemotherapy-hand-nerve-pain.jpg",
+  "category": "Cancer Pain",
+  "readTime": "8 min read",
+  "excerpt": "Burning, tingling, or numbness in the hands and feet after chemotherapy may be nerve pain. It should not be ignored.",
+  "heroSubtitle": "Some chemotherapy medicines can irritate or damage peripheral nerves. The result may be burning, tingling, numbness, electric pain, or sensitivity in the hands and feet, sometimes even after treatment ends.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-06-02",
+  "publishedLabel": "June 2, 2026",
+  "cardImage": "/assets/blog/chemotherapy-hand-nerve-pain.jpg",
+  "cardAlt": "Patient receiving chemotherapy treatment through an IV line",
+  "bannerImage": "/assets/blog/chemotherapy-hand-nerve-pain.jpg",
+  "bannerAlt": "Chemotherapy treatment and nerve pain symptoms in hands and feet",
+  "tags": [
+    "Chemotherapy",
+    "Cancer Pain",
+    "Nerve Pain",
+    "Peripheral Neuropathy",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Many cancer patients expect tiredness, nausea, or hair loss during chemotherapy. Fewer are prepared for burning, tingling, numbness, or electric pain in the hands and feet. This can happen when chemotherapy affects the peripheral nerves, a condition often called chemotherapy-induced peripheral neuropathy, or CIPN. It can disturb sleep, affect walking, make daily tasks difficult, and sometimes continue even after chemotherapy is complete.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is Chemotherapy-Induced Peripheral Neuropathy?",
+        "paragraphs": [
+          "Peripheral nerves are the nerves outside the brain and spinal cord. They carry signals for sensation, movement, balance, temperature, and pain.",
+          "Some chemotherapy medicines can irritate or damage these nerves. When this happens, the nerves may send abnormal signals such as burning, tingling, numbness, stabbing pain, or electric-shock-like sensations.",
+          "This is called chemotherapy-induced peripheral neuropathy. It most commonly affects the hands and feet because the longest nerves in the body are often the most vulnerable."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why Do Hands and Feet Get Affected?",
+        "paragraphs": [
+          "The nerves going to the toes and fingers are long and delicate. When chemotherapy affects nerve function, symptoms often begin at the ends of these nerves first.",
+          "Patients may notice tingling in the toes, burning in the soles, numb fingertips, or difficulty feeling temperature. Over time, symptoms may move upward in a stocking-and-glove pattern.",
+          "This pattern matters because it helps distinguish chemotherapy-related nerve pain from pain coming from a single joint, muscle, or spine level."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/chemotherapy-foot-neuropathy-pain.jpg",
+        "alt": "Person holding foot due to burning or tingling nerve pain after chemotherapy"
+      },
+      {
+        "type": "section",
+        "heading": "What Does Chemo-Related Nerve Pain Feel Like?",
+        "paragraphs": [
+          "Patients describe chemotherapy-related nerve symptoms in different ways. Some feel burning. Some feel pins and needles. Some feel numbness, tightness, cold sensitivity, or pain from light touch.",
+          "The symptoms may be worse at night, after walking, or when the feet are resting. Hand symptoms may make it difficult to button clothes, write, hold utensils, use a phone, or handle small objects.",
+          "Pain is not the only concern. Numbness and reduced sensation can increase the risk of falls, burns, cuts, and unnoticed injuries."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Burning pain in the feet or hands",
+            "Tingling, pins and needles, or crawling sensations",
+            "Numbness or reduced ability to feel temperature",
+            "Electric-shock-like or stabbing pain",
+            "Pain from light touch, socks, shoes, or bedsheets",
+            "Balance difficulty or unsteadiness while walking",
+            "Trouble gripping, writing, buttoning clothes, or using small objects"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Can Symptoms Continue After Chemotherapy Ends?",
+        "paragraphs": [
+          "Yes. In some patients, nerve symptoms improve gradually after chemotherapy is completed. In others, symptoms may continue for months or longer.",
+          "Nerves heal slowly. If the nerve irritation has been significant, recovery may take time. Some patients also notice that symptoms become more obvious after treatment ends because the focus shifts from cancer treatment survival to daily function and comfort.",
+          "Persistent symptoms should be discussed with the oncology team and a pain specialist. The goal is to reduce suffering while protecting function and safety."
+        ],
+        "quote": "\"After chemotherapy, burning or tingling in the hands and feet should not be dismissed as weakness. It may be nerve pain, and it deserves proper evaluation.\""
+      },
+      {
+        "type": "section",
+        "heading": "Why It Should Not Be Ignored",
+        "paragraphs": [
+          "Chemotherapy-related neuropathy can affect more than comfort. If the feet are numb or painful, walking may become unsafe. If the hands are numb, cooking, writing, driving, or handling medicines may become harder.",
+          "Reduced sensation can also make patients less aware of injuries. A small cut, burn, or shoe bite may go unnoticed, especially in patients who also have diabetes or poor circulation.",
+          "Early reporting helps the medical team adjust care, reduce risk, and plan symptom treatment before function declines further."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Tell Your Doctor?",
+        "paragraphs": [
+          "Tell your oncologist or treating doctor if you develop new burning, tingling, numbness, weakness, balance difficulty, or hand clumsiness during or after chemotherapy.",
+          "You should seek prompt evaluation if symptoms are rapidly worsening, affecting walking, causing falls, preventing sleep, or making daily activities difficult.",
+          "Also report wounds, swelling, colour change, fever, severe weakness, or sudden loss of sensation."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Is It Evaluated?",
+        "paragraphs": [
+          "Evaluation begins with the symptom pattern. The doctor will ask when symptoms started, whether they affect hands, feet, or both, whether they are painful or numb, and how they affect daily life.",
+          "A physical examination may check sensation, reflexes, strength, balance, walking pattern, and skin condition. Blood tests may be needed to look for other contributors such as vitamin deficiency, thyroid disease, diabetes, kidney problems, or other causes of neuropathy.",
+          "The diagnosis is not made from one symptom alone. It comes from matching the cancer treatment history with the nerve symptom pattern and examination findings."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Treatments Can Help?",
+        "paragraphs": [
+          "Treatment should be coordinated with the oncology team. The first step is to recognise the symptoms and make sure there is no other urgent cause.",
+          "Pain control may include medicines that calm nerve signals. These are different from routine painkillers and should be selected carefully based on the patient's cancer treatment, other medicines, sleep, kidney function, age, and side effects.",
+          "Physiotherapy, balance training, hand exercises, foot care, fall prevention, and sleep support can also make a major difference. In selected patients, a pain specialist may help optimise nerve-pain treatment and identify whether another treatable pain generator is contributing."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Tell the oncology team early about burning, tingling, or numbness",
+            "Check for other causes of neuropathy such as diabetes or vitamin deficiency",
+            "Use nerve-pain medicines only under medical supervision",
+            "Protect the feet from burns, cuts, shoe bites, and falls",
+            "Use physiotherapy and balance training when walking is affected",
+            "Seek pain specialist support when symptoms continue or disturb sleep and function"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Daily Safety Tips for Hands and Feet",
+        "paragraphs": [
+          "When sensation is reduced, prevention becomes important. Check the feet daily for cuts, blisters, redness, swelling, or shoe pressure marks.",
+          "Use comfortable footwear, avoid walking barefoot, and be careful with hot water, heating pads, and kitchen heat because reduced sensation can make burns easier.",
+          "For hand symptoms, use caution with sharp objects, hot utensils, and tasks that require fine grip. Small adjustments can prevent injuries while the nerves recover."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Burning, tingling, numbness, or electric pain in the hands and feet after chemotherapy may be chemotherapy-induced peripheral neuropathy.",
+          "It is not simply weakness, and it should not be ignored if it affects walking, sleep, balance, hand function, or safety.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain works with patients experiencing cancer-related and nerve-related pain to improve comfort, function, and quality of life with a careful, least-invasive treatment approach."
+        ]
+      }
+    ]
+  }
 }
 ];
 
