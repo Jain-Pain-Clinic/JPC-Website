@@ -1965,19 +1965,19 @@ const rawBlogs = [
         "type": "section",
         "heading": "What Treatments Can Help?",
         "paragraphs": [
-          "Treatment should be coordinated with the oncology team. The first step is to recognise the symptoms and make sure there is no other urgent cause.",
-          "Pain control may include medicines that calm nerve signals. These are different from routine painkillers and should be selected carefully based on the patient's cancer treatment, other medicines, sleep, kidney function, age, and side effects.",
-          "Physiotherapy, balance training, hand exercises, foot care, fall prevention, and sleep support can also make a major difference. In selected patients, a pain specialist may help optimise nerve-pain treatment and identify whether another treatable pain generator is contributing."
+          "The oncology team remains central to cancer treatment, but persistent burning, tingling, numbness, or electric pain is where a pain medicine physician can add a different layer of care. At Jain Pain Clinic, Dr Ashu Kumar Jain coordinates with the patient's oncologist while evaluating the pain as a neuropathic pain condition in its own right.",
+          "The first step is to confirm that the symptoms fit chemotherapy-induced neuropathic pain and to make sure there is no other causative agent such as diabetes, vitamin deficiency, thyroid disease, kidney problems, spine-related nerve compression, or medication-related neuropathy. Once the pain generator is clearer, treatment can move beyond general reassurance or routine painkillers.",
+          "Medical management may include neuropathic medicines that calm abnormal nerve signals, such as pregabalin or gabapentin, duloxetine, or tricyclic medicines such as Tryptomer, amitriptyline, or nortriptyline. These medicines should be individualised by a pain physician based on pain severity, sleep disturbance, kidney function, age, other medicines, and side effects.",
+          "Physiotherapy, balance training, hand exercises, foot care, fall prevention, and sleep support can also make a major difference. If symptoms remain uncontrolled despite medical management and rehabilitation, interventional pain procedures may be considered for selected patients. These may include dorsal nerve root ganglion ablation, sympathetic blocks, or sympathectomy, depending on the pattern and severity of neuropathic pain."
         ],
         "list": {
           "type": "ol",
           "items": [
-            "Tell the oncology team early about burning, tingling, or numbness",
-            "Check for other causes of neuropathy such as diabetes or vitamin deficiency",
-            "Use nerve-pain medicines only under medical supervision",
-            "Protect the feet from burns, cuts, shoe bites, and falls",
-            "Use physiotherapy and balance training when walking is affected",
-            "Seek pain specialist support when symptoms continue or disturb sleep and function"
+            "Coordinate with the oncologist while assessing the pain pattern separately",
+            "Rule out other causes of neuropathy such as diabetes, vitamin deficiency, thyroid disease, kidney disease, or spine-related nerve compression",
+            "Optimise neuropathic medicines such as pregabalin, gabapentin, duloxetine, or tricyclic medicines such as Tryptomer under medical supervision",
+            "Use physiotherapy, balance training, and hand or foot protection to preserve function",
+            "Consider interventional pain options such as dorsal nerve root ganglion ablation, sympathetic blocks, or sympathectomy when symptoms remain severe despite standard care"
           ]
         }
       },
@@ -1995,8 +1995,8 @@ const rawBlogs = [
         "heading": "The Takeaway",
         "paragraphs": [
           "Burning, tingling, numbness, or electric pain in the hands and feet after chemotherapy may be chemotherapy-induced peripheral neuropathy.",
-          "It is not simply weakness, and it should not be ignored if it affects walking, sleep, balance, hand function, or safety.",
-          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain works with patients experiencing cancer-related and nerve-related pain to improve comfort, function, and quality of life with a careful, least-invasive treatment approach."
+          "It is not simply weakness, and it should not be ignored if it affects walking, sleep, balance, hand function, or safety. Once the oncology team has reviewed the cancer-treatment side, a pain medicine physician can focus specifically on the neuropathic pain pathway.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates chemotherapy-related neuropathic pain from a pain medicine perspective: confirming the pain pattern, optimising neuropathic medicines, and considering targeted interventional procedures when symptoms remain uncontrolled."
         ]
       }
     ]
