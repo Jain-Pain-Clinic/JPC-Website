@@ -36,6 +36,29 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.jainpainclinic.com/blog/page-4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/slipped-disc-warning-signs-you-should-not-ignore</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/pain-in-bedridden-patients-prevent-pressure-pain-stiffness</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/phantom-limb-pain-why-missing-limb-still-hurts</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.jainpainclinic.com/blog/pain-after-chemotherapy-hands-feet-burn-tingle</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
