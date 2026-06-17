@@ -68,7 +68,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="wrap header-bar">
         <Link className="brand" href="/" aria-label="Jain Pain Clinic home">
-          <img src="/assets/logo.png" alt="Jain Pain Clinic" />
+          <img src="/assets/logo-small.png" width="600" height="150" decoding="async" alt="Jain Pain Clinic" />
         </Link>
 
         <nav className={navClassName} aria-label="Primary">

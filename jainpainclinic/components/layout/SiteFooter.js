@@ -16,7 +16,7 @@ export default function SiteFooter() {
     <footer className="site-footer">
       <div className="wrap footer-grid">
         <div className="footer-brand">
-          <img className="footer-logo" src="/assets/logo.png" alt="Jain Pain Clinic" />
+          <img className="footer-logo" src="/assets/logo-small.png" width="600" height="150" loading="lazy" decoding="async" alt="Jain Pain Clinic" />
 
           <div className="footer-socials">
             <a href="https://www.facebook.com/jainpainandspineclinic/" aria-label="Facebook" target="_blank" rel="noreferrer">

@@ -7,37 +7,49 @@ function normalizeHomepageMarkup(html) {
   return html
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/')
+    .replaceAll(
+      '<img src="/assets/logo.png" alt="Jain Pain Clinic" />',
+      '<img src="/assets/logo-small.png" width="600" height="150" decoding="async" alt="Jain Pain Clinic" />'
+    )
+    .replaceAll(
+      '<img class="footer-logo" src="/assets/logo.png" alt="Jain Pain Clinic" />',
+      '<img class="footer-logo" src="/assets/logo-small.png" width="600" height="150" loading="lazy" decoding="async" alt="Jain Pain Clinic" />'
+    )
     .replace(
       '<img class="hero-figure" src="/assets/hero-right.png" alt="Doctor with 50,000+ happy patients and 4 expert doctors" />',
       '<picture class="hero-figure"><source srcset="/assets/hero-right.webp" type="image/webp" /><img src="/assets/hero-right.png" width="1143" height="1200" loading="eager" decoding="async" fetchpriority="high" alt="Doctor with 50,000+ happy patients and 4 expert doctors" /></picture>'
     )
     .replace(
       '<img src="/assets/about-us.jpg" alt="Doctors supporting patients" />',
-      '<picture><source srcset="/assets/about-us.webp" type="image/webp" /><img src="/assets/about-us.jpg" alt="Doctors supporting patients" /></picture>'
+      '<picture><source srcset="/assets/about-us.webp" type="image/webp" /><img src="/assets/about-us.jpg" width="1004" height="1200" loading="lazy" decoding="async" fetchpriority="low" alt="Doctors supporting patients" /></picture>'
     )
     .replace(
       '<img src="/assets/sitting doctor.png" alt="Dr Ashu Kumar Jain" />',
-      '<picture><source srcset="/assets/sitting%20doctor.webp" type="image/webp" /><img src="/assets/sitting doctor.png" alt="Dr Ashu Kumar Jain" /></picture>'
+      '<picture><source srcset="/assets/sitting%20doctor.webp" type="image/webp" /><img src="/assets/sitting doctor.png" width="800" height="697" loading="lazy" decoding="async" fetchpriority="low" alt="Dr Ashu Kumar Jain" /></picture>'
     )
     .replace(
       '<img src="/assets/meenu.png" alt="Dr. Meenu Gupta" />',
-      '<picture><source srcset="/assets/meenu.webp" type="image/webp" /><img src="/assets/meenu.png" alt="Dr. Meenu Gupta" /></picture>'
+      '<picture><source srcset="/assets/meenu.webp" type="image/webp" /><img src="/assets/meenu.png" width="638" height="700" loading="lazy" decoding="async" fetchpriority="low" alt="Dr. Meenu Gupta" /></picture>'
     )
     .replace(
       '<img src="/assets/mohit.png" alt="Dr. Mohit Gupta" />',
-      '<picture><source srcset="/assets/mohit.webp" type="image/webp" /><img src="/assets/mohit.png" alt="Dr. Mohit Gupta" /></picture>'
+      '<picture><source srcset="/assets/mohit.webp" type="image/webp" /><img src="/assets/mohit.png" width="729" height="800" loading="lazy" decoding="async" fetchpriority="low" alt="Dr. Mohit Gupta" /></picture>'
+    )
+    .replace(
+      '<img class="treat-bg-image is-visible" id="treatBgImage" src="/assets/treat-back-pain.jpg" alt="" aria-hidden="true" />',
+      '<img class="treat-bg-image is-visible" id="treatBgImage" src="/assets/treat-back-pain.jpg" width="800" height="533" loading="lazy" decoding="async" fetchpriority="low" alt="" aria-hidden="true" />'
     )
     .replace(
       '<img src="/assets/belief-1.jpg" alt="Doctors at Jain Pain Clinic" />',
-      '<picture><source srcset="/assets/belief-1.webp" type="image/webp" /><img src="/assets/belief-1.jpg" alt="Doctors at Jain Pain Clinic" /></picture>'
+      '<picture><source srcset="/assets/belief-1.webp" type="image/webp" /><img src="/assets/belief-1.jpg" width="800" height="600" loading="lazy" decoding="async" fetchpriority="low" alt="Doctors at Jain Pain Clinic" /></picture>'
     )
     .replace(
       '<img src="/assets/belief-2.jpg" alt="Jain Pain Clinic medical team" />',
-      '<picture><source srcset="/assets/belief-2.webp" type="image/webp" /><img src="/assets/belief-2.jpg" alt="Jain Pain Clinic medical team" /></picture>'
+      '<picture><source srcset="/assets/belief-2.webp" type="image/webp" /><img src="/assets/belief-2.jpg" width="600" height="800" loading="lazy" decoding="async" fetchpriority="low" alt="Jain Pain Clinic medical team" /></picture>'
     )
     .replace(
       '<img src="/assets/belief-3.jpg" alt="Interventional pain procedure" />',
-      '<picture><source srcset="/assets/belief-3.webp" type="image/webp" /><img src="/assets/belief-3.jpg" alt="Interventional pain procedure" /></picture>'
+      '<picture><source srcset="/assets/belief-3.webp" type="image/webp" /><img src="/assets/belief-3.jpg" width="735" height="800" loading="lazy" decoding="async" fetchpriority="low" alt="Interventional pain procedure" /></picture>'
     );
 }
 
@@ -60,12 +72,6 @@ export default function HomePage({ homepageMarkup }) {
           as="image"
           href="/assets/hero-right.webp"
           type="image/webp"
-          fetchPriority="high"
-        />
-        <link
-          rel="preload"
-          as="image"
-          href="/assets/BG.png"
           fetchPriority="high"
         />
         <meta property="og:type" content="website" />

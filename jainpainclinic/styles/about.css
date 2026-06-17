@@ -6,7 +6,7 @@
 .about-hero {
   position: relative;
   overflow: hidden;
-  background: url('/assets/BG.png') center / cover no-repeat;
+  background: url('/assets/BG.webp') center / cover no-repeat;
   padding-bottom: 0;
 }
 
