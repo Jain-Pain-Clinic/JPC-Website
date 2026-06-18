@@ -207,13 +207,23 @@ button {
 .hero-section {
   position: relative;
   overflow: hidden;
-  background: url('/assets/BG.webp') center / cover no-repeat;
+  background: #ffffff;
 }
 
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
 
 
 .hero-grid {
   position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: 495px 1fr;
   gap: 23px;
@@ -610,6 +620,19 @@ button {
   font-weight: 600;
   transition: opacity 0.2s;
 }
+
+.treat-link-context {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .treat-panel .blog-card__link img {
   width: 20px;
   height: 20px;

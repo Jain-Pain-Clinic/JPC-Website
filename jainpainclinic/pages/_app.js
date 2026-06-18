@@ -5,7 +5,7 @@ import { Manrope } from "next/font/google";
 import "@/styles/globals.css";
 
 const GTM_CONTAINER_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-NRQQSQST";
-const GTM_LOAD_DELAY_MS = 1000;
+const GTM_LOAD_DELAY_MS = 2000;
 const manrope = Manrope({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],

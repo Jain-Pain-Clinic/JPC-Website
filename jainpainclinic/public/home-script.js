@@ -68,52 +68,62 @@
     "back-pain": {
       title: "Back pain often has more than one cause.",
       body: "Muscles, joints, discs, and nerves can all contribute. A focused evaluation helps identify whether the pain is mainly posture-related, movement-related, or linked to nerve irritation.",
-      url: "treatments/lower-back-pain"
+      url: "treatments/lower-back-pain",
+      linkContext: "about back pain"
     },
     "neck-pain": {
       title: "Neck pain may build slowly or flare after sudden strain.",
       body: "The neck works hard through screen time, driving, sleep posture, and stress-related muscle tightening. Pain can come from muscles, joints, discs, or irritated nerves.",
-      url: "treatments/neck-pain"
+      url: "treatments/neck-pain",
+      linkContext: "about neck pain"
     },
     sciatica: {
       title: "Sciatica usually follows the path of the sciatic nerve.",
       body: "Patients often notice pain, tingling, or burning that starts in the lower back or hip and travels down the buttock or leg. It commonly reflects nerve irritation rather than just muscle strain.",
-      url: "treatments/sciatica"
+      url: "treatments/sciatica",
+      linkContext: "about sciatica"
     },
     "shoulder-pain": {
       title: "Shoulder pain often shows up when everyday movement becomes guarded.",
       body: "Reaching overhead, lifting, dressing, or sleeping on one side can become uncomfortable when the shoulder joint, tendons, or surrounding muscles become irritated.",
-      url: "treatments/shoulder-pain"
+      url: "treatments/shoulder-pain",
+      linkContext: "about shoulder pain"
     },
     "knee-pain": {
       title: "Knee pain can affect walking, stairs, and confidence in movement.",
       body: "Pain around the knee may come from joint wear, inflammation, overload, ligament strain, or surrounding muscle imbalance. The exact location and timing often give useful clues.",
-      url: "treatments/knee-pain"
+      url: "treatments/knee-pain",
+      linkContext: "about knee pain"
     },
     "hip-pain": {
       title: "Hip pain may be felt in the groin, side of the hip, or even the buttock.",
       body: "Because hip pain can overlap with back pain and nerve pain, location matters. Some patients feel deep joint pain while others notice pain after walking, climbing stairs, or lying on one side.",
-      url: "treatments/hip-pain"
+      url: "treatments/hip-pain",
+      linkContext: "about hip pain"
     },
     "trigeminal-neuralgia": {
       title: "Trigeminal neuralgia is known for sudden, brief, intense facial pain.",
       body: "Patients often describe shock-like or stabbing pain triggered by speaking, chewing, brushing, washing the face, or even a light breeze.",
-      url: "treatments/trigeminal-neuralgia"
+      url: "treatments/trigeminal-neuralgia",
+      linkContext: "about trigeminal neuralgia"
     },
     "cancer-pain": {
       title: "Cancer pain care focuses on comfort, function, and day-to-day relief.",
       body: "Pain may come from the illness itself, from treatment, or from reduced mobility. The goal is not only lowering pain intensity but also improving rest, activity, and overall comfort.",
-      url: "treatments/cancer-pain"
+      url: "treatments/cancer-pain",
+      linkContext: "about cancer pain"
     },
     "palliative-care": {
       title: "Palliative care supports comfort alongside active medical treatment.",
       body: "It focuses on easing pain and distressing symptoms while also supporting rest, appetite, sleep, emotional comfort, and daily functioning for patients and families.",
-      url: "treatments/palliative-care"
+      url: "treatments/palliative-care",
+      linkContext: "about palliative care"
     },
     "home-care": {
       title: "Home care helps treatment continue in a more familiar setting.",
       body: "For patients who need monitoring, pain support, or reduced travel strain, home care can improve continuity while keeping the treatment plan connected to the clinic.",
-      url: "treatments/home-care"
+      url: "treatments/home-care",
+      linkContext: "about home care"
     }
   };
 
@@ -163,7 +173,11 @@
     panel.setAttribute("aria-labelledby", button.id);
     title.textContent = content.title;
     body.textContent = content.body;
-    if (readMore) readMore.href = content.url;
+    if (readMore) {
+      readMore.href = content.url;
+      const linkContext = readMore.querySelector(".treat-link-context");
+      if (linkContext) linkContext.textContent = content.linkContext;
+    }
     switchBgImage(key);
     if (animate) animatePanel();
   }

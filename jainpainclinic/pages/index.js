@@ -7,6 +7,10 @@ function normalizeHomepageMarkup(html) {
   return html
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/')
+    .replace(
+      '<section class="hero-section">',
+      '<section class="hero-section"><img class="hero-bg" src="/assets/BG.webp" width="1920" height="1249" loading="eager" decoding="async" fetchpriority="high" alt="" aria-hidden="true" />'
+    )
     .replaceAll(
       '<img src="/assets/logo.png" alt="Jain Pain Clinic" />',
       '<img src="/assets/logo-small.png" width="600" height="150" decoding="async" alt="Jain Pain Clinic" />'
@@ -71,6 +75,13 @@ export default function HomePage({ homepageMarkup }) {
           rel="preload"
           as="image"
           href="/assets/hero-right.webp"
+          type="image/webp"
+          fetchPriority="high"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/BG.webp"
           type="image/webp"
           fetchPriority="high"
         />
