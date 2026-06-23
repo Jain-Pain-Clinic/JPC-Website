@@ -2489,6 +2489,339 @@ const rawBlogs = [
     ]
   }
 },
+{
+  "slug": "scar-pain-after-surgery-healed-wound-still-hurts",
+  "title": "Scar Pain After Surgery: When a Healed Wound Still Hurts",
+  "seoTitle": "Scar Pain After Surgery: Why a Healed Wound Still Hurts | Jain Pain Clinic",
+  "description": "A surgical scar can look healed but still cause burning, pulling, stabbing, or touch-sensitive pain. Learn why scar pain happens and when to see a pain specialist.",
+  "keywords": "scar pain after surgery, healed scar still hurts, surgical scar pain, nerve pain after surgery, painful scar treatment, scar sensitivity, neuroma after surgery, burning pain after surgery, scar tissue pain, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/scar-pain-after-surgery-healed-wound-still-hurts",
+  "ogImage": "/assets/blog/healed-scar-nerve-pain.jpg",
+  "category": "Post-Surgical Pain",
+  "readTime": "8 min read",
+  "excerpt": "A scar may look healed from outside but still hurt because of nerve irritation, scar tightness, adhesions, neuroma, or hypersensitivity.",
+  "heroSubtitle": "A healed surgical wound should gradually become comfortable. If the scar continues to burn, sting, pull, itch, or hurt with touch, the problem may be deeper than the skin.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-06-18",
+  "publishedLabel": "June 18, 2026",
+  "cardImage": "/assets/blog/healed-scar-nerve-pain.jpg",
+  "cardAlt": "Patient experiencing pain around a healed surgical scar",
+  "bannerImage": "/assets/blog/healed-scar-nerve-pain.jpg",
+  "bannerAlt": "Scar pain after surgery even after the wound has healed",
+  "tags": [
+    "Scar Pain",
+    "Post-Surgical Pain",
+    "Nerve Pain",
+    "Pain Management",
+    "Chronic Pain"
+  ],
+  "content": {
+    "intro": "Many patients are told that their wound has healed, yet the scar continues to hurt. This can be frustrating because the skin may look normal from outside, but the patient still feels burning, pulling, stabbing, itching, or electric pain. Scar pain after surgery is real, and it often needs a pain medicine approach when it continues beyond normal healing.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why Can a Healed Scar Still Hurt?",
+        "paragraphs": [
+          "Healing does not end the day the stitches are removed or the skin closes. Under the surface, nerves, fascia, muscles, and deeper tissues continue to remodel for months.",
+          "During surgery, tiny skin nerves and deeper nerve branches can be stretched, cut, trapped, or irritated. Scar tissue can also become tight and pull on surrounding tissues during movement.",
+          "This is why a scar may look healed but still feel painful, sensitive, or uncomfortable."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Normal Healing Pain vs Chronic Scar Pain",
+        "paragraphs": [
+          "Some pain, tightness, itching, and tenderness are expected in the early weeks after surgery. This usually improves gradually as swelling reduces and tissues settle.",
+          "Scar pain becomes concerning when it persists for months, worsens instead of improving, causes burning or electric sensations, becomes very sensitive to touch, or limits movement and daily activity.",
+          "Pain that continues after the expected healing period should not be dismissed as weakness or imagination. It may be a sign of nerve irritation, scar adhesions, or a neuroma."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/post-surgery-scar-sensitivity.jpg",
+        "alt": "Doctor evaluating post-surgery scar sensitivity and pain"
+      },
+      {
+        "type": "section",
+        "heading": "Symptoms of Painful Scar Tissue",
+        "paragraphs": [
+          "Scar pain can feel very different from ordinary wound pain. Some patients describe it as skin sensitivity, while others describe deep pulling or nerve-type pain.",
+          "The pain may be triggered by clothing, touch, stretching, walking, bending, pressure, weather changes, or certain body positions.",
+          "A scar that is painful only when pressed may have a different cause from a scar that burns continuously or sends electric shocks."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Burning or stinging pain around the scar",
+            "Electric shock-like pain",
+            "Sharp stabbing pain on touching the scar",
+            "Pulling or tightness during movement",
+            "Itching that feels deep or painful",
+            "Numbness around the scar with painful sensitivity at the edges",
+            "Pain from clothes, bedsheets, or light touch"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Nerve Pain After Surgery",
+        "paragraphs": [
+          "Nerve irritation is one of the most important causes of persistent scar pain. Small nerves in the skin may become oversensitive after surgery. Sometimes a nerve ending forms a painful swelling called a neuroma.",
+          "Nerve pain usually feels burning, shooting, tingling, electric, or unusually sensitive to touch. The pain may spread beyond the visible scar line.",
+          "This type of pain often does not respond well to ordinary painkillers because the problem is not simply inflammation. It needs proper nerve pain assessment."
+        ],
+        "quote": "\"A healed scar can still hurt if the nerve underneath it has not settled. The skin may be closed, but the pain pathway may still be active.\""
+      },
+      {
+        "type": "section",
+        "heading": "Scar Tightness and Adhesions",
+        "paragraphs": [
+          "Scar tissue can sometimes stick to deeper layers such as fascia, muscle, or tendon. These are called adhesions.",
+          "Adhesions may cause pulling pain when the patient bends, stretches, twists, walks, lifts the arm, or uses the operated area.",
+          "This kind of pain is often more mechanical. It may improve with guided physiotherapy, scar mobilisation, stretching, and treatment of trigger points around the scar."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Scar Pain Needs Urgent Attention",
+        "paragraphs": [
+          "Not every painful scar is nerve pain. Some symptoms may suggest infection, wound breakdown, hernia, poor healing, or another surgical complication.",
+          "Seek medical care urgently if scar pain is associated with fever, increasing redness, swelling, pus, foul smell, wound opening, sudden severe pain, or a new lump near the scar.",
+          "These symptoms should be assessed by the treating surgeon or doctor before assuming the pain is only scar sensitivity."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Redness spreading around the scar",
+            "Pus, discharge, or foul smell",
+            "Fever or feeling unwell",
+            "Wound opening or bleeding",
+            "New swelling or lump near the scar",
+            "Sudden severe pain after previous improvement",
+            "Skin becoming hot, dark, or increasingly tender"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Evaluates Scar Pain",
+        "paragraphs": [
+          "At Jain Pain Clinic, evaluation begins with the pain story. When did the pain start? Is it burning, pulling, stabbing, numb, itchy, or electric? Does it worsen with touch, movement, clothing, pressure, or posture?",
+          "The scar is examined for tenderness, tightness, hypersensitivity, numbness, trigger points, swelling, skin changes, and signs of neuroma or nerve entrapment.",
+          "The aim is to identify whether the pain is coming from the scar tissue, a trapped nerve, a neuroma, deeper muscle and fascia, infection, hernia, or another post-surgical problem."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Options for Painful Scars",
+        "paragraphs": [
+          "Treatment depends on the cause. Early or mild scar sensitivity may improve with desensitisation, silicone gel or sheets, moisturising, scar massage, and guided physiotherapy.",
+          "If the pain is nerve-type, medicines that calm nerve signals may be considered. These may include pregabalin, gabapentin, duloxetine, or tricyclic medicines such as amitriptyline or nortriptyline, depending on the patient's condition.",
+          "For selected patients, targeted procedures may help. These can include local scar injections, trigger point injections, peripheral nerve blocks, neuroma-focused treatment, radiofrequency procedures, or other interventional pain options."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Check for infection, wound problems, hernia, or surgical complications",
+            "Identify whether the pain is scar tightness, nerve pain, neuroma, or mixed pain",
+            "Use scar desensitisation, silicone therapy, and physiotherapy when appropriate",
+            "Consider neuropathic medicines for burning, electric, or touch-sensitive pain",
+            "Use targeted injections or nerve blocks when pain remains localized and persistent"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Pain After Common Surgeries",
+        "paragraphs": [
+          "Scar pain can happen after many types of surgery, including abdominal surgery, C-section, hernia repair, breast surgery, chest surgery, spine surgery, joint surgery, and limb surgery.",
+          "The pain pattern may differ depending on the operated area. For example, hernia surgery may cause groin nerve pain, C-section scars may cause lower abdominal pulling or burning, and chest surgery scars may cause rib or intercostal nerve pain.",
+          "A focused pain assessment helps separate scar pain from deeper organ, joint, spine, or nerve-related pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You See a Specialist?",
+        "paragraphs": [
+          "You should see a specialist if scar pain continues beyond expected healing, affects sleep, restricts movement, prevents clothing contact, or feels burning, electric, stabbing, or unusually sensitive.",
+          "It is also important to seek help if the pain is worsening, spreading, or associated with numbness, weakness, swelling, discharge, fever, or a new lump.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates post-surgical scar pain as a real pain condition. The focus is to find the pain generator and choose treatment beyond routine painkillers when needed."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "A scar can look healed but still hurt because of nerve irritation, scar tightness, adhesions, neuroma, or hypersensitivity.",
+          "Burning, electric, stabbing, touch-sensitive, or persistent pulling pain should not be ignored.",
+          "With the right diagnosis, scar pain can often be treated using a combination of scar care, physiotherapy, nerve pain medicines, and targeted pain procedures."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "smokers-foot-smoking-leg-pain-cold-feet-wounds",
+  "title": "Smoker's Foot: When Smoking Causes Leg Pain, Cold Feet, or Non-Healing Wounds",
+  "seoTitle": "Smoker's Foot: Smoking, Leg Pain, Cold Feet and Non-Healing Wounds | Jain Pain Clinic",
+  "description": "Smoking can reduce blood flow to the legs and feet, causing walking pain, cold feet, numbness, colour change, wounds, and severe foot pain. Learn the warning signs.",
+  "keywords": "smoker's foot, smoking foot pain, smoking leg pain, cold feet smoking, peripheral artery disease symptoms, PAD leg pain, Buerger disease, non healing foot wound, foot pain in smokers, poor blood circulation feet, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/smokers-foot-smoking-leg-pain-cold-feet-wounds",
+  "ogImage": "/assets/blog/smokers-foot-leg-pain-hero.jpg",
+  "category": "Foot Pain",
+  "readTime": "8 min read",
+  "excerpt": "Smoking can damage blood vessels and reduce circulation to the legs and feet. The first warning may be calf pain while walking, cold toes, numbness, or a wound that does not heal.",
+  "heroSubtitle": "Foot pain in smokers is not always a muscle, nerve, or footwear problem. Smoking can narrow blood vessels, reduce oxygen supply, and cause serious circulation problems in the legs and feet.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-06-22",
+  "publishedLabel": "June 22, 2026",
+  "cardImage": "/assets/blog/smokers-foot-leg-pain-hero.jpg",
+  "cardAlt": "Person holding foot due to pain related to poor circulation from smoking",
+  "bannerImage": "/assets/blog/smokers-foot-leg-pain-hero.jpg",
+  "bannerAlt": "Smoker's foot causing leg pain, cold feet, and poor circulation symptoms",
+  "tags": [
+    "Foot Pain",
+    "Smoking",
+    "Poor Circulation",
+    "Peripheral Artery Disease",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Many people think smoking mainly harms the lungs and heart. But smoking can also damage the blood vessels that supply the legs and feet. When blood flow reduces, the feet may become cold, painful, numb, discoloured, or slow to heal. This is sometimes called smoker's foot, and it should never be ignored.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is Smoker's Foot?",
+        "paragraphs": [
+          "Smoker's foot is not one single disease. It is a simple way to describe foot and leg problems caused by smoking-related damage to blood vessels.",
+          "Smoking makes blood vessels narrow, inflamed, and more likely to form clots. Over time, this can reduce blood flow to the legs and feet. When tissues do not get enough oxygen, pain and skin problems begin.",
+          "Two important conditions linked to smoking are peripheral artery disease and Buerger's disease. Both can cause serious foot pain, walking difficulty, wounds, and in severe cases, tissue damage."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The First Warning: Pain While Walking",
+        "paragraphs": [
+          "One of the earliest signs of poor leg circulation is pain while walking. The pain often starts in the calf, thigh, hip, or foot and improves after resting for a few minutes.",
+          "This happens because muscles need more oxygen during walking. If narrowed arteries cannot supply enough blood, the muscles begin to hurt. Doctors call this claudication.",
+          "Many patients ignore this symptom because it disappears with rest. But pain that repeatedly comes with walking and improves with rest is an important circulation warning sign."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Calf pain after walking a fixed distance",
+            "Foot or leg pain that improves after rest",
+            "Heaviness or cramping in the legs while walking",
+            "Needing frequent stops during walking",
+            "Pain that becomes worse on slopes or stairs"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/smokers-foot-circulation-check.jpg",
+        "alt": "Doctor checking foot pain and circulation in a smoker"
+      },
+      {
+        "type": "section",
+        "heading": "Cold Feet, Numbness, and Colour Change",
+        "paragraphs": [
+          "Reduced blood flow can make the feet feel unusually cold, especially compared with the other foot. Some patients notice numbness, tingling, burning, or a pale, bluish, reddish, or dark colour change in the toes.",
+          "The skin may become shiny, thin, dry, or hairless. Toenails may grow slowly. Small cuts may take longer than expected to heal.",
+          "These changes suggest that the foot is not receiving healthy circulation and needs medical evaluation."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Non-Healing Wounds Are a Serious Sign",
+        "paragraphs": [
+          "A wound on the foot that does not heal is never normal, especially in a smoker, diabetic patient, or older adult.",
+          "Poor blood flow reduces the body's ability to repair skin. Even a small shoe bite, cut, corn, or crack can become painful and slow to heal. If infection develops, the risk becomes higher.",
+          "Blackening of the toes, worsening wound pain, foul smell, discharge, fever, or severe rest pain should be treated urgently."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Foot ulcer or wound not healing",
+            "Increasing redness, swelling, or discharge",
+            "Black or dark patches on toes",
+            "Severe pain even at rest",
+            "Foot becoming cold, pale, blue, or dark",
+            "Sudden worsening of foot pain"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "What Is Buerger's Disease?",
+        "paragraphs": [
+          "Buerger's disease is a smoking-related condition where small and medium blood vessels become inflamed and blocked. It often affects the hands, feet, fingers, and toes.",
+          "It is seen more commonly in tobacco users and can affect younger patients too. Cigarettes, bidis, chewing tobacco, and other tobacco forms can all contribute.",
+          "Symptoms may include foot pain, finger or toe pain, coldness, colour change, wounds, and in severe cases, tissue loss. Stopping tobacco completely is the most important step."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why Painkillers Alone Are Not Enough",
+        "paragraphs": [
+          "Foot pain from poor circulation is different from ordinary muscle pain. Painkillers may temporarily reduce discomfort, but they do not improve blood flow.",
+          "If the real problem is a blocked or narrowed artery, delaying proper assessment can allow the condition to worsen.",
+          "This is why pain in smokers should be evaluated carefully. The goal is to identify whether the pain is vascular, nerve-related, spine-related, diabetic, or a combination."
+        ],
+        "quote": "\"In smokers, foot pain is not just about pain relief. It can be a warning that the tissues are not getting enough blood.\""
+      },
+      {
+        "type": "section",
+        "heading": "How a Specialist Evaluates Smoker's Foot",
+        "paragraphs": [
+          "At Jain Pain Clinic, evaluation begins with the symptom pattern. Does pain come during walking? Does it improve with rest? Is the foot cold? Is there numbness, colour change, wound, burning, or night pain?",
+          "A clinical examination may include checking pulses, skin temperature, sensation, wounds, colour changes, and nerve-related symptoms.",
+          "If poor circulation is suspected, the patient may need vascular tests such as Doppler study or further vascular evaluation. Coordination with a vascular surgeon or physician may be needed when blood flow is compromised."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Cause",
+        "paragraphs": [
+          "The first and most important treatment is complete tobacco cessation. Continuing smoking can worsen blood vessel damage and reduce the success of other treatments.",
+          "Treatment may include medicines to improve vascular risk, diabetes and blood pressure control, wound care, supervised walking therapy, vascular referral, and pain management.",
+          "When pain has a neuropathic component, medicines such as pregabalin, gabapentin, duloxetine, or other nerve-pain medicines may be considered. If pain is severe or complex, interventional pain management may help selected patients, but circulation problems must be addressed first."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Stop all tobacco use completely",
+            "Check for peripheral artery disease, Buerger's disease, diabetes, and nerve damage",
+            "Treat wounds early and protect the feet from injury",
+            "Improve walking capacity safely when advised",
+            "Use pain medicines based on whether pain is vascular, nerve-related, or mixed",
+            "Refer for vascular care urgently when blood flow is at risk"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Seek Urgent Help?",
+        "paragraphs": [
+          "Seek urgent medical care if foot pain is severe at rest, the foot becomes suddenly cold or pale, toes become blue or black, or a wound is worsening.",
+          "Urgent evaluation is also needed if there is fever, pus, foul smell, spreading redness, sudden numbness, or sudden inability to move the foot.",
+          "These symptoms may mean that blood supply or infection risk is serious and should not wait for routine treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Smoker's foot is a warning sign that tobacco may be affecting blood flow to the legs and feet.",
+          "Pain while walking, cold feet, numbness, colour change, and non-healing wounds should not be ignored.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates foot pain by identifying whether the pain is vascular, nerve-related, spine-related, diabetic, or mixed. The right diagnosis helps patients receive timely pain care and vascular referral when needed."
+        ]
+      }
+    ]
+  }
+}
 ];
 
 export const blogs = [...rawBlogs].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
