@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useT } from "@/components/shared/I18nProvider";
 
 const STAGES = [
   {
@@ -200,16 +201,20 @@ function Icon({ name, size = 24 }) {
 }
 
 function PatientCard({ stage, large }) {
+  const t = useT();
+
   return (
     <div className="journey-patient">
-      <img src={stage.image} alt={stage.state} className="journey-patient__img" />
-      <div className="journey-patient__badge">{stage.state}</div>
-      {large ? <p className="journey-patient__desc">{stage.stateDesc}</p> : null}
+      <img src={stage.image} alt={t(stage.state)} className="journey-patient__img" />
+      <div className="journey-patient__badge">{t(stage.state)}</div>
+      {large ? <p className="journey-patient__desc">{t(stage.stateDesc)}</p> : null}
     </div>
   );
 }
 
 function StageContent({ content }) {
+  const t = useT();
+
   return (
     <>
       <h3 className="journey-content__title">{content.title}</h3>
@@ -223,7 +228,7 @@ function StageContent({ content }) {
       <div className="journey-keypoints">
         <h4 className="journey-keypoints__title">
           <Icon name="check-circle" size={20} />
-          Key Points
+          {t("Key Points")}
         </h4>
 
         {content.keyPoints.map((point, index) => (
@@ -239,7 +244,7 @@ function StageContent({ content }) {
       <div className="journey-info">
         <h4 className="journey-info__title">
           <Icon name="info" size={20} />
-          What to Expect
+          {t("What to Expect")}
         </h4>
         <p className="journey-info__text">{content.whatToExpect}</p>
       </div>
@@ -248,7 +253,7 @@ function StageContent({ content }) {
         <div className="journey-info">
           <h4 className="journey-info__title">
             <Icon name="check-circle" size={20} />
-            Helpful Tips
+            {t("Helpful Tips")}
           </h4>
           <ul className="journey-tips">
             {content.tips.map((tip, index) => (
@@ -265,6 +270,7 @@ function StageContent({ content }) {
 }
 
 export default function ProcedureJourney({ procedure }) {
+  const t = useT();
   const [activeStageId, setActiveStageId] = useState(STAGES[0].id);
   const activeIndex = STAGES.findIndex((stage) => stage.id === activeStageId);
   const activeStage = STAGES[activeIndex];
@@ -306,8 +312,8 @@ export default function ProcedureJourney({ procedure }) {
                     </div>
 
                     <div className="journey-stage-label">
-                      <div className="journey-stage-number">Stage {stage.number}</div>
-                      <div className="journey-stage-name">{stage.title}</div>
+                      <div className="journey-stage-number">{t("Stage")} {stage.number}</div>
+                      <div className="journey-stage-name">{t(stage.title)}</div>
                     </div>
 
                     <div className="journey-stage-bar"></div>
@@ -349,8 +355,8 @@ export default function ProcedureJourney({ procedure }) {
                     </div>
 
                     <div>
-                      <div className="journey-m-btn__num">Stage {stage.number}</div>
-                      <div className="journey-m-btn__name">{stage.title}</div>
+                      <div className="journey-m-btn__num">{t("Stage")} {stage.number}</div>
+                      <div className="journey-m-btn__name">{t(stage.title)}</div>
                     </div>
                   </button>
                 );
@@ -358,7 +364,7 @@ export default function ProcedureJourney({ procedure }) {
             </div>
           </div>
 
-          <p className="journey-swipe-hint">&larr; Swipe to explore stages &rarr;</p>
+          <p className="journey-swipe-hint">&larr; {t("Swipe to explore stages")} &rarr;</p>
 
           <div className="journey-m-card">
             <StageContent content={activeContent} />
@@ -377,14 +383,14 @@ export default function ProcedureJourney({ procedure }) {
                 disabled={activeIndex === 0}
               >
                 <Icon name="chevron-left" size={20} />
-                Prev
+                {t("Prev")}
               </button>
 
               <div className="journey-nav-center">
                 <div className="journey-nav-center__num">
-                  Stage {activeIndex + 1}/{STAGES.length}
+                  {t("Stage")} {activeIndex + 1}/{STAGES.length}
                 </div>
-                <div className="journey-nav-center__name">{activeStage.title}</div>
+                <div className="journey-nav-center__name">{t(activeStage.title)}</div>
               </div>
 
               <button
@@ -393,7 +399,7 @@ export default function ProcedureJourney({ procedure }) {
                 onClick={() => setActiveStageId(STAGES[activeIndex + 1].id)}
                 disabled={activeIndex === STAGES.length - 1}
               >
-                Next
+                {t("Next")}
                 <Icon name="chevron-right" size={20} />
               </button>
             </div>

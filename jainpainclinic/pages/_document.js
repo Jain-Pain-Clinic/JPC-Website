@@ -1,10 +1,13 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import { DEFAULT_LOCALE, getLocaleMeta, isSupportedLocale } from "@/lib/i18n";
 
 const GTM_CONTAINER_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-NRQQSQST";
 
-export default function Document() {
+export default function MyDocument({ locale = DEFAULT_LOCALE }) {
+  const meta = getLocaleMeta(locale);
+
   return (
-    <Html lang="en">
+    <Html lang={meta.code} dir={meta.dir}>
       <Head>
         <link rel="icon" type="image/png" href="/assets/favicon.png" />
       </Head>
@@ -24,3 +27,15 @@ export default function Document() {
     </Html>
   );
 }
+
+MyDocument.getInitialProps = async (ctx) => {
+  const initialProps = await Document.getInitialProps(ctx);
+  const locale = typeof ctx.query?.locale === "string" && isSupportedLocale(ctx.query.locale)
+    ? ctx.query.locale
+    : DEFAULT_LOCALE;
+
+  return {
+    ...initialProps,
+    locale,
+  };
+};

@@ -2,6 +2,9 @@ import fs from "fs";
 import path from "path";
 import Head from "next/head";
 import Script from "next/script";
+import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
+import { HOME_DYNAMIC_STRINGS } from "@/lib/home-dynamic-strings";
+import { getClientTranslations, getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 
 function normalizeHomepageMarkup(html) {
   return html
@@ -57,7 +60,7 @@ function normalizeHomepageMarkup(html) {
     );
 }
 
-export default function HomePage({ homepageMarkup }) {
+export default function HomePage({ homepageMarkup, clientTranslations = {}, locale = "en" }) {
   return (
     <>
       <Head>
@@ -70,7 +73,7 @@ export default function HomePage({ homepageMarkup }) {
           name="keywords"
           content="Jain Pain Clinic, Dr Ashu Kumar Jain, chronic pain, pain management, interventional pain, Gurugram, NCR, back pain, neck pain, sciatica, knee pain, palliative care"
         />
-        <link rel="canonical" href="https://www.jainpainclinic.com/" />
+        <LocaleHeadLinks path="/" locale={locale} />
         <link
           rel="preload"
           as="image"
@@ -152,19 +155,28 @@ export default function HomePage({ homepageMarkup }) {
 
       <div dangerouslySetInnerHTML={{ __html: homepageMarkup }} />
 
+      <Script id="jpc-locale-runtime" strategy="beforeInteractive">
+        {`
+          window.__JPC_LOCALE = ${JSON.stringify(locale)};
+          window.__JPC_TRANSLATIONS = ${JSON.stringify(clientTranslations)};
+        `}
+      </Script>
       <Script src="/home-script.js" strategy="afterInteractive" />
     </>
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
+  const locale = getLocaleFromContext(context);
   const homepagePath = path.join(process.cwd(), "content", "legacy-site", "index.html");
   const homepageHtml = fs.readFileSync(homepagePath, "utf8");
   const bodyMatch = homepageHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
+  const homepageMarkup = normalizeHomepageMarkup(bodyMatch ? bodyMatch[1] : "");
 
   return {
-    props: {
-      homepageMarkup: normalizeHomepageMarkup(bodyMatch ? bodyMatch[1] : ""),
-    },
+    props: withLocaleProps({
+      homepageMarkup: translateLegacyMarkup(homepageMarkup, locale, "/"),
+      clientTranslations: getClientTranslations(HOME_DYNAMIC_STRINGS, locale),
+    }, locale),
   };
 }

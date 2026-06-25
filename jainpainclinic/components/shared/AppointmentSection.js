@@ -1,10 +1,14 @@
+import { useT } from "@/components/shared/I18nProvider";
+
 export default function AppointmentSection() {
+  const t = useT();
+
   return (
     <section className="appointment-section" id="contact">
       <div className="wrap appointment-grid">
         <div className="appointment-copy reveal-left">
-          <p className="section-label">Any concern?</p>
-          <h2 className="section-heading">Visit our doctors, make an appointment</h2>
+          <p className="section-label">{t("Any concern?")}</p>
+          <h2 className="section-heading">{t("Visit our doctors, make an appointment")}</h2>
 
           <div className="contact-cards">
             <a className="contact-card" href="mailto:ashu.jain@jainpainclinic.com">
@@ -12,7 +16,7 @@ export default function AppointmentSection() {
                 <i className="fa-regular fa-envelope" aria-hidden="true"></i>
               </span>
               <span className="contact-card__content">
-                <strong>Email us</strong>
+                <strong>{t("Email us")}</strong>
                 <span>ashu.jain@jainpainclinic.com</span>
               </span>
             </a>
@@ -22,7 +26,7 @@ export default function AppointmentSection() {
                 <i className="fa-solid fa-phone" aria-hidden="true"></i>
               </span>
               <span className="contact-card__content">
-                <strong>Call us</strong>
+                <strong>{t("Call us")}</strong>
                 <span>+91 8130 640 351</span>
               </span>
             </a>
@@ -37,33 +41,33 @@ export default function AppointmentSection() {
 
           <div className="form-row">
             <label>
-              <span>Your name</span>
-              <input type="text" name="name" placeholder="Your name" />
+              <span>{t("Your name")}</span>
+              <input type="text" name="name" placeholder={t("Your name")} />
             </label>
             <label>
-              <span>Email</span>
-              <input type="email" name="email" placeholder="Email" />
+              <span>{t("Email")}</span>
+              <input type="email" name="email" placeholder={t("Email")} />
             </label>
           </div>
 
           <div className="form-row">
             <label>
-              <span>Whatsapp no.</span>
-              <input type="tel" name="whatsapp" placeholder="Whatsapp no." />
+              <span>{t("Whatsapp no.")}</span>
+              <input type="tel" name="whatsapp" placeholder={t("Whatsapp no.")} />
             </label>
             <label>
-              <span>Location</span>
-              <input type="text" name="location" placeholder="Location" />
+              <span>{t("Location")}</span>
+              <input type="text" name="location" placeholder={t("Location")} />
             </label>
           </div>
 
           <label className="form-field form-field--full">
-            <span>Describe your problem</span>
-            <textarea name="message" placeholder="Describe your problem..."></textarea>
+            <span>{t("Describe your problem")}</span>
+            <textarea name="message" placeholder={t("Describe your problem...")}></textarea>
           </label>
 
           <button className="pill-button appointment-submit" type="submit">
-            Book appointment
+            {t("Book appointment")}
           </button>
         </form>
       </div>

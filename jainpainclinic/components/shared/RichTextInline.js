@@ -1,4 +1,8 @@
+import { useI18n } from "@/components/shared/I18nProvider";
+
 export default function RichTextInline({ parts = [] }) {
+  const { localizeHref } = useI18n();
+
   return parts.map((part, index) => {
     const prefix = index === 0 ? "" : " ";
 
@@ -15,7 +19,7 @@ export default function RichTextInline({ parts = [] }) {
       return (
         <span key={`${part.type}-${index}`}>
           {prefix}
-          <a href={part.href}>{part.text}</a>
+          <a href={localizeHref(part.href)}>{part.text}</a>
         </span>
       );
     }

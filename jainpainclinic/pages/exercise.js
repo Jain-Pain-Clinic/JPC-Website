@@ -2,6 +2,8 @@ import fs from "fs";
 import path from "path";
 import Head from "next/head";
 import Script from "next/script";
+import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
+import { getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 
 function normalizeExerciseMarkup(html) {
   return html
@@ -9,7 +11,7 @@ function normalizeExerciseMarkup(html) {
     .replace(/src="assets\//g, 'src="/assets/');
 }
 
-export default function ExercisePage({ exerciseMarkup }) {
+export default function ExercisePage({ exerciseMarkup, locale = "en" }) {
   return (
     <>
       <Head>
@@ -23,7 +25,7 @@ export default function ExercisePage({ exerciseMarkup }) {
           content="neck pain exercises, back pain exercises, knee pain exercises, hip pain exercises, shoulder pain exercises, frozen shoulder exercises, osteoarthritis exercises, cervical pain exercises, pain relief exercises at home, chronic pain exercises Gurgaon"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.jainpainclinic.com/exercise" />
+        <LocaleHeadLinks path="/exercise" locale={locale} />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -164,14 +166,16 @@ export default function ExercisePage({ exerciseMarkup }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
+  const locale = getLocaleFromContext(context);
   const exercisePath = path.join(process.cwd(), "content", "legacy-site", "exercise.html");
   const exerciseHtml = fs.readFileSync(exercisePath, "utf8");
   const bodyMatch = exerciseHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
+  const exerciseMarkup = normalizeExerciseMarkup(bodyMatch ? bodyMatch[1] : "");
 
   return {
-    props: {
-      exerciseMarkup: normalizeExerciseMarkup(bodyMatch ? bodyMatch[1] : ""),
-    },
+    props: withLocaleProps({
+      exerciseMarkup: translateLegacyMarkup(exerciseMarkup, locale, "/exercise"),
+    }, locale),
   };
 }

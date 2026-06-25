@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import { useEffect, useMemo, useState } from "react";
 import { procedures } from "@/data/procedures";
 import { treatments } from "@/data/treatments";
+import { useI18n } from "@/components/shared/I18nProvider";
+import { LOCALES, localizePath, stripLocaleFromPath } from "@/lib/i18n";
 
 const quickLinks = [
   { href: "/about", label: "About us" },
@@ -23,6 +25,7 @@ function isCurrentPath(pathname, href) {
 
 export default function SiteHeader() {
   const router = useRouter();
+  const { locale, t, localizeHref } = useI18n();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openMobileDropdown, setOpenMobileDropdown] = useState("");
 
@@ -61,31 +64,33 @@ export default function SiteHeader() {
     .filter(Boolean)
     .join(" ");
 
-  const treatmentActive = router.pathname.startsWith("/treatments");
-  const procedureActive = router.pathname.startsWith("/procedures");
+  const currentPath = stripLocaleFromPath(router.asPath?.split("?")[0] || router.pathname);
+  const languagePath = stripLocaleFromPath(router.asPath || "/");
+  const treatmentActive = currentPath.startsWith("/treatments");
+  const procedureActive = currentPath.startsWith("/procedures");
 
   return (
     <header className="site-header">
       <div className="wrap header-bar">
-        <Link className="brand" href="/" aria-label="Jain Pain Clinic home">
+        <Link className="brand" href={localizeHref("/")} aria-label="Jain Pain Clinic home">
           <img src="/assets/logo-small.png" width="600" height="150" decoding="async" alt="Jain Pain Clinic" />
         </Link>
 
         <nav className={navClassName} aria-label="Primary">
           <Link
-            href="/"
-            className={isCurrentPath(router.pathname, "/") ? "is-current" : ""}
+            href={localizeHref("/")}
+            className={isCurrentPath(currentPath, "/") ? "is-current" : ""}
             onClick={closeMenu}
           >
-            Home
+            {t("Home")}
           </Link>
 
           <Link
-            href="/about"
-            className={isCurrentPath(router.pathname, "/about") ? "is-current" : ""}
+            href={localizeHref("/about")}
+            className={isCurrentPath(currentPath, "/about") ? "is-current" : ""}
             onClick={closeMenu}
           >
-            About
+            {t("About")}
           </Link>
 
           <div className={`nav-dropdown ${openMobileDropdown === "treatments" ? "is-open" : ""}`}>
@@ -99,12 +104,12 @@ export default function SiteHeader() {
                 }
               }}
             >
-              Treatment <span aria-hidden="true">▾</span>
+              {t("Treatment")} <span aria-hidden="true">▾</span>
             </a>
             <div className="nav-dropdown__menu">
               {treatments.map((item) => (
-                <Link key={item.slug} href={`/treatments/${item.slug}`} onClick={closeMenu}>
-                  {item.navLabel}
+                <Link key={item.slug} href={localizeHref(`/treatments/${item.slug}`)} onClick={closeMenu}>
+                  {t(item.navLabel)}
                 </Link>
               ))}
             </div>
@@ -121,12 +126,12 @@ export default function SiteHeader() {
                 }
               }}
             >
-              Procedures <span aria-hidden="true">▾</span>
+              {t("Procedures")} <span aria-hidden="true">▾</span>
             </a>
             <div className="nav-dropdown__menu">
               {procedures.map((item) => (
-                <Link key={item.slug} href={`/procedures/${item.slug}`} onClick={closeMenu}>
-                  {item.navLabel}
+                <Link key={item.slug} href={localizeHref(`/procedures/${item.slug}`)} onClick={closeMenu}>
+                  {t(item.navLabel)}
                 </Link>
               ))}
             </div>
@@ -135,38 +140,38 @@ export default function SiteHeader() {
           {topLinks.slice(2).map((item) => (
             <Link
               key={item.href}
-              href={item.href}
-              className={isCurrentPath(router.pathname, item.href) ? "is-current" : ""}
+              href={localizeHref(item.href)}
+              className={isCurrentPath(currentPath, item.href) ? "is-current" : ""}
               onClick={closeMenu}
             >
-              {item.label}
+              {t(item.label)}
             </Link>
           ))}
 
           <div className="nav-mobile-links">
             <div className="nav-mobile-links__col">
-              <h3>Treatments</h3>
+              <h3>{t("Treatments")}</h3>
               {treatments.map((item) => (
-                <Link key={item.slug} href={`/treatments/${item.slug}`} onClick={closeMenu}>
-                  {item.navLabel}
+                <Link key={item.slug} href={localizeHref(`/treatments/${item.slug}`)} onClick={closeMenu}>
+                  {t(item.navLabel)}
                 </Link>
               ))}
             </div>
 
             <div className="nav-mobile-links__col">
-              <h3>Procedures</h3>
+              <h3>{t("Procedures")}</h3>
               {procedures.map((item) => (
-                <Link key={item.slug} href={`/procedures/${item.slug}`} onClick={closeMenu}>
-                  {item.navLabel}
+                <Link key={item.slug} href={localizeHref(`/procedures/${item.slug}`)} onClick={closeMenu}>
+                  {t(item.navLabel)}
                 </Link>
               ))}
             </div>
 
             <div className="nav-mobile-links__col">
-              <h3>Quick links</h3>
+              <h3>{t("Quick links")}</h3>
               {quickLinks.map((item) => (
-                <Link key={item.href} href={item.href} onClick={closeMenu}>
-                  {item.label}
+                <Link key={item.href} href={localizeHref(item.href)} onClick={closeMenu}>
+                  {t(item.label)}
                 </Link>
               ))}
             </div>
@@ -174,6 +179,23 @@ export default function SiteHeader() {
         </nav>
 
         <div className="header-actions">
+          <details className="language-dropdown">
+            <summary aria-label={t("Languages")}>
+              {LOCALES.find((item) => item.code === locale)?.nativeLabel || "English"}
+            </summary>
+            <div className="language-dropdown__menu">
+              {LOCALES.map((item) => (
+                <Link
+                  key={item.code}
+                  href={localizePath(languagePath, item.code)}
+                  className={item.code === locale ? "is-current" : ""}
+                  hrefLang={item.code}
+                >
+                  {item.nativeLabel}
+                </Link>
+              ))}
+            </div>
+          </details>
           <a
             className="pill-button pill-button--small header-cta"
             href="https://wa.me/919211281009?text=Hi%2C%20I%20want%20to%20live%20pain%20free"
@@ -181,12 +203,12 @@ export default function SiteHeader() {
             rel="noreferrer"
           >
             <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
-            <span>Consult now</span>
+            <span>{t("Consult now")}</span>
           </a>
           <button
             className={`hamburger ${isMenuOpen ? "is-active" : ""}`}
             type="button"
-            aria-label="Toggle menu"
+            aria-label={t("Toggle menu")}
             aria-expanded={isMenuOpen}
             onClick={() => setIsMenuOpen((current) => !current)}
           >

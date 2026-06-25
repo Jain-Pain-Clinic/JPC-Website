@@ -1,9 +1,14 @@
 {
   "name": "jpc-new",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "translate": "node scripts/translate.mjs",
+    "translate:dry-run": "node scripts/translate.mjs --dry-run",
+    "translate:home-about": "node scripts/translate.mjs --scope=home,about",
+    "translate:home-about:dry-run": "node scripts/translate.mjs --scope=home,about --dry-run",
     "build": "node scripts/generate-sitemap.mjs && next build",
     "start": "next start",
     "lint": "eslint"

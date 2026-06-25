@@ -4,16 +4,20 @@ import BlogPostTemplate from "@/components/blogs/BlogPostTemplate";
 import SiteLayout from "@/components/layout/SiteLayout";
 import Seo from "@/components/shared/Seo";
 import { blogs, BLOGS_PER_PAGE, BLOG_ARCHIVE, getBlogBySlug } from "@/data/blogs";
+import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
 import { getPaginatedItems, getTotalPages } from "@/lib/pagination";
 
 export default function BlogSlugPage(props) {
+  const locale = props.locale || "en";
+
   if (props.kind === "archive") {
     return (
       <>
         <Seo
           title={`${BLOG_ARCHIVE.title} - Page ${props.currentPage} | Jain Pain Clinic Gurugram`}
-          description={BLOG_ARCHIVE.description}
-          canonical={`https://www.jainpainclinic.com/blog/page-${props.currentPage}`}
+          description={props.archive?.description || BLOG_ARCHIVE.description}
+          canonicalPath={`/blog/page-${props.currentPage}`}
+          locale={locale}
           ogImage={BLOG_ARCHIVE.ogImage}
         />
 
@@ -22,8 +26,8 @@ export default function BlogSlugPage(props) {
             items={props.items}
             currentPage={props.currentPage}
             totalPages={props.totalPages}
-            title={BLOG_ARCHIVE.title}
-            subtitle={BLOG_ARCHIVE.description}
+            title={props.archive?.title || BLOG_ARCHIVE.title}
+            subtitle={props.archive?.description || BLOG_ARCHIVE.description}
           />
         </SiteLayout>
       </>
@@ -37,7 +41,8 @@ export default function BlogSlugPage(props) {
       <Seo
         title={post.seoTitle}
         description={post.description}
-        canonical={`https://www.jainpainclinic.com/blog/${post.slug}`}
+        canonicalPath={`/blog/${post.slug}`}
+        locale={locale}
         ogImage={`https://www.jainpainclinic.com${post.ogImage}`}
       />
       <Head>
@@ -110,7 +115,9 @@ export function getStaticPaths() {
   };
 }
 
-export function getStaticProps({ params }) {
+export function getStaticProps(context) {
+  const { params } = context;
+  const locale = getLocaleFromContext(context);
   const totalPages = getTotalPages(blogs.length, BLOGS_PER_PAGE);
 
   if (params.slug.startsWith("page-")) {
@@ -120,13 +127,16 @@ export function getStaticProps({ params }) {
       return { notFound: true };
     }
 
+    const props = {
+      kind: "archive",
+      items: getPaginatedItems(blogs, currentPage, BLOGS_PER_PAGE),
+      currentPage,
+      totalPages,
+      archive: BLOG_ARCHIVE,
+    };
+
     return {
-      props: {
-        kind: "archive",
-        items: getPaginatedItems(blogs, currentPage, BLOGS_PER_PAGE),
-        currentPage,
-        totalPages,
-      },
+      props: withLocaleProps(translatePageProps(props, locale), locale),
     };
   }
 
@@ -137,9 +147,9 @@ export function getStaticProps({ params }) {
   }
 
   return {
-    props: {
+    props: withLocaleProps(translatePageProps({
       kind: "post",
       post,
-    },
+    }, locale), locale),
   };
 }

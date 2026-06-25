@@ -2,16 +2,18 @@ import BlogArchivePage from "@/components/blogs/BlogArchivePage";
 import SiteLayout from "@/components/layout/SiteLayout";
 import Seo from "@/components/shared/Seo";
 import { blogs, BLOGS_PER_PAGE, BLOG_ARCHIVE } from "@/data/blogs";
+import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
 import { getPaginatedItems, getTotalPages } from "@/lib/pagination";
 
-export default function BlogIndexPage({ items, totalPages }) {
+export default function BlogIndexPage({ items, totalPages, archive = BLOG_ARCHIVE, locale = "en" }) {
   return (
     <>
       <Seo
-        title={BLOG_ARCHIVE.seoTitle}
-        description={BLOG_ARCHIVE.description}
-        canonical={`https://www.jainpainclinic.com${BLOG_ARCHIVE.canonicalPath}`}
-        ogImage={BLOG_ARCHIVE.ogImage}
+        title={archive.seoTitle}
+        description={archive.description}
+        canonicalPath={BLOG_ARCHIVE.canonicalPath}
+        locale={locale}
+        ogImage={archive.ogImage}
       />
 
       <SiteLayout showAppointment>
@@ -19,19 +21,23 @@ export default function BlogIndexPage({ items, totalPages }) {
           items={items}
           currentPage={1}
           totalPages={totalPages}
-          title={BLOG_ARCHIVE.title}
-          subtitle={BLOG_ARCHIVE.description}
+          title={archive.title}
+          subtitle={archive.description}
         />
       </SiteLayout>
     </>
   );
 }
 
-export function getStaticProps() {
+export function getStaticProps(context) {
+  const locale = getLocaleFromContext(context);
+  const props = {
+    items: getPaginatedItems(blogs, 1, BLOGS_PER_PAGE),
+    totalPages: getTotalPages(blogs.length, BLOGS_PER_PAGE),
+    archive: BLOG_ARCHIVE,
+  };
+
   return {
-    props: {
-      items: getPaginatedItems(blogs, 1, BLOGS_PER_PAGE),
-      totalPages: getTotalPages(blogs.length, BLOGS_PER_PAGE),
-    },
+    props: withLocaleProps(translatePageProps(props, locale), locale),
   };
 }

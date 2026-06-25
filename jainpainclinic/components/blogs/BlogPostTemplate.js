@@ -1,3 +1,5 @@
+import { useT } from "@/components/shared/I18nProvider";
+
 function ContentBlock({ block }) {
   if (block.type === "image") {
     return (
@@ -48,6 +50,8 @@ function ContentBlock({ block }) {
 }
 
 export default function BlogPostTemplate({ post }) {
+  const t = useT();
+
   return (
     <>
       <section className="blog-post-hero">
@@ -91,7 +95,7 @@ export default function BlogPostTemplate({ post }) {
             ))}
 
             <div className="blog-post-tags">
-              <span className="blog-post-tags__label">Tagged:</span>
+              <span className="blog-post-tags__label">{t("Tagged:")}</span>
               {post.tags.map((tag) => (
                 <span key={tag} className="blog-post-tag">
                   {tag}

@@ -1,8 +1,10 @@
 import { useMemo, useState } from "react";
+import { useT } from "@/components/shared/I18nProvider";
 
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
 
 export default function ProcedureQuiz({ questions }) {
+  const t = useT();
   const totalQuestions = questions.length;
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(-1);
@@ -48,18 +50,18 @@ export default function ProcedureQuiz({ questions }) {
   if (finished) {
     const percentage = Math.round((score / totalQuestions) * 100);
     const heading =
-      percentage >= 80 ? "Excellent!" : percentage >= 50 ? "Good effort!" : "Keep learning!";
+      percentage >= 80 ? t("Excellent!") : percentage >= 50 ? t("Good effort!") : t("Keep learning!");
 
     return (
       <div className="quiz-card">
         <div className="quiz-result">
-          <img className="quiz-result__img" src="/assets/quiz.jpg" alt="Quiz complete" />
+          <img className="quiz-result__img" src="/assets/quiz.jpg" alt={t("Quiz complete")} />
           <h3 className="quiz-result__heading">{heading}</h3>
           <p className="quiz-result__score">
-            You scored {score} out of {totalQuestions} ({percentage}%)
+            {t("You scored")} {score} {t("out of")} {totalQuestions} ({percentage}%)
           </p>
           <button className="quiz-result__restart" type="button" onClick={handleRestart}>
-            Try Again
+            {t("Try Again")}
           </button>
         </div>
       </div>
@@ -83,7 +85,7 @@ export default function ProcedureQuiz({ questions }) {
       </div>
 
       <div className="quiz-card__counter">
-        Question {currentQuestionIndex + 1} of {totalQuestions}
+        {t("Question")} {currentQuestionIndex + 1} {t("of")} {totalQuestions}
       </div>
       <h3 className="quiz-card__question">{currentQuestion.question}</h3>
 
@@ -126,12 +128,12 @@ export default function ProcedureQuiz({ questions }) {
       {hasAnswered ? (
         <>
           <div className="quiz-card__explanation">
-            <strong>{selectedAnswer === currentQuestion.answer ? "Correct! " : "Not quite. "}</strong>
+            <strong>{selectedAnswer === currentQuestion.answer ? `${t("Correct!")} ` : `${t("Not quite.")} `}</strong>
             {currentQuestion.explanation}
           </div>
 
           <button className="quiz-card__next" type="button" onClick={handleNextClick}>
-            {currentQuestionIndex < totalQuestions - 1 ? "Next Question →" : "See Results →"}
+            {currentQuestionIndex < totalQuestions - 1 ? `${t("Next Question")} →` : `${t("See Results")} →`}
           </button>
         </>
       ) : null}

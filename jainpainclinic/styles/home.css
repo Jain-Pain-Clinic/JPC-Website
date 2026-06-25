@@ -447,7 +447,7 @@ button {
 .treat-bg-image {
   position: absolute;
   top: 0;
-  right: 0;
+  inset-inline-end: 0;
   width: 70%;
   height: 100%;
   object-fit: cover;
@@ -457,6 +457,11 @@ button {
   pointer-events: none;
   mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.22) 100%);
   -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.22) 100%);
+}
+
+[dir="rtl"] .treat-bg-image {
+  mask-image: linear-gradient(to left, transparent 0%, rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.22) 100%);
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.22) 100%);
 }
 
 .treat-bg-image.is-visible {
@@ -486,7 +491,7 @@ button {
   min-height: 858px;
   padding-top: 100px;
   padding-bottom: 90px;
-  padding-left: 169px;
+  padding-inline-start: 169px;
 }
 
 .treat-menu {
@@ -501,7 +506,7 @@ button {
   content: "";
   position: absolute;
   top: -39px;
-  left: -44px;
+  inset-inline-start: -44px;
   width: 2px;
   height: 655px;
   border-radius: 10px;
@@ -518,7 +523,7 @@ button {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.66px;
-  text-align: left;
+  text-align: start;
   transition: color 0.3s ease;
 }
 
@@ -530,7 +535,7 @@ button {
 
 .treat-link span {
   display: none;
-  margin-left: 4px;
+  margin-inline-start: 4px;
 }
 
 .treat-link.is-active {
@@ -545,7 +550,7 @@ button {
   content: "";
   position: absolute;
   top: -11px;
-  left: -47px;
+  inset-inline-start: -47px;
   width: 8px;
   height: 45px;
   border-radius: 3px;
@@ -1682,7 +1687,7 @@ button {
     min-height: auto;
     gap: 40px;
     padding: 60px 20px;
-    padding-left: 56px;
+    padding-inline-start: 56px;
   }
 
   .treat-menu {
@@ -1692,7 +1697,7 @@ button {
 
   .treat-menu::before {
     top: -32px;
-    left: -44px;
+    inset-inline-start: -44px;
     height: 100%;
   }
 
@@ -1703,7 +1708,7 @@ button {
 
   .treat-link.is-active::before {
     top: -8px;
-    left: -47px;
+    inset-inline-start: -47px;
     height: 42px;
   }
 

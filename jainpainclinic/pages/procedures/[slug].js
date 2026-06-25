@@ -3,14 +3,16 @@ import Seo from "@/components/shared/Seo";
 import SiteLayout from "@/components/layout/SiteLayout";
 import ProcedurePageTemplate from "@/components/procedures/ProcedurePageTemplate";
 import { procedures, getProcedureBySlug } from "@/data/procedures";
+import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
 
-export default function ProcedurePage({ procedure, medicalSchema }) {
+export default function ProcedurePage({ procedure, medicalSchema, locale = "en" }) {
   return (
     <>
       <Seo
         title={procedure.seoTitle}
         description={procedure.description}
-        canonical={`https://www.jainpainclinic.com${procedure.canonicalPath}`}
+        canonicalPath={procedure.canonicalPath}
+        locale={locale}
         ogImage={`https://www.jainpainclinic.com${procedure.ogImage}`}
       />
 
@@ -37,7 +39,9 @@ export function getStaticPaths() {
   };
 }
 
-export function getStaticProps({ params }) {
+export function getStaticProps(context) {
+  const { params } = context;
+  const locale = getLocaleFromContext(context);
   const procedure = getProcedureBySlug(params.slug);
 
   if (!procedure) {
@@ -67,9 +71,9 @@ export function getStaticProps({ params }) {
   };
 
   return {
-    props: {
+    props: withLocaleProps(translatePageProps({
       procedure,
       medicalSchema,
-    },
+    }, locale), locale),
   };
 }

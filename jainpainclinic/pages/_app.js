@@ -1,13 +1,25 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Script from "next/script";
-import { Manrope } from "next/font/google";
+import { Manrope, Noto_Sans_Arabic, Noto_Sans_Devanagari } from "next/font/google";
+import { I18nProvider } from "@/components/shared/I18nProvider";
+import { DEFAULT_LOCALE, getLocaleMeta } from "@/lib/i18n";
 import "@/styles/globals.css";
 
 const GTM_CONTAINER_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-NRQQSQST";
 const GTM_LOAD_DELAY_MS = 2000;
 const manrope = Manrope({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+});
+const devanagari = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+});
+const arabic = Noto_Sans_Arabic({
+  subsets: ["arabic"],
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
 });
@@ -160,10 +172,63 @@ function GoogleTagManager() {
 }
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+  const locale = pageProps.locale || DEFAULT_LOCALE;
+  const localeMeta = getLocaleMeta(locale);
+  const localeFontClass =
+    locale === "hi" ? devanagari.className : locale === "ar" ? arabic.className : manrope.className;
+
+  useEffect(() => {
+    document.documentElement.lang = localeMeta.code;
+    document.documentElement.dir = localeMeta.dir;
+  }, [localeMeta.code, localeMeta.dir]);
+
+  useEffect(() => {
+    const closeLanguageDropdowns = () => {
+      document.querySelectorAll(".language-dropdown[open]").forEach((dropdown) => {
+        dropdown.removeAttribute("open");
+      });
+    };
+
+    const handlePointerDown = (event) => {
+      if (!(event.target instanceof Element) || event.target.closest(".language-dropdown")) {
+        return;
+      }
+
+      closeLanguageDropdowns();
+    };
+
+    const handleClick = (event) => {
+      if (event.target instanceof Element && event.target.closest(".language-dropdown__menu a")) {
+        closeLanguageDropdowns();
+      }
+    };
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        closeLanguageDropdowns();
+      }
+    };
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("click", handleClick);
+    document.addEventListener("keydown", handleKeyDown);
+    router.events.on("routeChangeStart", closeLanguageDropdowns);
+
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("click", handleClick);
+      document.removeEventListener("keydown", handleKeyDown);
+      router.events.off("routeChangeStart", closeLanguageDropdowns);
+    };
+  }, [router.events]);
+
   return (
-    <div className={manrope.className}>
-      <GoogleTagManager />
-      <Component {...pageProps} />
-    </div>
+    <I18nProvider locale={locale}>
+      <div className={localeFontClass}>
+        <GoogleTagManager />
+        <Component {...pageProps} />
+      </div>
+    </I18nProvider>
   );
 }

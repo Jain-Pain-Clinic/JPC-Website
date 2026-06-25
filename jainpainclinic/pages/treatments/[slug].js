@@ -3,14 +3,16 @@ import TreatmentPageTemplate from "@/components/treatments/TreatmentPageTemplate
 import SiteLayout from "@/components/layout/SiteLayout";
 import Seo from "@/components/shared/Seo";
 import { treatments, getTreatmentBySlug } from "@/data/treatments";
+import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
 
-export default function TreatmentPage({ treatment }) {
+export default function TreatmentPage({ treatment, locale = "en" }) {
   return (
     <>
       <Seo
         title={treatment.seoTitle}
         description={treatment.description}
-        canonical={`https://www.jainpainclinic.com/treatments/${treatment.slug}`}
+        canonicalPath={`/treatments/${treatment.slug}`}
+        locale={locale}
         ogImage={`https://www.jainpainclinic.com${treatment.ogImage}`}
       />
       <Head>
@@ -85,7 +87,9 @@ export function getStaticPaths() {
   };
 }
 
-export function getStaticProps({ params }) {
+export function getStaticProps(context) {
+  const { params } = context;
+  const locale = getLocaleFromContext(context);
   const treatment = getTreatmentBySlug(params.slug);
 
   if (!treatment) {
@@ -93,8 +97,8 @@ export function getStaticProps({ params }) {
   }
 
   return {
-    props: {
+    props: withLocaleProps(translatePageProps({
       treatment,
-    },
+    }, locale), locale),
   };
 }

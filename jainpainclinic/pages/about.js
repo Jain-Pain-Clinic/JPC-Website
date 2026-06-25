@@ -2,6 +2,8 @@ import fs from "fs";
 import path from "path";
 import Head from "next/head";
 import Script from "next/script";
+import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
+import { getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 
 function normalizeAboutMarkup(html) {
   return html
@@ -9,7 +11,7 @@ function normalizeAboutMarkup(html) {
     .replace(/src="assets\//g, 'src="/assets/');
 }
 
-export default function AboutPage({ aboutMarkup }) {
+export default function AboutPage({ aboutMarkup, locale = "en" }) {
   return (
     <>
       <Head>
@@ -22,7 +24,7 @@ export default function AboutPage({ aboutMarkup }) {
           name="keywords"
           content="Dr Ashu Kumar Jain, Jain Pain Clinic, chronic pain specialist, pain physician Gurugram, interventional pain management, palliative care NCR, pain doctor Artemis Hospital"
         />
-        <link rel="canonical" href="https://www.jainpainclinic.com/about" />
+        <LocaleHeadLinks path="/about" locale={locale} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="About Dr Ashu Kumar Jain | Jain Pain Clinic, Gurugram" />
         <meta
@@ -109,14 +111,16 @@ export default function AboutPage({ aboutMarkup }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
+  const locale = getLocaleFromContext(context);
   const aboutPath = path.join(process.cwd(), "content", "legacy-site", "about.html");
   const aboutHtml = fs.readFileSync(aboutPath, "utf8");
   const bodyMatch = aboutHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
+  const aboutMarkup = normalizeAboutMarkup(bodyMatch ? bodyMatch[1] : "");
 
   return {
-    props: {
-      aboutMarkup: normalizeAboutMarkup(bodyMatch ? bodyMatch[1] : ""),
-    },
+    props: withLocaleProps({
+      aboutMarkup: translateLegacyMarkup(aboutMarkup, locale, "/about"),
+    }, locale),
   };
 }

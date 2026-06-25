@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { blogs, BLOGS_PER_PAGE } from "../data/blogs.js";
 import { treatments } from "../data/treatments.js";
 import { procedures } from "../data/procedures.js";
+import { LOCALES, localizePath } from "../lib/i18n-config.js";
 
 const SITE_URL = "https://www.jainpainclinic.com";
 
@@ -26,6 +27,15 @@ function entry({ path, lastmod, changefreq = "monthly", priority = "0.8" }) {
     "  <url>",
     `    <loc>${escapeXml(`${SITE_URL}${path}`)}</loc>`,
   ];
+
+  LOCALES.forEach((locale) => {
+    lines.push(
+      `    <xhtml:link rel="alternate" hreflang="${escapeXml(locale.code)}" href="${escapeXml(`${SITE_URL}${localizePath(path, locale.code)}`)}" />`
+    );
+  });
+  lines.push(
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(`${SITE_URL}${localizePath(path, "en")}`)}" />`
+  );
 
   if (lastmod) {
     lines.push(`    <lastmod>${escapeXml(lastmod)}</lastmod>`);
@@ -69,11 +79,18 @@ const routes = [
   })),
 ];
 
+const localizedRoutes = routes.flatMap((route) =>
+  LOCALES.map((locale) => ({
+    ...route,
+    path: localizePath(route.path, locale.code),
+  }))
+);
+
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${routes.map(entry).join("\n")}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${localizedRoutes.map(entry).join("\n")}
 </urlset>
 `;
 
 fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemap);
-console.log(`Generated sitemap.xml with ${routes.length} URLs`);
+console.log(`Generated sitemap.xml with ${localizedRoutes.length} URLs`);

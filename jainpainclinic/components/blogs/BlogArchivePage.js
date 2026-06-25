@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import BlogCard from "@/components/blogs/BlogCard";
+import { useI18n } from "@/components/shared/I18nProvider";
 
 function getPaginationItems(currentPage, totalPages) {
   if (totalPages <= 7) {
@@ -19,6 +20,8 @@ function getPaginationItems(currentPage, totalPages) {
 }
 
 function Pagination({ currentPage, totalPages }) {
+  const { t, localizeHref } = useI18n();
+
   if (totalPages <= 1) {
     return null;
   }
@@ -28,16 +31,16 @@ function Pagination({ currentPage, totalPages }) {
   const nextHref = `/blog/page-${currentPage + 1}`;
 
   return (
-    <nav className="blog-pagination" aria-label="Blog pages">
+    <nav className="blog-pagination" aria-label={t("Blog pages")}>
       {currentPage > 1 ? (
-        <Link href={previousHref} className="blog-pagination__nav blog-pagination__nav--prev">
+        <Link href={localizeHref(previousHref)} className="blog-pagination__nav blog-pagination__nav--prev">
           <span aria-hidden="true">←</span>
-          <span>Previous</span>
+          <span>{t("Previous")}</span>
         </Link>
       ) : (
         <span className="blog-pagination__nav blog-pagination__nav--disabled">
           <span aria-hidden="true">←</span>
-          <span>Previous</span>
+          <span>{t("Previous")}</span>
         </span>
       )}
 
@@ -56,7 +59,7 @@ function Pagination({ currentPage, totalPages }) {
           return (
             <Link
               key={item}
-              href={href}
+              href={localizeHref(href)}
               aria-current={item === currentPage ? "page" : undefined}
               className={`blog-pagination__link ${item === currentPage ? "is-current" : ""}`}
             >
@@ -67,13 +70,13 @@ function Pagination({ currentPage, totalPages }) {
       </div>
 
       {currentPage < totalPages ? (
-        <Link href={nextHref} className="blog-pagination__nav blog-pagination__nav--next">
-          <span>Next</span>
+        <Link href={localizeHref(nextHref)} className="blog-pagination__nav blog-pagination__nav--next">
+          <span>{t("Next")}</span>
           <span aria-hidden="true">→</span>
         </Link>
       ) : (
         <span className="blog-pagination__nav blog-pagination__nav--disabled">
-          <span>Next</span>
+          <span>{t("Next")}</span>
           <span aria-hidden="true">→</span>
         </span>
       )}
@@ -88,6 +91,7 @@ export default function BlogArchivePage({
   title,
   subtitle,
 }) {
+  const { t } = useI18n();
   const [query, setQuery] = useState("");
 
   const filteredItems = useMemo(() => {
@@ -126,7 +130,7 @@ export default function BlogArchivePage({
             <input
               id="blog-search"
               type="search"
-              placeholder="Search posts by title…"
+              placeholder={t("Search posts by title…")}
               autoComplete="off"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
@@ -143,7 +147,7 @@ export default function BlogArchivePage({
             ))}
             {!filteredItems.length ? (
               <p className="blog-no-results" style={{ display: "block" }}>
-                No posts match your search.
+                {t("No posts match your search.")}
               </p>
             ) : null}
           </div>

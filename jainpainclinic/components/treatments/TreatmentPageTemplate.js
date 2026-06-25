@@ -1,5 +1,6 @@
 import RichTextInline from "@/components/shared/RichTextInline";
 import TreatmentCalculator from "@/components/treatments/TreatmentCalculator";
+import { useT } from "@/components/shared/I18nProvider";
 
 function RichParagraph({ parts, className }) {
   return (
@@ -54,6 +55,8 @@ function TreatmentContentBlock({ block, calculator }) {
 }
 
 export default function TreatmentPageTemplate({ treatment }) {
+  const t = useT();
+
   return (
     <>
       <section className="treatment-hero">
@@ -137,7 +140,7 @@ export default function TreatmentPageTemplate({ treatment }) {
 
       <section className="treatment-faq">
         <div className="wrap">
-          <h2 className="treatment-faq__title reveal">Frequently asked questions</h2>
+          <h2 className="treatment-faq__title reveal">{t("Frequently asked questions")}</h2>
 
           <div className="treatment-faq__list" id="faqList">
             {treatment.faqs.map((faq, index) => (
@@ -147,7 +150,7 @@ export default function TreatmentPageTemplate({ treatment }) {
               >
                 <div className="treatment-faq__header">
                   <p className="treatment-faq__q">{faq.question}</p>
-                  <button className="treatment-faq__toggle" aria-expanded={faq.openByDefault ? "true" : "false"} aria-label="Toggle answer">
+                  <button className="treatment-faq__toggle" aria-expanded={faq.openByDefault ? "true" : "false"} aria-label={t("Toggle answer")}>
                     <i className="fa-solid fa-plus"></i>
                   </button>
                 </div>

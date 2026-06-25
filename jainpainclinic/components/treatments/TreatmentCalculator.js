@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useT } from "@/components/shared/I18nProvider";
 
 function IconCheck() {
   return (
@@ -36,39 +37,40 @@ function IconRefresh() {
   );
 }
 
-function getResult(score) {
+function getResult(score, t) {
   if (score >= 80) {
     return {
-      title: "Excellent Candidate!",
+      title: t("Excellent Candidate!"),
       message:
-        "Based on your responses, this treatment could be a great option for you. Schedule a consultation to discuss next steps!",
+        t("Based on your responses, this treatment could be a great option for you. Schedule a consultation to discuss next steps!"),
     };
   }
 
   if (score >= 50) {
     return {
-      title: "Good Candidate",
+      title: t("Good Candidate"),
       message:
-        "You may benefit from this treatment. We recommend scheduling a consultation to review your specific case with our specialists.",
+        t("You may benefit from this treatment. We recommend scheduling a consultation to review your specific case with our specialists."),
     };
   }
 
   if (score > 0) {
     return {
-      title: "Unlikely Match",
+      title: t("Unlikely Match"),
       message:
-        "Based on your responses, this treatment may not be the best fit right now. If symptoms change or worsen, feel free to revisit or consult our specialists.",
+        t("Based on your responses, this treatment may not be the best fit right now. If symptoms change or worsen, feel free to revisit or consult our specialists."),
     };
   }
 
   return {
-    title: "Treatment Not Indicated",
+    title: t("Treatment Not Indicated"),
     message:
-      "Your responses suggest you may not need this treatment at this time. If you develop new symptoms in the future, do not hesitate to check again.",
+      t("Your responses suggest you may not need this treatment at this time. If you develop new symptoms in the future, do not hesitate to check again."),
   };
 }
 
 export default function TreatmentCalculator({ title, questions = [] }) {
+  const t = useT();
   const [answers, setAnswers] = useState({});
   const [showResult, setShowResult] = useState(false);
 
@@ -80,7 +82,7 @@ export default function TreatmentCalculator({ title, questions = [] }) {
   );
   const maxScore = questions.reduce((total, question) => total + question.points, 0);
   const score = maxScore ? Math.round((rawScore / maxScore) * 100) : 0;
-  const result = getResult(score);
+  const result = getResult(score, t);
 
   function handleAnswer(questionId, value) {
     setAnswers((current) => ({
@@ -110,18 +112,18 @@ export default function TreatmentCalculator({ title, questions = [] }) {
             <div className="calc-result__btns">
               <button className="calc-result-btn calc-result-btn--reset" type="button" onClick={resetCalculator}>
                 <IconRefresh />
-                Try Again
+                {t("Try Again")}
               </button>
               <a className="calc-result-btn calc-result-btn--book" href="#contact">
                 <IconArrowRight />
-                Book Consultation
+                {t("Book Consultation")}
               </a>
             </div>
           </div>
         ) : (
           <>
             <div className="calc-progress-row">
-              <span className="calc-progress-label">Progress</span>
+              <span className="calc-progress-label">{t("Progress")}</span>
               <span className="calc-progress-count">
                 {answeredCount}/{questions.length}
               </span>
@@ -147,7 +149,7 @@ export default function TreatmentCalculator({ title, questions = [] }) {
                       onClick={() => handleAnswer(question.id, true)}
                     >
                       <IconCheck />
-                      Yes
+                      {t("Yes")}
                     </button>
                     <button
                       className={`calc-btn calc-btn-no ${answers[question.id] === false ? "selected" : ""}`}
@@ -155,7 +157,7 @@ export default function TreatmentCalculator({ title, questions = [] }) {
                       onClick={() => handleAnswer(question.id, false)}
                     >
                       <IconX />
-                      No
+                      {t("No")}
                     </button>
                   </div>
                 </div>
@@ -168,7 +170,7 @@ export default function TreatmentCalculator({ title, questions = [] }) {
               disabled={!allDone}
               onClick={() => setShowResult(true)}
             >
-              Calculate My Fit
+              {t("Calculate My Fit")}
               <IconArrowRight />
             </button>
           </>

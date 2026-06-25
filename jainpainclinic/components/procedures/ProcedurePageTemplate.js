@@ -1,11 +1,14 @@
 import ProcedureJourney from "@/components/procedures/ProcedureJourney";
 import ProcedureQuiz from "@/components/procedures/ProcedureQuiz";
+import { useT } from "@/components/shared/I18nProvider";
 
 function ProcedureFaq({ procedure }) {
+  const t = useT();
+
   return (
     <section className="treatment-faq">
       <div className="wrap">
-        <h2 className="treatment-faq__title reveal">Frequently asked questions</h2>
+        <h2 className="treatment-faq__title reveal">{t("Frequently asked questions")}</h2>
 
         <div className="treatment-faq__list" id="faqList">
           {procedure.faqs.map((faq, index) => (
@@ -18,7 +21,7 @@ function ProcedureFaq({ procedure }) {
                 <button
                   className="treatment-faq__toggle"
                   aria-expanded={faq.openByDefault ? "true" : "false"}
-                  aria-label="Toggle answer"
+                  aria-label={t("Toggle answer")}
                   type="button"
                 >
                   <i className="fa-solid fa-plus" aria-hidden="true"></i>
@@ -54,7 +57,7 @@ export default function ProcedurePageTemplate({ procedure }) {
         </div>
       </div>
 
-      <ProcedureJourney procedure={procedure} />
+      <ProcedureJourney key={procedure.slug} procedure={procedure} />
 
       <section className="quiz-video">
         <div className="wrap">

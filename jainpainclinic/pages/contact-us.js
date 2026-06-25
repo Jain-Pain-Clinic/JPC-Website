@@ -2,6 +2,8 @@ import fs from "fs";
 import path from "path";
 import Head from "next/head";
 import Script from "next/script";
+import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
+import { getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 
 function normalizeContactMarkup(html) {
   return html
@@ -9,7 +11,7 @@ function normalizeContactMarkup(html) {
     .replace(/src="assets\//g, 'src="/assets/');
 }
 
-export default function ContactPage({ contactMarkup }) {
+export default function ContactPage({ contactMarkup, locale = "en" }) {
   return (
     <>
       <Head>
@@ -23,7 +25,7 @@ export default function ContactPage({ contactMarkup }) {
           content="contact Jain Pain Clinic, book appointment pain clinic Gurugram, Dr Ashu Kumar Jain appointment, pain specialist Gurugram contact"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.jainpainclinic.com/contact-us" />
+        <LocaleHeadLinks path="/contact-us" locale={locale} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Contact Jain Pain Clinic | Book an Appointment in Gurugram" />
         <meta
@@ -97,14 +99,16 @@ export default function ContactPage({ contactMarkup }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
+  const locale = getLocaleFromContext(context);
   const contactPath = path.join(process.cwd(), "content", "legacy-site", "contact-us.html");
   const contactHtml = fs.readFileSync(contactPath, "utf8");
   const bodyMatch = contactHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
+  const contactMarkup = normalizeContactMarkup(bodyMatch ? bodyMatch[1] : "");
 
   return {
-    props: {
-      contactMarkup: normalizeContactMarkup(bodyMatch ? bodyMatch[1] : ""),
-    },
+    props: withLocaleProps({
+      contactMarkup: translateLegacyMarkup(contactMarkup, locale, "/contact-us"),
+    }, locale),
   };
 }

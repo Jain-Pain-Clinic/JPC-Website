@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { procedures } from "@/data/procedures";
 import { treatments } from "@/data/treatments";
+import { useI18n } from "@/components/shared/I18nProvider";
 
 const quickLinks = [
   { href: "/about", label: "About us" },
@@ -12,6 +13,8 @@ const quickLinks = [
 ];
 
 export default function SiteFooter() {
+  const { t, localizeHref } = useI18n();
+
   return (
     <footer className="site-footer">
       <div className="wrap footer-grid">
@@ -34,7 +37,7 @@ export default function SiteFooter() {
           </div>
 
           <div className="footer-locations">
-            <p>Locations</p>
+            <p>{t("Locations")}</p>
             <a href="https://maps.google.com/?q=Artemis+Hospital+sector+51+Gurugram+Haryana" target="_blank" rel="noreferrer">
               Artemis Hospital, Sector-51, Gurugram, Haryana
             </a>
@@ -43,28 +46,28 @@ export default function SiteFooter() {
 
         <div className="footer-columns-row">
           <div className="footer-column">
-            <h3>Treatments</h3>
+            <h3>{t("Treatments")}</h3>
             {treatments.map((item) => (
-              <Link key={item.slug} href={`/treatments/${item.slug}`}>
-                {item.navLabel}
+              <Link key={item.slug} href={localizeHref(`/treatments/${item.slug}`)}>
+                {t(item.navLabel)}
               </Link>
             ))}
           </div>
 
           <div className="footer-column">
-            <h3>Procedures</h3>
+            <h3>{t("Procedures")}</h3>
             {procedures.map((item) => (
-              <Link key={item.slug} href={`/procedures/${item.slug}`}>
-                {item.navLabel}
+              <Link key={item.slug} href={localizeHref(`/procedures/${item.slug}`)}>
+                {t(item.navLabel)}
               </Link>
             ))}
           </div>
 
           <div className="footer-column">
-            <h3>Quick links</h3>
+            <h3>{t("Quick links")}</h3>
             {quickLinks.map((item) => (
-              <Link key={item.href} href={item.href}>
-                {item.label}
+              <Link key={item.href} href={localizeHref(item.href)}>
+                {t(item.label)}
               </Link>
             ))}
           </div>
@@ -73,7 +76,7 @@ export default function SiteFooter() {
 
       <div className="footer-bottom">
         <div className="wrap">
-          <p>© Jain Pain Clinic. All rights reserved.</p>
+          <p>© Jain Pain Clinic. {t("All rights reserved.")}</p>
         </div>
       </div>
     </footer>
