@@ -4,6 +4,7 @@ export const LOCALES = [
   { code: "en", label: "English", nativeLabel: "English", dir: "ltr" },
   { code: "hi", label: "Hindi", nativeLabel: "हिन्दी", dir: "ltr" },
   { code: "ar", label: "Arabic", nativeLabel: "العربية", dir: "rtl" },
+  { code: "ru", label: "Russian", nativeLabel: "Русский", dir: "ltr" },
 ];
 
 export const TARGET_LOCALES = LOCALES.filter((locale) => locale.code !== DEFAULT_LOCALE);

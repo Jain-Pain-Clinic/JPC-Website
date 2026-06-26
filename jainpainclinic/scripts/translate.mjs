@@ -155,7 +155,12 @@ async function translateBatch(locale, strings) {
     throw new Error("GEMINI_API_KEY is required to generate missing translations.");
   }
 
-  const languageName = locale === "hi" ? "Hindi" : locale === "ar" ? "Arabic" : locale;
+  const languageNames = {
+    hi: "Hindi",
+    ar: "Arabic",
+    ru: "Russian",
+  };
+  const languageName = languageNames[locale] || locale;
   const response = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(GEMINI_MODEL)}:generateContent?key=${encodeURIComponent(GEMINI_API_KEY)}`,
     {
