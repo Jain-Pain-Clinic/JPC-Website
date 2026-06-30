@@ -2493,14 +2493,14 @@ const rawBlogs = [
   "slug": "scar-pain-after-surgery-healed-wound-still-hurts",
   "title": "Scar Pain After Surgery: When a Healed Wound Still Hurts",
   "seoTitle": "Scar Pain After Surgery: Why a Healed Wound Still Hurts | Jain Pain Clinic",
-  "description": "A surgical scar can look healed but still cause burning, pulling, stabbing, or touch-sensitive pain. Learn why scar pain happens and when to see a pain specialist.",
+  "description": "After complete surgical healing and clearance from the surgeon, a scar can still cause burning, pulling, stabbing, or touch-sensitive pain. Learn why this happens.",
   "keywords": "scar pain after surgery, healed scar still hurts, surgical scar pain, nerve pain after surgery, painful scar treatment, scar sensitivity, neuroma after surgery, burning pain after surgery, scar tissue pain, pain specialist Gurugram, Jain Pain Clinic",
   "canonicalPath": "/blog/scar-pain-after-surgery-healed-wound-still-hurts",
   "ogImage": "/assets/blog/healed-scar-nerve-pain.jpg",
   "category": "Post-Surgical Pain",
   "readTime": "8 min read",
   "excerpt": "A scar may look healed from outside but still hurt because of nerve irritation, scar tightness, adhesions, neuroma, or hypersensitivity.",
-  "heroSubtitle": "A healed surgical wound should gradually become comfortable. If the scar continues to burn, sting, pull, itch, or hurt with touch, the problem may be deeper than the skin.",
+  "heroSubtitle": "A pain specialist treats post-surgical scar pain after the wound has completely healed and the treating surgeon has confirmed there is no infection, wound problem, or surgical complication.",
   "author": "Dr Ashu Kumar Jain",
   "authorImage": "/assets/logo.png",
   "publishedAt": "2026-06-18",
@@ -2517,7 +2517,7 @@ const rawBlogs = [
     "Chronic Pain"
   ],
   "content": {
-    "intro": "Many patients are told that their wound has healed, yet the scar continues to hurt. This can be frustrating because the skin may look normal from outside, but the patient still feels burning, pulling, stabbing, itching, or electric pain. Scar pain after surgery is real, and it often needs a pain medicine approach when it continues beyond normal healing.",
+    "intro": "Many patients continue to feel pain around a surgical scar even after the wound has completely healed. At Jain Pain Clinic, this type of post-surgical pain is evaluated only after the treating surgeon has confirmed that there is no infection, wound breakdown, hernia, poor healing, or other surgical issue. Once surgical causes are ruled out, persistent burning, pulling, stabbing, itching, or electric scar pain may need a pain medicine approach.",
     "blocks": [
       {
         "type": "section",
@@ -2584,11 +2584,11 @@ const rawBlogs = [
       },
       {
         "type": "section",
-        "heading": "When Scar Pain Needs Urgent Attention",
+        "heading": "When to Return to the Surgeon First",
         "paragraphs": [
-          "Not every painful scar is nerve pain. Some symptoms may suggest infection, wound breakdown, hernia, poor healing, or another surgical complication.",
-          "Seek medical care urgently if scar pain is associated with fever, increasing redness, swelling, pus, foul smell, wound opening, sudden severe pain, or a new lump near the scar.",
-          "These symptoms should be assessed by the treating surgeon or doctor before assuming the pain is only scar sensitivity."
+          "Not every painful scar is a pain clinic problem. Some symptoms may suggest infection, wound breakdown, hernia, poor healing, or another surgical complication.",
+          "If scar pain is associated with fever, increasing redness, swelling, pus, foul smell, wound opening, sudden severe pain, or a new lump near the scar, the first step is review by the treating surgeon or surgical team.",
+          "Jain Pain Clinic does not treat surgical infection or active wound problems. We treat post-surgical pain when complete healing has taken place, the surgeon has ruled out surgical complications, and the patient still has persistent pain."
         ],
         "list": {
           "type": "ul",
@@ -2607,23 +2607,25 @@ const rawBlogs = [
         "type": "section",
         "heading": "How a Pain Specialist Evaluates Scar Pain",
         "paragraphs": [
-          "At Jain Pain Clinic, evaluation begins with the pain story. When did the pain start? Is it burning, pulling, stabbing, numb, itchy, or electric? Does it worsen with touch, movement, clothing, pressure, or posture?",
-          "The scar is examined for tenderness, tightness, hypersensitivity, numbness, trigger points, swelling, skin changes, and signs of neuroma or nerve entrapment.",
-          "The aim is to identify whether the pain is coming from the scar tissue, a trapped nerve, a neuroma, deeper muscle and fascia, infection, hernia, or another post-surgical problem."
+          "At Jain Pain Clinic, evaluation begins after surgical clearance. This means the wound has healed completely and the treating surgeon has confirmed that there is no infection, wound breakdown, hernia, poor healing, or other surgical issue requiring surgical treatment.",
+          "Once that is clear, the pain story becomes important. When did the pain start? Is it burning, pulling, stabbing, numb, itchy, or electric? Does it worsen with touch, movement, clothing, pressure, or posture?",
+          "The healed scar area is examined for tenderness, tightness, hypersensitivity, numbness, trigger points, and signs of neuroma or nerve entrapment. The aim is to identify whether the remaining pain is coming from scar tissue, a trapped nerve, a neuroma, deeper muscle and fascia, or a mixed pain generator."
         ]
       },
       {
         "type": "section",
         "heading": "Treatment Options for Painful Scars",
         "paragraphs": [
-          "Treatment depends on the cause. Early or mild scar sensitivity may improve with desensitisation, silicone gel or sheets, moisturising, scar massage, and guided physiotherapy.",
+          "Treatment starts only after the surgical wound has fully healed and active surgical problems have been ruled out. This distinction matters because infection, wound opening, and surgical complications need surgical care first, not pain procedures.",
+          "Once the scar is healed, treatment depends on the pain generator. Mild scar sensitivity may improve with desensitisation, silicone gel or sheets, moisturising, scar massage, and guided physiotherapy.",
           "If the pain is nerve-type, medicines that calm nerve signals may be considered. These may include pregabalin, gabapentin, duloxetine, or tricyclic medicines such as amitriptyline or nortriptyline, depending on the patient's condition.",
           "For selected patients, targeted procedures may help. These can include local scar injections, trigger point injections, peripheral nerve blocks, neuroma-focused treatment, radiofrequency procedures, or other interventional pain options."
         ],
         "list": {
           "type": "ol",
           "items": [
-            "Check for infection, wound problems, hernia, or surgical complications",
+            "Confirm complete wound healing and surgical clearance first",
+            "Make sure infection, wound problems, hernia, or surgical complications have been ruled out by the surgeon",
             "Identify whether the pain is scar tightness, nerve pain, neuroma, or mixed pain",
             "Use scar desensitisation, silicone therapy, and physiotherapy when appropriate",
             "Consider neuropathic medicines for burning, electric, or touch-sensitive pain",
@@ -2644,17 +2646,17 @@ const rawBlogs = [
         "type": "section",
         "heading": "When Should You See a Specialist?",
         "paragraphs": [
-          "You should see a specialist if scar pain continues beyond expected healing, affects sleep, restricts movement, prevents clothing contact, or feels burning, electric, stabbing, or unusually sensitive.",
-          "It is also important to seek help if the pain is worsening, spreading, or associated with numbness, weakness, swelling, discharge, fever, or a new lump.",
-          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates post-surgical scar pain as a real pain condition. The focus is to find the pain generator and choose treatment beyond routine painkillers when needed."
+          "You should first return to your surgeon if the scar is not fully healed, if there is redness, swelling, discharge, fever, wound opening, a new lump, or any concern about infection or surgical complication.",
+          "Once the surgeon confirms that healing is complete and there is no active surgical issue, you should see a pain specialist if scar pain still affects sleep, restricts movement, prevents clothing contact, or feels burning, electric, stabbing, pulling, or unusually sensitive.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates persistent post-surgical scar pain after surgical causes have been ruled out. The focus is to find the pain generator and choose treatment beyond routine painkillers when needed."
         ]
       },
       {
         "type": "section",
         "heading": "The Takeaway",
         "paragraphs": [
-          "A scar can look healed but still hurt because of nerve irritation, scar tightness, adhesions, neuroma, or hypersensitivity.",
-          "Burning, electric, stabbing, touch-sensitive, or persistent pulling pain should not be ignored.",
+          "Jain Pain Clinic treats persistent post-surgical scar pain after complete healing and after the surgeon has ruled out infection, wound problems, hernia, or other surgical issues.",
+          "A healed scar can still hurt because of nerve irritation, scar tightness, adhesions, neuroma, or hypersensitivity.",
           "With the right diagnosis, scar pain can often be treated using a combination of scar care, physiotherapy, nerve pain medicines, and targeted pain procedures."
         ]
       }
@@ -2817,6 +2819,356 @@ const rawBlogs = [
           "Smoker's foot is a warning sign that tobacco may be affecting blood flow to the legs and feet.",
           "Pain while walking, cold feet, numbness, colour change, and non-healing wounds should not be ignored.",
           "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates foot pain by identifying whether the pain is vascular, nerve-related, spine-related, diabetic, or mixed. The right diagnosis helps patients receive timely pain care and vascular referral when needed."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "groin-pain-keeps-coming-back-muscle-pull-or-nerve-pain",
+  "title": "Groin Pain That Keeps Coming Back: Muscle Pull or Nerve Pain?",
+  "seoTitle": "Groin Pain That Keeps Coming Back: Muscle Pull or Nerve Pain? | Jain Pain Clinic",
+  "description": "Recurring groin pain is not always a muscle pull. Learn when groin pain may come from nerves, hip, spine, hernia, or post-surgical pain and how a pain specialist evaluates it.",
+  "keywords": "groin pain, recurring groin pain, groin pain muscle pull, groin nerve pain, ilioinguinal neuralgia, genitofemoral neuralgia, obturator nerve pain, post hernia surgery groin pain, hip pain groin, groin pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/groin-pain-keeps-coming-back-muscle-pull-or-nerve-pain",
+  "ogImage": "/assets/blog/groin-pain-doctor-consultation-hero.jpg",
+  "category": "Nerve Pain",
+  "readTime": "8 min read",
+  "excerpt": "Groin pain that keeps returning for months may not be a simple muscle pull. Nerves, hip joint, spine, hernia, or post-surgical changes can all mimic each other.",
+  "heroSubtitle": "If you were told your groin pain is only a muscle pull but the pain keeps coming back, the real source may need a deeper evaluation.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-06-26",
+  "publishedLabel": "June 26, 2026",
+  "cardImage": "/assets/blog/groin-pain-doctor-consultation-hero.jpg",
+  "cardAlt": "Doctor consultation for recurring groin pain evaluation",
+  "bannerImage": "/assets/blog/groin-pain-doctor-consultation-hero.jpg",
+  "bannerAlt": "Recurring groin pain consultation to identify muscle, nerve, hip, or hernia causes",
+  "tags": [
+    "Groin Pain",
+    "Nerve Pain",
+    "Hip Pain",
+    "Post-Surgical Pain",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Groin pain is often blamed on a muscle pull, especially if it starts after exercise, lifting, running, or sudden movement. But when the same pain keeps coming back for weeks or months, or when it feels burning, electric, shooting, or radiates into the inner thigh, lower abdomen, scrotum, labia, or hip, the problem may not be only muscular. Recurrent groin pain deserves a careful search for the real pain generator.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why Groin Pain Is Often Confusing",
+        "paragraphs": [
+          "The groin is a crossroads area. Muscles, tendons, hip joint structures, abdominal wall tissues, pelvic organs, spine-related nerves, and several small sensory nerves all meet or refer pain to this region.",
+          "Because of this overlap, two very different problems can feel similar. A muscle strain, hip joint problem, hernia, nerve irritation, or pain referred from the lower back may all be felt in the groin.",
+          "This is why repeated groin pain should not be treated only with rest and painkillers without understanding the pattern."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When It May Be a Muscle Pull",
+        "paragraphs": [
+          "A true muscle pull usually has a clear trigger. It may start during sports, stretching, sudden twisting, lifting, or a slip. The pain is often linked to movement and may feel sore, tight, or sharp when the muscle is used.",
+          "Muscle-related groin pain often improves steadily with rest, activity modification, physiotherapy, and gradual strengthening.",
+          "If the pain keeps returning despite proper rehab, or if the symptoms feel burning, electric, numb, or radiating, another source should be considered."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Pain started after a clear movement or injury",
+            "Pain increases when the groin muscles are stretched or contracted",
+            "Tenderness is felt over the muscle or tendon",
+            "Symptoms improve gradually with rest and rehabilitation",
+            "No burning, tingling, numbness, or electric pain is present"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/groin-pain-physiotherapy-assessment.jpg",
+        "alt": "Physiotherapy assessment for recurring groin and hip pain"
+      },
+      {
+        "type": "section",
+        "heading": "When Nerve Pain Should Be Suspected",
+        "paragraphs": [
+          "Nerve-related groin pain often feels different from muscle pain. Patients may describe burning, shooting, electric shocks, tingling, numbness, or unusual sensitivity to touch.",
+          "The pain may travel from the lower abdomen into the groin, inner thigh, scrotum, labia, or upper thigh. It may worsen with sitting, walking, hip extension, coughing, tight clothing, or light pressure.",
+          "This kind of pain may involve nerves such as the ilioinguinal, iliohypogastric, genitofemoral, or obturator nerve."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Burning or electric pain in the groin",
+            "Pain radiating to the inner thigh or lower abdomen",
+            "Tingling, numbness, or hypersensitivity",
+            "Pain after hernia surgery, C-section, appendix surgery, pelvic surgery, or trauma",
+            "Pain that keeps returning despite rest and physiotherapy"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Common Nerves That Can Cause Groin Pain",
+        "paragraphs": [
+          "The ilioinguinal nerve can cause pain in the lower abdomen, groin, upper inner thigh, and genital region. It may become irritated after surgery, injury, or entrapment in scar tissue.",
+          "The genitofemoral nerve can cause pain in the groin and upper thigh, sometimes extending toward the scrotum or labia. It can be difficult to distinguish from other groin nerves without a careful clinical evaluation.",
+          "The obturator nerve can cause inner thigh and groin pain, sometimes with discomfort during walking or leg movement. Because these nerves overlap, diagnosis often depends on the pain pattern, examination, and sometimes diagnostic nerve blocks."
+        ],
+        "quote": "\"Groin pain that keeps returning is not a diagnosis by itself. The real question is which structure is sending the pain signal.\""
+      },
+      {
+        "type": "section",
+        "heading": "It May Also Come From the Hip or Spine",
+        "paragraphs": [
+          "Hip joint problems can refer pain to the groin. Arthritis, labral problems, impingement, or inflammation around the hip may all present as groin pain rather than obvious hip pain.",
+          "The lower back can also refer pain toward the groin, especially when upper lumbar nerves are irritated. Some patients have back stiffness or thigh symptoms, while others mainly feel groin discomfort.",
+          "The sacroiliac joint, abdominal wall, and pelvic muscles can also contribute. This is why examination should include more than just the painful spot."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Do Not Miss Hernia or Other Surgical Causes",
+        "paragraphs": [
+          "A hernia can cause groin pain, heaviness, swelling, or pain that worsens with coughing, lifting, or standing. If a lump is present or hernia is suspected, surgical evaluation is important.",
+          "Groin pain after hernia repair can also happen. Sometimes it is related to healing tissues, mesh irritation, nerve entrapment, neuroma, or scar-related pain.",
+          "At Jain Pain Clinic, post-surgical groin pain is evaluated only after the surgeon has confirmed that the surgical wound has healed completely and there is no infection, hernia recurrence, mesh complication, or other surgical issue requiring surgical treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When to See a Surgeon, Urologist, or Gynecologist First",
+        "paragraphs": [
+          "Not every groin pain belongs first to a pain clinic. Some symptoms need evaluation by the appropriate specialist before pain procedures are considered.",
+          "A surgeon should review suspected hernia, groin swelling, post-surgical wound problems, fever, discharge, or sudden severe pain after surgery. Men with testicular pain, swelling, urinary symptoms, or scrotal symptoms may need urology review. Women with pelvic pain, menstrual-related pain, pregnancy-related symptoms, or gynecological concerns may need gynecology review.",
+          "Once these causes are ruled out and pain persists, a pain specialist can help identify whether the pain is nerve-related, muscle-related, hip-related, spine-related, or mixed."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Visible groin swelling or suspected hernia",
+            "Fever, redness, discharge, or wound problem after surgery",
+            "Testicular pain, swelling, or urinary symptoms",
+            "Pelvic pain with gynecological symptoms",
+            "Sudden severe groin pain with nausea, vomiting, or inability to walk",
+            "Pain after surgery before the surgeon has cleared healing"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Evaluates Recurring Groin Pain",
+        "paragraphs": [
+          "Evaluation begins with the pain story. Where exactly is the pain? Does it radiate? Is it dull, sharp, burning, electric, pulling, or cramping? What triggers it: walking, sitting, coughing, hip movement, exercise, or touch?",
+          "The examination may include checking hip movement, abdominal wall tenderness, nerve sensitivity, spine movement, SI joint signs, muscle trigger points, and areas of numbness or hypersensitivity.",
+          "If nerve pain is suspected, an ultrasound-guided diagnostic nerve block may help confirm the pain generator. Relief after a targeted block can show that a specific nerve is contributing to the pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Pain Generator",
+        "paragraphs": [
+          "If the pain is muscular, physiotherapy, strengthening, stretching, and gradual return to activity may be enough.",
+          "If nerve pain is present, treatment may include neuropathic medicines such as pregabalin, gabapentin, duloxetine, or tricyclic medicines when appropriate. Local nerve blocks, trigger point injections, or ultrasound-guided procedures may help selected patients.",
+          "For persistent nerve-related groin pain, pulsed radiofrequency or radiofrequency-based treatment may be considered in carefully selected cases. The goal is to treat the correct pain pathway rather than repeatedly treating every groin pain as a muscle pull."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Rule out hernia, infection, urological, gynecological, or active surgical causes when suspected",
+            "Check whether the pain is muscular, nerve-related, hip-related, spine-related, or mixed",
+            "Use physiotherapy when muscle imbalance, tendon pain, or movement restriction is present",
+            "Consider neuropathic medicines for burning, electric, tingling, or hypersensitive pain",
+            "Use diagnostic nerve blocks when a specific groin nerve is suspected",
+            "Consider advanced pain procedures only when the diagnosis is clear and conservative care is not enough"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Should You See a Pain Specialist?",
+        "paragraphs": [
+          "You should consider a pain specialist if groin pain keeps returning for months, has not improved with basic treatment, feels burning or electric, radiates to the inner thigh or genital region, or affects sitting, walking, sleep, work, or exercise.",
+          "You should also seek specialist evaluation if groin pain continues after hernia surgery or pelvic surgery after the surgeon has confirmed complete healing and ruled out surgical complications.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates recurring groin pain by identifying the pain generator first. The aim is to avoid repeated temporary treatment and choose targeted care based on whether the source is nerve, muscle, hip, spine, or mixed pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Groin pain that keeps coming back is not always a simple muscle pull.",
+          "Burning, electric, radiating, touch-sensitive, or post-surgical groin pain may involve nerves such as the ilioinguinal, genitofemoral, or obturator nerve.",
+          "The right treatment starts with the right diagnosis. Once urgent surgical, urological, gynecological, and other causes are ruled out, a pain specialist can help identify and treat the pain pathway."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "heel-pain-not-plantar-fasciitis-nerve-pain",
+  "title": "Heel Pain That Is Not Plantar Fasciitis: When Nerves Are Involved",
+  "seoTitle": "Heel Pain That Is Not Plantar Fasciitis: When Nerves Are Involved | Jain Pain Clinic",
+  "description": "Heel pain is not always plantar fasciitis. Burning, tingling, electric, or night-time heel pain may come from nerve irritation, tarsal tunnel syndrome, Baxter nerve entrapment, diabetes, or the spine.",
+  "keywords": "heel pain, heel pain not plantar fasciitis, nerve pain in heel, burning heel pain, tarsal tunnel syndrome, Baxter nerve entrapment, heel pain at night, foot nerve pain, plantar fasciitis vs nerve pain, heel pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/heel-pain-not-plantar-fasciitis-nerve-pain",
+  "ogImage": "/assets/blog/heel-pain-nerve-pain-hero.jpg",
+  "category": "Foot Pain",
+  "readTime": "8 min read",
+  "excerpt": "Not every heel pain is plantar fasciitis. If heel pain burns, tingles, shoots, feels electric, or worsens at night, nerves may be involved.",
+  "heroSubtitle": "Heel pain is commonly blamed on plantar fasciitis, but nerve irritation can create a very different kind of pain: burning, tingling, electric, radiating, or unusually sensitive.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-06-30",
+  "publishedLabel": "June 30, 2026",
+  "cardImage": "/assets/blog/heel-pain-nerve-pain-hero.jpg",
+  "cardAlt": "Person holding heel due to nerve-related heel pain",
+  "bannerImage": "/assets/blog/heel-pain-nerve-pain-hero.jpg",
+  "bannerAlt": "Heel pain that may be caused by nerve irritation instead of plantar fasciitis",
+  "tags": [
+    "Heel Pain",
+    "Foot Pain",
+    "Nerve Pain",
+    "Tarsal Tunnel Syndrome",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Heel pain is one of the most common foot complaints, and many patients are quickly told it is plantar fasciitis. That may be true in many cases, but not always. If heel pain keeps returning, feels burning or electric, spreads into the sole or toes, causes tingling or numbness, or becomes worse at night, the pain may be coming from a nerve rather than only the plantar fascia.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why Heel Pain Is Often Called Plantar Fasciitis",
+        "paragraphs": [
+          "Plantar fasciitis is common, so it often becomes the first explanation for heel pain. It usually causes sharp pain under the heel, especially with the first few steps in the morning or after sitting for a long time.",
+          "The plantar fascia is a thick band of tissue that supports the arch of the foot. When it becomes irritated, patients may feel pain near the bottom of the heel.",
+          "But heel pain is not one diagnosis. The heel receives signals from nerves, tendons, fascia, bone, joints, and even the lower spine. A careful evaluation matters when symptoms do not follow the usual plantar fasciitis pattern."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Signs Your Heel Pain May Be Nerve-Related",
+        "paragraphs": [
+          "Nerve pain often feels different from tissue strain. Instead of only aching or sharp pressure pain, patients may describe burning, tingling, electric shocks, pins and needles, numbness, or hypersensitivity.",
+          "Nerve-related heel pain may spread into the arch, sole, toes, inner ankle, or calf. It may worsen at night, with prolonged standing, walking, tight shoes, or pressure near the ankle.",
+          "If the pain keeps returning despite treatment for plantar fasciitis, nerve involvement should be considered."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Burning or electric pain in the heel",
+            "Tingling, numbness, or pins and needles",
+            "Pain spreading into the sole, arch, or toes",
+            "Heel pain that worsens at night",
+            "Pain with tight shoes or pressure near the inner ankle",
+            "Persistent heel pain despite plantar fasciitis treatment"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/heel-pain-foot-assessment.jpg",
+        "alt": "Doctor assessing heel pain and foot nerve symptoms"
+      },
+      {
+        "type": "section",
+        "heading": "Tarsal Tunnel Syndrome",
+        "paragraphs": [
+          "Tarsal tunnel syndrome happens when the tibial nerve is compressed near the inner ankle. This nerve travels into the foot and supplies sensation to parts of the heel, sole, and toes.",
+          "Patients may feel burning, tingling, numbness, shooting pain, or electric sensations in the foot. The pain may be worse after standing or walking and may sometimes disturb sleep.",
+          "Because symptoms can involve the heel and sole, tarsal tunnel syndrome may be mistaken for plantar fasciitis."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Baxter Nerve Entrapment",
+        "paragraphs": [
+          "Baxter nerve entrapment is another important cause of heel pain. It involves irritation or compression of a small nerve branch near the heel, called the first branch of the lateral plantar nerve.",
+          "This condition can closely mimic plantar fasciitis because the pain is often felt near the bottom and inner side of the heel.",
+          "It should be suspected when heel pain is persistent, nerve-like, or not improving with standard plantar fasciitis care."
+        ],
+        "quote": "\"When heel pain does not behave like plantar fasciitis, the next question is whether a nerve is being irritated or trapped.\""
+      },
+      {
+        "type": "section",
+        "heading": "Heel Pain Can Also Come From the Spine",
+        "paragraphs": [
+          "Sometimes the heel is not the starting point of the problem. Irritation of nerves in the lower back, especially the S1 nerve root, can send pain into the heel, sole, or outer foot.",
+          "This may happen with a slipped disc, spinal stenosis, or nerve root inflammation. Patients may also have back pain, calf pain, tingling, numbness, or symptoms that travel down the leg.",
+          "In such cases, treating only the heel may not solve the problem because the pain pathway begins higher up."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Diabetes and Burning Heel Pain",
+        "paragraphs": [
+          "Diabetic neuropathy can cause burning, tingling, numbness, or painful sensitivity in the feet. Some patients feel this strongly around the heel and sole.",
+          "Diabetic nerve pain is usually not limited to one small point, and it may affect both feet. Symptoms may be worse at night and can disturb sleep.",
+          "In diabetic patients, foot wounds, colour change, swelling, infection, or sudden worsening pain should be evaluated early."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When It Is More Likely Plantar Fasciitis",
+        "paragraphs": [
+          "Plantar fasciitis is still a common and important cause of heel pain. It is more likely when pain is focused under the heel, worst with first steps in the morning, and improves somewhat after moving around.",
+          "Pain may return after long standing, walking, running, or wearing unsupportive footwear.",
+          "The important point is not to ignore plantar fasciitis, but to avoid assuming that every heel pain has the same cause."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Sharp pain under the heel with first steps in the morning",
+            "Pain after long sitting or rest",
+            "Pain linked to standing, walking, or running",
+            "Tenderness at the bottom of the heel",
+            "No tingling, numbness, burning, or electric sensation"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Evaluates Heel Pain",
+        "paragraphs": [
+          "At Jain Pain Clinic, heel pain evaluation begins with the pain pattern. Is the pain sharp, burning, electric, tingling, numb, or pressure-like? Does it occur with first steps, standing, walking, night-time rest, tight shoes, or back movement?",
+          "The examination may include checking foot sensation, ankle tenderness, heel pressure points, arch mechanics, nerve sensitivity, gait pattern, diabetes-related signs, and lower back or leg nerve symptoms.",
+          "If nerve pain is suspected, an ultrasound-guided diagnostic nerve block may help identify whether a specific nerve is contributing to the heel pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Pain Source",
+        "paragraphs": [
+          "If the pain is plantar fasciitis, treatment may include stretching, footwear correction, activity modification, physiotherapy, orthotics, and selected injections.",
+          "If nerve pain is present, treatment may include neuropathic medicines such as pregabalin, gabapentin, duloxetine, or tricyclic medicines when appropriate. Local nerve blocks or ultrasound-guided procedures may help selected patients.",
+          "For persistent nerve-related heel pain, pulsed radiofrequency or radiofrequency-based treatment may be considered in carefully selected cases. The goal is to treat the correct pain pathway rather than repeatedly treating nerve pain as plantar fasciitis."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Identify whether heel pain is fascia-related, nerve-related, spine-related, diabetic, or mixed",
+            "Check for burning, tingling, numbness, electric pain, or night pain",
+            "Use physiotherapy and footwear correction when mechanics are contributing",
+            "Consider neuropathic medicines when nerve pain features are present",
+            "Use diagnostic nerve blocks when a specific foot or ankle nerve is suspected",
+            "Consider advanced pain procedures only when the diagnosis is clear"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Seek Help?",
+        "paragraphs": [
+          "You should seek help if heel pain continues despite basic treatment, keeps returning, wakes you at night, causes tingling or numbness, spreads into the sole or toes, or affects walking and daily life.",
+          "Urgent medical attention is needed if there is a wound, redness, swelling, fever, blackening of skin, sudden severe pain, loss of sensation, or inability to bear weight.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates heel pain by identifying the pain generator first. The aim is to separate plantar fasciitis from nerve pain, spine-related pain, diabetic neuropathy, and mixed pain so treatment can be targeted."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Heel pain is not always plantar fasciitis.",
+          "Burning, tingling, electric, radiating, numb, or night-time heel pain may suggest nerve involvement.",
+          "The right treatment starts with the right diagnosis. If heel pain is not improving as expected, a pain specialist can help identify whether the source is fascia, nerve, spine, diabetes, or a combination."
         ]
       }
     ]
