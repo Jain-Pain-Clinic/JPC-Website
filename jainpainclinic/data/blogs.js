@@ -3173,6 +3173,326 @@ const rawBlogs = [
       }
     ]
   }
+},
+{
+  "slug": "burning-pain-in-thigh-meralgia-paresthetica",
+  "title": "Burning Pain in the Thigh: Is It Meralgia Paresthetica?",
+  "seoTitle": "Burning Pain in the Thigh: Meralgia Paresthetica Symptoms and Treatment | Jain Pain Clinic",
+  "description": "Burning, tingling, numbness, or hypersensitivity on the outer thigh may be meralgia paresthetica, a nerve compression condition often mistaken for sciatica or hip pain.",
+  "keywords": "burning pain in thigh, meralgia paresthetica, outer thigh burning pain, thigh nerve pain, lateral femoral cutaneous nerve, numbness outer thigh, tingling thigh pain, thigh pain not sciatica, meralgia paresthetica treatment Gurugram, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/burning-pain-in-thigh-meralgia-paresthetica",
+  "ogImage": "/assets/blog/burning-thigh-pain-meralgia-hero.jpg",
+  "category": "Nerve Pain",
+  "readTime": "8 min read",
+  "excerpt": "Burning or tingling pain on the outer thigh is not always sciatica or muscle pain. It may be meralgia paresthetica, a compressed sensory nerve.",
+  "heroSubtitle": "If the outer thigh burns, tingles, feels numb, or becomes sensitive to touch, the problem may be irritation of the lateral femoral cutaneous nerve.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-07-04",
+  "publishedLabel": "July 4, 2026",
+  "cardImage": "/assets/blog/burning-thigh-pain-meralgia-hero.jpg",
+  "cardAlt": "Person holding thigh due to burning nerve pain",
+  "bannerImage": "/assets/blog/burning-thigh-pain-meralgia-hero.jpg",
+  "bannerAlt": "Burning outer thigh pain caused by meralgia paresthetica",
+  "tags": [
+    "Meralgia Paresthetica",
+    "Thigh Pain",
+    "Nerve Pain",
+    "Leg Pain",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Burning pain in the thigh is often confusing. Many patients assume it is sciatica, hip pain, or a muscle strain. But when the pain is mainly on the outer thigh and feels burning, tingling, numb, itchy, or unusually sensitive, it may be meralgia paresthetica. This condition happens when a sensory nerve to the thigh becomes irritated or compressed.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is Meralgia Paresthetica?",
+        "paragraphs": [
+          "Meralgia paresthetica is a nerve compression condition involving the lateral femoral cutaneous nerve. This nerve supplies sensation to the outer and front outer part of the thigh.",
+          "Because this nerve is sensory, meralgia paresthetica usually causes abnormal sensation rather than true muscle weakness. Patients may feel burning, tingling, numbness, crawling, itching, or electric discomfort over the outer thigh.",
+          "The pain can be mild at first, but in some patients it becomes persistent enough to disturb walking, sleep, clothing comfort, and daily activity."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why It Is Often Mistaken for Sciatica",
+        "paragraphs": [
+          "Sciatica usually starts from the lower back or buttock and travels down the back or side of the leg, sometimes reaching the calf or foot. Meralgia paresthetica is different because the symptoms are mainly limited to the outer thigh.",
+          "There may be burning or tingling, but usually no pain traveling below the knee and no true weakness in the leg.",
+          "This distinction matters because treatment for sciatica, hip pain, and meralgia paresthetica is not the same."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Meralgia paresthetica: burning, tingling, or numbness mainly on the outer thigh",
+            "Sciatica: pain often starts from the back or buttock and may travel below the knee",
+            "Hip pain: often worsens with hip movement, rotation, stairs, or weight bearing",
+            "Muscle strain: usually follows a clear injury and causes soreness with muscle use"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/thigh-nerve-pain-assessment.jpg",
+        "alt": "Doctor assessing thigh nerve pain and meralgia paresthetica symptoms"
+      },
+      {
+        "type": "section",
+        "heading": "Common Symptoms",
+        "paragraphs": [
+          "Meralgia paresthetica usually affects one side, although it can occasionally affect both thighs. The symptoms are felt over the outer thigh or front outer thigh.",
+          "Some patients describe the skin as painful to touch. Others feel numbness, burning, tingling, or a patch of altered sensation.",
+          "The symptoms may become worse with standing, walking, hip extension, tight clothing, belts, or pressure around the waist."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Burning pain on the outer thigh",
+            "Tingling or pins and needles",
+            "Numb patch over the thigh",
+            "Painful sensitivity to clothing or touch",
+            "Itching or crawling sensation without a skin rash",
+            "Symptoms worse with standing, walking, or tight waistbands"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Why Does This Nerve Get Compressed?",
+        "paragraphs": [
+          "The lateral femoral cutaneous nerve passes near the front of the hip and under a ligament close to the pelvis. This is a narrow area, so pressure here can irritate the nerve.",
+          "Tight belts, tight jeans, heavy tool belts, waistbands, obesity, pregnancy, prolonged standing, diabetes, and local injury can increase pressure on the nerve.",
+          "Sometimes symptoms begin after surgery around the hip, pelvis, lower abdomen, or spine. In post-surgical cases, pain clinic evaluation should happen only after surgical healing is complete and the surgeon has ruled out active surgical issues."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Makes It Worse?",
+        "paragraphs": [
+          "Some patients notice symptoms after long standing or walking. Others feel worse while lying flat with the hip extended or when wearing tight clothing around the waist.",
+          "The pain may also flare after weight gain, pregnancy, prolonged sitting with pressure near the waist, or repetitive hip movement.",
+          "Finding these triggers helps separate nerve compression from hip joint pain, muscle strain, or spine-related pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When It May Not Be Meralgia Paresthetica",
+        "paragraphs": [
+          "Meralgia paresthetica should not cause true leg weakness. If the leg is weak, the foot is dragging, reflexes are changing, or pain travels from the back down to the foot, a spine-related nerve problem may be more likely.",
+          "Groin pain, deep hip pain, fever, unexplained weight loss, cancer history, trauma, or bladder and bowel symptoms also need different evaluation.",
+          "A correct diagnosis matters because outer thigh burning can overlap with lumbar radiculopathy, hip disease, diabetic neuropathy, and other nerve conditions."
+        ],
+        "quote": "\"Outer thigh burning is a clue, not a final diagnosis. The pattern tells us which nerve or structure may be responsible.\""
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Evaluates It",
+        "paragraphs": [
+          "At Jain Pain Clinic, evaluation begins with mapping the painful and numb area. The location of symptoms is important because meralgia paresthetica follows the sensory territory of the lateral femoral cutaneous nerve.",
+          "The examination may include checking sensation, skin sensitivity, hip movement, back movement, gait pattern, diabetes history, tight clothing or belt pressure, and signs that suggest spine or hip involvement.",
+          "If meralgia paresthetica is suspected, an ultrasound-guided diagnostic lateral femoral cutaneous nerve block may help confirm whether this nerve is the pain generator."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Options",
+        "paragraphs": [
+          "Treatment usually begins by reducing pressure on the nerve. This may include avoiding tight belts or waistbands, weight management when relevant, diabetes control, posture changes, and activity modification.",
+          "For nerve-type pain, medicines such as pregabalin, gabapentin, duloxetine, or tricyclic medicines may be considered when appropriate. These medicines are chosen based on pain severity, sleep disturbance, age, other medical conditions, and side effects.",
+          "If symptoms remain persistent, ultrasound-guided nerve blocks may help reduce inflammation and confirm the diagnosis. In selected chronic cases, pulsed radiofrequency or radiofrequency-based treatment around the lateral femoral cutaneous nerve may be considered."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Reduce pressure from belts, tight clothing, or waistbands",
+            "Address weight, diabetes, pregnancy-related pressure, or posture factors when relevant",
+            "Rule out spine, hip, pelvic, or post-surgical causes when symptoms do not fit",
+            "Use neuropathic medicines when burning, tingling, or hypersensitivity is significant",
+            "Consider ultrasound-guided diagnostic nerve block when the lateral femoral cutaneous nerve is suspected",
+            "Consider advanced pain procedures only when symptoms persist and the diagnosis is clear"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Seek Help?",
+        "paragraphs": [
+          "You should seek help if burning or numbness on the outer thigh persists for more than a few weeks, keeps returning, affects walking, disturbs sleep, or becomes sensitive to clothing and touch.",
+          "Seek urgent medical care if there is true leg weakness, foot drop, bladder or bowel symptoms, fever, major trauma, unexplained weight loss, or severe back pain with worsening leg symptoms.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates burning thigh pain by identifying whether the pain is coming from the lateral femoral cutaneous nerve, spine, hip, diabetes-related nerve disease, or a mixed source. The aim is targeted treatment rather than repeated temporary pain relief."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Burning, tingling, numbness, or touch-sensitive pain on the outer thigh may be meralgia paresthetica.",
+          "It is caused by irritation or compression of the lateral femoral cutaneous nerve and is often mistaken for sciatica, hip pain, or muscle strain.",
+          "The right treatment starts with the right diagnosis. If outer thigh burning is not improving, a pain specialist can help identify the pain generator and choose targeted care."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "nerve-blocks-explained-why-doctors-use-them-to-diagnose-pain",
+  "title": "Nerve Blocks Explained: Why Doctors Use Them to Diagnose Pain",
+  "seoTitle": "Nerve Blocks Explained: Why Doctors Use Them to Diagnose Pain | Jain Pain Clinic",
+  "description": "Nerve blocks are not only used for pain relief. Learn how diagnostic nerve blocks help doctors identify the pain source and plan targeted treatment.",
+  "keywords": "nerve block, diagnostic nerve block, nerve block for pain, pain diagnosis, medial branch block, genicular nerve block, selective nerve root block, image guided nerve block, ultrasound guided nerve block, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/nerve-blocks-explained-why-doctors-use-them-to-diagnose-pain",
+  "ogImage": "/assets/blog/nerve-block-diagnosis-consultation-hero.jpg",
+  "category": "Pain Management",
+  "readTime": "8 min read",
+  "excerpt": "A nerve block can do more than reduce pain. It can help confirm which nerve or joint is actually sending the pain signal.",
+  "heroSubtitle": "Pain can be misleading. A nerve block helps doctors test a suspected pain pathway before planning longer-lasting treatment.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-07-08",
+  "publishedLabel": "July 8, 2026",
+  "cardImage": "/assets/blog/nerve-block-diagnosis-consultation-hero.jpg",
+  "cardAlt": "Doctor consultation explaining diagnostic nerve blocks for pain",
+  "bannerImage": "/assets/blog/nerve-block-diagnosis-consultation-hero.jpg",
+  "bannerAlt": "Nerve blocks used to diagnose the source of chronic pain",
+  "tags": [
+    "Nerve Block",
+    "Pain Diagnosis",
+    "Pain Management",
+    "Interventional Pain",
+    "Chronic Pain"
+  ],
+  "content": {
+    "intro": "Many patients think a nerve block is only an injection for temporary pain relief. In pain medicine, a nerve block can also work like a test. By numbing a specific nerve or pain pathway for a short time, the doctor can understand whether that pathway is truly responsible for the patient's pain. This is why nerve blocks are often used before planning longer-lasting procedures such as radiofrequency ablation.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is a Nerve Block?",
+        "paragraphs": [
+          "A nerve block is an injection placed near a specific nerve or group of nerves. It usually contains local anaesthetic, and in some cases may include steroid depending on the purpose of the procedure.",
+          "The local anaesthetic temporarily reduces the ability of that nerve to carry pain signals. If the patient's familiar pain improves during that window, it gives useful information about the pain source.",
+          "Nerve blocks are usually performed with imaging guidance such as ultrasound or fluoroscopy so the medicine can be placed accurately and safely."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why Pain Location Can Be Misleading",
+        "paragraphs": [
+          "Pain is not always felt exactly where it starts. A painful spine joint can refer pain to the buttock or thigh. A knee joint can create pain that feels more widespread than the X-ray suggests. A trapped nerve can cause burning pain away from the actual compression point.",
+          "This is why scans alone do not always answer the question. MRI or X-ray findings must match the patient's pain pattern and examination.",
+          "When the source is still unclear, a diagnostic nerve block can help separate one possible pain generator from another."
+        ],
+        "quote": "\"A diagnostic nerve block is like asking the body a focused question: if we numb this pathway, does your usual pain reduce?\""
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/nerve-block-pain-source-evaluation.jpg",
+        "alt": "Doctor evaluating pain source before diagnostic nerve block"
+      },
+      {
+        "type": "section",
+        "heading": "Diagnostic vs Therapeutic Nerve Blocks",
+        "paragraphs": [
+          "A diagnostic nerve block is mainly done to confirm whether a specific nerve or joint pathway is responsible for pain. The relief may be short-lived because the purpose is to test the diagnosis.",
+          "A therapeutic nerve block is done to reduce pain and inflammation for a longer period. It may include medicines chosen to calm irritation around the nerve.",
+          "Sometimes a block can be both diagnostic and therapeutic. The doctor uses the response to learn about the pain source while also giving the patient relief."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What a Positive Block Means",
+        "paragraphs": [
+          "If the patient gets meaningful relief after the block, it suggests that the targeted nerve or pathway is likely contributing to the pain.",
+          "The timing matters. Relief from local anaesthetic should happen during the expected active period of the medicine. This is why patients are often asked to track pain carefully after the procedure.",
+          "A positive block may guide the next step, such as physiotherapy, a repeat therapeutic injection, radiofrequency ablation, pulsed radiofrequency, or another targeted treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What If the Block Does Not Help?",
+        "paragraphs": [
+          "If the block does not reduce the familiar pain, that information is also useful. It may mean the targeted nerve is not the main pain generator, the pain is coming from another structure, or the condition is mixed and needs a different approach.",
+          "A negative response does not mean the pain is not real. It simply means the tested pathway may not be the correct one.",
+          "This is why diagnostic blocks are helpful: they prevent patients from moving toward procedures that may not target the right source."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Common Examples of Diagnostic Nerve Blocks",
+        "paragraphs": [
+          "Different pain conditions use different blocks. The target depends on the suspected pain generator, symptoms, examination, and imaging findings.",
+          "For example, a medial branch block may be used when facet joints in the spine are suspected. A genicular nerve block may be used for knee osteoarthritis pain. A selective nerve root block may help when a specific spinal nerve root is suspected.",
+          "The block is selected only after clinical evaluation, not simply because pain exists in one area."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Medial branch block for suspected facet joint neck or back pain",
+            "Genicular nerve block for knee osteoarthritis pain",
+            "Selective nerve root block for spine-related arm or leg nerve pain",
+            "Ilioinguinal or genitofemoral nerve block for selected groin pain",
+            "Lateral femoral cutaneous nerve block for meralgia paresthetica",
+            "Intercostal nerve block for rib or chest wall nerve pain",
+            "Ganglion impar block for selected tailbone, pelvic, or perineal pain"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Why Blocks Are Important Before RFA",
+        "paragraphs": [
+          "Radiofrequency ablation is a longer-lasting procedure that reduces pain signals from selected nerves. Because it is more durable than a temporary injection, the doctor must be confident that the correct nerve is being targeted.",
+          "A diagnostic block helps confirm that the nerve carries the patient's familiar pain. If the block gives strong temporary relief, radiofrequency ablation may be considered in suitable cases.",
+          "This is commonly done for conditions such as facet joint pain, sacroiliac joint pain, and knee osteoarthritis pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Patients Should Track Relief",
+        "paragraphs": [
+          "The result of a diagnostic block depends on accurate feedback. Patients should compare their usual pain before and after the procedure and notice what activities become easier during the relief window.",
+          "It is helpful to track walking, sitting, bending, climbing stairs, sleeping, or the specific movement that usually triggers pain.",
+          "The doctor may ask whether pain reduced by a meaningful percentage and how long the relief lasted. This information helps plan the next step."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Note your pain score before the block",
+            "Track pain during the first few hours after the block",
+            "Test the usual activity that triggers pain, only if your doctor says it is safe",
+            "Record how much relief you felt and how long it lasted",
+            "Tell the doctor whether the familiar pain changed or only a different discomfort remained"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Are Nerve Blocks Safe?",
+        "paragraphs": [
+          "Nerve blocks are commonly performed procedures, but like any medical procedure, they should be done for the right indication and with proper precautions.",
+          "Image guidance improves accuracy and reduces the chance of placing medicine in the wrong area. The doctor also checks medical history, blood thinner use, allergy history, infection risk, diabetes control, and other safety factors before the procedure.",
+          "Temporary soreness, numbness, heaviness, bruising, or short-term change in sensation can occur depending on the block. Serious complications are uncommon when the procedure is properly planned and performed."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Ask About a Nerve Block?",
+        "paragraphs": [
+          "A nerve block may be considered when pain has not improved with basic treatment, when the diagnosis is unclear, or when the doctor needs to confirm a specific pain pathway before a longer-lasting procedure.",
+          "It may also help when imaging shows multiple possible problems and the clinical examination needs confirmation.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain uses diagnostic nerve blocks as part of a careful pain evaluation. The goal is not just temporary relief, but identifying the pain generator so treatment can be more precise."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "A nerve block can be both a treatment and a diagnostic tool.",
+          "If a targeted block reduces the patient's familiar pain, it helps confirm that the tested nerve or pathway is contributing to the pain.",
+          "This information helps pain specialists choose better next steps, including physiotherapy, medicines, repeat injections, radiofrequency ablation, or other targeted procedures when appropriate."
+        ]
+      }
+    ]
+  }
 }
 ];
 
