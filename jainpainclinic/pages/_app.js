@@ -8,6 +8,8 @@ import "@/styles/globals.css";
 
 const GTM_CONTAINER_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-NRQQSQST";
 const GTM_LOAD_DELAY_MS = 2000;
+const REVEAL_SELECTOR = ".reveal, .reveal-left, .reveal-right, .reveal-scale";
+const REVEAL_VIEWPORT_OFFSET = 96;
 const manrope = Manrope({
   subsets: ["latin", "cyrillic"],
   weight: ["400", "500", "600", "700", "800"],
@@ -35,6 +37,16 @@ function pushDataLayerEvent(eventName, params = {}) {
     page_path: window.location.pathname + window.location.search,
     ...params,
   });
+}
+
+function isRevealInRange(element) {
+  const rect = element.getBoundingClientRect();
+
+  return rect.top <= window.innerHeight + REVEAL_VIEWPORT_OFFSET && rect.bottom >= -REVEAL_VIEWPORT_OFFSET;
+}
+
+function revealElement(element) {
+  element.classList.add("is-visible");
 }
 
 function GoogleTagManager() {
@@ -182,6 +194,92 @@ export default function App({ Component, pageProps }) {
     document.documentElement.lang = localeMeta.code;
     document.documentElement.dir = localeMeta.dir;
   }, [localeMeta.code, localeMeta.dir]);
+
+  useEffect(() => {
+    let observer = null;
+    let rafId = null;
+
+    const getHiddenRevealElements = () =>
+      Array.from(document.querySelectorAll(REVEAL_SELECTOR)).filter((element) => !element.classList.contains("is-visible"));
+
+    const revealVisibleElements = () => {
+      getHiddenRevealElements().forEach((element) => {
+        if (isRevealInRange(element)) {
+          revealElement(element);
+          observer?.unobserve(element);
+        }
+      });
+    };
+
+    const initRevealObserver = () => {
+      observer?.disconnect();
+      observer = null;
+
+      const elements = getHiddenRevealElements();
+      if (!elements.length) {
+        return;
+      }
+
+      const shouldReduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (shouldReduceMotion || !("IntersectionObserver" in window)) {
+        elements.forEach(revealElement);
+        return;
+      }
+
+      observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting || isRevealInRange(entry.target)) {
+              revealElement(entry.target);
+              observer?.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.01, rootMargin: "96px 0px 96px 0px" }
+      );
+
+      elements.forEach((element) => {
+        if (isRevealInRange(element)) {
+          revealElement(element);
+        } else {
+          observer.observe(element);
+        }
+      });
+    };
+
+    const scheduleRevealRefresh = () => {
+      if (rafId) {
+        window.cancelAnimationFrame(rafId);
+      }
+
+      rafId = window.requestAnimationFrame(() => {
+        rafId = null;
+        initRevealObserver();
+        revealVisibleElements();
+      });
+    };
+
+    scheduleRevealRefresh();
+
+    router.events.on("routeChangeComplete", scheduleRevealRefresh);
+    window.addEventListener("load", scheduleRevealRefresh);
+    window.addEventListener("pageshow", scheduleRevealRefresh);
+    window.addEventListener("scroll", revealVisibleElements, { passive: true });
+    window.addEventListener("resize", revealVisibleElements);
+
+    return () => {
+      if (rafId) {
+        window.cancelAnimationFrame(rafId);
+      }
+
+      observer?.disconnect();
+      router.events.off("routeChangeComplete", scheduleRevealRefresh);
+      window.removeEventListener("load", scheduleRevealRefresh);
+      window.removeEventListener("pageshow", scheduleRevealRefresh);
+      window.removeEventListener("scroll", revealVisibleElements);
+      window.removeEventListener("resize", revealVisibleElements);
+    };
+  }, [router.events]);
 
   useEffect(() => {
     const closeLanguageDropdowns = () => {
