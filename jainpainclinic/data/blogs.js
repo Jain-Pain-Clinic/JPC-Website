@@ -3290,7 +3290,7 @@ const rawBlogs = [
         "paragraphs": [
           "At Jain Pain Clinic, evaluation begins with mapping the painful and numb area. The location of symptoms is important because meralgia paresthetica follows the sensory territory of the lateral femoral cutaneous nerve.",
           "The examination may include checking sensation, skin sensitivity, hip movement, back movement, gait pattern, diabetes history, tight clothing or belt pressure, and signs that suggest spine or hip involvement.",
-          "If meralgia paresthetica is suspected, an ultrasound-guided diagnostic lateral femoral cutaneous nerve block may help confirm whether this nerve is the pain generator."
+          "If meralgia paresthetica is suspected, Dr Ashu Kumar Jain may perform an ultrasound-guided lateral femoral cutaneous nerve block. Relief after this block helps confirm that the nerve is the pain generator and also guides the next step in treatment."
         ]
       },
       {
@@ -3299,7 +3299,8 @@ const rawBlogs = [
         "paragraphs": [
           "Treatment usually begins by reducing pressure on the nerve. This may include avoiding tight belts or waistbands, weight management when relevant, diabetes control, posture changes, and activity modification.",
           "For nerve-type pain, medicines such as pregabalin, gabapentin, duloxetine, or tricyclic medicines may be considered when appropriate. These medicines are chosen based on pain severity, sleep disturbance, age, other medical conditions, and side effects.",
-          "If symptoms remain persistent, ultrasound-guided nerve blocks may help reduce inflammation and confirm the diagnosis. In selected chronic cases, pulsed radiofrequency or radiofrequency-based treatment around the lateral femoral cutaneous nerve may be considered."
+          "At Jain Pain Clinic, Dr Ashu Kumar Jain treats meralgia paresthetica with an ultrasound-guided nerve block when the lateral femoral cutaneous nerve is suspected. If the block confirms the diagnosis and symptoms remain persistent, radiofrequency ablation may be considered for longer-term pain relief.",
+          "In selected chronic cases, radiofrequency ablation of the dorsal root ganglion, also called DRG RFA, may be used to reduce abnormal nerve pain signals and provide longer-lasting relief."
         ],
         "list": {
           "type": "ol",
@@ -3308,8 +3309,8 @@ const rawBlogs = [
             "Address weight, diabetes, pregnancy-related pressure, or posture factors when relevant",
             "Rule out spine, hip, pelvic, or post-surgical causes when symptoms do not fit",
             "Use neuropathic medicines when burning, tingling, or hypersensitivity is significant",
-            "Consider ultrasound-guided diagnostic nerve block when the lateral femoral cutaneous nerve is suspected",
-            "Consider advanced pain procedures only when symptoms persist and the diagnosis is clear"
+            "Perform an ultrasound-guided nerve block when the lateral femoral cutaneous nerve is suspected",
+            "Consider RFA or DRG RFA for longer-term pain relief when symptoms persist and the diagnosis is clear"
           ]
         }
       },
@@ -3319,7 +3320,7 @@ const rawBlogs = [
         "paragraphs": [
           "You should seek help if burning or numbness on the outer thigh persists for more than a few weeks, keeps returning, affects walking, disturbs sleep, or becomes sensitive to clothing and touch.",
           "Seek urgent medical care if there is true leg weakness, foot drop, bladder or bowel symptoms, fever, major trauma, unexplained weight loss, or severe back pain with worsening leg symptoms.",
-          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates burning thigh pain by identifying whether the pain is coming from the lateral femoral cutaneous nerve, spine, hip, diabetes-related nerve disease, or a mixed source. The aim is targeted treatment rather than repeated temporary pain relief."
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates burning thigh pain by identifying whether the pain is coming from the lateral femoral cutaneous nerve, spine, hip, diabetes-related nerve disease, or a mixed source. When meralgia paresthetica is confirmed, treatment may include ultrasound-guided nerve block followed by RFA or DRG RFA for longer-term relief in selected patients."
         ]
       },
       {
@@ -3328,7 +3329,7 @@ const rawBlogs = [
         "paragraphs": [
           "Burning, tingling, numbness, or touch-sensitive pain on the outer thigh may be meralgia paresthetica.",
           "It is caused by irritation or compression of the lateral femoral cutaneous nerve and is often mistaken for sciatica, hip pain, or muscle strain.",
-          "The right treatment starts with the right diagnosis. If outer thigh burning is not improving, a pain specialist can help identify the pain generator and choose targeted care."
+          "The right treatment starts with the right diagnosis. At Jain Pain Clinic, ultrasound-guided nerve block can help confirm the diagnosis, and RFA or DRG RFA may be used for longer-term pain relief when appropriate."
         ]
       }
     ]
