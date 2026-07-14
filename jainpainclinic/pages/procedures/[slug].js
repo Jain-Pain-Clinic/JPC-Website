@@ -4,6 +4,7 @@ import SiteLayout from "@/components/layout/SiteLayout";
 import ProcedurePageTemplate from "@/components/procedures/ProcedurePageTemplate";
 import { procedures, getProcedureBySlug } from "@/data/procedures";
 import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
+import { clinicSchema } from "@/lib/structured-data";
 
 export default function ProcedurePage({ procedure, medicalSchema, locale = "en" }) {
   return (
@@ -62,11 +63,7 @@ export function getStaticProps(context) {
       "@type": "MedicalSpecialty",
       name: procedure.medicalProcedure.relevantSpecialty,
     },
-    provider: {
-      "@type": "MedicalClinic",
-      name: "Jain Pain Clinic",
-      url: "https://www.jainpainclinic.com",
-    },
+    provider: clinicSchema(),
     image: `https://www.jainpainclinic.com${procedure.ogImage}`,
   };
 

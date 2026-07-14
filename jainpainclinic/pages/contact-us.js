@@ -3,10 +3,12 @@ import path from "path";
 import Head from "next/head";
 import Script from "next/script";
 import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
+import { normalizeWhatsAppConsultLinks } from "@/lib/external-link-markup";
 import { getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
+import { clinicSchema } from "@/lib/structured-data";
 
 function normalizeContactMarkup(html) {
-  return html
+  return normalizeWhatsAppConsultLinks(html)
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/');
 }
@@ -73,20 +75,9 @@ export default function ContactPage({ contactMarkup, locale = "en" }) {
               "@type": "ContactPage",
               name: "Contact Jain Pain Clinic",
               url: "https://www.jainpainclinic.com/contact-us",
-              mainEntity: {
-                "@type": "MedicalClinic",
-                name: "Jain Pain Clinic",
+              mainEntity: clinicSchema({
                 telephone: "+918130640351",
-                email: "ashu.jain@jainpainclinic.com",
-                url: "https://www.jainpainclinic.com/",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: "Artemis Hospitals, Sector-51",
-                  addressLocality: "Gurugram",
-                  addressRegion: "Haryana",
-                  addressCountry: "IN",
-                },
-              },
+              }),
             }),
           }}
         />

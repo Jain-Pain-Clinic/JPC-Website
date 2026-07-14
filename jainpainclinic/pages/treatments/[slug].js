@@ -4,6 +4,7 @@ import SiteLayout from "@/components/layout/SiteLayout";
 import Seo from "@/components/shared/Seo";
 import { treatments, getTreatmentBySlug } from "@/data/treatments";
 import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
+import { clinicSchema, doctorSchema } from "@/lib/structured-data";
 
 export default function TreatmentPage({ treatment, locale = "en" }) {
   return (
@@ -35,12 +36,8 @@ export default function TreatmentPage({ treatment, locale = "en" }) {
                 url: `https://www.jainpainclinic.com${treatment.canonicalPath}`,
                 medicalAudience: { "@type": "Patient" },
                 about: { "@type": "MedicalCondition", name: treatment.title.split(":")[0] },
-                author: { "@type": "Person", name: "Dr Ashu Kumar Jain" },
-                publisher: {
-                  "@type": "MedicalOrganization",
-                  name: "Jain Pain Clinic",
-                  url: "https://www.jainpainclinic.com",
-                },
+                author: doctorSchema(),
+                publisher: clinicSchema(),
               },
               {
                 "@context": "https://schema.org",

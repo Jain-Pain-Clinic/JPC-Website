@@ -3,10 +3,12 @@ import path from "path";
 import Head from "next/head";
 import Script from "next/script";
 import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
+import { normalizeWhatsAppConsultLinks } from "@/lib/external-link-markup";
 import { getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
+import { clinicGraph } from "@/lib/structured-data";
 
 function normalizeAboutMarkup(html) {
-  return html
+  return normalizeWhatsAppConsultLinks(html)
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/');
 }
@@ -45,61 +47,27 @@ export default function AboutPage({ aboutMarkup, locale = "en" }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Physician",
-              name: "Dr Ashu Kumar Jain",
-              honorificPrefix: "Dr",
-              jobTitle: "Head of Department, Pain Medicine and Palliative Care",
-              hasCredential: "MBBS, MD, Fellowship Pain Medicine (FIAPM)",
-              worksFor: {
-                "@type": "MedicalClinic",
-                name: "Jain Pain Clinic",
-                url: "https://www.jainpainclinic.com/",
-              },
-              affiliation: {
-                "@type": "Hospital",
-                name: "Artemis Hospitals",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: "Sector-51",
-                  addressLocality: "Gurugram",
-                  addressRegion: "Haryana",
-                  addressCountry: "IN",
-                },
-              },
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.8",
-                reviewCount: "66",
-                bestRating: "5",
-                worstRating: "1",
-              },
-              medicalSpecialty: "Pain Medicine",
-            }),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              itemListElement: [
+            __html: JSON.stringify(
+              clinicGraph([
                 {
-                  "@type": "ListItem",
-                  position: 1,
-                  name: "Home",
-                  item: "https://www.jainpainclinic.com/",
+                  "@type": "BreadcrumbList",
+                  itemListElement: [
+                    {
+                      "@type": "ListItem",
+                      position: 1,
+                      name: "Home",
+                      item: "https://www.jainpainclinic.com/",
+                    },
+                    {
+                      "@type": "ListItem",
+                      position: 2,
+                      name: "About Dr Ashu Kumar Jain",
+                      item: "https://www.jainpainclinic.com/about",
+                    },
+                  ],
                 },
-                {
-                  "@type": "ListItem",
-                  position: 2,
-                  name: "About Dr Ashu Kumar Jain",
-                  item: "https://www.jainpainclinic.com/about",
-                },
-              ],
-            }),
+              ])
+            ),
           }}
         />
       </Head>

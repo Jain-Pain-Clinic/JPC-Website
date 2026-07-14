@@ -200,7 +200,7 @@ export default function SiteHeader() {
             className="pill-button pill-button--small header-cta"
             href="https://wa.me/919211281009?text=Hi%2C%20I%20want%20to%20live%20pain%20free"
             target="_blank"
-            rel="noreferrer"
+            rel="nofollow noreferrer"
           >
             <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
             <span>{t("Consult now")}</span>

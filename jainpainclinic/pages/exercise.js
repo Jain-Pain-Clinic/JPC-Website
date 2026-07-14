@@ -3,10 +3,12 @@ import path from "path";
 import Head from "next/head";
 import Script from "next/script";
 import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
+import { normalizeWhatsAppConsultLinks } from "@/lib/external-link-markup";
 import { getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
+import { clinicSchema, doctorSchema } from "@/lib/structured-data";
 
 function normalizeExerciseMarkup(html) {
-  return html
+  return normalizeWhatsAppConsultLinks(html)
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/');
 }
@@ -58,12 +60,8 @@ export default function ExercisePage({ exerciseMarkup, locale = "en" }) {
               description:
                 "Free exercise videos for neck pain, back pain, knee pain, hip pain, and shoulder pain. Expert-recommended movements by Dr. Ashu Kumar Jain.",
               url: "https://www.jainpainclinic.com/exercise",
-              author: { "@type": "Person", name: "Dr Ashu Kumar Jain" },
-              publisher: {
-                "@type": "MedicalOrganization",
-                name: "Jain Pain Clinic",
-                url: "https://www.jainpainclinic.com",
-              },
+              author: doctorSchema(),
+              publisher: clinicSchema(),
             }),
           }}
         />

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { normalizeWhatsAppConsultLinks } from "./external-link-markup";
 
 const LEGACY_ROOT = path.join(process.cwd(), "content", "legacy-site");
 
@@ -8,7 +9,7 @@ function readLegacyHtml(relativePath) {
 }
 
 function normalizeLegacyMarkup(markup) {
-  return markup
+  return normalizeWhatsAppConsultLinks(markup)
     .replace(/src="\.\.\/assets\//g, 'src="/assets/')
     .replace(/src="assets\//g, 'src="/assets/')
     .replace(/href="\.\.\/assets\//g, 'href="/assets/')

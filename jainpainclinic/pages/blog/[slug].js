@@ -6,6 +6,7 @@ import Seo from "@/components/shared/Seo";
 import { blogs, BLOGS_PER_PAGE, BLOG_ARCHIVE, getBlogBySlug } from "@/data/blogs";
 import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
 import { getPaginatedItems, getTotalPages } from "@/lib/pagination";
+import { clinicSchema, doctorSchema } from "@/lib/structured-data";
 
 export default function BlogSlugPage(props) {
   const locale = props.locale || "en";
@@ -69,19 +70,10 @@ export default function BlogSlugPage(props) {
               image: `https://www.jainpainclinic.com${post.ogImage}`,
               datePublished: post.publishedAt,
               dateModified: post.publishedAt,
-              author: {
-                "@type": "Person",
-                name: post.author,
-                url: "https://www.jainpainclinic.com/about",
-              },
-              publisher: {
-                "@type": "Organization",
-                name: "Jain Pain Clinic",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.jainpainclinic.com/assets/logo.png",
-                },
-              },
+              author: post.author === "Dr Ashu Kumar Jain"
+                ? doctorSchema()
+                : { "@type": "Person", name: post.author },
+              publisher: clinicSchema(),
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id": `https://www.jainpainclinic.com${post.canonicalPath}`,
