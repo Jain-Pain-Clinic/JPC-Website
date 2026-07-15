@@ -87,6 +87,13 @@ export default function HomePage({ homepageMarkup, clientTranslations = {}, loca
           type="image/webp"
           fetchPriority="high"
         />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/BG.webp"
+          type="image/webp"
+          fetchPriority="high"
+        />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
