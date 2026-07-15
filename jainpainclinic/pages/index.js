@@ -13,10 +13,6 @@ function normalizeHomepageMarkup(html) {
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/')
     .replace(
-      '<section class="hero-section">',
-      '<section class="hero-section"><img class="hero-bg" src="/assets/BG.webp" width="1920" height="1249" loading="eager" decoding="async" fetchpriority="high" alt="" aria-hidden="true" />'
-    )
-    .replace(
       '<div class="hero-copy reveal">',
       '<div class="hero-copy">'
     )
@@ -88,13 +84,6 @@ export default function HomePage({ homepageMarkup, clientTranslations = {}, loca
           rel="preload"
           as="image"
           href="/assets/hero-right.webp"
-          type="image/webp"
-          fetchPriority="high"
-        />
-        <link
-          rel="preload"
-          as="image"
-          href="/assets/BG.webp"
           type="image/webp"
           fetchPriority="high"
         />
