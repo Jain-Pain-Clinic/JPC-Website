@@ -4,11 +4,58 @@ import Head from "next/head";
 import Script from "next/script";
 import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
 import { normalizeWhatsAppConsultLinks } from "@/lib/external-link-markup";
+import { normalizeLegacyProcedureMenus } from "@/lib/legacy-procedure-menus";
 import { getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 import { clinicSchema, doctorSchema } from "@/lib/structured-data";
 
-function normalizeExerciseMarkup(html) {
-  return normalizeWhatsAppConsultLinks(html)
+const exerciseVideoIds = {
+  hip: {
+    default: "ZFDawiQ2aI0",
+    ar: "cMSu6sIoIhg",
+    ru: "5My4WMMjIfQ",
+  },
+  neck: {
+    default: "T7kaYfFHL_8",
+    ar: "boia6weunzM",
+    ru: "D3UnERUjOiU",
+  },
+  shoulder: {
+    default: "aTW6PUZTYQs",
+    ar: "pr1MxVbNpUs",
+    ru: "d1XQYAiumQ8",
+  },
+  knee: {
+    default: "yUCPxP7kOBs",
+    ar: "BAJxy2hPuI0",
+    ru: "kjuBYKa72nM",
+  },
+  back: {
+    default: "kDsgW1Pz5Xc",
+    ar: "3KX8yDinexM",
+    ru: "I-HXvmPLLQk",
+  },
+};
+
+function getExerciseVideoId(category, locale) {
+  const videos = exerciseVideoIds[category];
+  return videos?.[locale] || videos?.default;
+}
+
+function localizeExerciseVideos(html, locale) {
+  return Object.keys(exerciseVideoIds).reduce((markup, category) => {
+    const videoId = getExerciseVideoId(category, locale);
+    const cardPattern = new RegExp(
+      `(<article class="exercise-card" id="${category}"[\\s\\S]*?<iframe src="https://www\\.youtube\\.com/embed/)[^"]+("[\\s\\S]*?<a class="exercise-card__link" href="https://www\\.youtube\\.com/watch\\?v=)[^"]+("[\\s\\S]*?</article>)`
+    );
+
+    return markup.replace(cardPattern, (_match, beforeEmbed, betweenLinks, afterLink) => (
+      `${beforeEmbed}${videoId}${betweenLinks}${videoId}${afterLink}`
+    ));
+  }, html);
+}
+
+function normalizeExerciseMarkup(html, locale = "en") {
+  return normalizeLegacyProcedureMenus(localizeExerciseVideos(normalizeWhatsAppConsultLinks(html), locale))
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/');
 }
@@ -169,7 +216,7 @@ export async function getStaticProps(context) {
   const exercisePath = path.join(process.cwd(), "content", "legacy-site", "exercise.html");
   const exerciseHtml = fs.readFileSync(exercisePath, "utf8");
   const bodyMatch = exerciseHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
-  const exerciseMarkup = normalizeExerciseMarkup(bodyMatch ? bodyMatch[1] : "");
+  const exerciseMarkup = normalizeExerciseMarkup(bodyMatch ? bodyMatch[1] : "", locale);
 
   return {
     props: withLocaleProps({

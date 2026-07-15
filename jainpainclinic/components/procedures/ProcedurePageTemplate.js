@@ -55,6 +55,9 @@ export default function ProcedurePageTemplate({ procedure }) {
         <div className="treatment-banner reveal">
           <img src={procedure.bannerImage} alt={procedure.bannerAlt} />
         </div>
+        {procedure.imageCredit ? (
+          <p className="procedure-image-credit">{procedure.imageCredit}</p>
+        ) : null}
       </div>
 
       <ProcedureJourney key={procedure.slug} procedure={procedure} />

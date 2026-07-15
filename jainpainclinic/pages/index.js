@@ -5,11 +5,12 @@ import Script from "next/script";
 import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
 import { normalizeWhatsAppConsultLinks } from "@/lib/external-link-markup";
 import { HOME_DYNAMIC_STRINGS } from "@/lib/home-dynamic-strings";
+import { normalizeLegacyProcedureMenus } from "@/lib/legacy-procedure-menus";
 import { getClientTranslations, getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 import { clinicGraph } from "@/lib/structured-data";
 
 function normalizeHomepageMarkup(html) {
-  return normalizeWhatsAppConsultLinks(html)
+  return normalizeLegacyProcedureMenus(normalizeWhatsAppConsultLinks(html))
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/')
     .replace(

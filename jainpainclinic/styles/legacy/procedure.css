@@ -47,6 +47,13 @@
   object-fit: cover;
   display: block;
 }
+.procedure-image-credit {
+  margin: -4px 0 24px;
+  color: rgba(18, 18, 36, 0.62);
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: right;
+}
 
 /* ── FAQ section ── */
 .treatment-faq {

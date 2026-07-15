@@ -2786,6 +2786,471 @@ export const procedures = [
     ],
     "navLabel": "Thoracic Facet RFA",
     "navOrder": 12
+  },
+  {
+    "slug": "cervical-epidural-adhesiolysis",
+    "seoTitle": "Cervical Epidural Adhesiolysis for Neck & Arm Pain | Jain Pain Clinic Gurugram",
+    "description": "Get targeted relief from chronic neck and arm nerve pain with Cervical Epidural Adhesiolysis at Jain Pain Clinic, Gurugram. Image-guided catheter procedure by Dr. Ashu Kumar Jain.",
+    "keywords": "cervical epidural adhesiolysis, cervical epidural neuroplasty, Racz catheter, neck pain treatment, cervical radiculopathy, arm pain, cervical disc herniation, interventional pain management, Gurugram, Dr Ashu Kumar Jain",
+    "ogImage": "/assets/procedures/cervical-epidural-adhesiolysis.png",
+    "canonicalPath": "/procedures/cervical-epidural-adhesiolysis",
+    "title": "Cervical Epidural Adhesiolysis",
+    "heroSubtitle": "Persistent neck and arm pain can continue even after medicines, physiotherapy, or a standard epidural injection. Cervical Epidural Adhesiolysis uses a fine catheter to reach the restricted epidural pathway and deliver anti-inflammatory medicine closer to the irritated cervical nerve root.",
+    "bannerImage": "/assets/procedures/cervical-epidural-adhesiolysis.png",
+    "bannerAlt": "Cervical epidural catheter placement under fluoroscopy",
+    "imageCredit": "Image adapted from Diwan et al., Ain-Shams Journal of Anesthesiology, 2023, CC BY 4.0.",
+    "journeyTitle": "Your Road to a Pain-Free Life",
+    "journeySubtitle": "Your journey",
+    "quizTitle": "How Well Do You Know This Procedure?",
+    "quizSubtitle": "Test your knowledge",
+    "videoUrl": "https://www.youtube.com/watch?v=BY56OYtuuT0",
+    "videoThumbnail": "https://img.youtube.com/vi/BY56OYtuuT0/hqdefault.jpg",
+    "videoAlt": "Watch video on Cervical Epidural Adhesiolysis",
+    "videoHeading": "Watch our YouTube video on it",
+    "videoDescription": "Dr. Ashu Kumar Jain is a leading interventional pain specialist at Jain Pain Clinic, Gurugram, with expertise in image-guided pain procedures.",
+    "faqs": [
+      {
+        "question": "What is Cervical Epidural Adhesiolysis?",
+        "answer": [
+          "Cervical Epidural Adhesiolysis, also called cervical epidural neuroplasty or the Racz catheter procedure, is an image-guided catheter procedure for persistent neck and arm nerve pain. A fine catheter is guided into the cervical epidural space so medicine can be delivered close to the irritated nerve root and areas where scarring, inflammation, or restricted spread may be contributing to pain."
+        ],
+        "openByDefault": true
+      },
+      {
+        "question": "Who may benefit from this procedure?",
+        "answer": [
+          "It may help patients with chronic neck pain radiating to the shoulder, arm, or hand due to cervical disc disease, cervical radiculopathy, foraminal narrowing, or suspected epidural adhesions. It is usually considered when medicines, physiotherapy, and simpler injections have not provided enough relief."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "How is Cervical Epidural Adhesiolysis different from a regular epidural injection?",
+        "answer": [
+          "A regular cervical epidural injection places medicine into the epidural space through a needle. Adhesiolysis uses a steerable catheter, allowing the doctor to direct the tip toward the affected level and improve medicine spread around the irritated nerve root. This can be useful when inflammation or adhesions limit the effect of a standard injection."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "How is the procedure performed?",
+        "answer": [
+          "You are positioned comfortably and the skin is cleaned and numbed. Under live X-ray guidance, a needle is placed into the cervical epidural space, commonly near the lower cervical or upper thoracic entry level. A thin catheter is then advanced carefully toward the target cervical level. Contrast dye confirms safe spread, followed by local anaesthetic, steroid, saline, and sometimes an enzyme medicine to help open restricted tissue planes. The procedure usually takes 30–45 minutes."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "When will I feel relief?",
+        "answer": [
+          "Some patients feel early relief from the local anaesthetic, but the anti-inflammatory benefit usually builds over several days to a few weeks. Neck and arm pain, tingling, and movement tolerance are reviewed at follow-up to judge the response."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "How long can the relief last?",
+        "answer": [
+          "Relief varies depending on the cause of pain, severity of nerve irritation, and how much scarring or narrowing is present. Many patients experience relief for weeks to months, and selected patients may get longer benefit when the procedure is combined with medicines, posture correction, and physiotherapy."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "Is Cervical Epidural Adhesiolysis safe?",
+        "answer": [
+          "It is a specialised cervical spine procedure and should be performed only by an experienced interventional pain physician using live imaging and contrast confirmation. Mild soreness, temporary numbness, headache, or dizziness can occur. Serious complications such as infection, bleeding, dural puncture, nerve injury, catheter-related problems, or spinal cord irritation are rare but important to discuss before the procedure."
+        ],
+        "openByDefault": false
+      }
+    ],
+    "medicalProcedure": {
+      "name": "Cervical Epidural Adhesiolysis",
+      "description": "An image-guided cervical epidural catheter procedure used to deliver medication close to irritated cervical nerve roots and help relieve chronic neck and arm radicular pain when standard conservative care or epidural injection is insufficient.",
+      "bodyLocation": "Cervical Spine – Epidural Space and Cervical Nerve Roots",
+      "preparation": "Stop blood thinners as advised; bring MRI or CT reports; arrange a driver; inform the doctor about infection, diabetes, allergies, or prior cervical surgery.",
+      "followup": "Rest on the day of the procedure. Follow-up in 1–3 weeks to assess neck pain, arm pain, tingling, function, and physiotherapy plan.",
+      "howPerformed": "Under fluoroscopic guidance, a catheter is advanced into the cervical epidural space toward the target level. Contrast confirms spread, then local anaesthetic, steroid, saline, and sometimes hyaluronidase are injected to improve medication delivery around the irritated nerve root.",
+      "relevantSpecialty": "Interventional Pain Management"
+    },
+    "journeyContent": {
+      "preparation": {
+        "title": "Before Your Visit",
+        "description": "Preparing for a safe cervical catheter procedure.",
+        "keyPoints": [
+          "Bring cervical MRI or CT reports and previous injection details",
+          "Stop blood thinners 3–7 days before only after medical advice",
+          "Inform us about diabetes, infection, allergies, or prior cervical surgery",
+          "Arrange someone to drive you home",
+          "For females: please remove all jewellery, nail polish, nail caps, and makeup before the procedure"
+        ],
+        "duration": "1–3 days before",
+        "whatToExpect": "The team reviews your medical history and imaging before the procedure day. Blood thinner planning and infection screening are especially important for cervical epidural procedures."
+      },
+      "evaluation": {
+        "title": "Clinical Assessment",
+        "description": "Confirming the pain pathway and target level.",
+        "keyPoints": [
+          "Neck, shoulder, arm, and hand symptoms mapped carefully",
+          "Neurological examination checks strength, reflexes, and sensation",
+          "MRI reviewed for disc disease, foraminal narrowing, or post-surgical scarring",
+          "Decision made between standard epidural injection and adhesiolysis"
+        ],
+        "duration": "30–45 minutes",
+        "whatToExpect": "Dr. Ashu Jain checks whether your symptoms match a cervical nerve-root pattern. Adhesiolysis is chosen only when catheter-directed medicine delivery is likely to add value over a simpler injection."
+      },
+      "consent": {
+        "title": "Informed Consent",
+        "description": "Understanding benefits, risks, and alternatives.",
+        "keyPoints": [
+          "Procedure steps and imaging guidance explained",
+          "Expected relief timeline and need for rehabilitation discussed",
+          "Rare cervical-specific risks reviewed in detail",
+          "Consent form signed after all questions are answered"
+        ],
+        "duration": "10–15 minutes",
+        "whatToExpect": "Because this procedure is performed near the cervical spinal cord, consent is detailed and unhurried. You should feel clear about why the catheter approach is being used and what symptoms to report during the procedure."
+      },
+      "pre-procedure": {
+        "title": "Setting Up",
+        "description": "Positioning and safety checks before catheter placement.",
+        "keyPoints": [
+          "Blood pressure, pulse, and oxygen saturation checked",
+          "IV line placed if sedation or emergency medicine is needed",
+          "You lie face-down or in the safest position for fluoroscopy",
+          "Neck and upper back area cleaned, draped, and numbed"
+        ],
+        "duration": "10–15 minutes",
+        "whatToExpect": "The setup is precise and methodical. Fluoroscopy is adjusted to clearly show the cervical entry point and target level before any catheter movement begins."
+      },
+      "procedure": {
+        "title": "Catheter Adhesiolysis",
+        "description": "Targeted medicine delivery around the irritated cervical nerve root.",
+        "keyPoints": [
+          "Needle entry confirmed under live X-ray guidance",
+          "Thin catheter advanced toward the target cervical level",
+          "Contrast dye confirms safe epidural spread and catheter position",
+          "Local anaesthetic, steroid, saline, and sometimes hyaluronidase are injected"
+        ],
+        "duration": "30–45 minutes",
+        "whatToExpect": "You may feel pressure, heaviness, or a familiar arm sensation while the catheter is positioned. This feedback helps confirm the correct target, but sharp pain, electric shock, or unusual symptoms should be reported immediately.",
+        "tips": [
+          "Stay still while the catheter is being advanced",
+          "Describe any arm or hand sensation clearly",
+          "Tell the team immediately if you feel severe pain, weakness, or dizziness"
+        ]
+      },
+      "recovery": {
+        "title": "Recovery",
+        "description": "Observation before going home the same day.",
+        "keyPoints": [
+          "Rest for 2–4 hours while the team monitors you",
+          "Neck soreness or temporary heaviness may occur",
+          "Avoid driving, heavy lifting, and strenuous neck movement that day",
+          "Call the clinic urgently for fever, severe headache, weakness, or worsening numbness"
+        ],
+        "duration": "2–4 hours",
+        "whatToExpect": "Most patients go home the same day with a responsible adult. Mild soreness is common, but new neurological symptoms are taken seriously and should be reported promptly."
+      },
+      "follow-up": {
+        "title": "Follow-Up",
+        "description": "Tracking pain relief and rebuilding neck function.",
+        "keyPoints": [
+          "Follow-up visit in 1–3 weeks",
+          "Neck pain, arm pain, tingling, sleep, and activity tolerance reviewed",
+          "Physiotherapy and posture work restarted when pain settles",
+          "Further treatment planned only after response is assessed"
+        ],
+        "duration": "2–8 weeks",
+        "whatToExpect": "Relief often builds gradually as inflammation settles. Once pain is controlled, gentle strengthening and posture correction help protect the cervical spine and extend the benefit."
+      }
+    },
+    "quizQuestions": [
+      {
+        "question": "What is the main purpose of Cervical Epidural Adhesiolysis?",
+        "options": [
+          "To replace damaged cervical discs",
+          "To deliver medicine more precisely around irritated cervical nerve roots",
+          "To strengthen neck muscles directly",
+          "To permanently fuse the cervical spine"
+        ],
+        "answer": 1,
+        "explanation": "Cervical Epidural Adhesiolysis uses a catheter to reach the cervical epidural space and deliver medication close to irritated nerve roots, especially when standard injections may not spread well."
+      },
+      {
+        "question": "Which imaging method is commonly used during the procedure?",
+        "options": [
+          "Live fluoroscopy with contrast dye",
+          "Routine ultrasound only",
+          "No imaging is needed",
+          "MRI during the injection"
+        ],
+        "answer": 0,
+        "explanation": "Live X-ray fluoroscopy and contrast dye are used to confirm catheter position and medicine spread in the cervical epidural space."
+      },
+      {
+        "question": "Which symptom pattern may indicate a cervical nerve-root problem?",
+        "options": [
+          "Pain only in the lower abdomen",
+          "Neck pain radiating to the shoulder, arm, or hand",
+          "Pain only in both knees",
+          "Isolated ankle swelling"
+        ],
+        "answer": 1,
+        "explanation": "Cervical radiculopathy often causes neck pain that travels into the shoulder, arm, forearm, or hand, sometimes with tingling or numbness."
+      },
+      {
+        "question": "How is adhesiolysis different from a regular cervical epidural injection?",
+        "options": [
+          "It is done without sterile precautions",
+          "It uses a catheter to target restricted epidural pathways more selectively",
+          "It is a type of open neck surgery",
+          "It does not use any medication"
+        ],
+        "answer": 1,
+        "explanation": "The catheter allows more directed access to the affected level and may improve spread around adhesions or inflamed nerve roots."
+      },
+      {
+        "question": "What should patients avoid on the day of the procedure?",
+        "options": [
+          "Drinking water forever",
+          "Driving themselves home",
+          "Bringing imaging reports",
+          "Asking questions before consent"
+        ],
+        "answer": 1,
+        "explanation": "Patients should arrange a driver and avoid driving on the day of the procedure because sedation, local anaesthetic effects, or temporary soreness may impair safety."
+      }
+    ],
+    "navLabel": "Cervical Epidural Adhesiolysis",
+    "navOrder": 13
+  },
+  {
+    "slug": "lumbar-facet-rfa",
+    "seoTitle": "Lumbar Facet RFA for Chronic Low Back Pain | Jain Pain Clinic Gurugram",
+    "description": "Get long-lasting relief from chronic facet joint low back pain with Lumbar Facet RFA at Jain Pain Clinic, Gurugram. Image-guided medial branch radiofrequency ablation by Dr. Ashu Kumar Jain.",
+    "keywords": "lumbar facet RFA, lumbar medial branch radiofrequency ablation, lumbar facet joint pain, low back pain treatment, facet arthritis, radiofrequency neurotomy, interventional pain management, Gurugram, Dr Ashu Kumar Jain",
+    "ogImage": "/assets/procedures/lumbar-facet-rfa.jpg",
+    "canonicalPath": "/procedures/lumbar-facet-rfa",
+    "title": "Lumbar Facet RFA",
+    "heroSubtitle": "Chronic low back pain from arthritic or inflamed facet joints can make standing, bending, and turning painful. Lumbar Facet RFA uses controlled radiofrequency heat to quiet the medial branch nerves that carry these pain signals, offering longer relief than a diagnostic block or simple injection.",
+    "bannerImage": "/assets/procedures/lumbar-facet-rfa.jpg",
+    "bannerAlt": "Lumbar Facet RFA needle placement under fluoroscopy",
+    "journeyTitle": "Your Road to a Pain-Free Life",
+    "journeySubtitle": "Your journey",
+    "quizTitle": "How Well Do You Know This Procedure?",
+    "quizSubtitle": "Test your knowledge",
+    "videoUrl": "https://www.youtube.com/watch?v=QUAJGyU8XRA",
+    "videoThumbnail": "https://img.youtube.com/vi/QUAJGyU8XRA/hqdefault.jpg",
+    "videoAlt": "Watch video on Lumbar Facet RFA",
+    "videoHeading": "Watch our YouTube video on it",
+    "videoDescription": "Dr. Ashu Kumar Jain is a leading interventional pain specialist at Jain Pain Clinic, Gurugram, with expertise in image-guided pain procedures.",
+    "faqs": [
+      {
+        "question": "What is Lumbar Facet RFA?",
+        "answer": [
+          "Lumbar Facet RFA, also called lumbar medial branch radiofrequency ablation or radiofrequency neurotomy, is an image-guided procedure for chronic low back pain coming from the lumbar facet joints. It uses controlled heat to interrupt pain signals carried by the medial branch nerves."
+        ],
+        "openByDefault": true
+      },
+      {
+        "question": "What kind of back pain does Lumbar Facet RFA treat?",
+        "answer": [
+          "It is most useful for axial low back pain caused by lumbar facet arthritis, spondylosis, or mechanical facet strain. The pain is often worse with standing, backward bending, twisting, or getting up from a chair. It may refer to the buttock, hip, groin, or back of the thigh, but it is not primarily a treatment for true sciatica from a compressed nerve root."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "Do I need a medial branch block before Lumbar Facet RFA?",
+        "answer": [
+          "Yes. A diagnostic lumbar medial branch block is usually performed first to confirm that the facet joints are the pain source. If the block gives meaningful temporary relief, RFA is more likely to help. Some patients may need two diagnostic blocks before RFA, depending on the clinical situation."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "How is Lumbar Facet RFA performed?",
+        "answer": [
+          "You lie face-down on a fluoroscopy table. The skin is cleaned and numbed. Under live X-ray guidance, RF cannulas are placed at the bony targets where the lumbar medial branch nerves run, usually near the junction of the transverse process and superior articular process. Sensory and motor stimulation confirm safe positioning, local anaesthetic is injected, and radiofrequency heat is applied to each target nerve."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "When will I feel better after Lumbar Facet RFA?",
+        "answer": [
+          "Relief is usually gradual. The procedure site can feel sore for several days to 1-2 weeks. Pain reduction then builds as the treated medial branch nerves stop carrying facet joint pain signals. Many patients notice meaningful improvement within 2-6 weeks."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "How long does Lumbar Facet RFA last?",
+        "answer": [
+          "Pain relief commonly lasts 6-12 months and may last longer in some patients. The medial branch nerves can regenerate over time. If the same facet pain returns after a good response, the procedure can often be safely repeated."
+        ],
+        "openByDefault": false
+      },
+      {
+        "question": "Is Lumbar Facet RFA safe?",
+        "answer": [
+          "Lumbar Facet RFA is generally safe when performed with imaging guidance and proper patient selection. Temporary soreness, bruising, numbness, or burning neuritis-like pain can occur. Serious complications such as infection, bleeding, or nerve injury are uncommon. Dr. Jain will review your blood thinner use, infection risk, and neurological symptoms before planning the procedure."
+        ],
+        "openByDefault": false
+      }
+    ],
+    "medicalProcedure": {
+      "name": "Lumbar Facet Radiofrequency Ablation",
+      "description": "An image-guided radiofrequency ablation procedure targeting the lumbar medial branch nerves to reduce chronic low back pain arising from lumbar facet joints.",
+      "bodyLocation": "Lumbar Facet Joints - Lumbar Medial Branch Nerves",
+      "preparation": "Positive diagnostic medial branch block recommended; stop blood thinners as advised; bring lumbar spine imaging; arrange a driver home.",
+      "followup": "Expect mild soreness for several days to 1-2 weeks. Pain relief builds over 2-6 weeks. Follow-up in 2-4 weeks to assess response and rehabilitation plan.",
+      "howPerformed": "Under fluoroscopic guidance, RF cannulas are positioned at the lumbar medial branch nerve targets. Sensory and motor stimulation confirm placement before radiofrequency heat is applied to interrupt facet joint pain signals.",
+      "relevantSpecialty": "Interventional Pain Management"
+    },
+    "journeyContent": {
+      "preparation": {
+        "title": "Before Your Visit",
+        "description": "Preparing for a precise lumbar RFA procedure.",
+        "keyPoints": [
+          "Bring lumbar MRI, CT, X-ray, and prior block reports",
+          "Document how much relief you got from medial branch block(s)",
+          "Stop blood thinners only after medical advice",
+          "Arrange someone to drive you home",
+          "For females: please remove all jewellery, nail polish, nail caps, and makeup before the procedure"
+        ],
+        "duration": "1-3 days before",
+        "whatToExpect": "Your diagnostic block response is important. Dr. Jain will use your pain diary, imaging, and examination to decide which lumbar levels and sides should be treated."
+      },
+      "evaluation": {
+        "title": "Confirming Facet Pain",
+        "description": "Making sure the pain source is correct.",
+        "keyPoints": [
+          "Low back pain pattern reviewed, including buttock or thigh referral",
+          "Extension, rotation, and facet-loading symptoms assessed",
+          "Diagnostic medial branch block response confirmed",
+          "Other causes such as disc pain, stenosis, or sciatica considered"
+        ],
+        "duration": "30-45 minutes",
+        "whatToExpect": "Facet pain is usually deep, aching, and mechanical. Dr. Ashu Jain will confirm that your symptoms fit facet-mediated pain before proceeding with ablation."
+      },
+      "consent": {
+        "title": "Informed Consent",
+        "description": "Understanding the procedure and recovery timeline.",
+        "keyPoints": [
+          "Benefits, alternatives, and risks explained clearly",
+          "Temporary post-RFA soreness discussed",
+          "Relief timeline of 2-6 weeks reviewed",
+          "Consent form signed after questions are answered"
+        ],
+        "duration": "10-15 minutes",
+        "whatToExpect": "You will be told what sensations are normal during stimulation and lesioning, and what symptoms should be reported immediately during or after the procedure."
+      },
+      "pre-procedure": {
+        "title": "Setting Up",
+        "description": "Positioning for lumbar medial branch targeting.",
+        "keyPoints": [
+          "Blood pressure, pulse, and oxygen saturation checked",
+          "You lie face-down on the fluoroscopy table",
+          "Lumbar skin cleaned and draped",
+          "Skin and deeper tissue numbed with local anaesthetic"
+        ],
+        "duration": "10-15 minutes",
+        "whatToExpect": "The C-arm is adjusted to show the target bony landmarks clearly. Accurate imaging is essential because the medial branch nerves are small and run along predictable bone grooves."
+      },
+      "procedure": {
+        "title": "The RFA",
+        "description": "Controlled heat treatment of lumbar medial branch nerves.",
+        "keyPoints": [
+          "RF cannulas placed under live X-ray guidance",
+          "Sensory stimulation checks for familiar back discomfort",
+          "Motor stimulation confirms safe distance from leg motor nerves",
+          "Radiofrequency heat applied at each target level"
+        ],
+        "duration": "30-45 minutes",
+        "whatToExpect": "You stay awake enough to give feedback. You may feel pressure or a familiar ache during testing. Local anaesthetic is used before heat treatment so the ablation itself is usually well tolerated.",
+        "tips": [
+          "Stay still during needle positioning",
+          "Describe any sensation during stimulation accurately",
+          "Tell the team immediately if pain travels sharply down the leg"
+        ]
+      },
+      "recovery": {
+        "title": "Recovery",
+        "description": "Short observation before going home.",
+        "keyPoints": [
+          "Rest in the clinic for 2-4 hours",
+          "Mild back soreness or muscle spasm can occur",
+          "Avoid driving and strenuous activity on the day of procedure",
+          "Use ice packs and prescribed medicines as advised"
+        ],
+        "duration": "2-4 hours",
+        "whatToExpect": "Most patients go home the same day. The back can feel more sore before it feels better, especially over the first few days."
+      },
+      "follow-up": {
+        "title": "Follow-Up",
+        "description": "Tracking relief and restoring movement.",
+        "keyPoints": [
+          "Follow-up visit in 2-4 weeks",
+          "Pain scores, standing tolerance, walking, and sleep reviewed",
+          "Core strengthening and posture correction restarted gradually",
+          "Repeat RFA considered if pain returns after a successful response"
+        ],
+        "duration": "2-8 weeks",
+        "whatToExpect": "Pain relief often builds gradually over several weeks. Once pain reduces, rehabilitation helps support the facet joints and maintain the benefit for longer."
+      }
+    },
+    "quizQuestions": [
+      {
+        "question": "Which nerves are targeted during Lumbar Facet RFA?",
+        "options": [
+          "Sciatic nerves inside the leg",
+          "Lumbar medial branch nerves",
+          "Spinal cord motor nerves",
+          "Abdominal wall nerves"
+        ],
+        "answer": 1,
+        "explanation": "Lumbar Facet RFA targets the medial branch nerves that carry pain signals from the lumbar facet joints."
+      },
+      {
+        "question": "What test usually confirms whether Lumbar Facet RFA is appropriate?",
+        "options": [
+          "Diagnostic medial branch block",
+          "Routine blood pressure test",
+          "Skin allergy test only",
+          "Dental X-ray"
+        ],
+        "answer": 0,
+        "explanation": "A positive medial branch block supports the diagnosis of facet-mediated pain and predicts a better chance of RFA benefit."
+      },
+      {
+        "question": "Which pain pattern is most typical for lumbar facet joint pain?",
+        "options": [
+          "Electric shock pain below the knee with foot weakness",
+          "Deep low back ache worse with extension or twisting",
+          "Burning pain only in the face",
+          "Pain only during urination"
+        ],
+        "answer": 1,
+        "explanation": "Facet pain is usually axial low back pain, often worse with standing, extension, rotation, or loading the facet joints."
+      },
+      {
+        "question": "How soon does pain relief usually build after Lumbar Facet RFA?",
+        "options": [
+          "Only after 1 year",
+          "Usually over 2-6 weeks",
+          "Always instantly during the procedure",
+          "Only after open surgery"
+        ],
+        "answer": 1,
+        "explanation": "Relief commonly builds over 2-6 weeks as post-procedure soreness settles and the treated nerves stop carrying facet pain signals."
+      },
+      {
+        "question": "Can Lumbar Facet RFA be repeated if pain returns after good relief?",
+        "options": [
+          "No, it can never be repeated",
+          "Yes, if the same facet pain returns and the first RFA helped",
+          "Only if the patient has a fracture",
+          "Only on the neck, never the lower back"
+        ],
+        "answer": 1,
+        "explanation": "The medial branch nerves can regenerate. If pain returns after a successful RFA, repeat ablation can often provide comparable relief."
+      }
+    ],
+    "navLabel": "Lumbar Facet RFA",
+    "navOrder": 14
   }
 ];
 
