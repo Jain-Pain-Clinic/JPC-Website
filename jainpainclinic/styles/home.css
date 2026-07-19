@@ -276,28 +276,6 @@ button {
   z-index: 1;
 }
 
-.about-section,
-.expert-section,
-.team-section,
-.treat-section,
-.beliefs-section,
-.testimonial-section,
-.appointment-section,
-.video-section,
-.site-footer {
-  content-visibility: auto;
-}
-
-.about-section { contain-intrinsic-size: auto 760px; }
-.expert-section { contain-intrinsic-size: auto 760px; }
-.team-section { contain-intrinsic-size: auto 900px; }
-.treat-section { contain-intrinsic-size: auto 820px; }
-.beliefs-section { contain-intrinsic-size: auto 860px; }
-.testimonial-section { contain-intrinsic-size: auto 820px; }
-.appointment-section { contain-intrinsic-size: auto 760px; }
-.video-section { contain-intrinsic-size: auto 720px; }
-.site-footer { contain-intrinsic-size: auto 620px; }
-
 .split-layout {
   display: grid;
   grid-template-columns: 458px 485px;

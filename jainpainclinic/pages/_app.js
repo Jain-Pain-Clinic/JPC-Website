@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Script from "next/script";
-import { Manrope } from "next/font/google";
+import { Manrope, Noto_Sans_Arabic, Noto_Sans_Devanagari } from "next/font/google";
 import { I18nProvider } from "@/components/shared/I18nProvider";
 import { DEFAULT_LOCALE, getLocaleMeta } from "@/lib/i18n";
 import "@/styles/globals.css";
@@ -11,10 +11,19 @@ const GTM_LOAD_DELAY_MS = 2000;
 const REVEAL_SELECTOR = ".reveal, .reveal-left, .reveal-right, .reveal-scale";
 const REVEAL_VIEWPORT_OFFSET = 96;
 const manrope = Manrope({
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
-  preload: false,
+});
+const devanagari = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+});
+const arabic = Noto_Sans_Arabic({
+  subsets: ["arabic"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
 });
 
 function getElementText(element) {
@@ -179,6 +188,8 @@ export default function App({ Component, pageProps }) {
   const locale = pageProps.locale || DEFAULT_LOCALE;
   const clientTranslations = pageProps.clientTranslations || {};
   const localeMeta = getLocaleMeta(locale);
+  const localeFontClass =
+    locale === "hi" ? devanagari.className : locale === "ar" ? arabic.className : manrope.className;
 
   useEffect(() => {
     document.documentElement.lang = localeMeta.code;
@@ -313,7 +324,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <I18nProvider locale={locale} translations={clientTranslations}>
-      <div className={manrope.className}>
+      <div className={localeFontClass}>
         <GoogleTagManager />
         <Component {...pageProps} />
       </div>
