@@ -4,6 +4,7 @@ import SiteLayout from "@/components/layout/SiteLayout";
 import ProcedurePageTemplate from "@/components/procedures/ProcedurePageTemplate";
 import { procedures, getProcedureBySlug } from "@/data/procedures";
 import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
+import { PROCEDURE_RUNTIME_TRANSLATION_STRINGS } from "@/lib/runtime-translation-strings.server";
 import { clinicSchema } from "@/lib/structured-data";
 
 export default function ProcedurePage({ procedure, medicalSchema, locale = "en" }) {
@@ -71,6 +72,6 @@ export function getStaticProps(context) {
     props: withLocaleProps(translatePageProps({
       procedure,
       medicalSchema,
-    }, locale), locale),
+    }, locale), locale, PROCEDURE_RUNTIME_TRANSLATION_STRINGS),
   };
 }

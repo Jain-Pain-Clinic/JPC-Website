@@ -1,27 +1,7 @@
-import translationMemory from "../.cache/translation-memory.json";
 export * from "./i18n-config";
-import { LOCALES, TARGET_LOCALES, DEFAULT_LOCALE, normalizeTranslationText } from "./i18n-config";
+import { DEFAULT_LOCALE, normalizeTranslationText } from "./i18n-config";
 
-const translationByLocale = LOCALES.reduce((acc, locale) => {
-  acc[locale.code] = new Map();
-  return acc;
-}, {});
-
-for (const entry of Object.values(translationMemory || {})) {
-  const english = normalizeTranslationText(entry.en || "");
-
-  if (!english) {
-    continue;
-  }
-
-  for (const locale of TARGET_LOCALES) {
-    if (entry[locale.code]) {
-      translationByLocale[locale.code].set(english, entry[locale.code]);
-    }
-  }
-}
-
-export function translateText(locale, value) {
+export function translateText(locale, value, translations = {}) {
   if (locale === DEFAULT_LOCALE || typeof value !== "string") {
     return value;
   }
@@ -32,5 +12,5 @@ export function translateText(locale, value) {
     return value;
   }
 
-  return translationByLocale[locale]?.get(normalized) || value;
+  return translations[normalized] || value;
 }

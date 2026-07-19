@@ -752,9 +752,9 @@ const rawBlogs = [
   "authorImage": "/assets/logo.png",
   "publishedAt": "2026-05-21",
   "publishedLabel": "May 21, 2026",
-  "cardImage": "/assets/blog/doctor-pain-consultation-hero.jpg",
+  "cardImage": "/assets/blog/doctor-pain-consultation-hero-1600.jpg",
   "cardAlt": "Doctor listening to patient during pain consultation",
-  "bannerImage": "/assets/blog/doctor-pain-consultation-hero.jpg",
+  "bannerImage": "/assets/blog/doctor-pain-consultation-hero-1600.jpg",
   "bannerAlt": "Patient explaining pain symptoms to a doctor",
   "tags": [
     "Pain Consultation",
@@ -803,7 +803,7 @@ const rawBlogs = [
     },
     {
       "type": "image",
-      "src": "/assets/blog/pain-consultation-notes.jpg",
+      "src": "/assets/blog/pain-consultation-notes-1600.jpg",
       "alt": "Patient notes prepared before a pain specialist consultation"
     },
     {
@@ -889,9 +889,9 @@ const rawBlogs = [
   "authorImage": "/assets/logo.png",
   "publishedAt": "2026-05-25",
   "publishedLabel": "May 25, 2026",
-  "cardImage": "/assets/blog/si-joint-pain-hero.jpg",
+  "cardImage": "/assets/blog/si-joint-pain-hero-1600.jpg",
   "cardAlt": "Doctor examining lower back and pelvis area for sacroiliac joint pain",
-  "bannerImage": "/assets/blog/si-joint-pain-hero.jpg",
+  "bannerImage": "/assets/blog/si-joint-pain-hero-1600.jpg",
   "bannerAlt": "Doctor examining lower back and pelvis area for sacroiliac joint pain",
   "tags": [
     "Sacroiliac Joint",
@@ -922,7 +922,7 @@ const rawBlogs = [
       },
       {
         "type": "image",
-        "src": "/assets/blog/sacroiliac-joint-anatomy.jpg",
+        "src": "/assets/blog/sacroiliac-joint-anatomy-optimized.jpg",
         "alt": "Anatomy illustration showing the sacroiliac joint between the sacrum and ilium"
       },
       {
@@ -1717,9 +1717,9 @@ const rawBlogs = [
   "authorImage": "/assets/logo.png",
   "publishedAt": "2026-05-29",
   "publishedLabel": "May 29, 2026",
-  "cardImage": "/assets/blog/walking-pain-gait-hero.jpg",
+  "cardImage": "/assets/blog/walking-pain-gait-hero-1600.jpg",
   "cardAlt": "Person using a walking aid because pain affects walking",
-  "bannerImage": "/assets/blog/walking-pain-gait-hero.jpg",
+  "bannerImage": "/assets/blog/walking-pain-gait-hero-1600.jpg",
   "bannerAlt": "Person walking with a mobility aid due to pain and gait difficulty",
   "tags": [
     "Walking Pain",
@@ -3498,6 +3498,18 @@ const rawBlogs = [
 ];
 
 export const blogs = [...rawBlogs].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+
+export function toBlogArchiveItem(post) {
+  return {
+    slug: post.slug,
+    title: post.title,
+    excerpt: post.excerpt,
+    readTime: post.readTime,
+    cardImage: post.cardImage,
+    cardAlt: post.cardAlt,
+    tags: post.tags,
+  };
+}
 
 export function getBlogBySlug(slug) {
   return blogs.find((post) => post.slug === slug);

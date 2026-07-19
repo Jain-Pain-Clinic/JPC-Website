@@ -129,7 +129,7 @@ export default function HomePage({ homepageMarkup, clientTranslations = {}, loca
 
       <div dangerouslySetInnerHTML={{ __html: homepageMarkup }} />
 
-      <Script id="jpc-locale-runtime" strategy="beforeInteractive">
+      <Script id="jpc-locale-runtime" strategy="afterInteractive">
         {`
           window.__JPC_LOCALE = ${JSON.stringify(locale)};
           window.__JPC_TRANSLATIONS = ${JSON.stringify(clientTranslations)};
@@ -151,6 +151,6 @@ export async function getStaticProps(context) {
     props: withLocaleProps({
       homepageMarkup: translateLegacyMarkup(homepageMarkup, locale, "/"),
       clientTranslations: getClientTranslations(HOME_DYNAMIC_STRINGS, locale),
-    }, locale),
+    }, locale, []),
   };
 }

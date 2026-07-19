@@ -3,9 +3,10 @@ import BlogArchivePage from "@/components/blogs/BlogArchivePage";
 import BlogPostTemplate from "@/components/blogs/BlogPostTemplate";
 import SiteLayout from "@/components/layout/SiteLayout";
 import Seo from "@/components/shared/Seo";
-import { blogs, BLOGS_PER_PAGE, BLOG_ARCHIVE, getBlogBySlug } from "@/data/blogs";
+import { blogs, BLOGS_PER_PAGE, BLOG_ARCHIVE, getBlogBySlug, toBlogArchiveItem } from "@/data/blogs";
 import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
 import { getPaginatedItems, getTotalPages } from "@/lib/pagination";
+import { BLOG_RUNTIME_TRANSLATION_STRINGS } from "@/lib/runtime-translation-strings.server";
 import { clinicSchema, doctorSchema } from "@/lib/structured-data";
 
 export default function BlogSlugPage(props) {
@@ -121,14 +122,14 @@ export function getStaticProps(context) {
 
     const props = {
       kind: "archive",
-      items: getPaginatedItems(blogs, currentPage, BLOGS_PER_PAGE),
+      items: getPaginatedItems(blogs, currentPage, BLOGS_PER_PAGE).map(toBlogArchiveItem),
       currentPage,
       totalPages,
       archive: BLOG_ARCHIVE,
     };
 
     return {
-      props: withLocaleProps(translatePageProps(props, locale), locale),
+      props: withLocaleProps(translatePageProps(props, locale), locale, BLOG_RUNTIME_TRANSLATION_STRINGS),
     };
   }
 
@@ -142,6 +143,6 @@ export function getStaticProps(context) {
     props: withLocaleProps(translatePageProps({
       kind: "post",
       post,
-    }, locale), locale),
+    }, locale), locale, BLOG_RUNTIME_TRANSLATION_STRINGS),
   };
 }

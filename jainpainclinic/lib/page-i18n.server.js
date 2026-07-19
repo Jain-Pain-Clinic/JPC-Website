@@ -5,6 +5,7 @@ import {
   translateHtmlForLocale,
   translateObjectForLocale,
 } from "./translation-memory.server.js";
+import { getRuntimeTranslationStrings } from "./runtime-translation-strings.server.js";
 
 export function getLocaleFromContext(context) {
   return context?.params?.locale || DEFAULT_LOCALE;
@@ -19,9 +20,15 @@ export function translatePageProps(props, locale) {
   return translateObjectForLocale(props, locale, memory);
 }
 
-export function withLocaleProps(props, locale) {
+export function withLocaleProps(props, locale, runtimeTranslationStrings = getRuntimeTranslationStrings()) {
+  const clientTranslations = {
+    ...getClientTranslations(runtimeTranslationStrings, locale),
+    ...(props.clientTranslations || {}),
+  };
+
   return {
     ...props,
+    clientTranslations,
     locale,
   };
 }

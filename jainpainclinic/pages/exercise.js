@@ -221,6 +221,6 @@ export async function getStaticProps(context) {
   return {
     props: withLocaleProps({
       exerciseMarkup: translateLegacyMarkup(exerciseMarkup, locale, "/exercise"),
-    }, locale),
+    }, locale, []),
   };
 }

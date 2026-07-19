@@ -186,6 +186,7 @@ function GoogleTagManager() {
 export default function App({ Component, pageProps }) {
   const router = useRouter();
   const locale = pageProps.locale || DEFAULT_LOCALE;
+  const clientTranslations = pageProps.clientTranslations || {};
   const localeMeta = getLocaleMeta(locale);
   const localeFontClass =
     locale === "hi" ? devanagari.className : locale === "ar" ? arabic.className : manrope.className;
@@ -322,7 +323,7 @@ export default function App({ Component, pageProps }) {
   }, [router.events]);
 
   return (
-    <I18nProvider locale={locale}>
+    <I18nProvider locale={locale} translations={clientTranslations}>
       <div className={localeFontClass}>
         <GoogleTagManager />
         <Component {...pageProps} />

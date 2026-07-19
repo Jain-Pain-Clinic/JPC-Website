@@ -7,7 +7,15 @@ export default function BlogCard({ post }) {
   return (
     <article className="blog-card" data-title={post.title} data-tags={post.tags.join(",")}>
       <div className="blog-card__image">
-        <img src={post.cardImage} alt={post.cardAlt || post.title} loading="lazy" />
+        <img
+          src={post.cardImage}
+          alt={post.cardAlt || post.title}
+          width="347"
+          height="201"
+          loading="lazy"
+          decoding="async"
+          fetchPriority="low"
+        />
       </div>
       <div className="blog-card__body">
         <span className="blog-card__meta">{post.readTime}</span>

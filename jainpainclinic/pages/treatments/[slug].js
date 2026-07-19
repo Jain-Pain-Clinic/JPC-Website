@@ -4,6 +4,7 @@ import SiteLayout from "@/components/layout/SiteLayout";
 import Seo from "@/components/shared/Seo";
 import { treatments, getTreatmentBySlug } from "@/data/treatments";
 import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
+import { TREATMENT_RUNTIME_TRANSLATION_STRINGS } from "@/lib/runtime-translation-strings.server";
 import { clinicSchema, doctorSchema } from "@/lib/structured-data";
 
 export default function TreatmentPage({ treatment, locale = "en" }) {
@@ -96,6 +97,6 @@ export function getStaticProps(context) {
   return {
     props: withLocaleProps(translatePageProps({
       treatment,
-    }, locale), locale),
+    }, locale), locale, TREATMENT_RUNTIME_TRANSLATION_STRINGS),
   };
 }

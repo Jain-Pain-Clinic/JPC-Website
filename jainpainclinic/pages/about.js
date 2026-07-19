@@ -90,6 +90,6 @@ export async function getStaticProps(context) {
   return {
     props: withLocaleProps({
       aboutMarkup: translateLegacyMarkup(aboutMarkup, locale, "/about"),
-    }, locale),
+    }, locale, []),
   };
 }

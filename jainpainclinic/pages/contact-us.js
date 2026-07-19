@@ -101,6 +101,6 @@ export async function getStaticProps(context) {
   return {
     props: withLocaleProps({
       contactMarkup: translateLegacyMarkup(contactMarkup, locale, "/contact-us"),
-    }, locale),
+    }, locale, []),
   };
 }

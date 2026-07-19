@@ -8,12 +8,12 @@ const I18nContext = createContext({
   localizeHref: (href) => href,
 });
 
-export function I18nProvider({ locale = DEFAULT_LOCALE, children }) {
+export function I18nProvider({ locale = DEFAULT_LOCALE, translations = {}, children }) {
   const meta = getLocaleMeta(locale);
   const value = {
     locale,
     dir: meta.dir,
-    t: (text) => translateText(locale, text),
+    t: (text) => translateText(locale, text, translations),
     localizeHref: (href) => localizePath(href, locale),
   };
 

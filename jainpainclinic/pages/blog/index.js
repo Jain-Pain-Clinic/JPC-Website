@@ -1,9 +1,10 @@
 import BlogArchivePage from "@/components/blogs/BlogArchivePage";
 import SiteLayout from "@/components/layout/SiteLayout";
 import Seo from "@/components/shared/Seo";
-import { blogs, BLOGS_PER_PAGE, BLOG_ARCHIVE } from "@/data/blogs";
+import { blogs, BLOGS_PER_PAGE, BLOG_ARCHIVE, toBlogArchiveItem } from "@/data/blogs";
 import { getLocaleFromContext, translatePageProps, withLocaleProps } from "@/lib/page-i18n.server";
 import { getPaginatedItems, getTotalPages } from "@/lib/pagination";
+import { BLOG_RUNTIME_TRANSLATION_STRINGS } from "@/lib/runtime-translation-strings.server";
 
 export default function BlogIndexPage({ items, totalPages, archive = BLOG_ARCHIVE, locale = "en" }) {
   return (
@@ -32,12 +33,12 @@ export default function BlogIndexPage({ items, totalPages, archive = BLOG_ARCHIV
 export function getStaticProps(context) {
   const locale = getLocaleFromContext(context);
   const props = {
-    items: getPaginatedItems(blogs, 1, BLOGS_PER_PAGE),
+    items: getPaginatedItems(blogs, 1, BLOGS_PER_PAGE).map(toBlogArchiveItem),
     totalPages: getTotalPages(blogs.length, BLOGS_PER_PAGE),
     archive: BLOG_ARCHIVE,
   };
 
   return {
-    props: withLocaleProps(translatePageProps(props, locale), locale),
+    props: withLocaleProps(translatePageProps(props, locale), locale, BLOG_RUNTIME_TRANSLATION_STRINGS),
   };
 }

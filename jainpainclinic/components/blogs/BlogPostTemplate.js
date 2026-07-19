@@ -4,7 +4,15 @@ function ContentBlock({ block }) {
   if (block.type === "image") {
     return (
       <figure className="blog-post-content__image">
-        <img src={block.src} alt={block.alt} loading="lazy" />
+        <img
+          src={block.src}
+          alt={block.alt}
+          width="960"
+          height="400"
+          loading="lazy"
+          decoding="async"
+          fetchPriority="low"
+        />
       </figure>
     );
   }
@@ -66,7 +74,15 @@ export default function BlogPostTemplate({ post }) {
 
           <div className="blog-post-hero__byline">
             <span className="blog-post-hero__author">
-              <img className="blog-post-hero__author-avatar" src={post.authorImage} alt="" />
+              <img
+                className="blog-post-hero__author-avatar"
+                src={post.authorImage}
+                alt=""
+                width="48"
+                height="48"
+                loading="lazy"
+                decoding="async"
+              />
               {post.author}
             </span>
             <time className="blog-post-hero__date" dateTime={post.publishedAt}>
@@ -78,7 +94,14 @@ export default function BlogPostTemplate({ post }) {
 
       <div className="wrap">
         <div className="blog-post-banner reveal">
-          <img src={post.bannerImage} alt={post.bannerAlt} />
+          <img
+            src={post.bannerImage}
+            alt={post.bannerAlt}
+            width="1200"
+            height="496"
+            decoding="async"
+            fetchPriority="high"
+          />
         </div>
       </div>
 

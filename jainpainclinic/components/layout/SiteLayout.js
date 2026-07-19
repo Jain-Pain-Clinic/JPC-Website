@@ -14,7 +14,7 @@ export default function SiteLayout({
       {showAppointment ? <AppointmentSection /> : null}
       <SiteFooter />
 
-      <Script src="/legacy/script.js" strategy="afterInteractive" />
+      <Script src="/legacy/site-layout.js" strategy="afterInteractive" />
     </>
   );
 }
