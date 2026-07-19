@@ -210,10 +210,15 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('/assets/BG.webp') center / cover no-repeat;
+  background: none;
   pointer-events: none;
 }
 
+@media (min-width: 781px) {
+  .hero-section::before {
+    background: url('/assets/BG.webp') center / cover no-repeat;
+  }
+}
 
 
 .hero-grid {
@@ -1439,6 +1444,14 @@ button {
   .main-nav.is-open {
     opacity: 1;
     pointer-events: auto;
+  }
+
+  .hero-section {
+    background: linear-gradient(180deg, #fff 0%, #f3f8ff 54%, #eaf3ff 100%);
+  }
+
+  .hero-section::before {
+    background: none;
   }
 
   .main-nav > a,

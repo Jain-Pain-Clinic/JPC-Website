@@ -11,19 +11,27 @@ const GTM_LOAD_DELAY_MS = 2000;
 const REVEAL_SELECTOR = ".reveal, .reveal-left, .reveal-right, .reveal-scale";
 const REVEAL_VIEWPORT_OFFSET = 96;
 const manrope = Manrope({
-  subsets: ["latin", "cyrillic"],
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
+});
+const manropeCyrillic = Manrope({
+  subsets: ["cyrillic"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+  preload: false,
 });
 const devanagari = Noto_Sans_Devanagari({
   subsets: ["devanagari"],
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
+  preload: false,
 });
 const arabic = Noto_Sans_Arabic({
   subsets: ["arabic"],
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
+  preload: false,
 });
 
 function getElementText(element) {
@@ -189,7 +197,13 @@ export default function App({ Component, pageProps }) {
   const clientTranslations = pageProps.clientTranslations || {};
   const localeMeta = getLocaleMeta(locale);
   const localeFontClass =
-    locale === "hi" ? devanagari.className : locale === "ar" ? arabic.className : manrope.className;
+    locale === "hi"
+      ? devanagari.className
+      : locale === "ar"
+        ? arabic.className
+        : locale === "ru"
+          ? manropeCyrillic.className
+          : manrope.className;
 
   useEffect(() => {
     document.documentElement.lang = localeMeta.code;

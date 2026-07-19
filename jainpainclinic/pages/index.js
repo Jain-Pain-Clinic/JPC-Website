@@ -6,8 +6,21 @@ import LocaleHeadLinks from "@/components/shared/LocaleHeadLinks";
 import { normalizeWhatsAppConsultLinks } from "@/lib/external-link-markup";
 import { HOME_DYNAMIC_STRINGS } from "@/lib/home-dynamic-strings";
 import { normalizeLegacyProcedureMenus } from "@/lib/legacy-procedure-menus";
-import { getClientTranslations, getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
+import {
+  getClientTranslations,
+  getLocaleFromContext,
+  translateLegacyMarkup,
+  translatePageProps,
+  withLocaleProps,
+} from "@/lib/page-i18n.server";
 import { clinicGraph } from "@/lib/structured-data";
+
+const HOME_HERO = {
+  title: "True life starts when the pain ends",
+  subtitle: "NCR's leading chronic pain clinic, with expertise in interventional pain management.",
+  cta: "Book appointment",
+  imageAlt: "Doctor with 50,000+ happy patients and 4 expert doctors",
+};
 
 const HOME_CRITICAL_CSS = `
 :root{--ink:#032126;--blue:#1253a3;--blue-dark:#0f468d;--muted:rgba(3,33,38,.5);--surface:#fff}
@@ -31,7 +44,7 @@ button{border:0;background:none;cursor:pointer;font:inherit}
 .header-cta{flex:0 0 auto;gap:8px}
 .hamburger{display:none}
 .hero-section{position:relative;overflow:hidden;background:#fff}
-.hero-section::before{content:"";position:absolute;inset:0;background:url("/assets/BG.webp") center/cover no-repeat;pointer-events:none}
+.hero-section::before{content:"";position:absolute;inset:0;background:none;pointer-events:none}
 .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:495px 1fr;gap:23px;min-height:745px}
 .hero-copy{position:relative;z-index:1;align-self:start;padding-top:196px}
 .hero-copy h1{margin:0;max-width:495px;color:var(--ink);font-size:55px;font-weight:700;line-height:1.1;letter-spacing:-1.65px}
@@ -39,8 +52,9 @@ button{border:0;background:none;cursor:pointer;font:inherit}
 .hero-visual{position:relative;display:flex;align-items:flex-end;justify-content:flex-end}
 .hero-figure{width:92%;max-width:630px;height:auto;object-fit:contain}
 .hero-figure img{width:100%;height:auto;object-fit:contain}
+@media (min-width:781px){.hero-section::before{background:url("/assets/BG.webp") center/cover no-repeat}}
 @media (max-width:1100px){.wrap{padding:0 36px}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:72px 0 0}.hero-copy{padding-top:0}.hero-visual{min-height:620px}.hero-figure{right:50%;transform:translateX(50%);width:min(620px,88vw)}}
-@media (max-width:780px){.wrap{padding:0 20px}.hamburger{display:flex;flex:0 0 40px;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;padding:9px 6px;background:none;border:0}.hamburger span{display:block;width:100%;height:2px;border-radius:2px;background:var(--ink)}.header-bar{flex-wrap:nowrap;justify-content:space-between;gap:10px;padding:14px 0;min-height:auto}.brand{position:relative;z-index:101;min-width:0}.brand img{width:124px}.header-actions{display:flex;align-items:center;flex:0 0 auto;gap:8px;position:relative;z-index:101}.header-cta{flex:0 0 auto;min-height:auto;padding:12px 18px;border-radius:62px;font-size:12px}.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:40px;padding:80px 20px 40px;background:#fff;overflow-y:auto;opacity:0;pointer-events:none}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:40px 0 0;text-align:center}.hero-copy{padding-top:0;align-items:center;display:flex;flex-direction:column}.hero-copy h1{font-size:32px;max-width:307px;letter-spacing:-.96px}.hero-copy p{font-size:14px;max-width:277px;margin:16px 0 36px;letter-spacing:-.28px}.hero-visual{justify-content:center;min-height:auto}.hero-figure{position:relative;right:auto;transform:none;width:min(420px,90vw);max-width:none}}
+@media (max-width:780px){.wrap{padding:0 20px}.hamburger{display:flex;flex:0 0 40px;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;padding:9px 6px;background:none;border:0}.hamburger span{display:block;width:100%;height:2px;border-radius:2px;background:var(--ink)}.header-bar{flex-wrap:nowrap;justify-content:space-between;gap:10px;padding:14px 0;min-height:auto}.brand{position:relative;z-index:101;min-width:0}.brand img{width:124px}.header-actions{display:flex;align-items:center;flex:0 0 auto;gap:8px;position:relative;z-index:101}.header-cta{flex:0 0 auto;min-height:auto;padding:12px 18px;border-radius:62px;font-size:12px}.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:40px;padding:80px 20px 40px;background:#fff;overflow-y:auto;opacity:0;pointer-events:none}.hero-section{background:linear-gradient(180deg,#fff 0%,#f3f8ff 54%,#eaf3ff 100%)}.hero-section::before{background:none}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:40px 0 0;text-align:center}.hero-copy{padding-top:0;align-items:center;display:flex;flex-direction:column}.hero-copy h1{font-size:32px;max-width:307px;letter-spacing:-.96px}.hero-copy p{font-size:14px;max-width:277px;margin:16px 0 36px;letter-spacing:-.28px}.hero-visual{justify-content:center;min-height:auto}.hero-figure{position:relative;right:auto;transform:none;width:min(420px,90vw);max-width:none}}
 `;
 
 function normalizeHomepageMarkup(html) {
@@ -101,7 +115,77 @@ function normalizeHomepageMarkup(html) {
     );
 }
 
-export default function HomePage({ homepageMarkup, clientTranslations = {}, locale = "en" }) {
+function removeLegacyHeroSection(markup) {
+  return markup.replace(
+    /\n\s*<section class="hero-section">[\s\S]*?<\/section>\s*(?=\n\s*<section class="about-section")/,
+    "\n"
+  );
+}
+
+function splitHomepageShell(markup) {
+  const headerEnd = markup.indexOf("</header>");
+  const mainStart = markup.indexOf('<main id="top">');
+  const mainEnd = markup.lastIndexOf("</main>");
+
+  if (headerEnd === -1 || mainStart === -1 || mainEnd === -1) {
+    return {
+      headerMarkup: "",
+      mainMarkup: markup,
+      footerMarkup: "",
+    };
+  }
+
+  return {
+    headerMarkup: markup.slice(0, headerEnd + "</header>".length),
+    mainMarkup: markup.slice(mainStart + '<main id="top">'.length, mainEnd),
+    footerMarkup: markup.slice(mainEnd + "</main>".length),
+  };
+}
+
+function HomeHero({ hero }) {
+  return (
+    <section className="hero-section">
+      <div className="wrap hero-grid">
+        <div className="hero-copy">
+          <h1>{hero.title}</h1>
+          <p>{hero.subtitle}</p>
+          <a className="pill-button" href="#contact">
+            {hero.cta}
+          </a>
+        </div>
+
+        <div className="hero-visual">
+          <picture className="hero-figure">
+            <source
+              media="(max-width: 780px)"
+              srcSet="/assets/hero-right-mobile.webp"
+              type="image/webp"
+            />
+            <source srcSet="/assets/hero-right.webp" type="image/webp" />
+            <img
+              src="/assets/hero-right.png"
+              width="1143"
+              height="1200"
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
+              alt={hero.imageAlt}
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default function HomePage({
+  headerMarkup,
+  mainMarkup,
+  footerMarkup,
+  hero = HOME_HERO,
+  clientTranslations = {},
+  locale = "en",
+}) {
   return (
     <>
       <Head>
@@ -124,16 +208,18 @@ export default function HomePage({ homepageMarkup, clientTranslations = {}, loca
         <link
           rel="preload"
           as="image"
-          href="/assets/hero-right.webp"
+          href="/assets/hero-right-mobile.webp"
           type="image/webp"
           fetchPriority="high"
+          media="(max-width: 780px)"
         />
         <link
           rel="preload"
           as="image"
-          href="/assets/BG.webp"
+          href="/assets/hero-right.webp"
           type="image/webp"
           fetchPriority="high"
+          media="(min-width: 781px)"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -167,7 +253,12 @@ export default function HomePage({ homepageMarkup, clientTranslations = {}, loca
         />
       </Head>
 
-      <div dangerouslySetInnerHTML={{ __html: homepageMarkup }} />
+      <div dangerouslySetInnerHTML={{ __html: headerMarkup }} />
+      <main id="top">
+        <HomeHero hero={hero} />
+        <div dangerouslySetInnerHTML={{ __html: mainMarkup }} />
+      </main>
+      <div dangerouslySetInnerHTML={{ __html: footerMarkup }} />
 
       <Script id="jpc-locale-runtime" strategy="afterInteractive">
         {`
@@ -185,11 +276,15 @@ export async function getStaticProps(context) {
   const homepagePath = path.join(process.cwd(), "content", "legacy-site", "index.html");
   const homepageHtml = fs.readFileSync(homepagePath, "utf8");
   const bodyMatch = homepageHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
-  const homepageMarkup = normalizeHomepageMarkup(bodyMatch ? bodyMatch[1] : "");
+  const homepageMarkup = removeLegacyHeroSection(normalizeHomepageMarkup(bodyMatch ? bodyMatch[1] : ""));
+  const translatedHomepageShell = translateLegacyMarkup(homepageMarkup, locale, "/");
+  const translatedHero = translatePageProps(HOME_HERO, locale);
+  const homepageParts = splitHomepageShell(translatedHomepageShell);
 
   return {
     props: withLocaleProps({
-      homepageMarkup: translateLegacyMarkup(homepageMarkup, locale, "/"),
+      ...homepageParts,
+      hero: translatedHero,
       clientTranslations: getClientTranslations(HOME_DYNAMIC_STRINGS, locale),
     }, locale, []),
   };
