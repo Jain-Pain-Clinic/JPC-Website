@@ -1454,6 +1454,18 @@ button {
     background: none;
   }
 
+  .about-section,
+  .expert-section,
+  .team-section,
+  .treat-section,
+  .beliefs-section,
+  .testimonial-section,
+  .appointment-section,
+  .video-section {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 900px;
+  }
+
   .main-nav > a,
   .main-nav > .nav-dropdown > a {
     display: flex;

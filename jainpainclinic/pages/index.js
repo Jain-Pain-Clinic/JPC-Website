@@ -54,7 +54,7 @@ button{border:0;background:none;cursor:pointer;font:inherit}
 .hero-figure img{width:100%;height:auto;object-fit:contain}
 @media (min-width:781px){.hero-section::before{background:url("/assets/BG.webp") center/cover no-repeat}}
 @media (max-width:1100px){.wrap{padding:0 36px}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:72px 0 0}.hero-copy{padding-top:0}.hero-visual{min-height:620px}.hero-figure{right:50%;transform:translateX(50%);width:min(620px,88vw)}}
-@media (max-width:780px){.wrap{padding:0 20px}.hamburger{display:flex;flex:0 0 40px;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;padding:9px 6px;background:none;border:0}.hamburger span{display:block;width:100%;height:2px;border-radius:2px;background:var(--ink)}.header-bar{flex-wrap:nowrap;justify-content:space-between;gap:10px;padding:14px 0;min-height:auto}.brand{position:relative;z-index:101;min-width:0}.brand img{width:124px}.header-actions{display:flex;align-items:center;flex:0 0 auto;gap:8px;position:relative;z-index:101}.header-cta{flex:0 0 auto;min-height:auto;padding:12px 18px;border-radius:62px;font-size:12px}.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:40px;padding:80px 20px 40px;background:#fff;overflow-y:auto;opacity:0;pointer-events:none}.hero-section{background:linear-gradient(180deg,#fff 0%,#f3f8ff 54%,#eaf3ff 100%)}.hero-section::before{background:none}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:40px 0 0;text-align:center}.hero-copy{padding-top:0;align-items:center;display:flex;flex-direction:column}.hero-copy h1{font-size:32px;max-width:307px;letter-spacing:-.96px}.hero-copy p{font-size:14px;max-width:277px;margin:16px 0 36px;letter-spacing:-.28px}.hero-visual{justify-content:center;min-height:auto}.hero-figure{position:relative;right:auto;transform:none;width:min(420px,90vw);max-width:none}}
+@media (max-width:780px){.wrap{padding:0 20px}.hamburger{display:flex;flex:0 0 40px;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;padding:9px 6px;background:none;border:0}.hamburger span{display:block;width:100%;height:2px;border-radius:2px;background:var(--ink)}.header-bar{flex-wrap:nowrap;justify-content:space-between;gap:10px;padding:14px 0;min-height:auto}.brand{position:relative;z-index:101;min-width:0}.brand img{width:124px}.header-actions{display:flex;align-items:center;flex:0 0 auto;gap:8px;position:relative;z-index:101}.header-cta{flex:0 0 auto;min-height:auto;padding:12px 18px;border-radius:62px;font-size:12px}.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:40px;padding:80px 20px 40px;background:#fff;overflow-y:auto;opacity:0;pointer-events:none}.hero-section{background:linear-gradient(180deg,#fff 0%,#f3f8ff 54%,#eaf3ff 100%)}.hero-section::before{background:none}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:40px 0 0;text-align:center}.hero-copy{padding-top:0;align-items:center;display:flex;flex-direction:column}.hero-copy h1{font-size:32px;max-width:307px;letter-spacing:-.96px}.hero-copy p{font-size:14px;max-width:277px;margin:16px 0 36px;letter-spacing:-.28px}.hero-visual{justify-content:center;min-height:auto}.hero-figure{position:relative;right:auto;transform:none;width:min(420px,90vw);max-width:none}.about-section,.expert-section,.team-section,.treat-section,.beliefs-section,.testimonial-section,.appointment-section,.video-section{content-visibility:auto;contain-intrinsic-size:auto 900px}}
 `;
 
 function normalizeHomepageMarkup(html) {
@@ -163,12 +163,13 @@ function HomeHero({ hero }) {
             />
             <source srcSet="/assets/hero-right.webp" type="image/webp" />
             <img
-              src="/assets/hero-right.png"
-              width="1143"
-              height="1200"
+              src="/assets/hero-right-mobile.webp"
+              width="520"
+              height="546"
               loading="eager"
-              decoding="async"
+              decoding="sync"
               fetchPriority="high"
+              sizes="(max-width: 780px) 90vw, min(630px, 47vw)"
               alt={hero.imageAlt}
             />
           </picture>
