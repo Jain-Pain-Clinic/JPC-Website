@@ -203,13 +203,22 @@ button {
 .hero-section {
   position: relative;
   overflow: hidden;
+  background: #ffffff;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background: url('/assets/BG.webp') center / cover no-repeat;
+  pointer-events: none;
 }
 
 
 
 .hero-grid {
   position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: 495px 1fr;
   gap: 23px;

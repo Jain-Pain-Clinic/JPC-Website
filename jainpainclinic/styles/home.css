@@ -207,9 +207,16 @@ button {
 .hero-section {
   position: relative;
   overflow: hidden;
-  background: #ffffff url("/assets/BG.webp") center / cover no-repeat;
+  background: #ffffff;
 }
 
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/assets/BG.webp") center / cover no-repeat;
+  pointer-events: none;
+}
 
 .hero-grid {
   position: relative;

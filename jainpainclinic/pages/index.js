@@ -9,6 +9,40 @@ import { normalizeLegacyProcedureMenus } from "@/lib/legacy-procedure-menus";
 import { getClientTranslations, getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 import { clinicGraph } from "@/lib/structured-data";
 
+const HOME_CRITICAL_CSS = `
+:root{--ink:#032126;--blue:#1253a3;--blue-dark:#0f468d;--muted:rgba(3,33,38,.5);--surface:#fff}
+*,:before,:after{box-sizing:border-box}
+html{overflow-x:clip}
+body{margin:0;min-width:320px;overflow-x:clip;background:var(--surface);color:var(--ink);font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+picture{display:block}
+a{color:inherit;text-decoration:none}
+button{border:0;background:none;cursor:pointer;font:inherit}
+.wrap{width:min(1440px,100%);margin:0 auto;padding:0 120px}
+.pill-button{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:20px 32px;border:1px solid rgba(0,0,0,.1);border-radius:32px;background:var(--blue);color:#eeebff;text-decoration:none;font-size:18px;font-weight:700;line-height:1}
+.pill-button--small{min-height:44px;padding:12px 18px;font-size:14px;font-weight:700}
+.site-header{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.97);box-shadow:0 3px 4px rgba(171,171,171,.08)}
+.header-bar{display:flex;align-items:center;justify-content:space-between;gap:40px;min-height:76px}
+.brand{flex:0 0 auto}
+.brand img{width:147px;height:auto}
+.main-nav{display:flex;flex:1;justify-content:center;gap:26px;min-width:0}
+.main-nav a{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;line-height:1.35}
+.header-actions{display:flex;align-items:center;gap:12px}
+.header-cta{flex:0 0 auto;gap:8px}
+.hamburger{display:none}
+.hero-section{position:relative;overflow:hidden;background:#fff}
+.hero-section::before{content:"";position:absolute;inset:0;background:url("/assets/BG.webp") center/cover no-repeat;pointer-events:none}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:495px 1fr;gap:23px;min-height:745px}
+.hero-copy{position:relative;z-index:1;align-self:start;padding-top:196px}
+.hero-copy h1{margin:0;max-width:495px;color:var(--ink);font-size:55px;font-weight:700;line-height:1.1;letter-spacing:-1.65px}
+.hero-copy p{margin:20px 0 48px;max-width:417px;color:var(--muted);font-size:20px;font-weight:500;line-height:1.32;letter-spacing:-.4px}
+.hero-visual{position:relative;display:flex;align-items:flex-end;justify-content:flex-end}
+.hero-figure{width:92%;max-width:630px;height:auto;object-fit:contain}
+.hero-figure img{width:100%;height:auto;object-fit:contain}
+@media (max-width:1100px){.wrap{padding:0 36px}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:72px 0 0}.hero-copy{padding-top:0}.hero-visual{min-height:620px}.hero-figure{right:50%;transform:translateX(50%);width:min(620px,88vw)}}
+@media (max-width:780px){.wrap{padding:0 20px}.hamburger{display:flex;flex:0 0 40px;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;padding:9px 6px;background:none;border:0}.hamburger span{display:block;width:100%;height:2px;border-radius:2px;background:var(--ink)}.header-bar{flex-wrap:nowrap;justify-content:space-between;gap:10px;padding:14px 0;min-height:auto}.brand{position:relative;z-index:101;min-width:0}.brand img{width:124px}.header-actions{display:flex;align-items:center;flex:0 0 auto;gap:8px;position:relative;z-index:101}.header-cta{flex:0 0 auto;min-height:auto;padding:12px 18px;border-radius:62px;font-size:12px}.main-nav{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;flex-direction:column;justify-content:flex-start;align-items:stretch;gap:40px;padding:80px 20px 40px;background:#fff;overflow-y:auto;opacity:0;pointer-events:none}.hero-grid{grid-template-columns:1fr;min-height:auto;padding:40px 0 0;text-align:center}.hero-copy{padding-top:0;align-items:center;display:flex;flex-direction:column}.hero-copy h1{font-size:32px;max-width:307px;letter-spacing:-.96px}.hero-copy p{font-size:14px;max-width:277px;margin:16px 0 36px;letter-spacing:-.28px}.hero-visual{justify-content:center;min-height:auto}.hero-figure{position:relative;right:auto;transform:none;width:min(420px,90vw);max-width:none}}
+`;
+
 function normalizeHomepageMarkup(html) {
   return normalizeLegacyProcedureMenus(normalizeWhatsAppConsultLinks(html))
     .replace(/href="assets\//g, 'href="/assets/')
@@ -81,6 +115,12 @@ export default function HomePage({ homepageMarkup, clientTranslations = {}, loca
           content="Jain Pain Clinic, Dr Ashu Kumar Jain, chronic pain, pain management, interventional pain, Gurugram, NCR, back pain, neck pain, sciatica, knee pain, palliative care"
         />
         <LocaleHeadLinks path="/" locale={locale} />
+        <style
+          id="jpc-home-critical-css"
+          dangerouslySetInnerHTML={{
+            __html: HOME_CRITICAL_CSS,
+          }}
+        />
         <link
           rel="preload"
           as="image"
