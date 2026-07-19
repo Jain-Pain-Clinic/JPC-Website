@@ -9,6 +9,12 @@ import { normalizeLegacyProcedureMenus } from "@/lib/legacy-procedure-menus";
 import { getClientTranslations, getLocaleFromContext, translateLegacyMarkup, withLocaleProps } from "@/lib/page-i18n.server";
 import { clinicGraph } from "@/lib/structured-data";
 
+const HERO_STRINGS = [
+  "True life starts when the pain ends",
+  "NCR's leading chronic pain clinic, with expertise in interventional pain management.",
+  "Book appointment",
+];
+
 function normalizeHomepageMarkup(html) {
   return normalizeLegacyProcedureMenus(normalizeWhatsAppConsultLinks(html))
     .replace(/href="assets\//g, 'href="/assets/')
@@ -67,7 +73,66 @@ function normalizeHomepageMarkup(html) {
     );
 }
 
-export default function HomePage({ homepageMarkup, clientTranslations = {}, locale = "en" }) {
+function splitHomepageMarkup(markup) {
+  const headerMatch = markup.match(/^\s*(<header[\s\S]*?<\/header>)/);
+  const mainMatch = markup.match(/<main id="top">([\s\S]*?)<\/main>/);
+  const footerMatch = markup.match(/(<footer[\s\S]*?<\/footer>)\s*$/);
+
+  if (!headerMatch || !mainMatch) {
+    return {
+      headerMarkup: "",
+      mainSectionsMarkup: markup,
+      footerMarkup: "",
+    };
+  }
+
+  const mainContent = mainMatch[1] || "";
+  const heroMatch = mainContent.match(/^\s*<section class="hero-section">[\s\S]*?<\/section>/);
+
+  return {
+    headerMarkup: headerMatch[1],
+    mainSectionsMarkup: heroMatch ? mainContent.slice(heroMatch[0].length) : mainContent,
+    footerMarkup: footerMatch ? footerMatch[1] : "",
+  };
+}
+
+function HomeHero({ copy }) {
+  return (
+    <section className="hero-section">
+      <div className="wrap hero-grid">
+        <div className="hero-copy">
+          <h1>{copy.title}</h1>
+          <p>{copy.subtitle}</p>
+          <a className="pill-button" href="#contact">{copy.cta}</a>
+        </div>
+
+        <div className="hero-visual">
+          <picture className="hero-figure">
+            <source srcSet="/assets/hero-right.webp" type="image/webp" />
+            <img
+              src="/assets/hero-right.png"
+              width="1143"
+              height="1200"
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
+              alt="Doctor with 50,000+ happy patients and 4 expert doctors"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default function HomePage({
+  headerMarkup,
+  mainSectionsMarkup,
+  footerMarkup,
+  heroCopy,
+  clientTranslations = {},
+  locale = "en",
+}) {
   return (
     <>
       <Head>
@@ -127,7 +192,12 @@ export default function HomePage({ homepageMarkup, clientTranslations = {}, loca
         />
       </Head>
 
-      <div dangerouslySetInnerHTML={{ __html: homepageMarkup }} />
+      {headerMarkup ? <div dangerouslySetInnerHTML={{ __html: headerMarkup }} /> : null}
+      <main id="top">
+        <HomeHero copy={heroCopy} />
+        <div dangerouslySetInnerHTML={{ __html: mainSectionsMarkup }} />
+      </main>
+      {footerMarkup ? <div dangerouslySetInnerHTML={{ __html: footerMarkup }} /> : null}
 
       <Script id="jpc-locale-runtime" strategy="afterInteractive">
         {`
@@ -146,11 +216,22 @@ export async function getStaticProps(context) {
   const homepageHtml = fs.readFileSync(homepagePath, "utf8");
   const bodyMatch = homepageHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
   const homepageMarkup = normalizeHomepageMarkup(bodyMatch ? bodyMatch[1] : "");
+  const splitMarkup = splitHomepageMarkup(homepageMarkup);
+  const runtimeStrings = [...HOME_DYNAMIC_STRINGS, ...HERO_STRINGS];
+  const clientTranslations = getClientTranslations(runtimeStrings, locale);
+  const translateHeroString = (value) => clientTranslations[value] || value;
 
   return {
     props: withLocaleProps({
-      homepageMarkup: translateLegacyMarkup(homepageMarkup, locale, "/"),
-      clientTranslations: getClientTranslations(HOME_DYNAMIC_STRINGS, locale),
+      headerMarkup: translateLegacyMarkup(splitMarkup.headerMarkup, locale, "/"),
+      mainSectionsMarkup: translateLegacyMarkup(splitMarkup.mainSectionsMarkup, locale, "/"),
+      footerMarkup: translateLegacyMarkup(splitMarkup.footerMarkup, locale, "/"),
+      heroCopy: {
+        title: translateHeroString(HERO_STRINGS[0]),
+        subtitle: translateHeroString(HERO_STRINGS[1]),
+        cta: translateHeroString(HERO_STRINGS[2]),
+      },
+      clientTranslations,
     }, locale, []),
   };
 }
