@@ -3494,6 +3494,548 @@ const rawBlogs = [
       }
     ]
   }
+},
+{
+  "slug": "icd-10-code-for-sciatica-m5431-m5432-m5441-m5442",
+  "title": "ICD-10 Code for Sciatica: Understanding M54.31, M54.32, M54.41, and M54.42",
+  "seoTitle": "ICD-10 Code for Sciatica: M54.31, M54.32, M54.41 and M54.42 | Jain Pain Clinic",
+  "description": "Learn what ICD-10 codes M54.31, M54.32, M54.41, and M54.42 mean for sciatica, right-sided pain, left-sided pain, and low back pain with sciatica.",
+  "keywords": "ICD-10 code for sciatica, M54.31, M54.32, M54.41, M54.42, sciatica right side ICD-10, sciatica left side ICD-10, lumbago with sciatica ICD-10, low back pain with sciatica code, sciatica diagnosis code, sciatica treatment Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/icd-10-code-for-sciatica-m5431-m5432-m5441-m5442",
+  "ogImage": "/assets/blog/icd10-sciatica-back-pain-hero.jpg",
+  "category": "ICD-10 Codes",
+  "readTime": "8 min read",
+  "excerpt": "ICD-10 sciatica codes change depending on the side of pain and whether low back pain is also present. Here is what M54.31, M54.32, M54.41, and M54.42 mean.",
+  "heroSubtitle": "Sciatica codes are not just billing labels. They describe whether symptoms are right-sided, left-sided, and whether low back pain is part of the clinical picture.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-07-12",
+  "publishedLabel": "July 12, 2026",
+  "cardImage": "/assets/blog/icd10-sciatica-back-pain-hero.jpg",
+  "cardAlt": "Patient with lower back pain and sciatica symptoms",
+  "bannerImage": "/assets/blog/icd10-sciatica-back-pain-hero.jpg",
+  "bannerAlt": "ICD-10 codes for sciatica and low back pain with sciatica",
+  "tags": [
+    "ICD-10 Codes",
+    "Sciatica",
+    "Back Pain",
+    "Nerve Pain",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "If you have seen codes like M54.31, M54.32, M54.41, or M54.42 on a prescription, bill, insurance document, or medical record, they are ICD-10-CM diagnosis codes related to sciatica. These codes help describe whether sciatica is on the right side, left side, and whether low back pain is also present. But the code is only one part of the story. The real treatment decision depends on symptoms, examination, and imaging correlation.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is Sciatica?",
+        "paragraphs": [
+          "Sciatica means pain that travels along the sciatic nerve pathway. It often starts in the lower back or buttock and travels into the thigh, calf, or foot.",
+          "The pain may feel sharp, burning, electric, shooting, or cramping. Some patients also have tingling, numbness, heaviness, or weakness in the leg.",
+          "Sciatica is a symptom pattern, not a final diagnosis by itself. The underlying cause may be a slipped disc, spinal stenosis, nerve root inflammation, foraminal narrowing, or another condition irritating a nerve."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why ICD-10 Codes Matter",
+        "paragraphs": [
+          "ICD-10-CM codes are used to document diagnoses in medical records, prescriptions, insurance claims, referrals, and treatment planning.",
+          "For sciatica, the code helps communicate two important details: which side is affected and whether low back pain is also part of the diagnosis.",
+          "However, a code does not replace clinical evaluation. Two patients may have the same ICD-10 code but very different causes, severity, MRI findings, and treatment needs."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/sciatica-diagnosis-physical-assessment.jpg",
+        "alt": "Doctor performing physical assessment for sciatica diagnosis"
+      },
+      {
+        "type": "section",
+        "heading": "M54.31 and M54.32: Sciatica by Side",
+        "paragraphs": [
+          "M54.31 means sciatica, right side. It is used when sciatica symptoms are documented on the right side.",
+          "M54.32 means sciatica, left side. It is used when sciatica symptoms are documented on the left side.",
+          "Laterality is important because sciatica is commonly one-sided. The doctor should document whether pain travels down the right leg, left leg, or both legs."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "M54.31: Sciatica, right side",
+            "M54.32: Sciatica, left side",
+            "Side matters because treatment planning often depends on matching symptoms to the correct nerve root and side"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "M54.41 and M54.42: Low Back Pain With Sciatica",
+        "paragraphs": [
+          "M54.41 means lumbago with sciatica, right side. This is used when low back pain and right-sided sciatica are both documented.",
+          "M54.42 means lumbago with sciatica, left side. This is used when low back pain and left-sided sciatica are both documented.",
+          "These codes are useful when the clinical picture includes both lower back pain and radiating leg pain."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "M54.41: Lumbago with sciatica, right side",
+            "M54.42: Lumbago with sciatica, left side",
+            "These codes indicate low back pain plus sciatica on the specified side"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Sciatica Code vs Radiculopathy Code",
+        "paragraphs": [
+          "Sciatica and radiculopathy are related but not always coded the same way. Sciatica describes pain along the sciatic nerve pathway. Radiculopathy usually means irritation or compression of a spinal nerve root, often with pain, numbness, tingling, weakness, or reflex changes.",
+          "For example, M54.16 may be used for lumbar radiculopathy, while M54.17 may be used for lumbosacral radiculopathy depending on documentation.",
+          "If the diagnosis is specifically linked to an intervertebral disc disorder, a different code family may be more appropriate. This is why documentation should describe both the symptom pattern and the suspected cause."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Should Be Documented?",
+        "paragraphs": [
+          "Good documentation helps avoid vague diagnosis and supports better treatment planning. The doctor should record the side, pain pathway, neurological symptoms, examination findings, and imaging correlation when available.",
+          "For patients, this also matters because treatment should not be based only on the word sciatica. The exact nerve level and cause need to be understood.",
+          "A precise pain history often gives more useful information than the ICD code alone."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Which side is affected: right, left, or both",
+            "Where pain starts and where it travels",
+            "Whether low back pain is present",
+            "Whether there is numbness, tingling, weakness, or heaviness",
+            "What movements worsen pain: sitting, walking, bending, coughing, or standing",
+            "Examination findings such as straight leg raise, sensation, reflexes, and strength",
+            "MRI findings only when they match the patient's symptoms"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Why the Code Alone Is Not Enough",
+        "paragraphs": [
+          "An ICD-10 code can describe the diagnosis category, but it cannot tell how severe the pain is, whether the nerve is inflamed, whether there is weakness, or whether the MRI finding matches the symptoms.",
+          "For example, one patient with M54.41 may have mild right-sided leg pain that improves with physiotherapy, while another may have severe nerve root compression requiring urgent evaluation.",
+          "This is why treatment decisions should always be based on clinical assessment, not only on the code printed on a document."
+        ],
+        "quote": "\"The ICD code tells us what was documented. The examination tells us what needs to be treated.\""
+      },
+      {
+        "type": "section",
+        "heading": "When Sciatica Needs Urgent Attention",
+        "paragraphs": [
+          "Most sciatica is painful but not an emergency. Still, some symptoms suggest serious nerve compression and should not be ignored.",
+          "Seek urgent medical care if sciatica is associated with new or worsening leg weakness, foot drop, numbness around the private area, loss of bladder or bowel control, fever, cancer history, major trauma, or rapidly worsening symptoms.",
+          "These warning signs need prompt medical evaluation before routine pain treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Jain Pain Clinic Evaluates Sciatica",
+        "paragraphs": [
+          "At Jain Pain Clinic in Gurugram, sciatica evaluation begins with matching the pain pattern to the examination and imaging. The key question is not just which ICD code applies, but which nerve root or pain generator is responsible.",
+          "Dr Ashu Kumar Jain assesses whether symptoms are coming from a slipped disc, spinal stenosis, foraminal narrowing, nerve root inflammation, facet/SI joint referral, or another source.",
+          "This helps decide whether the patient needs medicines, physiotherapy, lifestyle modification, epidural steroid injection, selective nerve root block, pulsed radiofrequency, or surgical referral when nerve function is at risk."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Options Depend on the Cause",
+        "paragraphs": [
+          "If sciatica is mild and there are no warning signs, treatment may include activity modification, medicines, guided physiotherapy, posture changes, and time.",
+          "If nerve root inflammation is severe or persistent, targeted interventional procedures may help. An epidural steroid injection or selective nerve root block can deliver medicine close to the irritated nerve root to reduce inflammation and pain.",
+          "In selected chronic nerve pain cases, pulsed radiofrequency treatment around the dorsal root ganglion may be considered. If there is progressive weakness, bladder or bowel involvement, or severe structural compression, surgical evaluation may be needed."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Medicines and guided physiotherapy for suitable non-emergency cases",
+            "Epidural steroid injection for selected disc-related or stenosis-related nerve inflammation",
+            "Selective nerve root block when a specific nerve root and side need targeted treatment",
+            "Pulsed radiofrequency or DRG-focused procedures in selected chronic radicular pain",
+            "Urgent surgical referral when nerve function is threatened"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "M54.31 means right-sided sciatica, while M54.32 means left-sided sciatica.",
+          "M54.41 and M54.42 are used when low back pain is documented together with right-sided or left-sided sciatica.",
+          "The correct code is useful, but the right treatment depends on symptoms, examination, imaging correlation, and whether any warning signs are present."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "icd-10-code-for-low-back-pain-m5450-m5451-m5459",
+  "title": "ICD-10 Code for Low Back Pain: What M54.50, M54.51, and M54.59 Mean",
+  "seoTitle": "ICD-10 Code for Low Back Pain: M54.50, M54.51 and M54.59 | Jain Pain Clinic",
+  "description": "Learn what ICD-10 codes M54.50, M54.51, and M54.59 mean for low back pain, vertebrogenic low back pain, and other low back pain diagnoses.",
+  "keywords": "ICD-10 code for low back pain, M54.50, M54.51, M54.59, low back pain ICD-10, lower back pain ICD-10 code, vertebrogenic low back pain ICD-10, other low back pain ICD-10, M54.5 no longer valid, back pain diagnosis code, low back pain treatment Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/icd-10-code-for-low-back-pain-m5450-m5451-m5459",
+  "ogImage": "/assets/blog/lower-back-pain-symptoms.jpg",
+  "category": "ICD-10 Codes",
+  "readTime": "8 min read",
+  "excerpt": "Low back pain ICD-10 coding changed after M54.5 was replaced. Here is what M54.50, M54.51, and M54.59 mean and why the exact diagnosis matters.",
+  "heroSubtitle": "Low back pain is common, but the ICD-10 code alone does not explain the pain source. The right code should match the symptoms, examination, and suspected pain generator.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-07-16",
+  "publishedLabel": "July 16, 2026",
+  "cardImage": "/assets/blog/lower-back-pain-symptoms.jpg",
+  "cardAlt": "Person holding lower back due to low back pain",
+  "bannerImage": "/assets/blog/lower-back-pain-symptoms.jpg",
+  "bannerAlt": "ICD-10 codes for low back pain including M54.50 M54.51 and M54.59",
+  "tags": [
+    "ICD-10 Codes",
+    "Low Back Pain",
+    "Back Pain",
+    "Pain Diagnosis",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "If you have seen M54.50, M54.51, or M54.59 written on a prescription, medical bill, referral, or insurance document, these are ICD-10-CM diagnosis codes related to low back pain. They help document the diagnosis, but they do not replace a proper clinical evaluation. Low back pain can come from muscles, discs, facet joints, sacroiliac joints, nerves, vertebral endplates, or other causes, and each pain source may need a different treatment plan.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why Low Back Pain Codes Matter",
+        "paragraphs": [
+          "ICD-10-CM codes are used in medical records, prescriptions, billing, insurance claims, and referrals. They help communicate what diagnosis was documented during the visit.",
+          "For low back pain, the code can show whether the pain is unspecified, vertebrogenic, or another specified type of low back pain.",
+          "But the code is not the whole diagnosis. Two patients may both have low back pain, but one may have facet joint pain, another may have sacroiliac joint pain, and another may have disc-related nerve irritation."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why M54.5 Is No Longer Enough",
+        "paragraphs": [
+          "Earlier, many low back pain cases were coded as M54.5. That older code was replaced and is no longer used as the billable code for general low back pain.",
+          "The newer codes make documentation more specific. Instead of one broad code, doctors now distinguish between unspecified low back pain, vertebrogenic low back pain, and other low back pain.",
+          "This change is useful because back pain is not one disease. Better documentation encourages a more precise clinical diagnosis."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/low-back-pain-diagnosis-assessment.jpg",
+        "alt": "Doctor examining patient for low back pain diagnosis"
+      },
+      {
+        "type": "section",
+        "heading": "M54.50: Low Back Pain, Unspecified",
+        "paragraphs": [
+          "M54.50 means low back pain, unspecified. It is used when low back pain is documented but the record does not specify a more detailed low back pain type.",
+          "This code may appear when the diagnosis is still being evaluated or when the pain source has not yet been clearly identified.",
+          "From a treatment point of view, unspecified low back pain should not remain vague forever. If pain persists, the next step is to understand whether the source is muscular, disc-related, facet-related, SI joint-related, vertebrogenic, nerve-related, or mixed."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "M54.50: Low back pain, unspecified",
+            "Used when the record does not document a more specific low back pain type",
+            "Helpful for documentation, but not enough to plan advanced treatment by itself"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "M54.51: Vertebrogenic Low Back Pain",
+        "paragraphs": [
+          "M54.51 means vertebrogenic low back pain. This refers to pain believed to arise from the vertebral endplates, which are structures between the vertebral bone and the disc.",
+          "This type of pain is usually diagnosed based on a specific clinical pattern and MRI findings, not simply because a patient has back pain.",
+          "The code should be used only when vertebrogenic low back pain is actually documented. It is not a general replacement for all low back pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "M54.59: Other Low Back Pain",
+        "paragraphs": [
+          "M54.59 means other low back pain. It may be used when low back pain is specified but does not fit M54.50 or M54.51 and does not have another more appropriate code.",
+          "This code can be useful when the doctor has more detail than unspecified low back pain, but the condition is not vertebrogenic low back pain.",
+          "As with all codes, the documentation should support why this code was chosen."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Another Code May Be Needed",
+        "paragraphs": [
+          "Not every patient with back pain should be coded under M54.50, M54.51, or M54.59. If the pain is due to sciatica, radiculopathy, disc disorder, fracture, trauma, infection, inflammatory disease, cancer, or post-surgical pain, a more specific code may be appropriate.",
+          "For example, back pain with sciatica may use M54.41 or M54.42 depending on the side. Lumbar radiculopathy may use M54.16 when documented.",
+          "This is why accurate documentation matters. The ICD code should match the clinical diagnosis, not just the body part where pain is felt."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Sciatica or back pain with sciatica",
+            "Lumbar or lumbosacral radiculopathy",
+            "Disc herniation or disc degeneration",
+            "Spinal stenosis",
+            "Sacroiliac joint pain",
+            "Fracture, trauma, infection, or cancer-related pain",
+            "Post-surgical spine pain"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Why the Code Alone Does Not Decide Treatment",
+        "paragraphs": [
+          "An ICD-10 code tells us what was documented, but it does not tell us the full pain generator. Low back pain may come from a joint, disc, nerve root, muscle, ligament, vertebral endplate, or more than one source at the same time.",
+          "A patient with M54.50 may need only physiotherapy and activity modification. Another patient with similar coding may need further evaluation because the pain is severe, persistent, or associated with leg symptoms.",
+          "Treatment should be guided by symptoms, examination, imaging correlation, and response to previous care."
+        ],
+        "quote": "\"The ICD code names the problem for documentation. The clinical assessment finds the pain source for treatment.\""
+      },
+      {
+        "type": "section",
+        "heading": "What Should Be Documented?",
+        "paragraphs": [
+          "Good documentation helps the doctor choose the right code and the right treatment path. The history should include pain location, duration, triggers, radiation, stiffness, neurological symptoms, functional limitation, and warning signs.",
+          "It is also important to document whether pain stays in the back or travels into the leg. Leg pain, numbness, tingling, weakness, or foot symptoms may suggest nerve involvement rather than simple low back pain.",
+          "Imaging such as X-ray or MRI is useful only when it matches the patient's symptoms and examination."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Where the pain is located: central, one-sided, or both sides",
+            "Whether pain travels to the buttock, thigh, calf, or foot",
+            "What worsens pain: sitting, standing, bending, walking, coughing, or lifting",
+            "Whether there is numbness, tingling, weakness, or heaviness",
+            "Whether pain is acute, recurrent, or chronic",
+            "Previous injury, surgery, fever, cancer history, or trauma",
+            "Imaging findings only when they match the clinical picture"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Low Back Pain Needs Urgent Attention",
+        "paragraphs": [
+          "Most low back pain is not an emergency, but some symptoms need urgent medical evaluation.",
+          "Seek urgent care if back pain is associated with new or worsening leg weakness, foot drop, numbness around the private area, loss of bladder or bowel control, fever, major trauma, unexplained weight loss, cancer history, or rapidly worsening pain.",
+          "These warning signs should be assessed quickly before routine pain treatment is planned."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Jain Pain Clinic Evaluates Low Back Pain",
+        "paragraphs": [
+          "At Jain Pain Clinic in Gurugram, low back pain evaluation focuses on identifying the pain generator, not just reading the ICD code. Dr Ashu Kumar Jain matches the symptom pattern with physical examination and imaging when needed.",
+          "The evaluation may look for disc-related pain, facet joint pain, sacroiliac joint pain, vertebrogenic pain, muscle spasm, spinal stenosis, nerve root irritation, or mixed pain.",
+          "This approach helps decide whether the patient needs medicines, physiotherapy, lifestyle changes, image-guided injections, nerve blocks, epidural steroid injection, radiofrequency ablation, or referral for surgical evaluation when warning signs are present."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Pain Source",
+        "paragraphs": [
+          "For many patients, low back pain improves with activity modification, guided physiotherapy, posture correction, strengthening, weight management, and appropriate medicines.",
+          "If pain is coming from a specific structure such as facet joints, SI joint, disc-related nerve inflammation, or another pain generator, targeted procedures may help selected patients.",
+          "The goal is not to treat an ICD code. The goal is to treat the real source of pain and help the patient return to safer movement."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Physiotherapy and strengthening for movement-related mechanical pain",
+            "Trigger point treatment when muscle spasm is a major contributor",
+            "Sacroiliac joint injection when SI joint pain is confirmed",
+            "Facet joint blocks or medial branch blocks when facet pain is suspected",
+            "Epidural steroid injection or selective nerve root block when nerve root inflammation is present",
+            "Radiofrequency ablation for selected chronic facet, SI joint, or other nerve-mediated pain"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "M54.50 means low back pain, unspecified.",
+          "M54.51 means vertebrogenic low back pain, while M54.59 means other low back pain.",
+          "The correct ICD-10 code helps documentation, but the right treatment depends on identifying the actual pain generator through history, examination, and imaging correlation."
+        ]
+      }
+    ]
+  }
+},{
+  "slug": "shoulder-blade-muscle-pain-posture-trigger-points-neck-pain",
+  "title": "Shoulder Blade Muscle Pain: Is It Posture, Trigger Points, or Neck Pain?",
+  "seoTitle": "Shoulder Blade Muscle Pain: Posture, Trigger Points or Neck Pain? | Jain Pain Clinic",
+  "description": "Shoulder blade pain may come from posture, muscle trigger points, neck joints, cervical nerves, upper back stiffness, or shoulder movement problems. Learn how to identify the source.",
+  "keywords": "shoulder blade muscle pain, pain between shoulder blades, upper back muscle pain, trigger points shoulder blade, rhomboid muscle pain, trapezius trigger points, neck pain shoulder blade, posture shoulder blade pain, myofascial pain shoulder blade, shoulder blade pain treatment Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/shoulder-blade-muscle-pain-posture-trigger-points-neck-pain",
+  "ogImage": "/assets/blog/shoulder-blade-muscle-pain-hero.jpg",
+  "category": "Muscle Pain",
+  "readTime": "8 min read",
+  "excerpt": "Pain around the shoulder blade is not always simple posture pain. Trigger points, neck problems, upper back joints, ribs, and shoulder mechanics can all contribute.",
+  "heroSubtitle": "Shoulder blade pain often feels like a tight muscle, but the real source may be posture overload, trigger points, neck referral, thoracic stiffness, or a mixed pain pattern.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-07-20",
+  "publishedLabel": "July 20, 2026",
+  "cardImage": "/assets/blog/shoulder-blade-muscle-pain-hero.jpg",
+  "cardAlt": "Physiotherapy session for shoulder blade muscle pain",
+  "bannerImage": "/assets/blog/shoulder-blade-muscle-pain-hero.jpg",
+  "bannerAlt": "Shoulder blade muscle pain caused by posture trigger points or neck pain",
+  "tags": [
+    "Shoulder Blade Pain",
+    "Muscle Pain",
+    "Trigger Points",
+    "Neck Pain",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Shoulder blade pain is common in people who sit long hours, work on laptops, drive frequently, lift weights, or sleep in awkward positions. Many patients describe it as a knot, tight band, burning patch, or deep ache between the shoulder blades. Posture may be part of the story, but recurring shoulder blade pain can also come from trigger points, the neck, upper back joints, ribs, shoulder mechanics, or nerve irritation.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why Shoulder Blade Pain Is Confusing",
+        "paragraphs": [
+          "The shoulder blade region is connected to the neck, upper back, ribs, shoulder joint, and several muscles. Pain from one area can be felt in another.",
+          "A patient may feel pain near the shoulder blade and assume it is a muscle problem, while the real source may be cervical facet joints, a neck disc, upper back stiffness, rib joint irritation, or referred pain from trigger points.",
+          "This is why repeated massage or heat may give temporary relief but the pain keeps returning."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Posture-Related Shoulder Blade Pain",
+        "paragraphs": [
+          "Long sitting, forward head posture, rounded shoulders, laptop work, phone use, and driving can overload the muscles around the shoulder blade.",
+          "The upper trapezius, levator scapulae, rhomboids, and muscles between the shoulder blade and spine may stay tense for long periods. Over time, this can create aching, tightness, fatigue, and pain between the shoulder blades.",
+          "Posture-related pain often improves with movement, stretching, ergonomic correction, strengthening, and regular breaks, but only if there is no deeper pain generator keeping the muscles guarded."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Pain after laptop or desk work",
+            "Tightness between the shoulder blades",
+            "Pain that improves temporarily with stretching or heat",
+            "Rounded shoulders or forward head posture",
+            "Pain returning after long sitting or driving"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/shoulder-blade-pain-assessment.jpg",
+        "alt": "Doctor assessing shoulder blade and upper back pain"
+      },
+      {
+        "type": "section",
+        "heading": "Trigger Points: The Muscle Knot Problem",
+        "paragraphs": [
+          "Trigger points are sensitive spots within a tight band of muscle. They can cause local pain and can also refer pain to nearby areas.",
+          "Around the shoulder blade, trigger points commonly develop in the trapezius, rhomboids, levator scapulae, infraspinatus, and paraspinal muscles.",
+          "A trigger point may feel like a knot, tender spot, deep ache, burning patch, or pain that spreads when pressed. The patient may feel temporary relief after massage, but the knot often returns if the underlying overload or referred pain source is not addressed."
+        ],
+        "quote": "\"A muscle knot is often the visible part of the pain pattern. The real question is why that muscle keeps tightening again.\""
+      },
+      {
+        "type": "section",
+        "heading": "When Neck Pain Refers to the Shoulder Blade",
+        "paragraphs": [
+          "Neck problems can refer pain toward the shoulder blade. Cervical facet joint irritation, disc-related nerve irritation, muscle guarding, and poor neck posture can all create pain around the upper back and shoulder blade.",
+          "This is more likely when shoulder blade pain is associated with neck stiffness, headaches, arm pain, tingling, numbness, or pain that changes with neck movement.",
+          "If the pain starts in the neck and travels toward the shoulder blade or arm, treating only the shoulder blade muscle may not solve the problem."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Shoulder blade pain with neck stiffness",
+            "Pain that changes when turning or bending the neck",
+            "Pain spreading into the arm or hand",
+            "Tingling or numbness in the arm",
+            "Headache along with neck and shoulder blade pain"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Upper Back and Rib Joint Pain",
+        "paragraphs": [
+          "The thoracic spine and rib joints move every time you breathe, twist, lift, or reach. Stiffness or irritation in these joints can cause pain near the shoulder blade.",
+          "This pain may feel sharp with twisting, deep breathing, coughing, or certain arm movements. It can also create muscle spasm around the shoulder blade.",
+          "In such cases, physiotherapy, mobility work, posture correction, and targeted pain procedures may be considered depending on the exact pain source."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Could It Be True Shoulder Joint Pain?",
+        "paragraphs": [
+          "Sometimes shoulder joint problems are felt around the shoulder blade. Rotator cuff pain, frozen shoulder, impingement, or altered shoulder mechanics can make the muscles around the shoulder blade work harder.",
+          "This may cause pain during overhead activity, reaching behind the back, lifting, dressing, or sleeping on one side.",
+          "A good examination checks both the shoulder joint and the shoulder blade movement rather than assuming the pain is only from posture."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Shoulder Blade Pain Needs Urgent Attention",
+        "paragraphs": [
+          "Most shoulder blade pain is musculoskeletal, but some symptoms should not be ignored.",
+          "Seek urgent medical care if pain is associated with chest pressure, breathlessness, sweating, fainting, fever, major trauma, unexplained weight loss, cancer history, new arm weakness, loss of balance, or severe sudden pain.",
+          "These symptoms need medical evaluation before treating the pain as a simple muscle knot."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Evaluates It",
+        "paragraphs": [
+          "At Jain Pain Clinic, evaluation begins with the pain pattern. Is the pain a dull ache, sharp catch, burning patch, tight knot, or radiating pain? Does it worsen with posture, neck movement, shoulder movement, breathing, or pressing the area?",
+          "The examination may include checking neck movement, shoulder range, scapular movement, upper back mobility, rib tenderness, trigger points, nerve symptoms, and posture-related muscle overload.",
+          "The goal is to identify whether the pain is mainly from muscle trigger points, neck referral, thoracic joints, ribs, shoulder mechanics, nerve irritation, or a mixed pattern."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Source",
+        "paragraphs": [
+          "If posture and muscle overload are the main causes, treatment may include ergonomic changes, strengthening, stretching, movement breaks, heat, sleep-position changes, and guided physiotherapy.",
+          "If trigger points are persistent, trigger point injections or dry needling-style approaches may help selected patients, especially when combined with rehabilitation.",
+          "If the pain is coming from the neck, upper back joints, ribs, or nerves, targeted pain procedures may be considered. These may include cervical facet blocks, medial branch blocks, trigger point injections, intercostal nerve blocks, or radiofrequency ablation in carefully selected chronic cases."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Identify whether the pain is muscle, neck, shoulder, rib, nerve, or mixed",
+            "Correct posture and workload factors when they are contributing",
+            "Use physiotherapy to restore shoulder blade control and upper back mobility",
+            "Treat persistent trigger points when they reproduce the familiar pain",
+            "Consider targeted blocks or RFA only when a specific pain generator is confirmed"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Why Massage Alone May Not Be Enough",
+        "paragraphs": [
+          "Massage can relax tight muscles temporarily, but it may not fix the reason the muscle became tight in the first place.",
+          "If the trigger is cervical facet pain, a neck disc problem, poor scapular control, thoracic stiffness, or repetitive desk posture, the muscle may tighten again after a few days.",
+          "Long-term relief usually requires treating both the painful muscle and the underlying driver."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Seek Help?",
+        "paragraphs": [
+          "You should seek help if shoulder blade pain keeps returning, lasts more than a few weeks, affects sleep, limits neck or shoulder movement, spreads to the arm, or causes tingling or numbness.",
+          "You should also seek evaluation if the pain is severe, follows trauma, or does not improve despite posture correction, rest, heat, stretching, or physiotherapy.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates shoulder blade pain by identifying the pain generator first. The aim is to avoid repeated temporary relief and choose treatment based on whether the source is posture, trigger points, neck, ribs, shoulder, or nerve-related pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Shoulder blade muscle pain is not always just posture.",
+          "Trigger points, neck referral, upper back stiffness, rib joints, shoulder mechanics, and nerve irritation can all cause pain around the shoulder blade.",
+          "The right treatment starts with the right diagnosis. If shoulder blade pain keeps coming back, a pain specialist can help identify the source and guide targeted treatment."
+        ]
+      }
+    ]
+  }
 }
 ];
 
