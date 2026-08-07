@@ -21,8 +21,9 @@ export function translatePageProps(props, locale) {
 }
 
 export function withLocaleProps(props, locale, runtimeTranslationStrings = getRuntimeTranslationStrings()) {
+  const translationStrings = getRuntimeTranslationStrings(runtimeTranslationStrings);
   const clientTranslations = {
-    ...getClientTranslations(runtimeTranslationStrings, locale),
+    ...getClientTranslations(translationStrings, locale),
     ...(props.clientTranslations || {}),
   };
 

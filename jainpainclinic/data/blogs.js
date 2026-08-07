@@ -3860,7 +3860,8 @@ const rawBlogs = [
       }
     ]
   }
-},{
+},
+{
   "slug": "shoulder-blade-muscle-pain-posture-trigger-points-neck-pain",
   "title": "Shoulder Blade Muscle Pain: Is It Posture, Trigger Points, or Neck Pain?",
   "seoTitle": "Shoulder Blade Muscle Pain: Posture, Trigger Points or Neck Pain? | Jain Pain Clinic",
@@ -4032,6 +4033,487 @@ const rawBlogs = [
           "Shoulder blade muscle pain is not always just posture.",
           "Trigger points, neck referral, upper back stiffness, rib joints, shoulder mechanics, and nerve irritation can all cause pain around the shoulder blade.",
           "The right treatment starts with the right diagnosis. If shoulder blade pain keeps coming back, a pain specialist can help identify the source and guide targeted treatment."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "pain-when-sitting-sciatica-piriformis-syndrome-or-hip-problem",
+  "title": "Pain When Sitting: Is It Sciatica, Piriformis Syndrome, or a Hip Problem?",
+  "seoTitle": "Pain When Sitting: Sciatica, Piriformis Syndrome or Hip Pain? | Jain Pain Clinic",
+  "description": "Pain while sitting may come from sciatica, piriformis syndrome, a hip joint problem, or another source. Learn how the symptoms differ and when to see a pain specialist.",
+  "keywords": "pain when sitting, pain while sitting, sciatica pain sitting, piriformis syndrome sitting pain, hip pain while sitting, buttock pain sitting, lower back pain sitting, nerve pain in leg, chronic sitting pain treatment, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/pain-when-sitting-sciatica-piriformis-syndrome-or-hip-problem",
+  "ogImage": "/assets/blog/pain-when-sitting-sciatica-hip-pain-hero.jpg",
+  "category": "Back and Nerve Pain",
+  "readTime": "9 min read",
+  "excerpt": "Pain that worsens while sitting is not always sciatica. It may come from the lower back, piriformis muscle, hip joint, or another nearby structure.",
+  "heroSubtitle": "Pain while sitting can be caused by a nerve, muscle, hip joint, or lower-back problem. The location and pattern of symptoms can help identify the real source.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-07-24",
+  "publishedLabel": "July 24, 2026",
+  "cardImage": "/assets/blog/pain-when-sitting-sciatica-hip-pain-hero.jpg",
+  "cardAlt": "Person experiencing lower back pain while sitting",
+  "bannerImage": "/assets/blog/pain-when-sitting-sciatica-hip-pain-hero.jpg",
+  "bannerAlt": "Pain while sitting caused by sciatica piriformis syndrome or a hip problem",
+  "tags": [
+    "Pain While Sitting",
+    "Sciatica",
+    "Piriformis Syndrome",
+    "Hip Pain",
+    "Nerve Pain",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Pain that appears or becomes worse while sitting can be frustrating, especially when it keeps returning during work, driving, travelling, or resting at home. Many people assume that this type of pain is always sciatica, but sitting pain can also come from the piriformis muscle, hip joint, sacroiliac joint, or other structures around the lower back and pelvis. Identifying the pain pattern is the first step toward choosing the right treatment.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why Does Sitting Cause Pain?",
+        "paragraphs": [
+          "Sitting keeps the hips and lower back in a bent position for a prolonged period. It can increase pressure on the lower back, place tension on the sciatic nerve, and keep the muscles around the buttocks and hips under continuous load.",
+          "If a nerve, muscle, joint, or disc is already irritated, sitting may make the symptoms more noticeable. Some people feel pain immediately, while others develop pain only after sitting for 20 or 30 minutes.",
+          "The exact location of the pain matters. Pain in the lower back and down the leg may suggest a spinal nerve problem, while deep buttock pain may come from the piriformis region. Pain in the groin or difficulty moving the hip may point toward the hip joint."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Could It Be Sciatica?",
+        "paragraphs": [
+          "Sciatica is pain caused by irritation or compression of the nerve roots that contribute to the sciatic nerve. It commonly begins in the lower back or buttock and travels down the back of the thigh, calf, or foot.",
+          "The pain may feel sharp, burning, electric, shooting, or like a sudden jolt. Numbness, tingling, or weakness in the leg or foot can also occur.",
+          "Sitting for a long time may worsen sciatica because it keeps the lower back and hips flexed. Coughing, sneezing, bending forward, or getting up from a chair may also increase the pain in some people."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Pain travelling from the back or buttock into the leg",
+            "Burning, electric, or shooting pain",
+            "Numbness or tingling in the leg or foot",
+            "Leg weakness or difficulty lifting the foot",
+            "Pain that worsens with prolonged sitting"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Could It Be Piriformis Syndrome?",
+        "paragraphs": [
+          "The piriformis is a small muscle located deep in the buttock. The sciatic nerve passes close to this muscle. If the piriformis becomes tight, irritated, or goes into spasm, it may irritate the nearby nerve and produce symptoms that resemble sciatica.",
+          "Piriformis-related pain is often felt deep in one buttock or around the outer hip. It may spread down the back of the thigh, but the lower back may not be the main source of pain.",
+          "Symptoms can become worse during prolonged sitting, driving, running, climbing stairs, or activities that repeatedly load the hip and buttock muscles."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Deep pain in one buttock",
+            "Tenderness around the outer hip or buttock",
+            "Pain that increases during sitting or driving",
+            "Tingling or burning down the back of the thigh",
+            "Symptoms after running, lifting, or repetitive hip activity"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/sciatica-piriformis-hip-pain-assessment.jpg",
+        "alt": "Healthcare professional assessing the leg and hip for pain"
+      },
+      {
+        "type": "section",
+        "heading": "Could the Pain Be Coming From the Hip?",
+        "paragraphs": [
+          "Hip joint problems can also cause pain during or after sitting. Hip-related pain is commonly felt in the groin, front of the thigh, or outer side of the hip. It may sometimes be felt in the buttock or knee.",
+          "Hip pain may be associated with stiffness, reduced movement, difficulty putting on shoes, trouble getting into a car, or pain while standing after sitting.",
+          "A hip problem is more likely when the pain is reproduced by moving the hip rather than by bending or stretching the lower back. However, symptoms can overlap, so a physical examination is important."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Pain deep in the groin or front of the hip",
+            "Stiffness after sitting or resting",
+            "Difficulty walking, climbing stairs, or standing from a chair",
+            "Pain while putting on socks or shoes",
+            "Reduced hip movement or a limp"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Other Causes of Pain While Sitting",
+        "paragraphs": [
+          "Sciatica, piriformis syndrome, and hip problems are not the only possible causes. Pain while sitting may also come from the sacroiliac joint, coccyx, hamstring attachment, pelvic muscles, or pressure-sensitive tissues around the buttocks.",
+          "In some patients, more than one problem may be present. For example, a person may have lower-back nerve irritation along with tight hip muscles caused by avoiding movement.",
+          "This is why the diagnosis should not be based only on the word sciatica or on the location of pain. The complete pattern, examination findings, and response to movement should be considered."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Finds the Source",
+        "paragraphs": [
+          "At Jain Pain Clinic, assessment begins with a detailed discussion about when the pain starts, where it travels, what makes it worse, and whether it is associated with numbness, tingling, weakness, or restricted hip movement.",
+          "Dr Ashu Kumar Jain may examine the lower back, hip, buttock, walking pattern, muscle strength, sensation, reflexes, and the movements that reproduce the familiar pain.",
+          "Imaging such as an MRI or X-ray may be recommended when the symptoms suggest a spine or hip problem. However, scan findings are interpreted alongside the symptoms and examination because not every abnormal finding is the cause of pain.",
+          "When the source remains uncertain, a carefully selected diagnostic injection may sometimes help determine whether a specific nerve, joint, or muscle region is contributing to the pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Diagnosis",
+        "paragraphs": [
+          "Treatment should be directed at the actual pain generator rather than only the fact that sitting is painful.",
+          "For nerve-related pain, treatment may include activity modification, physiotherapy, medicines for neuropathic pain, and targeted procedures when appropriate. For piriformis-related pain, treatment may focus on hip movement, muscle flexibility, strengthening, posture, and reducing pressure on the irritated region.",
+          "When the hip joint or sacroiliac joint is involved, treatment may include rehabilitation, medicines, and selected image-guided injections. Persistent pain may require a more detailed pain-management plan.",
+          "The goal is not simply to help a patient sit for a few more minutes. The aim is to reduce the underlying pain, improve movement, and help the patient return to daily activities."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Identify whether the main source is the spine, nerve, muscle, hip, or sacroiliac joint",
+            "Reduce aggravating activities without complete prolonged rest",
+            "Use physiotherapy to improve hip, back, and core movement",
+            "Consider medication when nerve or inflammatory pain is significant",
+            "Use targeted injections or other pain procedures only when clinically indicated"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "What You Can Do While Waiting for an Assessment",
+        "paragraphs": [
+          "Avoid staying in one sitting position for long periods. Stand, walk briefly, or change position regularly, especially during desk work or long drives.",
+          "Use a chair that supports your lower back and avoid sitting on a very low or excessively soft surface. Gentle movement is often better than complete bed rest, but exercises should not significantly increase leg pain, numbness, or weakness.",
+          "Do not repeatedly stretch or massage the painful area if those activities make the symptoms worse. A healthcare professional can help identify which movements are appropriate for your condition."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Seek Urgent Help?",
+        "paragraphs": [
+          "Seek urgent medical attention if sitting-related pain is accompanied by new or worsening leg weakness, loss of bladder or bowel control, numbness around the groin, or difficulty lifting the foot.",
+          "You should also seek prompt assessment after a major injury, if you cannot put weight on the leg, or if hip pain is associated with fever, sudden swelling, or a visible deformity.",
+          "These symptoms should not be assumed to be a simple muscle strain or routine sciatica."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Pain while sitting can be caused by sciatica, piriformis syndrome, a hip problem, or another condition around the lower back and pelvis.",
+          "Sciatica more often follows a nerve pattern into the leg. Piriformis-related pain is commonly felt deep in the buttock and may worsen with sitting. Hip pain is often felt in the groin and may be associated with stiffness or restricted movement.",
+          "If the pain keeps returning, affects work or driving, disturbs sleep, or is associated with numbness or weakness, a pain specialist can help identify the source and guide appropriate treatment."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "why-pain-moves-from-one-area-to-another-understanding-referred-pain",
+  "title": "Why Does Pain Move From One Area to Another? Understanding Referred Pain",
+  "seoTitle": "Referred Pain: Why Pain Can Be Felt Away From Its Real Source | Jain Pain Clinic",
+  "description": "Pain felt in the shoulder, back, jaw, or leg may sometimes come from another area of the body. Learn what referred pain means, common causes, warning signs, and how a pain specialist evaluates it.",
+  "keywords": "referred pain, pain in another part of body, shoulder referred pain, back referred pain, muscle referred pain, nerve pain, unexplained pain, chronic pain diagnosis, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/why-pain-moves-from-one-area-to-another-understanding-referred-pain",
+  "ogImage": "/assets/blog/referred-pain-shoulder-symptom-hero.jpg",
+  "category": "Pain Diagnosis",
+  "readTime": "8 min read",
+  "excerpt": "Pain is not always felt where it begins. Learn why pain may move to another area and how doctors identify its true source.",
+  "heroSubtitle": "Pain in the shoulder, back, jaw, or leg does not always begin in that exact area. Sometimes the nervous system makes pain feel distant from its real source.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-07-28",
+  "publishedLabel": "July 28, 2026",
+  "cardImage": "/assets/blog/referred-pain-shoulder-symptom-hero.jpg",
+  "cardAlt": "Person experiencing shoulder pain that may be referred from another source",
+  "bannerImage": "/assets/blog/referred-pain-shoulder-symptom-hero.jpg",
+  "bannerAlt": "Shoulder pain as a possible symptom of referred pain",
+  "tags": [
+    "Referred Pain",
+    "Chronic Pain",
+    "Nerve Pain",
+    "Pain Diagnosis",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Have you ever felt pain in your shoulder even though you did not injure your shoulder? Or experienced back pain even when the real problem seemed to be somewhere else? Pain is not always felt at the exact location where it starts. This is called referred pain. Understanding this pattern can help prevent repeated treatment of the wrong area.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is Referred Pain?",
+        "paragraphs": [
+          "Referred pain occurs when a problem in one part of the body causes pain to be felt in another area. The painful area may be completely normal, without any obvious injury or damage.",
+          "This happens because nerves from different body regions can send signals through connected pathways. When these signals reach the brain, the brain may not always identify the exact structure responsible for the pain.",
+          "As a result, the pain may feel as if it is coming from the shoulder, back, arm, jaw, or another area even though the original source is elsewhere."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Common Examples of Referred Pain",
+        "paragraphs": [
+          "Referred pain can occur in many patterns. Some are related to muscles, joints, or nerves, while others may be connected to internal organs.",
+          "For example, irritation in the neck can cause pain around the shoulder blade or arm. A problem in the lower back can cause pain in the buttock or leg. Trigger points in muscles can also produce pain in nearby areas."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Neck problems causing shoulder blade or arm pain",
+            "Lower-back nerve irritation causing buttock or leg pain",
+            "Muscle trigger points causing pain away from the tight muscle",
+            "Hip or sacroiliac joint problems causing buttock or thigh pain",
+            "Internal organ problems causing pain in the back, shoulder, chest, or jaw"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/referred-pain-abdominal-source.jpg",
+        "alt": "Person holding the abdomen while experiencing abdominal pain"
+      },
+      {
+        "type": "section",
+        "heading": "Why Can an Internal Problem Cause Shoulder or Back Pain?",
+        "paragraphs": [
+          "Some internal organs share nerve pathways with areas of the skin and muscles. When an internal organ becomes irritated, the brain may interpret the signal as pain in a nearby or distant body region.",
+          "For example, certain abdominal or chest conditions can sometimes cause pain in the shoulder or upper back. This does not mean every shoulder or back pain is caused by an internal disease, but unexplained pain should not always be assumed to be a muscle strain.",
+          "This is especially important when the pain appears suddenly or is associated with other symptoms such as breathlessness, sweating, fever, nausea, dizziness, or changes in bowel or urinary function."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Referred Pain From Muscles and Joints",
+        "paragraphs": [
+          "Referred pain is also common in musculoskeletal conditions. Tight bands in muscles, irritated joints, or inflamed tissues can produce pain in a region that is not directly injured.",
+          "A trigger point in the neck or upper back may feel like shoulder pain or headache. A joint problem in the spine may feel like pain around the ribs or shoulder blade. Similarly, a hip or sacroiliac joint problem may be felt in the buttock or upper thigh.",
+          "In these situations, treating only the area where the pain is felt may provide temporary relief but may not address the actual source."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Is Referred Pain Different From Nerve Pain?",
+        "paragraphs": [
+          "Referred pain and nerve pain can feel similar, but they are not exactly the same. Nerve pain often follows a more recognisable path and may include burning, electric shocks, tingling, numbness, or weakness.",
+          "Referred pain may feel deeper, duller, aching, or difficult to locate. It may be felt in a broader area rather than following one clear nerve pathway.",
+          "However, symptoms can overlap. A detailed clinical assessment is often needed to determine whether the problem is coming from a nerve, muscle, joint, spine, or internal organ."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Finds the Real Source",
+        "paragraphs": [
+          "At Jain Pain Clinic, evaluation begins with the complete pain pattern rather than only the location of discomfort. Dr Ashu Kumar Jain may ask when the pain started, whether it travels, what triggers it, and whether it is associated with numbness, weakness, breathing symptoms, digestive symptoms, or fever.",
+          "The examination may include checking the spine, joints, muscle trigger points, nerve function, posture, movement, walking pattern, and the areas that reproduce the familiar pain.",
+          "Depending on the symptoms, investigations such as blood tests, X-rays, ultrasound, CT scans, or MRI may be recommended. If a specific nerve or joint is suspected, a carefully selected diagnostic block may sometimes help confirm whether it is contributing to the pain.",
+          "The objective is to distinguish a local pain problem from referred pain and to ensure that serious causes are assessed before starting pain-focused treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Cause",
+        "paragraphs": [
+          "Referred pain cannot be treated properly without identifying its source. If the cause is a muscle trigger point, treatment may include physiotherapy, stretching, strengthening, posture correction, medicines, or a selected trigger point procedure.",
+          "If the source is a spinal joint or nerve, treatment may include neuropathic medicines, rehabilitation, targeted nerve blocks, joint injections, or radiofrequency procedures in carefully selected chronic cases.",
+          "If the pain is linked to an internal organ or another medical condition, that condition must be assessed and treated by the appropriate specialist. A pain clinic should not assume that unexplained pain is simply a muscle or nerve problem.",
+          "The treatment plan should therefore be based on the cause of pain, not only on the body part where the patient feels it."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Identify the true source of pain",
+            "Rule out urgent medical or internal causes",
+            "Treat nerve, muscle, joint, or spine-related pain appropriately",
+            "Use diagnostic blocks only when a specific pain generator is suspected",
+            "Combine procedures with medicines, rehabilitation, and movement-based care when needed"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Should Referred Pain Be Treated as an Emergency?",
+        "paragraphs": [
+          "Seek urgent medical care if unexplained shoulder, chest, upper-back, arm, jaw, or abdominal pain occurs with breathlessness, sweating, dizziness, fainting, severe weakness, nausea, or a feeling of pressure in the chest.",
+          "You should also seek prompt medical assessment for severe sudden pain, fever, repeated vomiting, unexplained weight loss, new neurological weakness, loss of bladder or bowel control, or pain after major trauma.",
+          "These symptoms should not be treated at home as routine muscle pain. Serious causes should be ruled out first."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You See a Pain Specialist?",
+        "paragraphs": [
+          "A pain specialist may be helpful when pain keeps returning, affects more than one area, does not match the site of an injury, or continues despite treatment directed at the painful area.",
+          "You should also consider an evaluation when scans do not clearly explain the symptoms, when medicines provide only temporary relief, or when pain is associated with burning, tingling, numbness, or movement-related symptoms.",
+          "At Jain Pain Clinic in Gurugram, the focus is on identifying the pain generator before recommending medicines, injections, nerve blocks, or other interventions."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Pain can sometimes be felt away from the area where it begins. This is known as referred pain.",
+          "Neck, spine, muscle, joint, nerve, abdominal, and chest conditions can all create pain in another body region. The location of pain is important, but it is not always the complete diagnosis.",
+          "If your pain keeps returning or does not fit the original injury, a detailed medical assessment can help identify the real source and guide safer, more effective treatment."
+        ]
+      }
+    ]
+  }
+},
+{
+  "slug": "why-chronic-pain-gets-worse-at-night-causes-and-relief",
+  "title": "Why Does Chronic Pain Get Worse at Night? Common Causes and What Can Help",
+  "seoTitle": "Why Chronic Pain Gets Worse at Night: Causes and Treatment | Jain Pain Clinic",
+  "description": "Night-time pain can be linked to poor sleep, nerve irritation, inflammation, positioning, or an untreated pain source. Learn why chronic pain worsens at night and when to seek help.",
+  "keywords": "chronic pain worse at night, pain at night, night-time pain causes, back pain at night, nerve pain at night, knee pain at night, sleep and chronic pain, pain disturbing sleep, chronic pain treatment Gurugram, pain specialist Gurugram, Jain Pain Clinic",
+  "canonicalPath": "/blog/why-chronic-pain-gets-worse-at-night-causes-and-relief",
+  "ogImage": "/assets/blog/sleep-pain-hero.jpg",
+  "category": "Chronic Pain",
+  "readTime": "9 min read",
+  "excerpt": "Pain that becomes worse at night can disturb sleep and make the next day harder. Learn why this happens and how the underlying pain source can be treated.",
+  "heroSubtitle": "Night-time pain is not always caused by the sleeping position. Nerve irritation, inflammation, untreated pain, and poor sleep can all contribute to a worsening pain cycle.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-08-01",
+  "publishedLabel": "August 1, 2026",
+  "cardImage": "/assets/blog/sleep-pain-hero.jpg",
+  "cardAlt": "Person sleeping while experiencing chronic pain",
+  "bannerImage": "/assets/blog/sleep-pain-hero.jpg",
+  "bannerAlt": "Chronic pain becoming worse at night and disturbing sleep",
+  "tags": [
+    "Chronic Pain",
+    "Night Pain",
+    "Sleep and Pain",
+    "Nerve Pain",
+    "Pain Management"
+  ],
+  "content": {
+    "intro": "Many people with chronic pain notice that their symptoms become more intense at night. The pain may make it difficult to fall asleep, wake them repeatedly, or leave them feeling more sensitive the next morning. Night-time pain can be related to the underlying condition, the sleeping position, reduced movement, or the effect of poor sleep on the nervous system. Understanding this pattern is important because treating only the pain at bedtime may not address the real cause.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "Why Does Pain Feel Worse at Night?",
+        "paragraphs": [
+          "At night, there are fewer distractions. When the room is quiet and the body is resting, the brain may focus more closely on pain signals that were easier to ignore during the day.",
+          "Staying in one position for several hours can also increase pressure on painful joints, muscles, or nerves. A position that feels comfortable at first may become painful after prolonged pressure.",
+          "Pain can also interfere with sleep, and poor sleep can increase pain sensitivity. This creates a cycle in which pain causes poor sleep and poor sleep makes the next pain flare feel worse."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Pain and Sleep Cycle",
+        "paragraphs": [
+          "Chronic pain and sleep problems often influence each other in both directions. Pain may cause difficulty falling asleep, repeated awakenings, or early morning waking.",
+          "When sleep is fragmented, the body may become less able to regulate pain signals, stress, mood, and physical recovery. As a result, a person may experience greater pain sensitivity the following day.",
+          "This does not mean that the pain is imaginary. Sleep-related changes in the nervous system can make genuine pain feel more intense and harder to tolerate."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Pain makes it difficult to fall asleep",
+            "Pain wakes you several times during the night",
+            "Poor sleep increases sensitivity to pain",
+            "Fatigue reduces movement and physical activity",
+            "Reduced activity may increase stiffness and weakness"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/sleep-pain-content.jpg",
+        "alt": "Alarm clock beside a bed representing disturbed sleep from chronic pain"
+      },
+      {
+        "type": "section",
+        "heading": "Conditions That May Cause Night-Time Pain",
+        "paragraphs": [
+          "Several pain conditions can become more noticeable at night. Back and neck pain may worsen when the spine remains in one position for a long time. Arthritis may cause stiffness after rest, while nerve pain may feel like burning, tingling, electric shocks, or pins and needles.",
+          "Shoulder problems can become more painful when lying on the affected side. Hip pain may increase with pressure on the side of the body. Leg cramps, diabetic neuropathy, post-surgical nerve pain, and chemotherapy-related neuropathy may also disturb sleep.",
+          "The timing and character of the pain can provide useful information, but night-time worsening by itself does not identify one specific diagnosis."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Lower-back pain or sciatica",
+            "Neck pain with arm symptoms",
+            "Knee or hip arthritis",
+            "Frozen shoulder or rotator cuff pain",
+            "Diabetic or chemotherapy-related nerve pain",
+            "Post-surgical nerve or scar pain after complete healing",
+            "Muscle cramps and persistent trigger-point pain"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Can Sleeping Position Make Pain Worse?",
+        "paragraphs": [
+          "Sleeping position can increase pressure on an already painful area. Side sleeping may aggravate shoulder or outer hip pain, while stomach sleeping may place additional strain on the neck and lower back.",
+          "A pillow that does not support the neck or legs may also increase muscle tension. However, changing the pillow or mattress may not solve the problem if the underlying cause is nerve irritation, joint pain, or an untreated chronic pain condition.",
+          "Small adjustments can be useful, but persistent night pain deserves a proper assessment rather than repeated changes to the sleeping position alone."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "What Can You Try at Home?",
+        "paragraphs": [
+          "Try to maintain a regular sleep and wake time, reduce prolonged screen use before bed, and keep the bedroom comfortable and dark. Gentle movement during the day may reduce stiffness caused by remaining inactive for long periods.",
+          "If approved by your doctor, heat, cold, stretching, or a change in sleeping position may provide temporary relief. Avoid starting or increasing pain medicines without medical advice, especially if you take medicines for other health conditions.",
+          "Keep a simple pain and sleep diary. Note where the pain occurs, when it wakes you, your sleeping position, medicines taken, and how you feel the next morning. This information can help a doctor identify patterns."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Night Pain Needs Medical Attention",
+        "paragraphs": [
+          "Pain that repeatedly wakes you, continues for several weeks, or is getting progressively worse should be evaluated. It is especially important to seek medical advice when night pain is associated with numbness, weakness, swelling, fever, unexplained weight loss, or a history of cancer.",
+          "Seek urgent care for sudden severe pain, new loss of bladder or bowel control, numbness around the groin, rapidly developing weakness, chest pain, difficulty breathing, or pain after a major injury.",
+          "Night-time pain is not automatically a sign of a serious disease, but warning symptoms should not be dismissed as routine chronic pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How a Pain Specialist Evaluates Night-Time Pain",
+        "paragraphs": [
+          "At Jain Pain Clinic, assessment begins with understanding the pain pattern. Dr Ashu Kumar Jain may ask whether the pain is aching, burning, shooting, throbbing, or associated with numbness and tingling.",
+          "The evaluation may include checking the spine, joints, muscles, nerve function, movement, posture, walking pattern, and the position that triggers the pain. Previous scans and treatment responses are also reviewed.",
+          "The goal is to identify whether the night pain is mainly related to a nerve, joint, muscle, spine, inflammation, previous surgery, or a combination of factors."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Focuses on the Underlying Pain Source",
+        "paragraphs": [
+          "Treatment depends on the cause of the night-time pain. It may include physiotherapy, movement-based rehabilitation, sleep-position advice, medication review, and treatment of the condition responsible for the pain.",
+          "When nerve pain is significant, medicines used for neuropathic pain may be considered under medical supervision. If a particular nerve or joint is suspected, a targeted diagnostic block may help confirm the pain generator.",
+          "Selected patients with persistent pain may be considered for image-guided injections, nerve blocks, or radiofrequency procedures. These interventions are recommended only after clinical assessment and when the suspected pain source is clear.",
+          "Improving sleep is part of pain management, but long-term relief usually requires treating the pain condition itself rather than relying only on sleeping tablets or repeated painkillers."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Identify the source and type of pain",
+            "Review current medicines and possible night-time side effects",
+            "Improve movement, posture, and sleep-related aggravating factors",
+            "Use physiotherapy and rehabilitation when appropriate",
+            "Consider targeted pain procedures only when clinically indicated"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "When Should You See a Pain Specialist?",
+        "paragraphs": [
+          "You should seek help if pain regularly disturbs your sleep, requires repeated night-time medicines, affects your work the next day, or continues despite physiotherapy and routine treatment.",
+          "A pain specialist can help when the pain has become chronic, when different treatments have provided only temporary relief, or when the symptoms suggest nerve, joint, muscle, or spine involvement.",
+          "At Jain Pain Clinic in Gurugram, the aim is to understand why the pain is worse at night and create a treatment plan based on the underlying pain generator."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Chronic pain may feel worse at night because of prolonged positioning, fewer distractions, nerve sensitivity, inflammation, or the two-way relationship between pain and poor sleep.",
+          "Night pain should not automatically be ignored or assumed to be caused only by the mattress. If it keeps disturbing sleep or is associated with weakness, numbness, fever, weight loss, or other warning symptoms, medical evaluation is important.",
+          "The most effective approach is to identify and treat the underlying pain source while also improving sleep and daily function."
         ]
       }
     ]

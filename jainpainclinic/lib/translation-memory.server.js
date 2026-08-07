@@ -95,6 +95,31 @@ export function getTranslationKey(value) {
     .slice(0, 16);
 }
 
+function getTranslationEntry(memory, value) {
+  const normalized = normalizeTranslationText(value);
+  const entry = memory[getTranslationKey(normalized)];
+
+  if (entry) {
+    return entry;
+  }
+
+  const alternates = normalized.includes("&amp;")
+    ? [normalized.replace(/&amp;/g, "&")]
+    : normalized.includes("&")
+      ? [normalized.replace(/&/g, "&amp;")]
+      : [];
+
+  for (const alternate of alternates) {
+    const alternateEntry = memory[getTranslationKey(alternate)];
+
+    if (alternateEntry) {
+      return alternateEntry;
+    }
+  }
+
+  return null;
+}
+
 export function loadTranslationMemory() {
   if (!fs.existsSync(TRANSLATION_MEMORY_PATH)) {
     return {};
@@ -161,7 +186,7 @@ export function translateObjectForLocale(value, locale, memory = loadTranslation
     }
 
     const normalized = normalizeTranslationText(value);
-    const entry = memory[getTranslationKey(normalized)];
+    const entry = getTranslationEntry(memory, normalized);
     return entry?.[locale] || value;
   }
 
@@ -190,7 +215,7 @@ function translateHtmlTextSegment(segment, locale, memory) {
     }
 
     rememberEnglish(memory, normalized);
-    const entry = memory[getTranslationKey(normalized)];
+    const entry = getTranslationEntry(memory, normalized);
     const translated = entry?.[locale] || text;
     const leading = text.match(/^\s*/)?.[0] || "";
     const trailing = text.match(/\s*$/)?.[0] || "";
@@ -209,7 +234,7 @@ function translateHtmlAttributes(segment, locale, memory) {
 
       const normalized = normalizeTranslationText(value);
       rememberEnglish(memory, normalized);
-      const entry = memory[getTranslationKey(normalized)];
+      const entry = getTranslationEntry(memory, normalized);
 
       return ` ${attr}="${entry?.[locale] || value}"`;
     }
@@ -248,7 +273,7 @@ export function getClientTranslationMap(strings, locale, memory = loadTranslatio
   return Object.fromEntries(
     strings.map((text) => {
       const normalized = normalizeTranslationText(text);
-      const entry = memory[getTranslationKey(normalized)];
+      const entry = getTranslationEntry(memory, normalized);
       return [normalized, entry?.[locale] || text];
     })
   );

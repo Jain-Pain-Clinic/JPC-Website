@@ -39,7 +39,7 @@ export default function SiteFooter() {
           <div className="footer-locations">
             <p>{t("Locations")}</p>
             <a href="https://maps.google.com/?q=Artemis+Hospital+sector+51+Gurugram+Haryana" target="_blank" rel="noreferrer">
-              Artemis Hospital, Sector-51, Gurugram, Haryana
+              {t("Artemis Hospital, Sector-51, Gurugram, Haryana")}
             </a>
           </div>
         </div>

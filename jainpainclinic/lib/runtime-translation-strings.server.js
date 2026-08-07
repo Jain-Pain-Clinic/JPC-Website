@@ -20,6 +20,7 @@ const LAYOUT_STRINGS = [
   "Consult now",
   "Toggle menu",
   "Locations",
+  "Artemis Hospital, Sector-51, Gurugram, Haryana",
   "All rights reserved.",
 ];
 
@@ -39,6 +40,7 @@ const APPOINTMENT_STRINGS = [
 
 export const BLOG_RUNTIME_TRANSLATION_STRINGS = [
   ...LAYOUT_STRINGS,
+  ...APPOINTMENT_STRINGS,
   "Tagged:",
   "Read more",
   "Blog pages",

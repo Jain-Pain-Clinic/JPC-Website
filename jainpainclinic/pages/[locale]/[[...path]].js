@@ -92,16 +92,16 @@ export async function getStaticProps(context) {
     result = await getExerciseStaticProps(localeContext);
     pageKind = "exercise";
   } else if (route.length === 1 && route[0] === "blog") {
-    result = getBlogIndexStaticProps(localeContext);
+    result = await getBlogIndexStaticProps(localeContext);
     pageKind = "blogIndex";
   } else if (route.length === 2 && route[0] === "blog") {
-    result = getBlogSlugStaticProps({ ...localeContext, params: { ...localeContext.params, slug: route[1] } });
+    result = await getBlogSlugStaticProps({ ...localeContext, params: { ...localeContext.params, slug: route[1] } });
     pageKind = "blogSlug";
   } else if (route.length === 2 && route[0] === "treatments") {
-    result = getTreatmentStaticProps({ ...localeContext, params: { ...localeContext.params, slug: route[1] } });
+    result = await getTreatmentStaticProps({ ...localeContext, params: { ...localeContext.params, slug: route[1] } });
     pageKind = "treatment";
   } else if (route.length === 2 && route[0] === "procedures") {
-    result = getProcedureStaticProps({ ...localeContext, params: { ...localeContext.params, slug: route[1] } });
+    result = await getProcedureStaticProps({ ...localeContext, params: { ...localeContext.params, slug: route[1] } });
     pageKind = "procedure";
   } else {
     return { notFound: true };
