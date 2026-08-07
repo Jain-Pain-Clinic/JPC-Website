@@ -4518,6 +4518,285 @@ const rawBlogs = [
       }
     ]
   }
+},
+{
+  "slug": "pain-in-middle-of-upper-back-causes-when-to-worry",
+  "title": "Pain in the Middle of the Upper Back: Common Causes and When to Worry",
+  "seoTitle": "Pain in the Middle of the Upper Back: Causes & Red Flags | Jain Pain Clinic",
+  "description": "Pain in the middle of the upper back may come from muscles, posture, thoracic joints, ribs, discs, or nerves. Learn what the pain pattern may suggest and when to seek help.",
+  "keywords": "pain in upper back in the middle, pain in the middle of upper back, pain in the middle of the upper back, upper back pain, mid back pain, thoracic back pain, upper back pain causes, thoracic facet pain, rib joint pain, upper back pain when breathing, Jain Pain Clinic",
+  "canonicalPath": "/blog/pain-in-middle-of-upper-back-causes-when-to-worry",
+  "ogImage": "/assets/blog/pain-middle-upper-back-hero.jpg",
+  "category": "Back Pain",
+  "readTime": "7 min read",
+  "excerpt": "Pain in the middle of the upper back is often related to muscles, posture, thoracic joints, or ribs. The way the pain behaves can provide useful clues about its source.",
+  "heroSubtitle": "Pain in the middle of the upper back is not always just a muscle strain. Where it is felt and what triggers it can help narrow down the possible cause.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-08-07",
+  "publishedLabel": "August 7, 2026",
+  "cardImage": "/assets/blog/pain-middle-upper-back-hero.jpg",
+  "cardAlt": "Person experiencing pain in the middle of the upper back",
+  "bannerImage": "/assets/blog/pain-middle-upper-back-hero.jpg",
+  "bannerAlt": "Pain in the middle of the upper back around the thoracic spine",
+  "tags": [
+    "Upper Back Pain",
+    "Mid Back Pain",
+    "Thoracic Back Pain",
+    "Back Pain",
+    "Pain Management"
+  ],
+"content": {
+  "intro": "Pain in the middle of the upper back is usually linked to muscles, posture, prolonged sitting, or the joints around the thoracic spine and ribs. But the spot where you feel the pain does not always tell us what is causing it. What started the pain, what makes it worse, and whether it changes with twisting, breathing, sitting, or pressing the area often gives us much better clues.",
+
+  "blocks": [
+    {
+      "type": "section",
+      "heading": "Why Does the Middle of the Upper Back Hurt?",
+      "paragraphs": [
+        "The middle and upper back is known as the thoracic region of the spine. This part of the back is connected to the ribs, so thoracic back pain can come from several nearby structures, including muscles, facet joints, rib joints, discs, nerves, or the vertebrae themselves.",
+        "That is why two people can point to almost the same painful spot and still have different problems. The location matters, but what caused the pain and which movements make it worse often tell us more.",
+        "Some of the common upper back pain causes are muscle overload, prolonged sitting, thoracic joint irritation, and problems involving the ribs."
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "Muscle Strain and Overuse",
+      "paragraphs": [
+        "Muscle strain is one of the common causes of pain in the middle of the upper back. It may start after lifting, exercise, repetitive arm movements, sudden twisting, or simply doing something the body is not used to.",
+        "The pain may feel like an ache, tightness, soreness, or a tender spot. It often becomes more noticeable when you twist, move the shoulders, or press the painful muscles.",
+        "There does not always have to be a clear injury. Long hours at a desk, frequent driving, exercise, or repetitive household work can gradually overload the muscles and irritate the area. In many people, this type of upper back pain settles when the activity or posture causing the overload is corrected."
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "Long Sitting and Posture-Related Pain",
+      "paragraphs": [
+        "People who spend hours working on laptops, sitting at a desk, driving, or looking down at a phone commonly complain of upper back pain.",
+        "The problem is not simply having one 'bad posture'. Staying in the same position for too long can tire the muscles supporting the thoracic spine and shoulder blades.",
+        "Posture-related pain usually builds gradually. You may notice it later in the working day and feel some relief after standing up, walking around, stretching, or simply changing position.",
+        "If pain in the middle of the upper back regularly appears after several hours of sitting and eases after movement, muscle fatigue or posture-related overload may be contributing."
+      ]
+    },
+
+    {
+      "type": "image",
+      "src": "/assets/blog/pain-middle-upper-back-anatomy.jpg",
+      "alt": "Thoracic spine and rib area involved in middle upper back pain"
+    },
+
+    {
+      "type": "section",
+      "heading": "Pain in the Centre vs Pain Between the Shoulder Blades",
+      "paragraphs": [
+        "These two descriptions overlap, but they are not always the same.",
+        "Pain directly over or close to the centre of the spine may involve the thoracic facet joints, nearby muscles, vertebrae, discs, or rib joints. Pain between the shoulder blades may also come from the rhomboid or trapezius muscles, trigger points, neck referral, or the way the shoulder is moving.",
+        [
+          {
+            "type": "text",
+            "text": "If you mainly have pain between the shoulder blades rather than directly in the centre, our guide to "
+          },
+          {
+            "type": "link",
+            "text": "shoulder blade muscle pain",
+            "href": "/blog/shoulder-blade-muscle-pain-posture-trigger-points-neck-pain"
+          },
+          {
+            "type": "text",
+            "text": " explains how posture, trigger points, neck problems, and upper back stiffness can contribute."
+          }
+        ]
+      ],
+      "quote": "\"The location gives us a starting point. What makes the pain better or worse often tells us more about where it is coming from.\""
+    },
+
+    {
+      "type": "section",
+      "heading": "Thoracic Facet and Rib Joint Pain",
+      "paragraphs": [
+        "Small facet joints connect the vertebrae at the back of the thoracic spine. If one of these joints becomes irritated, the pain is often felt close to the centre of the back. Twisting, rotating, or arching backward may make it more noticeable. This pattern can sometimes suggest thoracic facet pain.",
+        "The ribs also connect to the thoracic spine through costovertebral joints. Pain from these joints may sit a little farther to one side and can become sharper during a deep breath, coughing, sneezing, or twisting.",
+        "This difference can be useful during an examination. Still, upper back pain when breathing should not automatically be blamed on a rib joint. Lung and other chest conditions can sometimes produce a similar symptom."
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "What Does the Pain Pattern Suggest?",
+      "paragraphs": [
+        "The way the pain behaves can help narrow down the possibilities. It cannot confirm a diagnosis by itself, but it often gives useful clues."
+      ],
+      "list": {
+        "type": "ul",
+        "items": [
+          "A dull ache after long sitting may point toward muscle fatigue or posture-related overload",
+          "Pain close to the spine that becomes worse with twisting or bending backward may suggest thoracic facet pain",
+          "Pain that becomes sharper with deep breathing may involve a rib or costovertebral joint",
+          "A tender knot that produces the familiar pain when pressed may be muscular or myofascial",
+          "Burning or sharp pain that travels around the ribs may suggest nerve irritation",
+          "Sudden severe pain after a fall or injury needs assessment for a rib or vertebral injury"
+        ]
+      }
+    },
+
+    {
+      "type": "section",
+      "heading": "Could It Be a Disc or Nerve Problem?",
+      "paragraphs": [
+        "Thoracic disc problems can happen, although they are less common than disc problems in the lower back.",
+        "If a disc or another structure irritates a thoracic nerve, the pain may feel burning, sharp, electric, or radiating. Some people describe pain starting in the back and travelling around one side of the rib cage.",
+        "Numbness, tingling, altered sensation, weakness, or balance problems should be assessed. It is also worth remembering that pain in the middle of the upper back does not automatically mean there is a slipped disc.",
+        "Persistent thoracic back pain with nerve-like symptoms needs a different assessment from a simple muscle strain."
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "Can Organ Problems Cause Upper Back Pain?",
+      "paragraphs": [
+        "Yes, although muscle and joint problems are much more common. Sometimes pain felt in the back is actually being referred from somewhere outside the spine.",
+        "Problems involving the heart, lungs, esophagus, or certain abdominal organs can occasionally be felt in the upper or middle back.",
+        "This matters more when upper back pain comes with chest pressure, shortness of breath, sweating, faintness, fever, abdominal symptoms, or a general feeling of being unwell."
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "When Is Upper Back Pain a Red Flag?",
+      "paragraphs": [
+        "Most upper and middle back pain is not an emergency. There are, however, some symptoms that should not be ignored.",
+        "Upper back pain when breathing also needs more attention when it starts suddenly or comes with significant breathlessness, chest pain, fever, or a feeling that something is seriously wrong."
+      ],
+      "list": {
+        "type": "ul",
+        "items": [
+          "Chest pressure or significant shortness of breath",
+          "New or worsening weakness or numbness",
+          "Loss of bladder or bowel control",
+          "Severe pain after a fall or accident",
+          "Fever along with persistent back pain",
+          "Unexplained weight loss or night sweats",
+          "A history of cancer with new unexplained back pain"
+        ]
+      }
+    },
+
+    {
+      "type": "section",
+      "heading": "How a Pain Specialist Finds the Source",
+      "paragraphs": [
+        "At Jain Pain Clinic, the evaluation starts with the pain pattern. Is the pain directly in the centre or more to one side? Does it become worse after sitting, twisting, bending backward, breathing, coughing, or pressing a particular spot?",
+        "The examination may include checking movement of the thoracic spine and ribs, facet joint tenderness, muscle trigger points, posture, and neurological signs.",
+        "An X-ray, MRI, or CT scan may be needed in selected cases. But a finding on a scan does not automatically mean it is responsible for the pain. The scan, examination, and symptoms should make sense together.",
+        [
+          {
+            "type": "text",
+            "text": "You can also read our "
+          },
+          {
+            "type": "link",
+            "text": "Mid Back Pain treatment guide",
+            "href": "/treatments/mid-back-pain"
+          },
+          {
+            "type": "text",
+            "text": " for more information about thoracic facet pain, costovertebral joint pain, diagnosis, and treatment."
+          }
+        ]
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "What Can You Do for Mild Upper-Middle Back Pain?",
+      "paragraphs": [
+        "If the pain is mild, seems to be related to activity or posture, and there are no warning signs, simple measures may be enough to begin with.",
+        "Try not to stay in one position for hours. Take short movement breaks during desk work, reduce activities that clearly aggravate the pain for a while, and then gradually return to normal activity.",
+        "Heat or cold packs, ergonomic changes, gentle stretching, strengthening, physiotherapy, and suitable pain medicines may help depending on the cause.",
+        "If pain in the middle of the upper back keeps coming back despite these measures, repeatedly resting or massaging the area may only give temporary relief. That is when finding the actual pain generator becomes more useful."
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "When Should You See a Pain Specialist?",
+      "paragraphs": [
+        "Consider an assessment if the pain keeps returning, lasts for several weeks, affects sleep or work, or does not improve despite basic treatment. A chronic pain specialist can help when the problem has become persistent or the source is not clear.",
+        "Evaluation is also useful when the pain repeatedly comes on with a particular movement or deep breathing, or when you develop burning pain, pain travelling around the ribs, tingling, or numbness.",
+        "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates persistent mid-back pain by first identifying whether the main source is muscle, a thoracic facet joint, rib joint, disc, nerve, or another structure.",
+        "For people with persistent mid-back pain, treatment may include rehabilitation, medication, or interventional pain management depending on the pain generator. Interventional pain management is considered when a specific joint, nerve, or other pain source has been identified and conservative treatment has not provided enough relief.",
+        "The aim of seeing a chronic pain specialist is not simply to suppress the symptom. It is to understand why the pain keeps returning and choose treatment according to the source."
+      ]
+    },
+
+    {
+      "type": "section",
+      "heading": "The Takeaway",
+      "paragraphs": [
+        "Pain in the middle of the upper back commonly comes from muscles, prolonged sitting, thoracic facet joints, or the joints where the ribs meet the spine.",
+        "The location is useful, but the behaviour of the pain often tells us more. Sitting, twisting, deep breathing, pressing the area, or pain travelling around the ribs can point toward different sources.",
+        "If pain in the middle of the upper back keeps returning or does not improve with simple measures, it is worth finding out what is actually causing it rather than repeatedly treating the painful spot."
+      ]
+    }
+  ]},
+  "resources": [
+    {
+      "title": "Back Pain: Overview, Symptoms, and Causes",
+      "href": "https://www.niams.nih.gov/health-topics/back-pain",
+      "source": "National Institute of Arthritis and Musculoskeletal and Skin Diseases"
+    },
+    {
+      "title": "Thoracic Discogenic Syndrome",
+      "href": "https://www.ncbi.nlm.nih.gov/books/NBK470388/",
+      "source": "NCBI Bookshelf"
+    },
+    {
+      "title": "Back Pain: Diagnosis, Treatment, and Steps to Take",
+      "href": "https://www.niams.nih.gov/health-topics/back-pain/diagnosis-treatment-and-steps-to-take",
+      "source": "National Institute of Arthritis and Musculoskeletal and Skin Diseases"
+    }
+  ],
+  "faqs": [
+  {
+    "question": "Why does my upper back hurt right in the middle?",
+    "answer": [
+      "Muscle strain, long hours of sitting, posture-related overload, thoracic facet joints, and rib joints are common causes. Disc, nerve, or vertebral problems can also cause pain here, but the way the pain behaves is often more helpful than the location alone."
+    ],
+    "openByDefault": true
+  },
+  {
+    "question": "How can I tell if my upper back pain is muscular?",
+    "answer": [
+      "Muscle pain is often sore or tender when you press the area and may change with posture, shoulder movement, twisting, or activity. These are useful clues, but they cannot confirm the cause on their own."
+    ]
+  },
+  {
+    "question": "Why does my upper-middle back hurt when I take a deep breath?",
+    "answer": [
+      "Deep breathing moves the ribs and the joints where they connect to the thoracic spine. A rib joint or nearby tissue can therefore become painful during breathing. If the pain comes with breathlessness, fever, chest pain, or sudden severe symptoms, it should not be assumed to be a simple back problem."
+    ]
+  },
+  {
+    "question": "Does pain in the middle of the upper back mean a slipped disc?",
+    "answer": [
+      "No. A thoracic disc problem is only one possible cause. Muscles, facet joints, rib joints, nerves, and other structures can all cause pain in the same area."
+    ]
+  },
+  {
+    "question": "Why does my upper back pain keep coming back?",
+    "answer": [
+      "Sometimes the activity or posture that keeps irritating the area has not changed. In other cases, a facet joint, rib joint, nerve, or another pain source may be keeping the nearby muscles tense. Temporary relief from heat, rest, or massage does not always correct the underlying problem."
+    ]
+  },
+  {
+    "question": "How do I know if upper back pain is serious?",
+    "answer": [
+      "Seek prompt medical attention if the pain comes with chest symptoms, breathing difficulty, major trauma, progressive weakness or numbness, bowel or bladder changes, fever, unexplained weight loss, or rapidly worsening symptoms."
+    ]
+  }
+  ]
 }
 ];
 

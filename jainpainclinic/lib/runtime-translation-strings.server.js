@@ -44,6 +44,8 @@ export const BLOG_RUNTIME_TRANSLATION_STRINGS = [
   "Tagged:",
   "Read more",
   "Blog pages",
+  "Frequently asked questions",
+  "Toggle answer",
   "Previous",
   "Next",
   "Search posts by title…",

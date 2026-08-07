@@ -23,7 +23,6 @@ export function clinicSchema(overrides = {}) {
     telephone: "+919211281009",
     address: clinicAddress,
     priceRange: "$$",
-    medicalSpecialty: "Pain Medicine",
     areaServed: ["Gurugram", "Delhi NCR", "Haryana"],
     employee: {
       "@type": "Person",

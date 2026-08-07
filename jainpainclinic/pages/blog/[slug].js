@@ -9,6 +9,54 @@ import { getPaginatedItems, getTotalPages } from "@/lib/pagination";
 import { BLOG_RUNTIME_TRANSLATION_STRINGS } from "@/lib/runtime-translation-strings.server";
 import { clinicSchema, doctorSchema } from "@/lib/structured-data";
 
+function getFaqAnswerText(answer) {
+  if (Array.isArray(answer)) {
+    return answer.join("\n");
+  }
+
+  return answer || "";
+}
+
+function blogStructuredData(post) {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.description,
+    image: `https://www.jainpainclinic.com${post.ogImage}`,
+    datePublished: post.publishedAt,
+    dateModified: post.publishedAt,
+    author: post.author === "Dr Ashu Kumar Jain"
+      ? doctorSchema()
+      : { "@type": "Person", name: post.author },
+    publisher: clinicSchema(),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://www.jainpainclinic.com${post.canonicalPath}`,
+    },
+  };
+
+  if (!post.faqs?.length) {
+    return articleSchema;
+  }
+
+  return [
+    articleSchema,
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: post.faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: getFaqAnswerText(faq.answer),
+        },
+      })),
+    },
+  ];
+}
+
 export default function BlogSlugPage(props) {
   const locale = props.locale || "en";
 
@@ -63,23 +111,7 @@ export default function BlogSlugPage(props) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              headline: post.title,
-              description: post.description,
-              image: `https://www.jainpainclinic.com${post.ogImage}`,
-              datePublished: post.publishedAt,
-              dateModified: post.publishedAt,
-              author: post.author === "Dr Ashu Kumar Jain"
-                ? doctorSchema()
-                : { "@type": "Person", name: post.author },
-              publisher: clinicSchema(),
-              mainEntityOfPage: {
-                "@type": "WebPage",
-                "@id": `https://www.jainpainclinic.com${post.canonicalPath}`,
-              },
-            }),
+            __html: JSON.stringify(blogStructuredData(post)),
           }}
         />
       </Head>

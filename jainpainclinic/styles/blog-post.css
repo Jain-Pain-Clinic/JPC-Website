@@ -141,6 +141,16 @@
 .blog-post-section p:last-child {
   margin-bottom: 0;
 }
+.blog-post-section a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+.blog-post-section a:hover {
+  color: var(--blue-dark);
+}
 .blog-post-section ol,
 .blog-post-section ul {
   padding-left: 24px;
@@ -151,6 +161,21 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.blog-post-section ul {
+  list-style: disc outside;
+}
+.blog-post-section ol {
+  list-style: decimal outside;
+}
+.blog-post-section li {
+  display: list-item;
+  list-style: inherit;
+  padding-left: 2px;
+}
+.blog-post-section li::marker {
+  color: var(--blue);
+  font-weight: 700;
 }
 .blog-post-section blockquote {
   margin: 0;
@@ -176,6 +201,50 @@
   height: 400px;
   object-fit: cover;
   display: block;
+}
+
+/* ── Resources ── */
+.blog-post-resources {
+  padding: 28px 0;
+  border-top: 1px solid rgba(3,33,38,0.1);
+  border-bottom: 1px solid rgba(3,33,38,0.1);
+}
+.blog-post-resources h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.96px;
+  margin: 0 0 16px;
+}
+.blog-post-resources ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.blog-post-resources li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.blog-post-resources a {
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+.blog-post-resources a:hover {
+  color: var(--blue-dark);
+}
+.blog-post-resources span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.35;
 }
 
 /* ── Tags ── */

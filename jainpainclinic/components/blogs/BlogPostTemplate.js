@@ -1,4 +1,21 @@
+import RichTextInline from "@/components/shared/RichTextInline";
 import { useT } from "@/components/shared/I18nProvider";
+
+function InlineContent({ value }) {
+  if (Array.isArray(value)) {
+    return <RichTextInline parts={value} />;
+  }
+
+  return value;
+}
+
+function getFaqAnswerParagraphs(answer) {
+  if (Array.isArray(answer)) {
+    return answer;
+  }
+
+  return answer ? [answer] : [];
+}
 
 function ContentBlock({ block }) {
   if (block.type === "image") {
@@ -27,32 +44,105 @@ function ContentBlock({ block }) {
     <section className="blog-post-section">
       <h2>{block.heading}</h2>
 
-      {block.paragraphs?.map((paragraph) => (
-        <p key={paragraph}>{paragraph}</p>
+      {block.paragraphs?.map((paragraph, index) => (
+        <p key={`${block.heading}-paragraph-${index}`}>
+          <InlineContent value={paragraph} />
+        </p>
       ))}
 
       {block.subSections?.map((subSection) => (
         <div key={subSection.heading} className="blog-post-subsection">
           <h3>{subSection.heading}</h3>
-          {subSection.paragraphs.map((paragraph) => (
-            <p key={`${subSection.heading}-${paragraph}`}>{paragraph}</p>
+          {subSection.paragraphs.map((paragraph, index) => (
+            <p key={`${subSection.heading}-paragraph-${index}`}>
+              <InlineContent value={paragraph} />
+            </p>
           ))}
         </div>
       ))}
 
       {block.list ? (
         <ListTag>
-          {block.list.items.map((item) => (
-            <li key={item}>{item}</li>
+          {block.list.items.map((item, index) => (
+            <li key={`${block.heading}-item-${index}`}>
+              <InlineContent value={item} />
+            </li>
           ))}
         </ListTag>
       ) : null}
 
       {block.quote ? (
         <blockquote>
-          <p>{block.quote}</p>
+          <p>
+            <InlineContent value={block.quote} />
+          </p>
         </blockquote>
       ) : null}
+    </section>
+  );
+}
+
+function BlogFaqs({ post }) {
+  const t = useT();
+
+  if (!post.faqs?.length) {
+    return null;
+  }
+
+  return (
+    <section className="blog-post-faq treatment-faq" aria-labelledby="blogFaqTitle">
+      <h2 id="blogFaqTitle" className="treatment-faq__title reveal">
+        {t("Frequently asked questions")}
+      </h2>
+
+      <div className="treatment-faq__list" id="faqList">
+        {post.faqs.map((faq, index) => (
+          <div
+            key={`${post.slug}-faq-${index}`}
+            className={`treatment-faq__item ${faq.openByDefault ? "is-open" : ""}`}
+          >
+            <div className="treatment-faq__header">
+              <p className="treatment-faq__q">{faq.question}</p>
+              <button
+                className="treatment-faq__toggle"
+                aria-expanded={faq.openByDefault ? "true" : "false"}
+                aria-label={t("Toggle answer")}
+                type="button"
+              >
+                <i className="fa-solid fa-plus" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <div className="treatment-faq__answer">
+              {getFaqAnswerParagraphs(faq.answer).map((paragraph, paragraphIndex) => (
+                <p key={`${post.slug}-faq-${index}-paragraph-${paragraphIndex}`}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function BlogResources({ resources = [] }) {
+  if (!resources.length) {
+    return null;
+  }
+
+  return (
+    <section className="blog-post-resources" aria-labelledby="blogResourcesTitle">
+      <h2 id="blogResourcesTitle">Resources</h2>
+      <ul>
+        {resources.map((resource) => (
+          <li key={resource.href}>
+            <a href={resource.href} target="_blank" rel="noopener noreferrer">
+              {resource.title}
+            </a>
+            {resource.source ? <span>{resource.source}</span> : null}
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
@@ -116,6 +206,10 @@ export default function BlogPostTemplate({ post }) {
             {post.content.blocks.map((block, index) => (
               <ContentBlock key={`${block.type}-${index}`} block={block} />
             ))}
+
+            <BlogResources resources={post.resources} />
+
+            <BlogFaqs post={post} />
 
             <div className="blog-post-tags">
               <span className="blog-post-tags__label">{t("Tagged:")}</span>
