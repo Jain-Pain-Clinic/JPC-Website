@@ -10,6 +10,8 @@ export default function MyDocument({ locale = DEFAULT_LOCALE }) {
     <Html lang={meta.code} dir={meta.dir}>
       <Head>
         <link rel="icon" type="image/png" href="/assets/favicon.png" />
+        <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
+        <link rel="apple-touch-icon" href="/assets/favicon.png" />
       </Head>
       <body className="antialiased">
         <noscript>
