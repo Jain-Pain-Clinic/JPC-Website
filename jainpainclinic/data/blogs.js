@@ -5403,6 +5403,379 @@ const rawBlogs = [
       ]
     }
   ]
+},
+{
+  "slug": "icd-10-codes-for-neck-pain-m542-m5412-m5481",
+  "title": "ICD-10 Codes for Neck Pain: Understanding M54.2, M54.12, and M54.81",
+  "seoTitle": "Neck Pain ICD-10 Codes: M54.2, M54.12 and M54.81 Explained",
+  "description": "Learn what the ICD-10 codes M54.2, M54.12, and M54.81 mean, how general neck pain differs from cervical radiculopathy and occipital neuralgia, and when specialist evaluation is needed.",
+  "keywords": "neck pain ICD-10 code, ICD-10 code for neck pain, M54.2 cervicalgia, M54.12 cervical radiculopathy, M54.81 occipital neuralgia, pinched nerve in neck ICD-10, neck pain radiating to arm ICD-10, cervical nerve pain code, neck pain diagnosis code, cervical spine pain, gardan dard",
+  "canonicalPath": "/blog/icd-10-codes-for-neck-pain-m542-m5412-m5481",
+  "ogImage": "/assets/blog/neck-pain-cervicalgia-hero.jpg",
+  "category": "Neck Pain",
+  "readTime": "8 min read",
+  "excerpt": "M54.2 is commonly used for general neck pain, while M54.12 refers to cervical radiculopathy and M54.81 to occipital neuralgia. The correct code depends on the diagnosis documented by the treating clinician.",
+  "heroSubtitle": "What common neck pain ICD-10 codes mean and how they relate to your symptoms",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-08-24",
+  "publishedLabel": "August 24, 2026",
+  "cardImage": "/assets/blog/neck-pain-cervicalgia-hero.jpg",
+  "cardAlt": "Person holding the back of the neck because of neck pain",
+  "bannerImage": "/assets/blog/neck-pain-cervicalgia-hero.jpg",
+  "bannerAlt": "Neck pain and cervical spine symptoms",
+  "tags": [
+    "Neck Pain",
+    "ICD-10 Codes",
+    "Cervicalgia",
+    "Cervical Radiculopathy",
+    "Occipital Neuralgia",
+    "Pinched Nerve",
+    "Gardan Dard"
+  ],
+  "content": {
+    "intro": "The most common ICD-10-CM code for general neck pain is M54.2, also called cervicalgia. If neck pain travels into the shoulder or arm with tingling, numbness, or weakness, the diagnosis may be cervical radiculopathy, commonly coded as M54.12. Pain that begins in the upper neck and shoots toward the back of the head may be related to occipital neuralgia, coded as M54.81. These codes describe different clinical patterns, so the correct code should be based on the diagnosis documented by a qualified clinician, not only on the location of pain.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is the ICD-10 Code for Neck Pain?",
+        "paragraphs": [
+          "For nonspecific or general neck pain, the commonly used ICD-10-CM code is M54.2, which is described as cervicalgia.",
+          "Cervicalgia means pain in the neck region. It may be related to muscle strain, posture-related overload, joint irritation, stiffness, or another cause that has not been documented as a more specific condition.",
+          "M54.2 is not a complete explanation of why the neck hurts. It is a diagnostic classification used in medical records, billing, referrals, and insurance documentation."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "M54.2: Cervicalgia or general neck pain",
+            "M54.12: Radiculopathy, cervical region",
+            "M54.81: Occipital neuralgia",
+            "M50.1 or related M50 codes: Cervical disc disorder with radiculopathy, when a disc disorder is documented",
+            "M47.2 or related M47 codes: Cervical spondylosis with radiculopathy, when cervical spondylosis is documented as the cause"
+          ]
+        },
+        "quote": "\"An ICD code records a clinical diagnosis. It does not replace the examination used to find the source of the pain.\""
+      },
+      {
+        "type": "section",
+        "heading": "M54.2 Cervicalgia: General Neck Pain",
+        "paragraphs": [
+          "M54.2 is commonly used when the main documented problem is neck pain without a more specific diagnosis such as cervical radiculopathy, cervical disc disorder, or cervical spondylosis with nerve involvement.",
+          "People with cervicalgia may describe an ache, stiffness, tightness, soreness, or pain that becomes worse after working at a desk, using a phone, driving, sleeping awkwardly, or turning the head.",
+          "Neck pain may also be felt near the shoulder blade or upper back. The pain does not always stay exactly where the underlying problem started."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Neck stiffness after sleeping",
+            "Pain after prolonged laptop or phone use",
+            "Muscle tightness around the neck and shoulders",
+            "Pain that changes with posture or movement",
+            "Tenderness around the upper trapezius muscles",
+            "Neck pain without clear arm weakness or numbness"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "M54.12 Cervical Radiculopathy: A Pinched or Irritated Neck Nerve",
+        "paragraphs": [
+          "M54.12 refers to radiculopathy in the cervical region. In everyday language, this is often called a pinched nerve in the neck.",
+          "Cervical radiculopathy can occur when a nerve root becomes irritated or compressed near the cervical spine. Causes may include a disc problem, narrowing around the nerve, age-related spinal changes, or inflammation.",
+          "The symptoms often extend beyond the neck. Pain may travel into the shoulder blade, arm, forearm, or hand. Some people mainly notice numbness, tingling, altered sensation, or weakness rather than severe neck pain."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Sharp, burning, shooting, or electric pain",
+            "Pain travelling from the neck into one arm",
+            "Pins and needles in the hand or fingers",
+            "Numbness in part of the arm",
+            "Weak grip or difficulty lifting the arm",
+            "Symptoms that change when the neck is turned or extended"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "M54.81 Occipital Neuralgia: Neck Pain That Travels Into the Head",
+        "paragraphs": [
+          "M54.81 is used for occipital neuralgia. This condition involves pain in the distribution of the occipital nerves, which travel from the upper neck toward the back and top of the head.",
+          "The pain may feel like stabbing, shooting, burning, electric shocks, or a painful sensitivity of the scalp. It may occur on one side or both sides.",
+          "Occipital neuralgia can be confused with migraine, tension headache, or a headache that originates from the neck. The pain pattern, tenderness over the nerve, neck movement, and other headache symptoms help guide the assessment."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Electric or shock-like pain at the back of the head",
+            "Pain beginning near the upper neck",
+            "Scalp tenderness or sensitivity",
+            "Pain behind the ear or toward the top of the head",
+            "Pain triggered by pressure or certain neck movements",
+            "Headache associated with upper-neck tenderness"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/cervical-radiculopathy-neck-assessment.jpg",
+        "alt": "Clinician assessing the neck and symptoms related to cervical radiculopathy"
+      },
+      {
+        "type": "section",
+        "heading": "What Is the Difference Between M54.2 and M54.12?",
+        "paragraphs": [
+          "M54.2 describes general neck pain. M54.12 describes cervical radiculopathy, where a cervical nerve root is involved.",
+          "A person with M54.2 may have local neck pain and stiffness. A person with M54.12 is more likely to have radiating arm pain, tingling, numbness, or weakness.",
+          "These symptoms can overlap. A person may have neck pain and nerve symptoms at the same time, but the code should reflect the diagnosis and cause documented by the treating clinician."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Local neck ache or stiffness may fit a cervicalgia pattern",
+            "Arm pain with tingling or numbness may suggest cervical radiculopathy",
+            "Weakness or loss of grip needs neurological assessment",
+            "Pain from the upper neck into the scalp may suggest occipital neuralgia",
+            "A confirmed disc or spondylosis-related cause may require a more specific code"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Does a Neck Pain ICD Code Tell You the Exact Cause?",
+        "paragraphs": [
+          "Not always. An ICD-10 code is a classification used to record a diagnosis. It does not provide the same detail as a complete history, physical examination, neurological examination, or imaging report.",
+          "For example, M54.2 can describe neck pain without identifying whether the main source is a muscle, cervical facet joint, disc, posture-related overload, or another structure.",
+          "Similarly, M54.12 identifies cervical radiculopathy but does not by itself explain whether the nerve is irritated by a disc, narrowing, inflammation, or another cause."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Are More Specific Cervical Spine Codes Used?",
+        "paragraphs": [
+          "A more specific code may be used when the clinician documents an underlying cervical disc disorder, cervical spondylosis, or another defined spinal condition.",
+          "For example, disc-related radiculopathy may fall under the M50.1 category, while cervical spondylosis with radiculopathy may fall under the M47.2 category. The exact billable code can depend on the documented level, condition, and coding system being used.",
+          "Patients should not choose a code based only on an MRI report. A disc bulge or degenerative change may be present without causing symptoms."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Is the Correct Neck Pain Diagnosis Made?",
+        "paragraphs": [
+          "The evaluation starts with the symptom pattern. A clinician may ask where the pain begins, whether it travels into the arm or head, what movements trigger it, and whether there is numbness or weakness.",
+          "The examination may include neck movement, muscle tenderness, shoulder movement, strength, sensation, reflexes, posture, and signs of nerve irritation.",
+          "Imaging such as an X-ray or MRI may be useful in selected cases. It is usually interpreted alongside the examination rather than used as the diagnosis by itself."
+        ],
+        "list": {
+          "type": "ol",
+          "items": [
+            "Describe the exact location of the pain",
+            "Mention whether pain travels into the shoulder, arm, hand, or head",
+            "Report tingling, numbness, weakness, or loss of grip",
+            "Explain what happens when you turn, bend, or extend the neck",
+            "Bring previous imaging and treatment records",
+            "Tell the clinician whether massage, physiotherapy, or medicines helped temporarily"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Treatment Depends on the Diagnosis, Not Only the Code",
+        "list": {
+          "type": "ul",
+          "items": [
+            "Movement-based rehabilitation",
+            "Physiotherapy and gradual strengthening",
+            "Medication review",
+            "Treatment of muscle trigger points when appropriate",
+            "Diagnostic nerve or joint blocks in selected cases",
+            "Image-guided cervical procedures when clinically indicated",
+            "Radiofrequency treatment for carefully selected confirmed pain sources"
+          ]
+        },
+        "paragraphs": [
+          "Treatment for M54.2 cervicalgia may include movement advice, physiotherapy, posture changes, medication review, and treatment for muscle or joint-related pain.",
+          "Treatment for M54.12 cervical radiculopathy may require a neurological assessment, rehabilitation, medicines for nerve-related pain, and selected image-guided procedures when symptoms persist.",
+          "Treatment for M54.81 occipital neuralgia may include medication review, targeted occipital nerve treatment, rehabilitation, or other pain procedures when the diagnosis is clear.",
+          "An ICD code does not automatically mean that an injection, nerve block, or radiofrequency procedure is required. The treatment should match the pain generator and the patient's symptoms.",
+          [
+            {
+            "type": "text",
+            "text": "For more information, read our "
+            },
+            {
+            "type": "link",
+            "text": "neck pain treatment guide",
+            "href": "/treatments/neck-pain"
+            },
+            {
+            "type": "text",
+            "text": " and our article on "
+            },
+            {
+            "type": "link",
+            "text": "neck pain and headaches",
+            "href": "/blog/neck-pain-and-headaches"
+            },
+            {
+            "type": "text",
+            "text": "."
+            }
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You See a Pain Specialist?",
+        "paragraphs": [
+          "Consider an assessment if neck pain lasts for several weeks, keeps returning, affects sleep or work, or does not improve with basic treatment.",
+          "You should seek help sooner if pain travels into the arm, causes tingling or numbness, affects your grip, or is associated with weakness.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain evaluates the symptom pattern and examination findings before recommending treatment. The aim is to distinguish muscular pain from cervical joint pain, cervical radiculopathy, occipital neuralgia, and other causes.",
+          [
+            {
+              "type": "text",
+              "text": "If you are comparing options for a "
+            },
+            {
+              "type": "link",
+              "text": "pain specialist in Gurgaon",
+              "href": "/treatments/neck-pain"
+            },
+            {
+              "type": "text",
+              "text": ", choose an evaluation that explains the suspected pain source rather than focusing only on a code."
+            }
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Neck Pain Warning Signs",
+        "paragraphs": [
+          "Some neck symptoms need prompt medical assessment rather than routine self-care."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "New or worsening weakness in an arm or hand",
+            "Progressive numbness or loss of sensation",
+            "Difficulty walking, poor balance, or clumsy hands",
+            "Severe neck pain after a fall or accident",
+            "Fever with severe neck stiffness or feeling very unwell",
+            "Difficulty breathing or swallowing with neck pain",
+            "Sudden severe headache with neck stiffness",
+            "Loss of bladder or bowel control along with spinal symptoms"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Finding the Right Specialist for Your Symptoms",
+        "paragraphs": [
+          "A person searching for the best pain specialist in Gurgaon may be looking for an explanation for recurring neck pain, arm symptoms, or headaches rather than only a prescription.",
+          "Jain Pain Clinic provides chronic pain and interventional pain assessment in Gurugram. The clinic also evaluates patients searching for a knee pain doctor in Gurgaon or a back pain doctor in Gurgaon, with treatment selected according to the suspected source of pain.",
+          "The next step may be conservative treatment, rehabilitation, medication review, a diagnostic block, or a selected pain procedure. The diagnosis should come before the procedure.",
+          [
+            {
+            "type": "text",
+            "text": "You can also read our guide to "
+            },
+            {
+            "type": "link",
+            "text": "nerve blocks and pain diagnosis",
+            "href": "/blog/nerve-blocks-explained-why-doctors-use-them-to-diagnose-pain"
+            },
+            {
+            "type": "text",
+            "text": " if a targeted block has been discussed."
+            }
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "M54.2 is commonly used for general neck pain or cervicalgia. M54.12 refers to cervical radiculopathy, where a nerve root in the neck is involved. M54.81 refers to occipital neuralgia, which can cause shooting or burning pain from the upper neck toward the head.",
+          "The code on a medical document is only one part of the diagnosis. The pain pattern, neurological examination, imaging when needed, and documented cause all matter.",
+          "If neck pain keeps returning or is associated with arm pain, numbness, tingling, weakness, or headaches, a pain specialist can help identify the source and guide treatment."
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "ICD-10-CM Tabular List",
+      "href": "https://www.cms.gov/files/document/icd2019-cm-tabular-list-disease-and-injuries-pdf.pdf",
+      "source": "Centers for Medicare and Medicaid Services"
+    },
+    {
+      "title": "Cervical Radiculopathy",
+      "href": "https://my.clevelandclinic.org/health/diseases/22639-cervical-radiculopathy-pinched-nerve",
+      "source": "Cleveland Clinic"
+    },
+    {
+      "title": "Neck Pain: Diagnosis and Treatment",
+      "href": "https://www.mayoclinic.org/diseases-conditions/neck-pain/diagnosis-treatment/drc-20375587",
+      "source": "Mayo Clinic"
+    },
+    {
+      "title": "ICD-10 Code for Cervicalgia",
+      "href": "https://www.aapc.com/codes/coding-newsletters/my-orthopedic-coding-alert/reader-question-keep-these-codes-handy-to-avoid-icd-10-pain-in-the-neck-160931-article",
+      "source": "AAPC"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the ICD-10 code for neck pain?",
+      "answer": [
+        "The commonly used ICD-10-CM code for general neck pain is M54.2, called cervicalgia. A different code may be used when a more specific cause such as cervical radiculopathy, a disc disorder, or spondylosis is documented."
+      ],
+      "openByDefault": true
+    },
+    {
+      "question": "What does M54.2 mean?",
+      "answer": [
+        "M54.2 means cervicalgia, or pain in the neck region. It is generally used when the documented diagnosis is neck pain without a more specific underlying condition."
+      ]
+    },
+    {
+      "question": "What is the ICD-10 code for a pinched nerve in the neck?",
+      "answer": [
+        "M54.12 is commonly used for cervical radiculopathy, which is often described as a pinched or irritated nerve in the neck. When the nerve problem is specifically linked to a cervical disc disorder or spondylosis, a more specific code may apply."
+      ]
+    },
+    {
+      "question": "What is the ICD-10 code for neck pain that radiates to the arm?",
+      "answer": [
+        "Neck pain radiating to the arm may be consistent with cervical radiculopathy, commonly coded as M54.12. Arm pain with numbness, tingling, or weakness needs a clinical assessment because several conditions can produce similar symptoms."
+      ]
+    },
+    {
+      "question": "What does M54.81 mean?",
+      "answer": [
+        "M54.81 is the ICD-10-CM code for occipital neuralgia. It may be used when pain affects the occipital nerve region, often causing sharp, burning, or electric pain from the upper neck toward the back of the head."
+      ]
+    },
+    {
+      "question": "Can an MRI decide which neck pain ICD code I have?",
+      "answer": [
+        "No. An MRI can show structural changes, but the code should reflect the clinician's documented diagnosis after considering your symptoms and examination. A disc bulge or age-related change may be present without causing pain."
+      ]
+    },
+    {
+      "question": "When should I see a neck pain specialist?",
+      "answer": [
+        "Consider an assessment if neck pain lasts several weeks, keeps returning, affects sleep or work, or travels into the shoulder or arm. Seek prompt care for progressive weakness, worsening numbness, balance problems, severe pain after injury, fever, or difficulty breathing or swallowing."
+      ]
+    },
+    {
+      "question": "What is neck pain called in Hindi?",
+      "answer": [
+        "Many people search for neck pain using terms such as \"gardan dard\" or \"gardan ka dard\". Persistent gardan dard with arm pain, tingling, numbness, weakness, or headache should be assessed rather than coded from symptoms alone."
+      ]
+    }
+  ]
 }
 ];
 
