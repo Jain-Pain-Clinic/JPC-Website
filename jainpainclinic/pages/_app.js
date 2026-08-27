@@ -126,6 +126,34 @@ function GoogleTagManager() {
         return;
       }
 
+      const form = event.target;
+      const requiredFieldNames = ["name", "email", "whatsapp", "location", "message"];
+      let firstEmptyField = null;
+
+      requiredFieldNames.forEach((fieldName) => {
+        const field = form.elements.namedItem(fieldName);
+
+        if (!(field instanceof HTMLInputElement || field instanceof HTMLTextAreaElement)) {
+          return;
+        }
+
+        field.setCustomValidity("");
+        field.required = true;
+
+        if (!field.value.trim()) {
+          field.setCustomValidity("Please fill out this field.");
+          firstEmptyField ||= field;
+        }
+      });
+
+      if (firstEmptyField || !form.checkValidity()) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        form.reportValidity();
+        (firstEmptyField || form.querySelector(":invalid"))?.focus();
+        return;
+      }
+
       pushDataLayerEvent("book_appointment_submit", {
         event_category: "lead",
         form_action: event.target.getAttribute("action") || "",

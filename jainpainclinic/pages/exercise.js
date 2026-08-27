@@ -36,6 +36,14 @@ const exerciseVideoIds = {
   },
 };
 
+const exerciseEnglishTitles = {
+  hip: "Hip pain relief exercises",
+  neck: "Neck exercises for cervical pain",
+  shoulder: "Shoulder &amp; frozen shoulder exercises",
+  knee: "Knee pain &amp; osteoarthritis exercises",
+  back: "Lower back pain exercises",
+};
+
 function getExerciseVideoId(category, locale) {
   const videos = exerciseVideoIds[category];
   return videos?.[locale] || videos?.default;
@@ -58,6 +66,23 @@ function normalizeExerciseMarkup(html, locale = "en") {
   return normalizeLegacyProcedureMenus(localizeExerciseVideos(normalizeWhatsAppConsultLinks(html), locale))
     .replace(/href="assets\//g, 'href="/assets/')
     .replace(/src="assets\//g, 'src="/assets/');
+}
+
+function appendEnglishExerciseTitles(html, locale) {
+  if (locale === "en") {
+    return html;
+  }
+
+  return Object.entries(exerciseEnglishTitles).reduce((markup, [category, englishTitle]) => {
+    const cardPattern = new RegExp(
+      `(<article class="exercise-card" id="${category}"[\\s\\S]*?<h3 class="exercise-card__title">)([\\s\\S]*?)(</h3>)`
+    );
+
+    return markup.replace(
+      cardPattern,
+      `$1$2<bdi class="exercise-card__title-en" dir="ltr">(${englishTitle})</bdi>$3`
+    );
+  }, html);
 }
 
 export default function ExercisePage({ exerciseMarkup, locale = "en" }) {
@@ -217,10 +242,11 @@ export async function getStaticProps(context) {
   const exerciseHtml = fs.readFileSync(exercisePath, "utf8");
   const bodyMatch = exerciseHtml.match(/<body>([\s\S]*?)<script src="script\.js"><\/script>/);
   const exerciseMarkup = normalizeExerciseMarkup(bodyMatch ? bodyMatch[1] : "", locale);
+  const translatedExerciseMarkup = translateLegacyMarkup(exerciseMarkup, locale, "/exercise");
 
   return {
     props: withLocaleProps({
-      exerciseMarkup: translateLegacyMarkup(exerciseMarkup, locale, "/exercise"),
+      exerciseMarkup: appendEnglishExerciseTitles(translatedExerciseMarkup, locale),
     }, locale, []),
   };
 }

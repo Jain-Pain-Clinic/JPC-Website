@@ -33,7 +33,7 @@ export default function AppointmentSection() {
           </div>
         </div>
 
-        <form className="appointment-form reveal-right" action="https://api.web3forms.com/submit" method="POST" noValidate>
+        <form className="appointment-form reveal-right" action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="0047711e-3f37-4514-bf81-b251836688e1" />
           <input type="hidden" name="subject" value="New Appointment Request - Jain Pain Clinic" />
           <input type="hidden" name="from_name" value="Jain Pain Clinic Website" />
@@ -42,28 +42,28 @@ export default function AppointmentSection() {
           <div className="form-row">
             <label>
               <span>{t("Your name")}</span>
-              <input type="text" name="name" placeholder={t("Your name")} />
+              <input type="text" name="name" placeholder={t("Your name")} required />
             </label>
             <label>
               <span>{t("Email")}</span>
-              <input type="email" name="email" placeholder={t("Email")} />
+              <input type="email" name="email" placeholder={t("Email")} required />
             </label>
           </div>
 
           <div className="form-row">
             <label>
               <span>{t("Whatsapp no.")}</span>
-              <input type="tel" name="whatsapp" placeholder={t("Whatsapp no.")} />
+              <input type="tel" name="whatsapp" placeholder={t("Whatsapp no.")} required />
             </label>
             <label>
               <span>{t("Location")}</span>
-              <input type="text" name="location" placeholder={t("Location")} />
+              <input type="text" name="location" placeholder={t("Location")} required />
             </label>
           </div>
 
           <label className="form-field form-field--full">
             <span>{t("Describe your problem")}</span>
-            <textarea name="message" placeholder={t("Describe your problem...")}></textarea>
+            <textarea name="message" placeholder={t("Describe your problem...")} required></textarea>
           </label>
 
           <button className="pill-button appointment-submit" type="submit">
