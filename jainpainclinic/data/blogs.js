@@ -5776,6 +5776,333 @@ const rawBlogs = [
       ]
     }
   ]
+},
+{
+  "slug": "knee-pain-treatment",
+  "title": "Knee Pain Treatment: Causes, Options, and When to See a Specialist",
+  "seoTitle": "Knee Pain Treatment in Gurgaon: Causes and Treatment Options | Jain Pain Clinic",
+  "description": "Learn about knee pain treatment options, including exercise, medicines, injections, nerve blocks, cooled radiofrequency ablation, and when to see a knee pain specialist in Gurgaon.",
+  "keywords": "knee pain treatment, knee pain treatment in Gurgaon, knee pain doctor in Gurgaon, knee pain specialist in NCR, best knee pain doctor in Gurgaon, chronic knee pain treatment, knee arthritis treatment, knee pain relief, knee pain treatment without surgery, knee injection treatment, genicular nerve block, cooled radiofrequency ablation knee, knee physiotherapy, Dr Ashu Kumar Jain, Jain Pain Clinic",
+  "canonicalPath": "/blog/knee-pain-treatment",
+  "ogImage": "/assets/blog/knee-pain-treatment-hero.jpg",
+  "category": "Knee Pain",
+  "readTime": "10 min read",
+  "excerpt": "The best knee pain treatment depends on the cause of pain, how long it has been present, and how much it affects walking, sleep, and daily activities.",
+  "heroSubtitle": "Knee pain treatment is not one-size-fits-all. Some people improve with exercise and medicines, while persistent pain may require injections, nerve blocks, or other specialist treatment.",
+  "author": "Dr Ashu Kumar Jain",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-08-28",
+  "publishedLabel": "August 28, 2026",
+  "cardImage": "/assets/blog/knee-pain-treatment-hero.jpg",
+  "cardAlt": "Person experiencing knee pain during movement",
+  "bannerImage": "/assets/blog/knee-pain-treatment-hero.jpg",
+  "bannerAlt": "Knee pain treatment options explained by a pain specialist",
+  "tags": [
+    "Knee Pain",
+    "Knee Pain Treatment",
+    "Knee Arthritis",
+    "Pain Specialist",
+    "Non-Surgical Treatment"
+  ],
+  "content": {
+    "intro": "The right knee pain treatment depends on what is causing the pain. Knee arthritis, meniscus problems, tendon irritation, ligament injuries, kneecap pain, inflammation, and nerve-related pain may all need different treatment. If knee pain is affecting walking, stairs, sleep, or daily activities, a proper assessment is more useful than repeatedly taking painkillers without knowing the cause.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is the Best Treatment for Knee Pain?",
+        "paragraphs": [
+          "There is no single best knee pain treatment for everyone. Treatment should be selected after assessing the location of pain, duration of symptoms, swelling, movement, walking pattern, previous injuries, medical conditions, and response to earlier treatment.",
+          "For mild or recent knee pain, treatment may include activity modification, physiotherapy, appropriate exercises, ice or heat when suitable, and short-term medicines prescribed by a doctor.",
+          "For chronic knee pain that continues despite medicines and rehabilitation, a pain specialist may consider targeted injections, diagnostic nerve blocks, or procedures such as genicular nerve radiofrequency ablation in carefully selected patients."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Common Causes of Knee Pain",
+        "paragraphs": [
+          "Knee pain can start suddenly after an injury or develop gradually over months or years. The same symptom, such as pain while walking, may come from different conditions.",
+          "Common causes include osteoarthritis, meniscus irritation or tears, ligament injuries, patellofemoral pain, tendon problems, bursitis, gout, inflammatory arthritis, referred pain from the hip or lower back, and nerve-related pain around the knee.",
+          "An X-ray or MRI may show structural changes, but the scan alone does not always explain how severe the pain feels. The examination and symptom pattern are also important."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Knee osteoarthritis and cartilage wear",
+            "Meniscus injury or irritation",
+            "Ligament and tendon injuries",
+            "Pain around the kneecap",
+            "Inflammation, bursitis, or gout",
+            "Nerve-related pain or sensitised nerves",
+            "Referred pain from the hip or lower back",
+            "Pain after previous knee surgery"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/knee-pain-treatment-anatomy.jpg",
+        "alt": "Clinical assessment for knee pain and movement problems"
+      },
+      {
+        "type": "section",
+        "heading": "How Knee Pain Is Diagnosed",
+        "paragraphs": [
+          "A knee pain doctor usually begins by asking when the pain started, where it is located, what makes it worse, and whether there is swelling, locking, clicking, numbness, or weakness.",
+          "The examination may include knee movement, muscle strength, alignment, walking pattern, hip function, lower-back symptoms, and signs of nerve involvement. This helps determine whether the pain is coming mainly from the joint, surrounding tissues, or a nerve.",
+          "X-rays may help assess arthritis and alignment. Ultrasound can be useful for selected soft-tissue problems and image-guided procedures. MRI may be considered when there is concern about a meniscus, ligament, cartilage, or other internal knee problem.",
+          "A scan should support the clinical assessment rather than replace it. Many structural changes are common with age and may not be the main reason for pain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Knee Pain Treatment at Home",
+        "paragraphs": [
+          "For mild knee pain without warning signs, short-term self-care may help reduce irritation while you arrange an assessment.",
+          "Reduce activities that clearly worsen pain, but avoid complete rest for long periods. Gentle movement can help prevent stiffness. Use a stable support if walking feels unsafe and return to activity gradually.",
+          "Do not continue an exercise that causes sharp pain, increasing swelling, repeated locking, or a feeling that the knee is giving way."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Use relative rest instead of complete inactivity",
+            "Try gentle range-of-motion exercises if they are comfortable",
+            "Avoid sudden increases in walking, running, or stair climbing",
+            "Use ice or heat according to professional advice and personal tolerance",
+            "Wear comfortable footwear and use support when balance is uncertain",
+            "Do not take pain medicines for long periods without medical advice"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Exercise and Physiotherapy for Knee Pain",
+        "paragraphs": [
+          "Physiotherapy is an important part of knee pain treatment for many conditions. A programme may focus on knee movement, quadriceps strength, hamstring flexibility, hip control, balance, and walking mechanics.",
+          "Common exercises include heel slides, quadriceps contractions, straight-leg raises, seated knee extensions, calf stretches, supported sit-to-stand movements, and gradual strengthening with resistance.",
+          "The exercises should match the diagnosis. Deep squats, jumping, running, and heavy resistance may aggravate symptoms if introduced during a painful flare or before the knee is ready.",
+          [
+            {
+              "type": "text",
+              "text": "Read our guide to "
+            },
+            {
+              "type": "link",
+              "text": "knee pain exercises and stretches",
+              "href": "/blog/knee-pain-exercises-and-stretches"
+            },
+            {
+              "type": "text",
+              "text": " for a detailed explanation of safe movement and warning signs."
+            }
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Medicines for Knee Pain",
+        "paragraphs": [
+          "Medicines may reduce pain or inflammation, but they do not treat every cause of knee pain. The choice depends on your age, kidney and liver health, stomach problems, blood pressure, other medicines, and the suspected diagnosis.",
+          "A doctor may consider topical medicines, paracetamol, anti-inflammatory medicines, or other options when appropriate. These medicines should not be continued routinely without reviewing whether they are helping and whether side effects are developing.",
+          "If pain remains severe despite medicines, repeatedly increasing the dose is not always the safest or most effective next step. A specialist assessment may identify a more targeted treatment."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Injections for Knee Pain",
+        "paragraphs": [
+          "Injections may be considered when pain is persistent, limiting function, or not responding adequately to rehabilitation and medicines. The type of injection depends on the suspected pain source.",
+          "A corticosteroid injection may provide short-term relief for selected inflammatory conditions or arthritis flares. Other injections, such as hyaluronic acid or platelet-rich plasma, may be discussed in selected situations, but results vary between patients and conditions.",
+          "An injection should not be recommended only because an X-ray shows arthritis. The expected benefit, risks, alternatives, and treatment goal should be explained before proceeding."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Intra-articular knee injections for selected joint-related pain",
+            "Image-guided injections for specific soft-tissue problems",
+            "Diagnostic injections to identify a suspected pain source",
+            "Genicular nerve blocks for selected chronic knee pain",
+            "Follow-up rehabilitation to maintain improvement after pain relief"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Genicular Nerve Block for Chronic Knee Pain",
+        "paragraphs": [
+          "Some patients continue to experience significant knee pain even after physiotherapy, medicines, and joint injections. In these cases, the genicular nerves may be contributing to the pain signals from the knee.",
+          "A genicular nerve block places local anaesthetic near selected sensory nerves supplying the knee. It may be used as a diagnostic procedure to see whether reducing signals from these nerves also reduces the patient's typical pain.",
+          "A positive response does not mean that the underlying arthritis has disappeared. It helps the pain specialist decide whether a nerve-focused treatment may be appropriate."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Cooled Radiofrequency Ablation for Selected Knee Pain",
+        "paragraphs": [
+          "When chronic knee pain is confirmed to have a significant genicular nerve component and temporary nerve blocks provide meaningful relief, cooled radiofrequency ablation may be considered for selected patients.",
+          "The procedure uses controlled radiofrequency energy to reduce pain signalling from targeted sensory nerves. It does not repair cartilage or reverse arthritis. Its purpose is to provide longer-lasting pain relief and improve function when other suitable treatments have not provided enough benefit.",
+          "The decision depends on the diagnosis, previous treatment, response to diagnostic blocks, general health, and the patient's goals. It is not suitable for every person with knee arthritis."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "The diagnosis should be clear",
+            "The main pain source should be assessed clinically",
+            "Conservative treatment should have been considered",
+            "A diagnostic nerve block may be used before ablation",
+            "Risks and expected benefits should be discussed",
+            "Rehabilitation and activity planning remain important after treatment"
+          ]
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/knee-pain-treatment-hero.jpg",
+        "alt": "Person experiencing knee pain during walking and daily activities"
+      },
+      {
+        "type": "section",
+        "heading": "Can Knee Pain Be Treated Without Surgery?",
+        "paragraphs": [
+          "Many people can manage knee pain for a long time with a combination of exercise, physiotherapy, activity changes, medicines, injections, and targeted pain procedures. The possibility of avoiding or delaying surgery depends on the severity and cause of the problem.",
+          "Non-surgical treatment does not mean ignoring severe structural damage or postponing necessary care. It means understanding the available options before making a decision.",
+          [
+            {
+              "type": "text",
+              "text": "For more information, read our article on "
+            },
+            {
+              "type": "link",
+              "text": "non-surgical knee pain treatment",
+              "href": "/blog/knee-pain-non-surgical-options"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Is Knee Surgery Considered?",
+        "paragraphs": [
+          "Surgery may be considered when there is a significant structural problem, severe deformity, major injury, persistent mechanical symptoms, or pain and disability that continue despite appropriate non-surgical treatment.",
+          "A knee replacement may help selected patients with advanced arthritis and substantial loss of function. It is not automatically required because an X-ray shows cartilage loss, and it is not the correct treatment for every type of knee pain.",
+          "A surgical opinion and a pain-medicine opinion can sometimes provide different but complementary information. The decision should consider pain severity, mobility, medical fitness, functional goals, previous treatment, and expected recovery."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You See a Knee Pain Doctor?",
+        "paragraphs": [
+          "You should arrange an evaluation if knee pain lasts more than a few weeks, keeps returning, affects sleep, limits walking, makes stairs difficult, or does not improve with basic treatment.",
+          "You may benefit from seeing a knee pain specialist in NCR when pain persists despite physiotherapy and medicines, when you have been advised to consider surgery, or when the scan findings do not match the severity or location of your symptoms.",
+          "At Jain Pain Clinic in Gurugram, Dr Ashu Kumar Jain assesses whether the pain is coming from the knee joint, surrounding tissues, nerves, hip, or lower back before discussing treatment options."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Warning Signs That Need Urgent Medical Care",
+        "paragraphs": [
+          "Seek urgent medical attention after a major injury, if the knee looks deformed, or if you cannot bear weight. Sudden severe swelling may also need prompt assessment.",
+          "A hot, red, swollen knee with fever or feeling unwell should not be treated only with home remedies. These symptoms may indicate infection or another urgent inflammatory problem.",
+          "Urgent assessment is also important if the knee repeatedly locks, suddenly gives way, or pain is associated with new weakness or numbness."
+        ],
+        "list": {
+          "type": "ul",
+          "items": [
+            "Knee deformity after an injury",
+            "Inability to bear weight",
+            "Sudden severe swelling",
+            "Fever with a hot or red knee",
+            "A knee that locks completely",
+            "Sudden weakness or loss of sensation",
+            "Rapidly worsening severe pain"
+          ]
+        }
+      },
+      {
+        "type": "section",
+        "heading": "Choosing the Right Knee Pain Specialist in Gurgaon",
+        "paragraphs": [
+          "When comparing a knee pain doctor in Gurgaon or a knee pain specialist in NCR, look for an evaluation that explains the likely pain source and gives you a treatment pathway.",
+          "The right consultation should cover what has already been tried, whether further tests are needed, what non-surgical options are reasonable, and when an orthopaedic or surgical opinion may be useful.",
+          "At Jain Pain Clinic, the focus is on chronic pain evaluation, interventional pain management, and targeted treatment for patients whose knee pain continues to affect their mobility and quality of life."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "The Takeaway",
+        "paragraphs": [
+          "Effective knee pain treatment starts with identifying the cause. Exercise and physiotherapy help many patients, but persistent pain may require medicines, injections, diagnostic nerve blocks, or specialist procedures.",
+          "If knee pain is affecting your walking, sleep, work, or independence, do not rely only on repeated painkillers or a scan report. A proper assessment can help identify the next appropriate step.",
+          "Patients looking for knee pain treatment in Gurgaon, a knee pain doctor in Gurgaon, or the best knee pain doctor in Gurgaon can consult Jain Pain Clinic for an individual evaluation with Dr Ashu Kumar Jain."
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Knee Pain: Diagnosis and Treatment",
+      "href": "https://www.mayoclinic.org/diseases-conditions/knee-pain/diagnosis-treatment/drc-20350855",
+      "source": "Mayo Clinic"
+    },
+    {
+      "title": "Nonsurgical Treatments for Knee Pain",
+      "href": "https://www.pennmedicine.org/specialties/orthopaedics/knee-pain/nonsurgical-treatments",
+      "source": "Penn Medicine"
+    },
+    {
+      "title": "Relieving Hip and Knee Pain Without Surgery",
+      "href": "https://hipkneeinfo.org/wp-content/uploads/2024/04/Relieving-Hip-and-Knee-Pain-Without-Surgery-2025.pdf",
+      "source": "American Association of Hip and Knee Surgeons"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the best treatment for knee pain?",
+      "answer": [
+        "The best treatment depends on the cause of the pain. Options may include physiotherapy, exercises, medicines, injections, diagnostic nerve blocks, or specialist procedures. A doctor should assess the symptoms before recommending treatment."
+      ],
+      "openByDefault": true
+    },
+    {
+      "question": "Can knee pain be treated without surgery?",
+      "answer": [
+        "Many types of knee pain can be managed without surgery using exercise, physiotherapy, medicines, injections, activity modification, and targeted pain procedures. Whether surgery can be avoided depends on the diagnosis and severity of the problem."
+      ]
+    },
+    {
+      "question": "When should I see a knee pain doctor?",
+      "answer": [
+        "See a knee pain doctor if symptoms last more than a few weeks, keep returning, affect walking or sleep, or do not improve with basic treatment. Seek urgent care after a major injury or if the knee is hot, red, severely swollen, deformed, or unable to bear weight."
+      ]
+    },
+    {
+      "question": "Do knee injections help arthritis pain?",
+      "answer": [
+        "Some knee injections may provide temporary or longer-lasting relief for selected patients with arthritis or other knee conditions. The benefit varies, and injections should be recommended after considering the diagnosis, symptoms, risks, and alternatives."
+      ]
+    },
+    {
+      "question": "What is a genicular nerve block?",
+      "answer": [
+        "A genicular nerve block places local anaesthetic near selected sensory nerves supplying the knee. It may help identify whether these nerves are contributing to chronic knee pain and may help determine whether a nerve-focused procedure is appropriate."
+      ]
+    },
+    {
+      "question": "What is cooled radiofrequency ablation for knee pain?",
+      "answer": [
+        "Cooled radiofrequency ablation uses controlled radiofrequency energy to reduce pain signalling from selected genicular nerves. It may be considered for carefully selected patients with confirmed chronic knee pain who obtained meaningful relief from diagnostic nerve blocks."
+      ]
+    },
+    {
+      "question": "Which doctor is best for knee pain in Gurgaon?",
+      "answer": [
+        "The appropriate doctor depends on the suspected cause. A pain specialist may be useful for chronic knee pain, pain that continues despite medicines and physiotherapy, or patients considering injections and nerve procedures. Some injuries and structural problems may also require orthopaedic evaluation."
+      ]
+    }
+  ]
 }
 ];
 
