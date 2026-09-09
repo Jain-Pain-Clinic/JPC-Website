@@ -63,7 +63,7 @@ const routes = [
   })),
   ...blogs.map((blog) => ({
     path: blog.canonicalPath || `/blog/${blog.slug}`,
-    lastmod: blog.publishedAt,
+    lastmod: blog.updatedAt || blog.publishedAt,
     changefreq: "monthly",
     priority: "0.8",
   })),

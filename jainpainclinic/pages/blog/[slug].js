@@ -25,7 +25,7 @@ function blogStructuredData(post) {
     description: post.description,
     image: `https://www.jainpainclinic.com${post.ogImage}`,
     datePublished: post.publishedAt,
-    dateModified: post.publishedAt,
+    dateModified: post.updatedAt || post.publishedAt,
     author: post.author === "Dr Ashu Kumar Jain"
       ? doctorSchema()
       : { "@type": "Person", name: post.author },
@@ -100,6 +100,7 @@ export default function BlogSlugPage(props) {
         <meta property="og:type" content="article" />
         <meta property="article:author" content={post.author} />
         <meta property="article:published_time" content={post.publishedAt} />
+        <meta property="article:modified_time" content={post.updatedAt || post.publishedAt} />
         <meta property="article:section" content={post.category} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.title} />

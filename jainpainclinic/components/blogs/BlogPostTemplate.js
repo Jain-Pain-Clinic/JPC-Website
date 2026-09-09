@@ -17,19 +17,36 @@ function getFaqAnswerParagraphs(answer) {
   return answer ? [answer] : [];
 }
 
-function ContentBlock({ block }) {
+function ContentBlock({ block, sectionId }) {
+  if (block.type === "table") {
+    return (
+      <div className="blog-post-table" role="region" aria-label={block.caption} tabIndex={0}>
+        <table>
+          <caption>{block.caption}</caption>
+          <thead><tr>{block.columns.map((column) => <th key={column} scope="col">{column}</th>)}</tr></thead>
+          <tbody>{block.rows.map((row, index) => (
+            <tr key={index}>{row.map((cell, cellIndex) => cellIndex === 0
+              ? <th key={cellIndex} scope="row"><InlineContent value={cell} /></th>
+              : <td key={cellIndex}><InlineContent value={cell} /></td>)}</tr>
+          ))}</tbody>
+        </table>
+      </div>
+    );
+  }
   if (block.type === "image") {
     return (
-      <figure className="blog-post-content__image">
+      <figure className={`blog-post-content__image${block.preserveAspectRatio ? " blog-post-content__image--natural" : ""}`}>
         <img
           src={block.src}
           alt={block.alt}
-          width="960"
-          height="400"
+          width={block.width || 960}
+          height={block.height || 400}
+          style={block.preserveAspectRatio ? { maxWidth: block.width || 960 } : undefined}
           loading="lazy"
           decoding="async"
           fetchPriority="low"
         />
+        {block.caption ? <figcaption><InlineContent value={block.caption} /></figcaption> : null}
       </figure>
     );
   }
@@ -41,7 +58,7 @@ function ContentBlock({ block }) {
   const ListTag = block.list?.type === "ol" ? "ol" : "ul";
 
   return (
-    <section className="blog-post-section">
+    <section className="blog-post-section" id={sectionId}>
       <h2>{block.heading}</h2>
 
       {block.paragraphs?.map((paragraph, index) => (
@@ -178,12 +195,17 @@ export default function BlogPostTemplate({ post }) {
             <time className="blog-post-hero__date" dateTime={post.publishedAt}>
               {post.publishedLabel}
             </time>
+            {post.updatedAt ? (
+              <span className="blog-post-hero__date">
+                {t("Updated")} <time dateTime={post.updatedAt}>{post.updatedLabel}</time>
+              </span>
+            ) : null}
           </div>
         </div>
       </section>
 
       <div className="wrap">
-        <div className="blog-post-banner reveal">
+        <div className={`blog-post-banner reveal${post.bannerFit === "contain" ? " blog-post-banner--contain" : ""}`}>
           <img
             src={post.bannerImage}
             alt={post.bannerAlt}
@@ -193,18 +215,30 @@ export default function BlogPostTemplate({ post }) {
             fetchPriority="high"
           />
         </div>
+        {post.bannerCaption ? <p className="blog-post-banner__caption">{post.bannerCaption}</p> : null}
       </div>
 
       <article className="blog-post-article" itemScope itemType="https://schema.org/Article">
         <meta itemProp="headline" content={post.title} />
         <meta itemProp="datePublished" content={post.publishedAt} />
+        <meta itemProp="dateModified" content={post.updatedAt || post.publishedAt} />
         <meta itemProp="author" content={post.author} />
 
         <div className="wrap">
           <div className="blog-post-content">
             <p className="blog-post-content__intro">{post.content.intro}</p>
+            {post.showTableOfContents ? (
+              <details className="blog-post-toc">
+                <summary>{t("On this page")}</summary>
+                <nav aria-label={t("Article contents")}>
+                  <ol>{post.content.blocks.map((block, index) => block.type === "section" ? (
+                    <li key={index}><a href={`#section-${index + 1}`}>{block.heading}</a></li>
+                  ) : null)}</ol>
+                </nav>
+              </details>
+            ) : null}
             {post.content.blocks.map((block, index) => (
-              <ContentBlock key={`${block.type}-${index}`} block={block} />
+              <ContentBlock key={`${block.type}-${index}`} block={block} sectionId={`section-${index + 1}`} />
             ))}
 
             <BlogResources resources={post.resources} />

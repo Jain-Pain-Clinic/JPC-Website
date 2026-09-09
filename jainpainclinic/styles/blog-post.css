@@ -203,6 +203,39 @@
   display: block;
 }
 
+.blog-post-banner--contain {
+  background: #eef3f8;
+}
+.blog-post-banner--contain img {
+  object-fit: contain;
+}
+.blog-post-content__image--natural img {
+  height: auto;
+  object-fit: contain;
+  margin-inline: auto;
+  max-height: 600px;
+}
+.blog-post-content__image--natural {
+  background: #eef3f8;
+}
+.blog-post-content__image figcaption,
+.blog-post-banner__caption {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.blog-post-content__image figcaption {
+  padding: 12px 16px;
+  background: #f5f8fc;
+}
+.blog-post-content__image figcaption a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+.blog-post-banner__caption {
+  margin: 0 0 16px;
+}
+
 /* ── Resources ── */
 .blog-post-resources {
   padding: 28px 0;
@@ -296,4 +329,32 @@
   .blog-post-content__image img {
     height: 220px;
   }
+  .blog-post-content__image--natural img {
+    height: auto;
+    max-height: 440px;
+  }
+}
+
+.blog-post-toc {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #dce5e1;
+  border-radius: 12px;
+  background: #f6faf8;
+}
+.blog-post-toc summary { cursor: pointer; font-weight: 700; }
+.blog-post-toc ol { margin-bottom: 0; }
+.blog-post-toc a { text-decoration: underline; text-underline-offset: 3px; }
+.blog-post-section { scroll-margin-top: 100px; }
+.blog-post-table { overflow-x: auto; max-width: 100%; margin: 2rem 0; }
+.blog-post-table table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 0.95rem; }
+.blog-post-table caption { text-align: left; font-weight: 700; margin-bottom: 0.75rem; }
+.blog-post-table th, .blog-post-table td { padding: 0.85rem; border: 1px solid #dce5e1; text-align: left; vertical-align: top; }
+.blog-post-table thead { background: #edf5f1; }
+.blog-post-table tbody th { background: #f8faf9; }
+.blog-post-table:focus-visible, .blog-post-toc summary:focus-visible { outline: 2px solid #18644b; outline-offset: 3px; }
+@media (max-width: 640px) {
+  .blog-post-table table { min-width: 0; table-layout: fixed; font-size: 0.875rem; }
+  .blog-post-table th, .blog-post-table td { padding: 0.6rem 0.45rem; overflow-wrap: anywhere; }
+  .blog-post-table th:first-child { width: 27%; }
 }

@@ -23,6 +23,10 @@ const SKIPPED_KEYS = new Set([
   "videoThumbnail",
   "publishedAt",
   "publishedLabel",
+  "updatedAt",
+  "updatedLabel",
+  "bannerFit",
+  "cardFit",
   "access_key",
   "from_name",
 ]);

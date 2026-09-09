@@ -15,6 +15,7 @@ export default function BlogCard({ post }) {
           loading="lazy"
           decoding="async"
           fetchPriority="low"
+          style={post.cardFit === "contain" ? { objectFit: "contain", background: "#eef3f8" } : undefined}
         />
       </div>
       <div className="blog-card__body">
