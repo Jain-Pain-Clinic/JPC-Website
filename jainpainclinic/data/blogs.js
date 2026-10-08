@@ -10583,6 +10583,366 @@ const rawBlogs = [
     "bannerAlt": "Physiotherapist supporting a seated person's head and upper back",
     "bannerCaption": "Illustrative stock photograph. Photo: Funkcinės Terapijos Centras / Pexels.",
     "showTableOfContents": true
+  },
+  {
+    "slug": "carpal-tunnel-syndrome-hand-tingling-at-night",
+    "title": "Hand Tingling at Night: Is It Carpal Tunnel Syndrome?",
+    "seoTitle": "Carpal Tunnel Syndrome: Symptoms and Treatment | Jain Pain Clinic",
+    "description": "Learn why fingers tingle at night, how carpal tunnel differs from neck-related nerve pain, and when splints, injections or a surgical opinion may help.",
+    "keywords": "carpal tunnel syndrome, hand tingling at night, numb fingers, wrist nerve compression, carpal tunnel treatment, nerve pain specialist Gurgaon",
+    "excerpt": "Waking with numb fingers is a pattern worth checking. Learn when the wrist is involved and how to choose the next step.",
+    "heroSubtitle": "A hand that repeatedly falls asleep may need more than a change in sleeping position. The affected fingers, timing and grip strength help guide assessment.",
+    "tags": [
+      "Carpal Tunnel Syndrome",
+      "Hand Tingling",
+      "Nerve Pain",
+      "Wrist Pain"
+    ],
+    "content": {
+      "intro": "Waking up with tingling fingers, shaking the hand for relief and then struggling to hold a cup can be unsettling. Carpal tunnel syndrome is one possible explanation: pressure on the median nerve as it passes through the wrist. But not every numb hand has the same cause. A useful assessment looks at which fingers are affected, when symptoms appear and whether strength or sensation is changing.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is Carpal Tunnel Syndrome?",
+          "paragraphs": [
+            "The carpal tunnel is a narrow passage on the palm side of the wrist. The median nerve travels through it alongside tendons. When space becomes restricted, pressure on the nerve can cause pain, pins and needles or reduced feeling in the hand.",
+            "The usual sensory pattern involves the thumb, index finger, middle finger and the thumb-side portion of the ring finger. The little finger is usually spared. This pattern offers a clue, but it should be checked against an examination rather than used as a self-diagnosis."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Do Symptoms Wake You at Night?",
+          "paragraphs": [
+            "The wrist may bend during sleep, increasing pressure within the tunnel. Symptoms can also occur while holding a phone, driving or keeping the wrist in one position. Some people notice intermittent tingling first; others develop more persistent numbness or difficulty with small objects.",
+            "Write down which fingers wake you, whether one or both hands are involved and how long the feeling lasts. Saying “my whole arm feels wrong” is understandable, but a more detailed description helps your clinician choose what to examine."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Is It the Wrist, the Neck or Another Nerve?",
+          "paragraphs": [
+            "A compressed nerve in the neck can also cause arm pain, tingling or weakness. Symptoms travelling from the neck or shoulder into the arm need assessment of that pathway. Symptoms concentrated in the little finger may suggest a different nerve, such as the ulnar nerve, rather than the typical carpal tunnel pattern.",
+            [
+              {
+                "type": "text",
+                "text": "If neck symptoms are part of the story, our "
+              },
+              {
+                "type": "link",
+                "text": "cervical spondylosis treatment guide",
+                "href": "/blog/cervical-spondylosis-treatment"
+              },
+              {
+                "type": "text",
+                "text": " explains why a scan finding needs to match the symptoms and examination. A wrist problem and a neck problem can coexist; one label should not automatically explain every symptom."
+              }
+            ],
+            "Bring previous reports, but also describe what has changed since those tests. The useful question is where the current symptoms come from and whether there are signs of nerve damage."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Who Is More Likely to Develop It?",
+          "paragraphs": [
+            "Risk can reflect several factors, including wrist anatomy, pregnancy-related swelling, diabetes, inflammatory arthritis or previous wrist injury. Repeated forceful gripping and prolonged wrist bending may contribute. Having symptoms at a computer does not, by itself, prove that typing caused the condition.",
+            "Explain your actual tasks: gripping tools, holding a phone, cooking, driving or carrying bags. This is more useful than assuming that everyone needs the same desk adjustment. During pregnancy, discuss symptoms with your clinician because treatment choices and the course of symptoms may differ."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is the Diagnosis Checked?",
+          "paragraphs": [
+            "A clinician reviews the symptom pattern and examines sensation, thumb strength and the hand and wrist. Nerve conduction testing may help when the diagnosis is uncertain or more information about nerve function is needed. Ultrasound or other imaging is used selectively; everyone does not need a wrist MRI.",
+            "Ask what a proposed test will change. Will it help locate the affected nerve, assess severity or inform a treatment decision? Bring a list of medicines and health conditions so the plan fits your wider health."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Can Help Without Surgery?",
+          "paragraphs": [
+            "A night splint that holds the wrist in a neutral position can help selected patients. It should fit comfortably rather than squeeze the wrist. Reducing repeated bending or forceful gripping may also help. Ordinary painkillers can ease discomfort temporarily, but they do not remove the pressure on the nerve.",
+            "Hand or nerve-gliding exercises may be advised, but the evidence for exercises is limited. Do not force stretches through increasing numbness. Discuss whether an exercise is suitable and how to judge its response."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Record night-time waking and daytime numbness before starting treatment.",
+              "Ask someone qualified to check the splint fit and wrist position.",
+              "Choose practical changes to the specific tasks that trigger symptoms.",
+              "Agree when to review progress, with an earlier review if sensation or strength deteriorates."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "When Are Injections or Surgery Considered?",
+          "paragraphs": [
+            "A corticosteroid injection may reduce symptoms for a period, but relief can be temporary. Discuss the purpose, risks and likely next step before having one. Repeating injections is not automatically the right response when symptoms return.",
+            "Persistent symptoms despite suitable non-surgical care, constant numbness or loss of thumb muscle strength may prompt a hand-surgery opinion. Release surgery creates more room for the nerve. Recovery depends partly on how affected the nerve was beforehand, and longstanding damage may not recover completely."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Should You Seek Help?",
+          "paragraphs": [
+            "Arrange an assessment if tingling repeatedly interrupts sleep or everyday tasks, or if symptoms are worsening despite initial care. Constant numbness, dropping objects or visible wasting around the base of the thumb deserve prompt attention rather than repeated home treatment.",
+            "Prepare two or three examples of what has become difficult, such as fastening buttons or carrying a shopping bag. At a Jain Pain Clinic consultation, these details can help guide discussion of the likely pain source and whether another specialist assessment is needed. Progress should be measured through sleep, sensation and function, with a clear plan for review."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Carpal tunnel syndrome: symptoms and initial care",
+        "href": "https://www.nhs.uk/conditions/carpal-tunnel-syndrome/",
+        "source": "NHS"
+      },
+      {
+        "title": "Carpal tunnel syndrome: assessment and treatment",
+        "href": "https://www.orthoinfo.org/diseases--conditions/carpal-tunnel-syndrome/",
+        "source": "AAOS OrthoInfo"
+      },
+      {
+        "title": "Carpal tunnel syndrome: symptoms and causes",
+        "href": "https://www.mayoclinic.org/diseases-conditions/carpal-tunnel-syndrome/symptoms-causes/syc-20355603",
+        "source": "Mayo Clinic"
+      },
+      {
+        "title": "Cervical radiculopathy: pinched nerve",
+        "href": "https://www.orthoinfo.org/diseases--conditions/cervical-radiculopathy-pinched-nerve/",
+        "source": "AAOS OrthoInfo"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does hand tingling always mean carpal tunnel syndrome?",
+        "answer": [
+          "No. Symptoms can arise from another nerve or from the neck. The affected fingers and an examination help locate the problem."
+        ]
+      },
+      {
+        "question": "Can a wrist splint help at night?",
+        "answer": [
+          "A suitably fitted splint that keeps the wrist neutral can help some patients. Check fit and arrange a review if symptoms persist or worsen."
+        ]
+      },
+      {
+        "question": "Can painkillers cure carpal tunnel syndrome?",
+        "answer": [
+          "They may ease pain temporarily, but they do not resolve the underlying nerve compression. Persistent numbness or weakness needs assessment."
+        ]
+      },
+      {
+        "question": "Will every patient need surgery?",
+        "answer": [
+          "No. Treatment depends on symptom severity, nerve function and response to initial care. Progressive deficits or persistent symptoms may need a surgical opinion."
+        ]
+      },
+      {
+        "question": "What should I bring to the appointment?",
+        "answer": [
+          "Bring previous reports, a medicine list and notes about which fingers are affected, night-time waking and tasks that have become difficult."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/carpal-tunnel-syndrome-hand-tingling-at-night",
+    "ogImage": "/assets/blog/carpal-tunnel-wrist-nerve-pain-hero.jpg",
+    "category": "Nerve Pain",
+    "readTime": "6 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-02",
+    "publishedLabel": "October 2, 2026",
+    "cardImage": "/assets/blog/carpal-tunnel-wrist-nerve-pain-hero.jpg",
+    "cardAlt": "Woman holding her painful wrist with a red pain highlight and illustrative median nerve overlay",
+    "bannerImage": "/assets/blog/carpal-tunnel-wrist-nerve-pain-hero.jpg",
+    "bannerAlt": "Woman holding her painful wrist with a red pain highlight and illustrative median nerve overlay",
+    "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
+    "showTableOfContents": true
+  },
+  {
+    "slug": "pain-after-shingles-postherpetic-neuralgia",
+    "title": "Pain After Shingles: Why Does It Hurt When the Rash Has Healed?",
+    "seoTitle": "Pain After Shingles: Postherpetic Neuralgia | Jain Pain Clinic",
+    "description": "Understand persistent nerve pain after shingles, treatment options for postherpetic neuralgia, and symptoms that need urgent medical assessment.",
+    "keywords": "pain after shingles, postherpetic neuralgia, shingles nerve pain, burning skin pain, post shingles pain treatment, nerve pain clinic Gurgaon",
+    "excerpt": "A healed rash does not always mean the nerves have recovered. Learn why skin can stay painful and what a treatment plan may include.",
+    "heroSubtitle": "Burning pain, sudden stabs or discomfort from clothing can linger after shingles. Understanding the nerve pain helps you seek the right support.",
+    "tags": [
+      "Postherpetic Neuralgia",
+      "Shingles",
+      "Nerve Pain",
+      "Pain Management"
+    ],
+    "content": {
+      "intro": "The shingles rash has faded, but a shirt brushing the skin still hurts. Sleep is broken by burning pain, and the area may feel both numb and sensitive. This can happen when nerves remain affected after shingles. Persistent pain is often called postherpetic neuralgia. It deserves assessment and a plan that considers comfort, sleep and daily activity, rather than simply waiting for the skin to look normal.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "Why Can Pain Continue After the Rash?",
+          "paragraphs": [
+            "Shingles occurs when the virus that causes chickenpox becomes active again. It affects nerves and the skin supplied by them. Even after the rash heals, injured nerves may continue producing abnormal pain signals. Visible skin recovery and nerve recovery do not necessarily happen together.",
+            "Postherpetic neuralgia commonly refers to pain persisting for three months or more after the rash began. You do not need to wait for that point to ask for help. Pain that is difficult to manage during the rash or in the following weeks also needs attention."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Does Postherpetic Neuralgia Feel Like?",
+          "paragraphs": [
+            "The pain usually affects the area where the shingles rash occurred. It may be burning, aching or sharp, and can be continuous or come in bursts. Light touch, clothing or a bedsheet can become painful; this response to normally harmless contact is called allodynia. Itching or reduced sensation may occur too.",
+            "A useful description separates the background ache from sudden pain episodes and touch sensitivity. Tell your clinician which part most affects you. For example, being unable to tolerate a waistband is a different everyday problem from waking repeatedly with stabbing pain."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Is This Lingering Pain or a New Shingles Episode?",
+          "paragraphs": [
+            "A new blistering rash needs prompt medical advice. Antiviral treatment for a fresh episode works best when started early, usually within 72 hours of rash onset. If that window has passed, still seek advice; the decision depends on your symptoms and health.",
+            "Get urgent assessment for a rash on the eye or nose, vision changes or symptoms in someone with a severely weakened immune system. Pain in a previously affected area should not be assumed to explain a new or different illness. New chest pain, for example, needs assessment on its own merits."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is Persistent Pain Assessed?",
+          "paragraphs": [
+            "The history of shingles, the location of the rash and an examination often establish the diagnosis. Tests are not routinely needed for every typical case, but unusual symptoms may require further investigation. Older age and a severe initial episode increase the risk of persistent pain.",
+            "Bring the date the rash started, photographs if you already have them, and details of treatment received. Record whether the skin has fully healed and whether symptoms are improving, stable or worsening. This helps distinguish ongoing recovery from a problem needing a different assessment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Might Ordinary Painkillers Be Insufficient?",
+          "paragraphs": [
+            "Nerve pain may need a different treatment approach from an everyday muscle ache. Clinicians may consider medicines such as amitriptyline, duloxetine, gabapentin or pregabalin, depending on suitability. Some medicines used for depression or seizures also help nerve pain; their use does not mean that pain is imagined or that you have those conditions.",
+            "Treatment is often started cautiously and reviewed over time. Benefits may take time to judge, while sleepiness, dizziness or other side effects can limit treatment. Kidney function, other medicines and the risk of falls can affect the choice. Do not change doses or stop a prescribed medicine without discussing the plan.",
+            "Ask what improvement would count as worthwhile and when the next review should happen. A treatment that makes you too sleepy to function needs review even if the pain score has fallen."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Can Creams, Patches or Procedures Help?",
+          "paragraphs": [
+            "Local treatments may be considered for a defined painful area. Lidocaine patches can be useful for selected patients. Capsaicin products are another option, but stronger patches need professional application and monitoring. These approaches have different instructions; do not treat them as interchangeable or apply them to open or unhealed skin.",
+            "If pain remains severe, a specialist may discuss additional options, including selected procedures. Ask what benefit is expected, how strong the evidence is and what the risks are. No single intervention reliably removes postherpetic neuralgia for everyone, and a procedure should have a specific purpose in the wider plan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Making Everyday Life More Comfortable",
+          "paragraphs": [
+            "Loose, soft clothing may reduce irritation. A wrapped cool compress may help some people; avoid putting ice directly on the skin. Do not repeatedly rub or massage a sensitive area to test whether the nerve has recovered.",
+            "A small diary can make follow-up more useful. Record pain episodes, sleep and one daily task alongside treatment changes. You do not need to monitor every sensation throughout the day. A brief entry at a regular time is usually easier to maintain."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Choose clothing that avoids rubbing the affected area.",
+              "Plan manageable activity and short breaks around your current tolerance.",
+              "Tell your clinician if side effects interfere with balance, concentration or daily tasks.",
+              "Agree one practical goal, such as wearing normal clothing more comfortably or sleeping for longer."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "How Long Will It Last, and Can Vaccination Help?",
+          "paragraphs": [
+            "Symptoms often improve gradually, but recovery varies. Pain can continue for months and sometimes beyond a year. Avoid promises of a fixed cure date. Improvement may first show up as fewer night-time awakenings or better tolerance of clothing.",
+            "Shingles vaccination reduces the risk of shingles and postherpetic neuralgia. It is prevention, not a treatment for established nerve pain. Discuss eligibility and timing with your clinician, including after a previous shingles episode; local recommendations and availability matter."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Is a Pain Specialist Review Useful?",
+          "paragraphs": [
+            "Seek further help if pain substantially affects sleep or daily activity, or if initial medicines provide insufficient relief or troublesome side effects. A review should check the diagnosis, previous treatment and what you most want to regain.",
+            [
+              {
+                "type": "text",
+                "text": "Our guide on "
+              },
+              {
+                "type": "link",
+                "text": "talking to a doctor about pain",
+                "href": "/blog/how-to-talk-to-doctor-about-pain"
+              },
+              {
+                "type": "text",
+                "text": " can help you prepare those details. At a Jain Pain Clinic consultation, bring the full treatment history and agree practical goals and a follow-up point. You should leave understanding what is being tried and how its benefit will be judged."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Post-herpetic neuralgia: symptoms and care",
+        "href": "https://www.nhs.uk/conditions/post-herpetic-neuralgia/",
+        "source": "NHS"
+      },
+      {
+        "title": "Shingles: treatment and urgent warning signs",
+        "href": "https://www.nhs.uk/conditions/shingles/",
+        "source": "NHS"
+      },
+      {
+        "title": "Postherpetic neuralgia: diagnosis and treatment",
+        "href": "https://www.mayoclinic.org/diseases-conditions/postherpetic-neuralgia/diagnosis-treatment/drc-20376593",
+        "source": "Mayo Clinic"
+      },
+      {
+        "title": "Postherpetic neuralgia: symptoms and risk factors",
+        "href": "https://www.mayoclinic.org/diseases-conditions/postherpetic-neuralgia/symptoms-causes/syc-20376588",
+        "source": "Mayo Clinic"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can shingles still hurt after the rash disappears?",
+        "answer": [
+          "Yes. The affected nerves may remain painful after the skin heals. Persistent or disruptive pain should be assessed."
+        ]
+      },
+      {
+        "question": "Do I need to wait three months before seeking help?",
+        "answer": [
+          "No. The term postherpetic neuralgia often describes pain lasting at least three months after rash onset, but troublesome pain deserves care earlier."
+        ]
+      },
+      {
+        "question": "Does pain after shingles mean I am still contagious?",
+        "answer": [
+          "Lingering nerve pain itself is not contagious. During an active shingles episode, contact with blister fluid can transmit the virus and cause chickenpox in susceptible people. Follow advice about covering the rash and avoiding vulnerable contacts."
+        ]
+      },
+      {
+        "question": "Will another course of antivirals cure established nerve pain?",
+        "answer": [
+          "Antivirals treat a fresh shingles episode. They are not a routine cure for established postherpetic neuralgia; ongoing pain needs its own assessment and treatment plan."
+        ]
+      },
+      {
+        "question": "Can the shingles vaccine treat my current pain?",
+        "answer": [
+          "No. Vaccination helps prevent future shingles and related complications. Ask your clinician about suitability and timing after recovery."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/pain-after-shingles-postherpetic-neuralgia",
+    "ogImage": "/assets/blog/postherpetic-neuralgia-rib-nerve-pain-hero.jpg",
+    "category": "Nerve Pain",
+    "readTime": "6 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-06",
+    "publishedLabel": "October 6, 2026",
+    "cardImage": "/assets/blog/postherpetic-neuralgia-rib-nerve-pain-hero.jpg",
+    "cardAlt": "Older man holding the right side of his torso with a red pain highlight and illustrative rib and nerve overlay",
+    "bannerImage": "/assets/blog/postherpetic-neuralgia-rib-nerve-pain-hero.jpg",
+    "bannerAlt": "Older man holding the right side of his torso with a red pain highlight and illustrative rib and nerve overlay",
+    "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
+    "showTableOfContents": true
   }
 ];
 
