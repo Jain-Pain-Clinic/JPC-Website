@@ -10943,6 +10943,485 @@ const rawBlogs = [
     "bannerAlt": "Older man holding the right side of his torso with a red pain highlight and illustrative rib and nerve overlay",
     "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
     "showTableOfContents": true
+  },
+  {
+    "slug": "tennis-elbow-treatment-pain-when-gripping-lifting",
+    "title": "Tennis Elbow Treatment: Why Your Elbow Hurts When You Grip or Lift",
+    "seoTitle": "Tennis Elbow Treatment and Symptoms | Jain Pain Clinic",
+    "description": "Pain outside your elbow when gripping or lifting? Learn about tennis elbow symptoms, activity changes, exercises, braces and the limits of injections.",
+    "keywords": "tennis elbow treatment, tennis elbow symptoms, pain outside elbow, elbow pain when lifting, tennis elbow exercises, lateral epicondylitis, elbow pain treatment Gurgaon",
+    "excerpt": "You do not have to play tennis to develop tennis elbow. Learn why gripping can hurt and what to consider before choosing exercises or an injection.",
+    "heroSubtitle": "Lifting a cup, opening a jar or using a mouse can become painful when the tendons outside the elbow are sensitive. A useful plan starts with the cause and your everyday demands.",
+    "tags": [
+      "Tennis Elbow",
+      "Elbow Pain",
+      "Tendon Pain",
+      "Physiotherapy"
+    ],
+    "content": {
+      "intro": "A cup feels surprisingly heavy. Opening a jar brings a sharp ache outside the elbow, and carrying a shopping bag becomes uncomfortable. Tennis elbow is one possible cause, even if you have never held a tennis racket. Treatment usually begins with understanding the symptom pattern, adapting painful tasks and gradually rebuilding tolerance. An injection is not automatically the next step, and symptoms such as numbness, major swelling or pain after an injury need a different assessment.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is Tennis Elbow?",
+          "paragraphs": [
+            "Tennis elbow, also called lateral epicondylitis or lateral elbow tendinopathy, affects the tendons connecting the wrist-extensor muscles to the outer part of the elbow. These muscles help lift the back of the hand and stabilise the wrist during gripping. This explains why a task involving the hand can hurt farther up the arm.",
+            "Although the name ends in ‘itis’, persistent cases involve tendon changes rather than simply ongoing inflammation. Repeated loading can contribute, but symptoms do not always follow a single obvious injury. The condition is different from a fracture or a tendon that has completely snapped."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Common Tennis Elbow Symptoms",
+          "paragraphs": [
+            "The typical pattern is tenderness or pain around the bony prominence on the outside of the elbow. Pain may extend into the forearm, and gripping can feel weaker because it hurts. Symptoms often develop gradually and may become noticeable during everyday tasks.",
+            "Describe which activity causes trouble rather than repeatedly testing your maximum grip. For example, say whether lifting an empty cup is comfortable but a full kettle is painful. That gives your clinician a practical starting point."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Pain when carrying a bag or lifting something with the wrist held back.",
+              "Discomfort when opening a jar, turning a tool or wringing a cloth.",
+              "Tenderness outside the elbow, sometimes with an ache down the forearm.",
+              "Difficulty with gripping tasks, and sometimes pain that disturbs sleep."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "Can You Get It Without Playing Tennis?",
+          "paragraphs": [
+            "Yes. Work, household tasks, gardening, musical instruments and gym training can all involve repeated gripping or wrist movement. A sudden increase in activity may be relevant: a new exercise routine, several days of painting or longer sessions using tools.",
+            "Computer work can also aggravate symptoms in some people, but using a mouse does not prove the diagnosis. Explain how long you work, how your forearm is supported and whether changing the task changes the pain. Avoid blaming one posture without considering the full day's demands."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Is Every Painful Elbow Tennis Elbow?",
+          "paragraphs": [
+            "No. Pain on the inner side may involve a different tendon group, often called golfer's elbow. Arthritis, injury, bursitis and nerve compression can also cause elbow or arm symptoms. An examination helps distinguish these possibilities.",
+            "Tingling or numbness is not a typical feature of uncomplicated tennis elbow. Tell your clinician if symptoms extend into particular fingers, if there is neck pain or if strength is genuinely deteriorating rather than limited by pain.",
+            [
+              { "type": "text", "text": "Our guide to" },
+              { "type": "link", "text": "hand tingling and carpal tunnel syndrome", "href": "/blog/carpal-tunnel-syndrome-hand-tingling-at-night" },
+              { "type": "text", "text": "explains a different pattern of nerve symptoms. Similar descriptions such as ‘burning’ do not mean that every arm pain has the same cause." }
+            ]
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is Tennis Elbow Diagnosed?",
+          "paragraphs": [
+            "A clinician asks about the onset, painful activities and previous injuries, then checks tenderness, movement and responses to controlled resistance. The diagnosis often comes from this history and examination. Scans are used selectively when the pattern is unusual, another problem is suspected or the result would change treatment.",
+            "An MRI is not a compulsory first step. Ask what an X-ray, ultrasound or nerve test is intended to clarify. Bring previous reports and describe what has changed since they were taken; the current symptoms matter as much as the wording on an old scan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Can You Change at Home?",
+          "paragraphs": [
+            "Temporarily reduce tasks that repeatedly provoke the pain while keeping comfortable movement. A wrapped cool or warm pack may ease symptoms. Suitable pain relief or an anti-inflammatory gel can help some people, but check with a pharmacist or clinician if you have other health conditions, are pregnant or take other medicines.",
+            "Start with the task that is hardest to avoid. A person who cooks daily needs a workable way to handle pans; someone using tools needs a plan for grip force and breaks. Choose changes you can repeat consistently rather than attempting to remove every use of the arm."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Divide heavier loads and use both hands when comfortable.",
+              "Break up long sessions of gripping or twisting with changes of task.",
+              "For desk work, try comfortable forearm support and reduce unnecessary gripping of the mouse.",
+              "Record one troublesome task so you can judge whether the plan is helping."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "Which Tennis Elbow Exercises Are Appropriate?",
+          "paragraphs": [
+            "After the diagnosis is checked, a physiotherapist may suggest gentle elbow movement and progressive wrist and forearm strengthening. The amount should match your current tolerance. More weight or stronger stretching is not automatically better.",
+            [
+              { "type": "text", "text": "The" },
+              { "type": "link", "text": "NHS inform tennis elbow exercise guide", "href": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/arm-shoulder-and-hand-problems-and-conditions/exercises-for-tennis-elbow" },
+              { "type": "text", "text": "includes supported wrist movements and advises gradual progression. Exercises should not leave the existing pain worse overall or worse the following morning. Stop and seek advice if they cause new pain or worsening symptoms." }
+            ],
+            "Exercise is a way to rebuild movement and capacity, not a guaranteed quick cure. A 2024 Cochrane review found that exercise and manual therapy may offer small improvements in pain and disability compared with minimal treatment, with uncertain or limited lasting benefit. Agree a review point and adjust the programme if it is not helping."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Does a Tennis Elbow Strap Help?",
+          "paragraphs": [
+            "A forearm strap or suitable brace may reduce discomfort during selected activities. It is an optional aid rather than a treatment everyone needs. Have the fit checked, and loosen or remove it if it causes tingling, swelling or increased pain.",
+            "Judge it against a specific task: does it make a normal activity more comfortable? Do not use reduced pain under a strap as a reason to immediately increase training or carry heavier loads. Discuss how the support fits into your activity and rehabilitation plan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Are Steroid or PRP Injections the Best Treatment?",
+          "paragraphs": [
+            "There is no single best treatment for every patient. Steroid injections can ease symptoms in the short term, but that benefit does not necessarily last. In a randomised trial of chronic tennis elbow, patients receiving corticosteroid injections had more recurrence and worse recovery at one year than those receiving placebo injections. This is a reason to discuss longer-term outcomes before choosing an injection.",
+            [
+              { "type": "text", "text": "Platelet-rich plasma, or PRP, is also offered, but a" },
+              { "type": "link", "text": "Cochrane review of PRP and autologous blood injections", "href": "https://www.cochrane.org/evidence/CD010951_autologous-blood-or-prp-injection-lateral-elbow-pain" },
+              { "type": "text", "text": "found little or no clinically important improvement in pain or function compared with placebo. Describing a treatment as ‘regenerative’ does not establish that it will repair your tendon or improve your symptoms." }
+            ],
+            "Ask what benefit is expected, how long it might last, what the risks and costs are, and what the alternatives include. An injection should be a considered decision with a review plan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Long Does Recovery Take, and When Is Surgery Considered?",
+          "paragraphs": [
+            "Recovery varies. Some symptoms settle with initial care, while others take months and occasionally continue beyond a year. Improvement is better judged through tasks such as carrying a bag or returning to work than through a promise of recovery within a fixed number of days.",
+            "Surgery may be discussed for persistent, disabling symptoms after a substantial trial of non-surgical care, often six to twelve months. Reaching that interval does not make surgery compulsory. The diagnosis, previous treatment, expected benefit and risks still need review."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Should You Seek Medical Help?",
+          "paragraphs": [
+            "Arrange an assessment if symptoms remain troublesome after a couple of weeks of sensible self-care, or sooner if they affect normal function. Bring details of the tasks that hurt, previous treatments and any numbness or weakness.",
+            "Seek urgent care for severe pain with difficulty moving the arm, a deformity or snapping injury, or a swollen elbow with fever or feeling unwell. New numbness or progressive weakness also needs prompt assessment. Sudden arm pain with chest pressure, breathlessness or sweating needs emergency care rather than treatment as tennis elbow.",
+            "At a Jain Pain Clinic consultation, describe the activities you want to regain and what you have already tried. The next step should follow the assessment, with clear goals and a follow-up point rather than a sequence of treatments chosen only because the pain persists."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Tennis elbow: symptoms and initial care",
+        "href": "https://www.nhs.uk/conditions/tennis-elbow/",
+        "source": "NHS"
+      },
+      {
+        "title": "Tennis elbow: tendon anatomy and assessment",
+        "href": "https://www.orthoinfo.org/diseases--conditions/tennis-elbow-lateral-epicondylitis/",
+        "source": "AAOS OrthoInfo"
+      },
+      {
+        "title": "Tennis elbow: symptoms and causes",
+        "href": "https://my.clevelandclinic.org/health/diseases/7049-tennis-elbow-lateral-epicondylitis",
+        "source": "Cleveland Clinic"
+      },
+      {
+        "title": "Exercises for tennis elbow",
+        "href": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/arm-shoulder-and-hand-problems-and-conditions/exercises-for-tennis-elbow",
+        "source": "NHS inform"
+      },
+      {
+        "title": "Manual therapy and exercise for lateral elbow pain",
+        "href": "https://www.cochrane.org/evidence/CD013042_manual-therapy-and-exercise-treating-tennis-elbow",
+        "source": "Cochrane, 2024"
+      },
+      {
+        "title": "Corticosteroid injection and physiotherapy: randomised trial",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23385272/",
+        "source": "JAMA, 2013"
+      },
+      {
+        "title": "Autologous blood or PRP injection for lateral elbow pain",
+        "href": "https://www.cochrane.org/evidence/CD010951_autologous-blood-or-prp-injection-lateral-elbow-pain",
+        "source": "Cochrane, 2021"
+      },
+      {
+        "title": "Tennis elbow: treatment and surgical review",
+        "href": "https://www.mayoclinic.org/diseases-conditions/tennis-elbow/diagnosis-treatment/drc-20351991",
+        "source": "Mayo Clinic"
+      },
+      {
+        "title": "Elbow and arm pain: urgent warning signs",
+        "href": "https://www.nhs.uk/symptoms/elbow-and-arm-pain/",
+        "source": "NHS"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I have tennis elbow without playing tennis?",
+        "answer": [
+          "Yes. Work, household tasks and other activities involving repeated gripping or wrist movement can contribute. The symptom pattern and examination establish the diagnosis."
+        ]
+      },
+      {
+        "question": "Why does my elbow hurt when I lift a cup?",
+        "answer": [
+          "Gripping and lifting load the forearm muscles whose tendons attach outside the elbow. Tennis elbow is one possible explanation, but injury, joint or nerve problems may need consideration."
+        ]
+      },
+      {
+        "question": "Should I keep exercising through tennis elbow pain?",
+        "answer": [
+          "Use a programme matched to your diagnosis and tolerance. Reduce or stop movements that leave symptoms worse overall or the following morning, and seek advice for new or worsening symptoms."
+        ]
+      },
+      {
+        "question": "Is a steroid injection a permanent cure?",
+        "answer": [
+          "No. Short-term relief does not guarantee lasting recovery. Trial evidence raises concerns about recurrence and longer-term outcomes, so discuss alternatives and risks before treatment."
+        ]
+      },
+      {
+        "question": "Does PRP reliably heal tennis elbow?",
+        "answer": [
+          "That is not established. A Cochrane review found little or no clinically important improvement in pain or function compared with placebo injections. Ask for evidence relevant to the proposed treatment."
+        ]
+      },
+      {
+        "question": "Does every patient need a scan or surgery?",
+        "answer": [
+          "No. Many diagnoses are made through history and examination. Tests and surgical review depend on the findings, severity and response to suitable initial care."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/tennis-elbow-treatment-pain-when-gripping-lifting",
+    "ogImage": "/assets/blog/tennis-elbow-tendon-pain-hero.jpg",
+    "category": "Elbow Pain",
+    "readTime": "8 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-10",
+    "publishedLabel": "October 10, 2026",
+    "cardImage": "/assets/blog/tennis-elbow-tendon-pain-hero.jpg",
+    "cardAlt": "Man supporting his painful outer elbow with a red highlight and illustrative tendon and bone overlay",
+    "bannerImage": "/assets/blog/tennis-elbow-tendon-pain-hero.jpg",
+    "bannerAlt": "Man supporting his painful outer elbow with a red highlight and illustrative tendon and bone overlay",
+    "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
+    "showTableOfContents": true
+  },
+  {
+    "slug": "tailbone-pain-when-sitting-coccydynia-treatment",
+    "title": "Tailbone Pain When Sitting: Causes, Cushions and Treatment Options",
+    "seoTitle": "Tailbone Pain When Sitting: Treatment | Jain Pain Clinic",
+    "description": "Learn what causes tailbone pain when sitting, how coccyx cushions and activity changes may help, and when persistent coccydynia needs specialist assessment.",
+    "keywords": "tailbone pain when sitting, coccyx pain, coccydynia treatment, tailbone pain relief, coccyx cushion, ganglion impar block, tailbone pain treatment Gurgaon",
+    "excerpt": "Pain at the base of the spine can make sitting and getting up difficult. Learn how to reduce pressure and when to have persistent symptoms assessed.",
+    "heroSubtitle": "A painful tailbone needs a different approach from a general lower-back ache. The location, triggers and examination help guide the right next step.",
+    "tags": [
+      "Tailbone Pain",
+      "Coccydynia",
+      "Pain When Sitting",
+      "Pain Management"
+    ],
+    "content": {
+      "intro": "Sitting through a meeting becomes uncomfortable. A car journey leaves an ache at the very bottom of the spine, and standing up brings a sharp jab. This pattern can occur with tailbone pain, also called coccydynia. A fall is one possible cause, but pain can also develop without an obvious injury. Understanding the location and triggers helps you choose practical changes and recognise when assessment is needed.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "Where Is the Tailbone, and What Is Coccydynia?",
+          "paragraphs": [
+            "The coccyx is the small group of bony segments at the bottom of the spine, below the sacrum. Several muscles and ligaments attach around it, including structures associated with the pelvic floor. Coccydynia describes pain in this area; it does not identify the cause by itself.",
+            "The typical complaint is a local ache or tenderness near the midline at the top of the buttock crease. Pain may be sharper when sitting down or rising from a chair. This location is lower than the area people usually point to when describing a lumbar backache."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Does the Tailbone Hurt When You Sit?",
+          "paragraphs": [
+            "Sitting can place pressure on sensitive tissues around the coccyx. Hard seats, prolonged sitting or repeated strain during activities such as cycling may aggravate the area. Symptoms can vary between chairs and with how long you remain seated.",
+            "Note whether the pain starts immediately or builds over time, and whether getting up briefly helps. A practical description such as “I can sit through half a meeting before needing to stand” is useful for both assessment and judging progress."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Common Causes: Falls, Childbirth and Repeated Pressure",
+          "paragraphs": [
+            "A fall backwards can bruise or injure the coccyx and, sometimes, cause a fracture or dislocation. Pregnancy and childbirth can affect the joints and soft tissues around it. Changes in coccyx movement or anatomy may also contribute. There is not always one clear cause.",
+            "If pain started after delivery, describe it to your maternity or primary-care team rather than assuming it is an unavoidable part of recovery. After a fall, mention when it happened, how you landed and whether pain is improving. These details help determine whether further examination or imaging is useful."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Is It Tailbone Pain, Sciatica or a Skin Problem?",
+          "paragraphs": [
+            "Sciatica more often produces pain travelling into a leg, sometimes with tingling, numbness or weakness. A local coccyx ache can feel different, although more than one problem may coexist. Symptoms should be examined rather than classified only by where sitting hurts.",
+            [
+              {
+                "type": "text",
+                "text": "Our guide to"
+              },
+              {
+                "type": "link",
+                "text": "pain when sitting: sciatica, piriformis syndrome or a hip problem",
+                "href": "/blog/pain-when-sitting-sciatica-piriformis-syndrome-or-hip-problem"
+              },
+              {
+                "type": "text",
+                "text": "covers other possible sources. Tell your clinician if pain travels down the leg or is accompanied by altered sensation."
+              }
+            ],
+            "A painful lump, redness or discharge in the buttock crease can indicate an infected pilonidal sinus rather than pain arising from the bone. A painful, bleeding or pus-leaking lump needs prompt medical assessment; a cushion alone will not treat an infection."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Which Cushion May Help Tailbone Pain?",
+          "paragraphs": [
+            "A coccyx cushion is designed to reduce pressure on the painful area. A wedge with a rear cutout is one option. Position the cutout beneath the tailbone, and check that the chair and cushion together provide comfortable support rather than leaving you perched awkwardly.",
+            "Fit and response matter more than choosing the softest cushion. A deeply sinking seat may still be uncomfortable. Try the support during a normal task and note whether sitting is easier. Avoid repeatedly pressing on the tailbone to check whether it still hurts."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Practical Changes for Desk Work, Driving and Sleep",
+          "paragraphs": [
+            "Break up prolonged sitting with brief changes of position or comfortable movement. Support the lower back and experiment with a small forward lean if it reduces pressure. There is no need to hold one rigid posture throughout the day.",
+            "For long journeys, plan stops when possible and adjust the seat within a comfortable, safe driving position. At night, lying on your side may reduce direct pressure. If constipation makes bowel movements painful, ask a pharmacist or clinician about suitable help."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Alternate sitting with short standing or walking breaks when comfortable.",
+              "Use a pressure-reducing cushion that fits your chair and body.",
+              "Reduce activities that repeatedly provoke the area, then review how to return to them.",
+              "Track one meaningful goal, such as sitting for a meal or completing a shorter journey."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "Can Pain Relief or Physiotherapy Help?",
+          "paragraphs": [
+            "A wrapped heat or cold pack and suitable pain relief may ease symptoms. Discuss medicines with a pharmacist or clinician, particularly during pregnancy or breastfeeding, or if you have kidney disease, stomach ulcers or take blood thinners. The choice should fit your health and current medicines.",
+            "Physiotherapy may address movement, muscle tension and the pelvic floor when these contribute. A pelvic-health physiotherapist can assess whether relaxation, coordination or strengthening is appropriate. Repeatedly tightening the pelvic floor is not automatically the right exercise for every painful coccyx.",
+            "Ask for a manageable programme and a way to judge its effect. Do not force a stretch, self-manipulate the tailbone or use someone else's exercise routine as a substitute for assessment after an injury."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Do You Need an X-Ray or MRI?",
+          "paragraphs": [
+            "Assessment starts with the history and an examination of the painful area. A clinician may consider imaging after an injury, for persistent symptoms or when another condition is suspected. Not every person with tailbone pain needs an MRI.",
+            "Ask what the test is intended to clarify and how the result would change care. Bring previous reports, a medicine list and notes about the onset and sitting tolerance. An old scan of the lower back does not necessarily answer a new question about the coccyx."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Are Injections or a Ganglion Impar Block Considered?",
+          "paragraphs": [
+            "For persistent pain despite appropriate initial care, a specialist may consider a local anaesthetic and corticosteroid injection around a relevant joint or pain source. A ganglion impar block targets a different pain pathway near the front of the coccyx and may be considered for selected patients.",
+            [
+              {
+                "type": "text",
+                "text": "A"
+              },
+              {
+                "type": "link",
+                "text": "systematic review of ganglion impar blocks and radiofrequency treatment",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/34733426/"
+              },
+              {
+                "type": "text",
+                "text": "reported pain improvement in selected patients, but the evidence base was small and the authors called for larger studies with longer follow-up. Benefit cannot be guaranteed, and a block does not repair a fracture or remove a skin infection."
+              }
+            ],
+            "Before any procedure, ask why that target fits your symptoms, what the risks are, how long relief might last and how the result will be reviewed. An injection should serve a specific purpose rather than be selected simply because sitting remains painful."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Long Does Recovery Take? Will You Need Surgery?",
+          "paragraphs": [
+            "Many cases improve over weeks or months, but the course depends on the cause and can be longer. Judge improvement through function: easier rising from a chair, better sleep or a more comfortable journey. Avoid a promise of a fixed recovery date.",
+            "Surgery to remove part or all of the coccyx, called coccygectomy, is reserved for selected persistent cases after other treatment has failed. It needs careful specialist discussion of the diagnosis, expected benefit and risks. Most initial treatment plans begin with non-surgical options."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Warning Signs and When to Seek Help",
+          "paragraphs": [
+            "Arrange an assessment if pain is affecting daily activities or has not improved after a few weeks of sensible self-care. Seek earlier help after a significant injury or if pain is progressively worsening. Fever, feeling unwell, a lump or discharge also need medical attention.",
+            "Go to emergency care for new difficulty passing urine, loss of bladder or bowel control, numbness around the genitals or anus, or severe or worsening weakness in both legs. These symptoms can indicate a serious spinal problem and should not be treated as routine tailbone pain.",
+            "For a Jain Pain Clinic consultation, bring the timeline, previous treatment and one or two activities you want to regain. A useful plan explains the likely source, the reason for each treatment and when to review it. You should know which changes to try and which symptoms require earlier reassessment."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Tailbone pain: symptoms and initial care",
+        "href": "https://www.nhs.uk/conditions/tailbone-coccyx-pain/",
+        "source": "NHS"
+      },
+      {
+        "title": "Coccydynia: causes and assessment",
+        "href": "https://my.clevelandclinic.org/health/symptoms/10436-coccydynia-tailbone-pain",
+        "source": "Cleveland Clinic"
+      },
+      {
+        "title": "Tailbone pain: pressure relief and treatment",
+        "href": "https://www.mayoclinic.org/diseases-conditions/back-pain/expert-answers/tailbone-pain/faq-20058211",
+        "source": "Mayo Clinic"
+      },
+      {
+        "title": "Tailbone pain: cushions and pelvic-health care",
+        "href": "https://www.hss.edu/health-library/move-better/tailbone-pain",
+        "source": "Hospital for Special Surgery"
+      },
+      {
+        "title": "Pilonidal sinus: signs of infection",
+        "href": "https://www.nhs.uk/conditions/pilonidal-sinus/",
+        "source": "NHS"
+      },
+      {
+        "title": "Sciatica: neurological warning signs",
+        "href": "https://www.nhs.uk/conditions/sciatica/",
+        "source": "NHS"
+      },
+      {
+        "title": "Ganglion impar block and radiofrequency: systematic review",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/34733426/",
+        "source": "Revista Brasileira de Ortopedia, 2021"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can tailbone pain happen without a fall?",
+        "answer": [
+          "Yes. Prolonged pressure, pregnancy or childbirth, and changes in the tissues or movement around the coccyx can contribute. Sometimes no single cause is identified."
+        ]
+      },
+      {
+        "question": "What is the best cushion for tailbone pain?",
+        "answer": [
+          "A pressure-reducing coccyx cushion, such as a wedge with a rear cutout, may help. Fit and comfort matter; check that it reduces pressure during your normal sitting tasks."
+        ]
+      },
+      {
+        "question": "Is tailbone pain the same as sciatica?",
+        "answer": [
+          "No. Coccydynia is usually local to the tailbone area. Sciatica more often travels into the leg and may include tingling, numbness or weakness. An examination can distinguish them."
+        ]
+      },
+      {
+        "question": "Should I do pelvic floor exercises for coccyx pain?",
+        "answer": [
+          "The right approach depends on the assessment. Some people need relaxation or coordination work rather than repeated strengthening. A pelvic-health physiotherapist can advise."
+        ]
+      },
+      {
+        "question": "Will a ganglion impar block cure my tailbone pain?",
+        "answer": [
+          "It may reduce pain in selected patients, but benefit and duration vary. It does not treat every cause, and the evidence has limitations. Discuss the target, alternatives and risks."
+        ]
+      },
+      {
+        "question": "When should tailbone pain be checked urgently?",
+        "answer": [
+          "Fever, a painful lump or discharge, severe symptoms after injury, or progressive symptoms need prompt assessment. New bladder or bowel dysfunction, saddle numbness or severe weakness in both legs needs emergency care."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/tailbone-pain-when-sitting-coccydynia-treatment",
+    "ogImage": "/assets/blog/tailbone-coccyx-pain-sitting-hero.jpg",
+    "category": "Tailbone Pain",
+    "readTime": "7 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-14",
+    "publishedLabel": "October 14, 2026",
+    "cardImage": "/assets/blog/tailbone-coccyx-pain-sitting-hero.jpg",
+    "cardAlt": "Woman sitting with tailbone discomfort, with a red pain highlight and illustrative sacrum and coccyx overlay",
+    "bannerImage": "/assets/blog/tailbone-coccyx-pain-sitting-hero.jpg",
+    "bannerAlt": "Woman sitting with tailbone discomfort, with a red pain highlight and illustrative sacrum and coccyx overlay",
+    "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
+    "showTableOfContents": true
   }
 ];
 
