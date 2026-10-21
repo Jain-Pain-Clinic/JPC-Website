@@ -30,7 +30,7 @@ export const procedures = [
       {
         "question": "Who is a good candidate for an epidural steroid injection?",
         "answer": [
-          "It works best for people with nerve-related pain (such as sciatica, disc herniation, or spinal stenosis) that has not improved with rest, medicines, or physiotherapy. Dr. Jain will confirm whether it is the right step for you after a full assessment."
+          "It can help people with nerve-related pain (such as sciatica, disc herniation, or spinal stenosis) that has not improved with rest, medicines, or physiotherapy. Dr. Jain will confirm whether it is the right step for you after a full assessment."
         ],
         "openByDefault": false
       },
@@ -336,7 +336,7 @@ export const procedures = [
           "Confirm ganglion impar is the right target"
         ],
         "duration": "30–45 minutes",
-        "whatToExpect": "Dr. Ashu Jain determines whether a diagnostic block or direct RFA is the best first step for you."
+        "whatToExpect": "Dr. Ashu Jain determines whether a diagnostic block or direct RFA is an appropriate first step for you."
       },
       "consent": {
         "title": "Informed Consent",
@@ -824,7 +824,7 @@ export const procedures = [
           "Skin and deeper tissue numbed with local anaesthetic"
         ],
         "duration": "10–15 minutes",
-        "whatToExpect": "The procedure suite is set up for precision. The team works methodically to position you for the best access to the lateral branch nerves."
+        "whatToExpect": "The procedure suite is set up for precision. The team works methodically to position you for precise access to the lateral branch nerves."
       },
       "procedure": {
         "title": "The RFA",
@@ -1098,7 +1098,7 @@ export const procedures = [
           "Repeat procedure planned if needed"
         ],
         "duration": "Ongoing over 4–12 weeks",
-        "whatToExpect": "Most patients see steady improvement in both pain and movement over the first 4–8 weeks. The combination of a successful procedure with consistent physiotherapy gives the best long-term results."
+        "whatToExpect": "Most patients see steady improvement in both pain and movement over the first 4–8 weeks. The combination of a successful procedure with consistent physiotherapy supports long-term results."
       }
     },
     "quizQuestions": [
@@ -2195,7 +2195,7 @@ export const procedures = [
           "Target sympathetic level finalised (stellate / lumbar / coeliac / thoracic)"
         ],
         "duration": "30–45 minutes",
-        "whatToExpect": "Dr. Ashu Jain will map the anatomical target that best matches your symptoms. A diagnostic block is often the first step to confirm the sympathetic contribution before committing to a longer-lasting treatment."
+        "whatToExpect": "Dr. Ashu Jain will map the anatomical target that matches your symptoms. A diagnostic block is often the first step to confirm the sympathetic contribution before committing to a longer-lasting treatment."
       },
       "consent": {
         "title": "Informed Consent",
@@ -2427,7 +2427,7 @@ export const procedures = [
           "Exclusion of non-arthritic causes (e.g. meniscal tear, referred hip pain)"
         ],
         "duration": "30–45 minutes",
-        "whatToExpect": "Dr. Ashu Jain checks that the main pain is coming from the knee joint itself, not primarily from the hip above or a structural tear that may need surgery. Patients with Grade 2–4 knee OA on X-ray are typically the best candidates."
+        "whatToExpect": "Dr. Ashu Jain checks that the main pain is coming from the knee joint itself, not primarily from the hip above or a structural tear that may need surgery. Patients with Grade 2–4 knee OA on X-ray are often suitable candidates."
       },
       "consent": {
         "title": "Informed Consent",
@@ -2600,7 +2600,7 @@ export const procedures = [
       {
         "question": "Is a medial branch block required before Thoracic Facet RFA?",
         "answer": [
-          "Yes. Best practice requires at least one (ideally two) positive thoracic medial branch blocks giving ≥50% pain relief before Thoracic Facet RFA is performed. These blocks confirm that the pain is genuinely originating from the thoracic facet joints and that the medial branches are the relevant pain pathway. Patients who do not respond to blocks are unlikely to achieve sustained relief from RFA."
+          "Yes. Clinical practice requires at least one (ideally two) positive thoracic medial branch blocks giving ≥50% pain relief before Thoracic Facet RFA is performed. These blocks confirm that the pain is genuinely originating from the thoracic facet joints and that the medial branches are the relevant pain pathway. Patients who do not respond to blocks are unlikely to achieve sustained relief from RFA."
         ],
         "openByDefault": false
       },
@@ -2773,7 +2773,7 @@ export const procedures = [
         "explanation": "Positive medial branch blocks confirm that the thoracic facet joints are the source of the pain and that the relevant medial branch nerves are the correct target. Without this confirmation, RFA may be performed in a patient whose pain has a different origin, leading to no benefit. Positive blocks are therefore both diagnostic and predictive of RFA success."
       },
       {
-        "question": "Which of the following best describes the typical course of recovery after Thoracic Facet RFA?",
+        "question": "Which of the following describes the typical course of recovery after Thoracic Facet RFA?",
         "options": [
           "Immediate complete pain relief on the day of the procedure",
           "Mid-back soreness for 1–2 weeks, followed by gradual pain relief building over 2–6 weeks",

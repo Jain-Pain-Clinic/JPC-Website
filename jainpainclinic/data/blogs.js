@@ -2,7 +2,7 @@ export const BLOGS_PER_PAGE = 6;
 
 export const BLOG_ARCHIVE = {
   "title": "View our recent posts",
-  "description": "Keep yourself updated regarding best practices and exercises to reduce your pain",
+  "description": "Keep yourself updated regarding pain-management guidance and exercises to reduce your pain",
   "seoTitle": "Pain Management Blog | Jain Pain Clinic Gurugram",
   "canonicalPath": "/blog",
   "ogImage": "https://www.jainpainclinic.com/assets/treatment-hero.jpg"
@@ -1380,7 +1380,7 @@ const rawBlogs = [
         "paragraphs": [
           "A pain specialist compares the MRI with your symptoms and examination. They check where the pain starts, where it travels, what movements trigger it, and whether there is numbness, weakness, or reflex change.",
           "This step is important because MRI findings and symptoms do not always match perfectly. A patient may have multiple disc bulges, but only one level may be responsible for the pain. Another patient may have a visible bulge that is not the active pain source at all.",
-          "The best treatment plan comes from matching the scan report with the body, not reading the scan in isolation."
+          "An appropriate treatment plan comes from matching the scan report with the body, not reading the scan in isolation."
         ]
       },
       {
@@ -2382,7 +2382,7 @@ const rawBlogs = [
         "type": "section",
         "heading": "Treatment Is Usually Multidisciplinary",
         "paragraphs": [
-          "Phantom limb pain is best treated with a combined approach. One medicine or one exercise rarely solves everything.",
+          "Phantom limb pain can be treated with a combined approach. One medicine or one exercise rarely solves everything.",
           "Treatment may include neuropathic pain medicines, mirror therapy, desensitisation, physiotherapy, psychological support, prosthetic correction, sleep improvement, and targeted pain procedures when symptoms remain uncontrolled.",
           "The aim is not only to reduce pain intensity, but also to improve sleep, prosthetic use, walking, daily activity, and confidence."
         ]
@@ -2401,7 +2401,7 @@ const rawBlogs = [
         "heading": "Mirror Therapy and Rehabilitation",
         "paragraphs": [
           "Mirror therapy can help some patients by giving the brain visual feedback that the missing limb is moving normally. For example, a mirror may reflect the intact limb in a way that makes the brain perceive movement in the missing limb.",
-          "This can reduce the feeling that the phantom limb is clenched, stuck, or painful in some patients. It works best when done consistently and correctly under guidance.",
+          "This can reduce the feeling that the phantom limb is clenched, stuck, or painful in some patients. It can be effective when done consistently and correctly under guidance.",
           "Physiotherapy also helps by maintaining strength, mobility, balance, stump conditioning, and prosthetic training."
         ]
       },
@@ -5282,7 +5282,7 @@ const rawBlogs = [
           [
             {
               "type": "text",
-              "text": "Patients searching for the best chronic pain clinic, best pain specialist in Delhi NCR, or an interventional pain management specialist should remember that feet with gangrene may need urgent vascular or surgical care first. Once emergency issues are addressed, a pain specialist can help manage severe ischemic pain and support recovery planning."
+              "text": "Patients searching for a chronic pain clinic, pain specialist in Delhi NCR, or an interventional pain management specialist should remember that feet with gangrene may need urgent vascular or surgical care first. Once emergency issues are addressed, a pain specialist can help manage severe ischemic pain and support recovery planning."
             }
           ]
         ]
@@ -5293,7 +5293,7 @@ const rawBlogs = [
         "paragraphs": [
           "Feet with gangrene are a serious warning sign, not a routine foot pain problem. Blackening, coldness, foul smell, pus, swelling, fever, severe rest pain, or a non-healing diabetic foot ulcer needs prompt medical attention.",
           "Diabetes, smoking, Buerger's disease, peripheral artery disease, and neuropathy increase risk because they damage blood flow, sensation, or both.",
-          "The best outcome usually comes from early recognition, urgent evaluation, and coordinated care between vascular, surgical, diabetes, wound-care, and pain-management specialists."
+          "Outcomes can improve with early recognition, urgent evaluation, and coordinated care between vascular, surgical, diabetes, wound-care, and pain-management specialists."
         ]
       }
     ]
@@ -5562,7 +5562,7 @@ const rawBlogs = [
               },
               {
                 "type": "link",
-                "text": "2024 best-practice guide for patellofemoral pain",
+                "text": "2024 clinical practice guide for patellofemoral pain",
                 "href": "https://pubmed.ncbi.nlm.nih.gov/39401870/"
               },
               {
@@ -5755,16 +5755,16 @@ const rawBlogs = [
         "source": "NHS inform"
       },
       {
-        "title": "Best practice guide for patellofemoral pain",
+        "title": "Clinical practice guide for patellofemoral pain",
         "href": "https://pubmed.ncbi.nlm.nih.gov/39401870/",
         "source": "British Journal of Sports Medicine, 2024"
       }
     ],
     "faqs": [
       {
-        "question": "What are the best knee pain exercises to start with?",
+        "question": "Which knee pain exercises can I start with?",
         "answer": [
-          "Gentle options include heel slides, quad sets, seated knee extension, straight-leg raises, supported heel raises, and short low-impact walking or cycling if tolerated. The best exercise depends on the cause of pain and whether swelling, locking, or instability is present."
+          "Gentle options include heel slides, quad sets, seated knee extension, straight-leg raises, supported heel raises, and short low-impact walking or cycling if tolerated. The choice of exercise depends on the cause of pain and whether swelling, locking, or instability is present."
         ],
         "openByDefault": true
       },
@@ -6071,7 +6071,7 @@ const rawBlogs = [
         "type": "section",
         "heading": "Finding the Right Specialist for Your Symptoms",
         "paragraphs": [
-          "A person searching for the best pain specialist in Gurgaon may be looking for an explanation for recurring neck pain, arm symptoms, or headaches rather than only a prescription.",
+          "A person searching for a pain specialist in Gurgaon may be looking for an explanation for recurring neck pain, arm symptoms, or headaches rather than only a prescription.",
           "Jain Pain Clinic provides chronic pain and interventional pain assessment in Gurugram. The clinic also evaluates patients searching for a knee pain doctor in Gurgaon or a back pain doctor in Gurgaon, with treatment selected according to the suspected source of pain.",
           "The next step may be conservative treatment, rehabilitation, medication review, a diagnostic block, or a selected pain procedure. The diagnosis should come before the procedure.",
           [
@@ -6181,12 +6181,12 @@ const rawBlogs = [
     "title": "Knee Pain Treatment: Causes, Options, and When to See a Specialist",
     "seoTitle": "Knee Pain Treatment: Causes and Options | Jain Pain Clinic",
     "description": "Learn about knee pain treatment options, including exercise, medicines, injections, nerve blocks, cooled radiofrequency ablation, and when to see a knee pain specialist in Gurgaon.",
-    "keywords": "knee pain treatment, knee pain treatment in Gurgaon, knee pain doctor in Gurgaon, knee pain specialist in NCR, best knee pain doctor in Gurgaon, chronic knee pain treatment, knee arthritis treatment, knee pain relief, knee pain treatment without surgery, knee injection treatment, genicular nerve block, cooled radiofrequency ablation knee, knee physiotherapy, Dr Ashu Kumar Jain, Jain Pain Clinic",
+    "keywords": "knee pain treatment, knee pain treatment in Gurgaon, knee pain doctor in Gurgaon, knee pain specialist in NCR, chronic knee pain treatment, knee arthritis treatment, knee pain relief, knee pain treatment without surgery, knee injection treatment, genicular nerve block, cooled radiofrequency ablation knee, knee physiotherapy, Dr Ashu Kumar Jain, Jain Pain Clinic",
     "canonicalPath": "/blog/knee-pain-treatment",
     "ogImage": "/assets/blog/knee-pain-treatment-hero.jpg",
     "category": "Knee Pain",
     "readTime": "9 min read",
-    "excerpt": "The best knee pain treatment depends on the cause of pain, how long it has been present, and how much it affects walking, sleep, and daily activities.",
+    "excerpt": "The choice of knee pain treatment depends on the cause of pain, how long it has been present, and how much it affects walking, sleep, and daily activities.",
     "heroSubtitle": "A diagnosis-led guide to exercise, medicines, injections and specialist care, with clear signs that a painful knee needs urgent assessment.",
     "author": "Dr Ashu Kumar Jain",
     "authorImage": "/assets/logo.png",
@@ -6208,9 +6208,9 @@ const rawBlogs = [
       "blocks": [
         {
           "type": "section",
-          "heading": "What Is the Best Treatment for Knee Pain?",
+          "heading": "How Is Treatment for Knee Pain Chosen?",
           "paragraphs": [
-            "There is no single best knee pain treatment for everyone. Treatment should be selected after assessing the location of pain, duration of symptoms, swelling, movement, walking pattern, previous injuries, medical conditions, and response to earlier treatment.",
+            "No single knee pain treatment suits everyone. Treatment should be selected after assessing the location of pain, duration of symptoms, swelling, movement, walking pattern, previous injuries, medical conditions, and response to earlier treatment.",
             "For mild or recent knee pain, treatment may include activity modification, physiotherapy, appropriate exercises, ice or heat when suitable, and short-term medicines prescribed by a doctor.",
             "For chronic knee pain that continues despite medicines and rehabilitation, a pain specialist may consider targeted injections, diagnostic nerve blocks, or procedures such as genicular nerve radiofrequency ablation in carefully selected patients."
           ]
@@ -6708,9 +6708,9 @@ const rawBlogs = [
     ],
     "faqs": [
       {
-        "question": "What is the best treatment for knee pain?",
+        "question": "How is treatment for knee pain chosen?",
         "answer": [
-          "The best treatment depends on the cause of the pain. Options may include physiotherapy, exercises, medicines, injections, diagnostic nerve blocks, or specialist procedures. A doctor should assess the symptoms before recommending treatment."
+          "The choice of treatment depends on the cause of the pain. Options may include physiotherapy, exercises, medicines, injections, diagnostic nerve blocks, or specialist procedures. A doctor should assess the symptoms before recommending treatment."
         ],
         "openByDefault": true
       },
@@ -6745,7 +6745,7 @@ const rawBlogs = [
         ]
       },
       {
-        "question": "Which doctor is best for knee pain in Gurgaon?",
+        "question": "How do I choose a doctor for knee pain in Gurgaon?",
         "answer": [
           "The appropriate doctor depends on the suspected cause. A pain specialist may be useful for chronic knee pain, pain that continues despite medicines and physiotherapy, or patients considering injections and nerve procedures. Some injuries and structural problems may also require orthopaedic evaluation."
         ]
@@ -7159,7 +7159,7 @@ const rawBlogs = [
       "Pain Management"
     ],
     "content": {
-      "intro": "For knee osteoarthritis, an anti-inflammatory gel is often considered before an anti-inflammatory tablet; an injection may be discussed when other options are unsuitable or insufficient. There is no single best knee pain medicine. The diagnosis, kidney and stomach health, other prescriptions and your treatment goal determine the choice. A hot, severely swollen knee needs assessment of the cause, not simply a stronger painkiller.",
+      "intro": "For knee osteoarthritis, an anti-inflammatory gel is often considered before an anti-inflammatory tablet; an injection may be discussed when other options are unsuitable or insufficient. No single knee pain medicine suits everyone. The diagnosis, kidney and stomach health, other prescriptions and your treatment goal determine the choice. A hot, severely swollen knee needs assessment of the cause, not simply a stronger painkiller.",
       "blocks": [
         {
           "type": "section",
@@ -7418,9 +7418,9 @@ const rawBlogs = [
     ],
     "faqs": [
       {
-        "question": "Which tablet is best for knee pain?",
+        "question": "How is a tablet for knee pain selected?",
         "answer": [
-          "There is no best tablet for everyone. Diagnosis, other medicines and health risks determine whether a topical medicine, an oral medicine or another approach is appropriate."
+          "No single tablet suits everyone. Diagnosis, other medicines and health risks determine whether a topical medicine, an oral medicine or another approach is appropriate."
         ]
       },
       {
@@ -8598,7 +8598,7 @@ const rawBlogs = [
           "heading": "Compare the Outcome, Not Just the Injection Name",
           "paragraphs": [
             "A useful comparison asks three separate questions: will pain improve, will everyday function improve, and will the treatment change the joint’s structure? These outcomes are not interchangeable. Being able to walk farther after a shot is valuable, but it does not demonstrate new cartilage growth or prove that a future operation has been prevented.",
-            "Also compare the same time point. A treatment studied for relief over several weeks should not be ranked against another using only its best result several months later. Ask what evidence applies to your arthritis severity and previous treatment, including how many people receive little or no benefit.",
+            "Also compare the same time point. A treatment studied for relief over several weeks should not be ranked against another using only its peak result several months later. Ask what evidence applies to your arthritis severity and previous treatment, including how many people receive little or no benefit.",
             "For a personal goal, choose something measurable such as completing a regular walking route or participating in prescribed exercises. Decide when to review that goal before the injection. This makes the result more meaningful than a general promise that the product is “advanced” or “regenerative”."
           ]
         },
@@ -8865,9 +8865,9 @@ const rawBlogs = [
     ],
     "faqs": [
       {
-        "question": "Which knee injection is best?",
+        "question": "How is a knee injection selected?",
         "answer": [
-          "No injection is best for everyone. Diagnosis, previous care, evidence, health risks and treatment goals determine whether any injection is appropriate."
+          "No single injection suits everyone. Diagnosis, previous care, evidence, health risks and treatment goals determine whether any injection is appropriate."
         ]
       },
       {
@@ -9064,7 +9064,7 @@ const rawBlogs = [
         },
         {
           "type": "section",
-          "heading": "Fit Matters More Than a “Best” Product Label",
+          "heading": "Fit Matters When Choosing Knee Support",
           "paragraphs": [
             "Use the manufacturer’s measurements and ask for fitting help if needed. A device that slips, rubs or changes your walking may be unsuitable even if it is highly rated online.",
             "Check the skin and how the foot feels. New numbness, tingling, colour change, coldness or increased pain needs attention. Remove an over-tight support and seek advice; persistent circulation symptoms require urgent assessment.",
@@ -10450,7 +10450,7 @@ const rawBlogs = [
           "heading": "Temporary Relief Should Have a Practical Purpose",
           "paragraphs": [
             "A period of reduced pain can be useful if it helps you sleep, work or participate in rehabilitation. Decide on that goal beforehand. For example, the aim might be to complete a work task with fewer interruptions or tolerate the exercises that were previously difficult.",
-            "If the pain score falls but you remain unable to do the activity that matters, explain that at follow-up. Equally, improved function can be meaningful even if some pain remains. Judge the result against the agreed goal, not only the best day immediately after treatment.",
+            "If the pain score falls but you remain unable to do the activity that matters, explain that at follow-up. Equally, improved function can be meaningful even if some pain remains. Judge the result against the agreed goal, not only the day with the most relief immediately after treatment.",
             "Repeating a procedure should follow a review of the previous response, risks and alternatives. A prearranged series is not a substitute for asking whether each treatment is still appropriate."
           ]
         },
@@ -10557,9 +10557,9 @@ const rawBlogs = [
         ]
       },
       {
-        "question": "How do I choose the best neck pain doctor in Gurgaon for my needs?",
+        "question": "How do I choose a neck pain doctor in Gurgaon for my needs?",
         "answer": [
-          "Look for relevant training, a clear explanation of the diagnosis, discussion of alternatives and a follow-up plan. Ask whether a pain-medicine, neurological or surgical assessment best fits your symptoms. A promotional ranking alone does not establish the right fit."
+          "Look for relevant training, a clear explanation of the diagnosis, discussion of alternatives and a follow-up plan. Ask whether a pain-medicine, neurological or surgical assessment fits your symptoms. A promotional ranking alone does not establish the right fit."
         ]
       },
       {
@@ -10797,7 +10797,7 @@ const rawBlogs = [
           "type": "section",
           "heading": "Is This Lingering Pain or a New Shingles Episode?",
           "paragraphs": [
-            "A new blistering rash needs prompt medical advice. Antiviral treatment for a fresh episode works best when started early, usually within 72 hours of rash onset. If that window has passed, still seek advice; the decision depends on your symptoms and health.",
+            "A new blistering rash needs prompt medical advice. Antiviral treatment for a fresh episode can be effective when started early, usually within 72 hours of rash onset. If that window has passed, still seek advice; the decision depends on your symptoms and health.",
             "Get urgent assessment for a rash on the eye or nose, vision changes or symptoms in someone with a severely weakened immune system. Pain in a previously affected area should not be assumed to explain a new or different illness. New chest pain, for example, needs assessment on its own merits."
           ]
         },
@@ -10824,6 +10824,29 @@ const rawBlogs = [
           "paragraphs": [
             "Local treatments may be considered for a defined painful area. Lidocaine patches can be useful for selected patients. Capsaicin products are another option, but stronger patches need professional application and monitoring. These approaches have different instructions; do not treat them as interchangeable or apply them to open or unhealed skin.",
             "If pain remains severe, a specialist may discuss additional options, including selected procedures. Ask what benefit is expected, how strong the evidence is and what the risks are. No single intervention reliably removes postherpetic neuralgia for everyone, and a procedure should have a specific purpose in the wider plan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Dorsal Root Ganglion Radiofrequency Treatment for Persistent Pain",
+          "paragraphs": [
+            "Dorsal root ganglion (DRG) pulsed radiofrequency (PRF) is an interventional treatment option when postherpetic neuralgia remains troublesome despite suitable medicines and local treatments. The DRG is a cluster of sensory nerve cells near a spinal nerve root. Under image guidance, a specialist applies pulses of radiofrequency energy near the relevant ganglion to modulate pain signalling. Pulsed radiofrequency differs from conventional thermal radiofrequency ablation (RFA), which intentionally heats tissue to create a lesion.",
+            [
+              { "type": "text", "text": "The" },
+              { "type": "link", "text": "2026 Korean Pain Society guideline for refractory postherpetic neuralgia", "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061597/" },
+              { "type": "text", "text": "recommends pulsed radiofrequency alongside medication for persistent moderate-to-severe pain despite first-line medicines, while rating the evidence as low certainty. The affected area, duration of pain and previous treatment guide whether a DRG procedure is appropriate. Discuss expected benefit and risks such as bleeding, infection, nerve injury and, for thoracic procedures, pneumothorax." }
+            ]
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Can Sympathectomy Help Postherpetic Neuralgia?",
+          "paragraphs": [
+            [
+              { "type": "link", "text": "Sympathectomy", "href": "/procedures/sympathectomy" },
+              { "type": "text", "text": ", including radiofrequency treatment of the sympathetic chain, has also been used for shingles-related pain. A specialist may discuss it in carefully selected cases where sympathetic nerve activity is thought to contribute. It targets a different pathway from DRG pulsed radiofrequency, and a temporary sympathetic block is a different procedure from a lasting sympathectomy." }
+            ],
+            "Evidence for sympathectomy in established postherpetic neuralgia is limited. Studies of treatment during acute shingles cannot establish the same benefit after PHN has developed. It is not a routine first-line treatment; discuss the evidence for your stage of illness, alternatives and procedure-specific risks before proceeding."
           ]
         },
         {
@@ -10895,6 +10918,21 @@ const rawBlogs = [
         "title": "Postherpetic neuralgia: symptoms and risk factors",
         "href": "https://www.mayoclinic.org/diseases-conditions/postherpetic-neuralgia/symptoms-causes/syc-20376588",
         "source": "Mayo Clinic"
+      },
+      {
+        "title": "Clinical practice guideline for refractory postherpetic neuralgia",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13061597/",
+        "source": "Korean Pain Society, 2026"
+      },
+      {
+        "title": "DRG pulsed radiofrequency with sympathetic RFA in acute herpetic neuralgia",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/42015656/",
+        "source": "The Clinical Journal of Pain, randomised trial, 2026"
+      },
+      {
+        "title": "Sympathectomy for neuropathic pain: evidence and harms",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6491249/",
+        "source": "Cochrane systematic review"
       }
     ],
     "faqs": [
@@ -10923,6 +10961,18 @@ const rawBlogs = [
         ]
       },
       {
+        "question": "Can dorsal root ganglion pulsed radiofrequency help postherpetic neuralgia?",
+        "answer": [
+          "DRG pulsed radiofrequency may be considered alongside medication when pain persists despite first-line treatment. Guidelines support its use in refractory cases, with low-certainty evidence. It differs from conventional thermal RFA; suitability and risks need specialist assessment."
+        ]
+      },
+      {
+        "question": "Is sympathectomy an option for postherpetic neuralgia?",
+        "answer": [
+          "It has been used for shingles-related pain and may be discussed in carefully selected cases. Evidence in established PHN is limited, and it is not a routine first-line treatment. Studies in acute shingles do not prove the same benefit in established PHN."
+        ]
+      },
+      {
         "question": "Can the shingles vaccine treat my current pain?",
         "answer": [
           "No. Vaccination helps prevent future shingles and related complications. Ask your clinician about suitability and timing after recovery."
@@ -10937,6 +10987,8 @@ const rawBlogs = [
     "authorImage": "/assets/logo.png",
     "publishedAt": "2026-10-06",
     "publishedLabel": "October 6, 2026",
+    "updatedAt": "2026-10-21",
+    "updatedLabel": "October 21, 2026",
     "cardImage": "/assets/blog/postherpetic-neuralgia-rib-nerve-pain-hero.jpg",
     "cardAlt": "Older man holding the right side of his torso with a red pain highlight and illustrative rib and nerve overlay",
     "bannerImage": "/assets/blog/postherpetic-neuralgia-rib-nerve-pain-hero.jpg",
@@ -10948,7 +11000,7 @@ const rawBlogs = [
     "slug": "tennis-elbow-treatment-pain-when-gripping-lifting",
     "title": "Tennis Elbow Treatment: Why Your Elbow Hurts When You Grip or Lift",
     "seoTitle": "Tennis Elbow Treatment and Symptoms | Jain Pain Clinic",
-    "description": "Pain outside your elbow when gripping or lifting? Learn about tennis elbow symptoms, activity changes, exercises, braces and the limits of injections.",
+    "description": "Pain outside your elbow when gripping or lifting? Learn about tennis elbow symptoms, exercises, braces and the evidence for platelet-rich plasma (PRP) injections.",
     "keywords": "tennis elbow treatment, tennis elbow symptoms, pain outside elbow, elbow pain when lifting, tennis elbow exercises, lateral epicondylitis, elbow pain treatment Gurgaon",
     "excerpt": "You do not have to play tennis to develop tennis elbow. Learn why gripping can hurt and what to consider before choosing exercises or an injection.",
     "heroSubtitle": "Lifting a cup, opening a jar or using a mouse can become painful when the tendons outside the elbow are sensitive. A useful plan starts with the cause and your everyday demands.",
@@ -11055,13 +11107,18 @@ const rawBlogs = [
         },
         {
           "type": "section",
-          "heading": "Are Steroid or PRP Injections the Best Treatment?",
+          "heading": "Are Steroid or PRP Injections Suitable Treatments?",
           "paragraphs": [
-            "There is no single best treatment for every patient. Steroid injections can ease symptoms in the short term, but that benefit does not necessarily last. In a randomised trial of chronic tennis elbow, patients receiving corticosteroid injections had more recurrence and worse recovery at one year than those receiving placebo injections. This is a reason to discuss longer-term outcomes before choosing an injection.",
+            "No single treatment suits every patient. Steroid injections can ease symptoms in the short term, but that benefit does not necessarily last. In a randomised trial of chronic tennis elbow, patients receiving corticosteroid injections had more recurrence and worse recovery at one year than those receiving placebo injections. This is a reason to discuss longer-term outcomes before choosing an injection.",
             [
-              { "type": "text", "text": "Platelet-rich plasma, or PRP, is also offered, but a" },
+              { "type": "text", "text": "Platelet-rich plasma (PRP), or platelet therapy, uses a concentrated preparation of platelets from your own blood. It is an option for selected patients with persistent tennis elbow and has clinical evidence supporting benefit in some comparisons. A" },
+              { "type": "link", "text": "2025 meta-analysis comparing PRP with corticosteroid injections", "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11938920/" },
+              { "type": "text", "text": "found longer-term pain and functional outcomes favoured PRP, while early pain relief favoured corticosteroids. The comparison treatment and follow-up period matter when interpreting these results." }
+            ],
+            [
+              { "type": "text", "text": "Evidence is mixed: a" },
               { "type": "link", "text": "Cochrane review of PRP and autologous blood injections", "href": "https://www.cochrane.org/evidence/CD010951_autologous-blood-or-prp-injection-lateral-elbow-pain" },
-              { "type": "text", "text": "found little or no clinically important improvement in pain or function compared with placebo. Describing a treatment as ‘regenerative’ does not establish that it will repair your tendon or improve your symptoms." }
+              { "type": "text", "text": "found little or no clinically important improvement in pain or function compared with placebo. PRP preparation and treatment protocols vary, and evidence of benefit does not guarantee tendon repair or relief for every patient. Discuss how the available evidence applies to your symptoms and rehabilitation plan." }
             ],
             "Ask what benefit is expected, how long it might last, what the risks and costs are, and what the alternatives include. An injection should be a considered decision with a review plan."
           ]
@@ -11122,6 +11179,11 @@ const rawBlogs = [
         "source": "Cochrane, 2021"
       },
       {
+        "title": "PRP versus corticosteroid injections for lateral epicondylitis: meta-analysis",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11938920/",
+        "source": "Clinics in Shoulder and Elbow, 2025"
+      },
+      {
         "title": "Tennis elbow: treatment and surgical review",
         "href": "https://www.mayoclinic.org/diseases-conditions/tennis-elbow/diagnosis-treatment/drc-20351991",
         "source": "Mayo Clinic"
@@ -11158,9 +11220,9 @@ const rawBlogs = [
         ]
       },
       {
-        "question": "Does PRP reliably heal tennis elbow?",
+        "question": "Is there evidence for platelet therapy in tennis elbow?",
         "answer": [
-          "That is not established. A Cochrane review found little or no clinically important improvement in pain or function compared with placebo injections. Ask for evidence relevant to the proposed treatment."
+          "Yes. Studies and a 2025 meta-analysis support longer-term pain and functional improvement with PRP compared with corticosteroid injections. Findings against placebo are less supportive, and protocols differ. PRP may be considered for selected patients, with discussion of benefits, uncertainties, risks and rehabilitation."
         ]
       },
       {
@@ -11178,6 +11240,8 @@ const rawBlogs = [
     "authorImage": "/assets/logo.png",
     "publishedAt": "2026-10-10",
     "publishedLabel": "October 10, 2026",
+    "updatedAt": "2026-10-21",
+    "updatedLabel": "October 21, 2026",
     "cardImage": "/assets/blog/tennis-elbow-tendon-pain-hero.jpg",
     "cardAlt": "Man supporting his painful outer elbow with a red highlight and illustrative tendon and bone overlay",
     "bannerImage": "/assets/blog/tennis-elbow-tendon-pain-hero.jpg",
@@ -11293,9 +11357,14 @@ const rawBlogs = [
         },
         {
           "type": "section",
-          "heading": "When Are Injections or a Ganglion Impar Block Considered?",
+          "heading": "When Are Injections, a Ganglion Impar Block or RFA Considered?",
           "paragraphs": [
             "For persistent pain despite appropriate initial care, a specialist may consider a local anaesthetic and corticosteroid injection around a relevant joint or pain source. A ganglion impar block targets a different pain pathway near the front of the coccyx and may be considered for selected patients.",
+            [
+              { "type": "text", "text": "Ganglion impar radiofrequency ablation (RFA) is another option for selected patients with persistent coccydynia, particularly when a diagnostic block provides temporary relief. It uses radiofrequency energy to alter pain signalling at the ganglion impar. Read more about" },
+              { "type": "link", "text": "ganglion impar block and RFA", "href": "/procedures/ganglion-impar-block-rfa" },
+              { "type": "text", "text": "and discuss whether the target fits your symptoms, the potential benefit and the risks, including bleeding, infection and injury to nearby structures." }
+            ],
             [
               {
                 "type": "text",
@@ -11378,7 +11447,7 @@ const rawBlogs = [
         ]
       },
       {
-        "question": "What is the best cushion for tailbone pain?",
+        "question": "How do I choose a cushion for tailbone pain?",
         "answer": [
           "A pressure-reducing coccyx cushion, such as a wedge with a rear cutout, may help. Fit and comfort matter; check that it reduces pressure during your normal sitting tasks."
         ]
@@ -11396,9 +11465,9 @@ const rawBlogs = [
         ]
       },
       {
-        "question": "Will a ganglion impar block cure my tailbone pain?",
+        "question": "Can a ganglion impar block or RFA help tailbone pain?",
         "answer": [
-          "It may reduce pain in selected patients, but benefit and duration vary. It does not treat every cause, and the evidence has limitations. Discuss the target, alternatives and risks."
+          "A ganglion impar block or radiofrequency ablation (RFA) may reduce persistent coccydynia in selected patients. Temporary relief after a diagnostic block may help guide the decision about RFA. Benefit and duration vary, and neither procedure treats every cause of tailbone pain. Discuss the evidence, alternatives and risks."
         ]
       },
       {
@@ -11416,12 +11485,459 @@ const rawBlogs = [
     "authorImage": "/assets/logo.png",
     "publishedAt": "2026-10-14",
     "publishedLabel": "October 14, 2026",
+    "updatedAt": "2026-10-21",
+    "updatedLabel": "October 21, 2026",
     "cardImage": "/assets/blog/tailbone-coccyx-pain-sitting-hero.jpg",
     "cardAlt": "Woman sitting with tailbone discomfort, with a red pain highlight and illustrative sacrum and coccyx overlay",
     "bannerImage": "/assets/blog/tailbone-coccyx-pain-sitting-hero.jpg",
     "bannerAlt": "Woman sitting with tailbone discomfort, with a red pain highlight and illustrative sacrum and coccyx overlay",
     "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
     "showTableOfContents": true
+  },
+  {
+    "slug": "heel-pain-in-morning-plantar-fasciitis",
+    "bannerFit": "contain",
+    "title": "Heel Pain in the Morning: Is It Plantar Fasciitis?",
+    "canonicalPath": "/blog/heel-pain-in-morning-plantar-fasciitis",
+    "ogImage": "/assets/blog/heel-pain-morning-plantar-fasciitis-hero.jpg",
+    "category": "Heel Pain",
+    "readTime": "6 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-18",
+    "publishedLabel": "October 18, 2026",
+    "cardImage": "/assets/blog/heel-pain-morning-plantar-fasciitis-hero.jpg",
+    "cardAlt": "Man holding a painful heel beside a bed, with an illustrative plantar fascia overlay and red pain highlight",
+    "bannerImage": "/assets/blog/heel-pain-morning-plantar-fasciitis-hero.jpg",
+    "bannerAlt": "Man holding a painful heel beside a bed, with an illustrative plantar fascia overlay and red pain highlight",
+    "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
+    "showTableOfContents": true,
+    "seoTitle": "Heel Pain in the Morning: Causes | Jain Pain Clinic",
+    "description": "Why do your first steps hurt? Learn about morning heel pain, plantar fasciitis, supportive footwear, gentle exercises and when to seek assessment.",
+    "keywords": "heel pain in the morning, first step heel pain, plantar fasciitis, pain under heel, plantar fasciitis treatment, heel pain relief, heel pain Gurgaon",
+    "excerpt": "A sharp heel pain with your first steps can point to plantar fascia irritation. Learn what to try, what to avoid and when another cause needs checking.",
+    "heroSubtitle": "Pain after getting out of bed is a useful clue. The exact location and how symptoms change with movement help guide assessment.",
+    "tags": [
+      "Heel Pain",
+      "Plantar Fasciitis",
+      "Foot Pain",
+      "Pain Management"
+    ],
+    "content": {
+      "intro": "You put your foot down after waking and feel a sharp pain under the heel. A few minutes later it eases, only to return after a long meeting or walk. This first-step pattern often occurs with plantar fasciitis, but morning pain alone cannot confirm the diagnosis. Start by noting where it hurts and whether there was an injury or change in activity.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "Why Do the First Steps in the Morning Hurt?",
+          "paragraphs": [
+            "The plantar fascia is a strong band of tissue running along the sole from the heel towards the toes. It supports the arch as the foot takes weight. When this tissue is sensitive, loading it after a period of rest can be uncomfortable.",
+            "The pain often sits underneath the heel, towards its inner edge, and may extend into the arch. It can settle as you move, then increase again after prolonged standing. This pattern helps a clinician decide what to examine; it does not rule out other conditions."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Can Bring On Plantar Heel Pain?",
+          "paragraphs": [
+            "A sudden increase in running, walking or time spent standing can contribute. Tight calves and changes in footwear may also matter. Sometimes there is no obvious trigger. Think back to the weeks before symptoms began rather than only the day pain became difficult.",
+            "For example, note a new walking routine, a change to a standing job or worn-out work shoes. Bring those details to the appointment. The aim is to identify a manageable change, rather than assume that every painful step has caused new damage."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Is It Plantar Fasciitis, Achilles Pain or a Nerve Problem?",
+          "paragraphs": [
+            "Pain at the back of the heel, near the tendon above it, suggests a different location from pain under the sole. Sudden pain after an injury, particularly with a snap or difficulty walking, needs prompt assessment for a tendon injury or fracture.",
+            [
+              {
+                "type": "text",
+                "text": "Burning, tingling or reduced feeling deserves a separate discussion. Our guide to"
+              },
+              {
+                "type": "link",
+                "text": "heel pain that is not plantar fasciitis",
+                "href": "/blog/heel-pain-not-plantar-fasciitis-nerve-pain"
+              },
+              {
+                "type": "text",
+                "text": "explains why persistent heel symptoms sometimes need a nerve assessment. Do not choose treatment from the symptom name alone."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Can You Change at Home?",
+          "paragraphs": [
+            "Try comfortable shoes with heel cushioning and arch support, including indoors if hard floors aggravate symptoms. Avoid long barefoot walks, unsupported slippers and repeatedly pushing through painful distances. A wrapped cold pack may ease discomfort; protect the skin and stop if it becomes numb or irritated.",
+            "Ask a pharmacist whether pain relief is suitable for your health and other medicines. Medicines may ease symptoms but do not replace adjusting the activities that provoke them."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Break long standing tasks into shorter periods where possible.",
+              "Choose comfortable lower-impact activity while walking is painful.",
+              "Keep a short record of first-step pain and walking tolerance.",
+              "Review footwear fit before buying multiple inserts or devices."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "Which Stretches and Exercises May Help?",
+          "paragraphs": [
+            "Gentle calf and plantar fascia stretches are commonly used. In a seated position, supporting the foot and slowly drawing the toes back can produce a mild stretch along the sole. A supported calf stretch can address tightness in the lower leg. Avoid bouncing or forcing a sharp stretch.",
+            "A physiotherapist can check technique and add progressive foot and ankle strengthening. Ask how much discomfort is acceptable and what to change if the heel is worse afterwards or the next morning. More repetitions are not automatically more helpful.",
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "2023 heel pain clinical practice guideline",
+                "href": "https://www.orthopt.org/content/s/heel-pain-plantar-fasciitis-revision-2023"
+              },
+              {
+                "type": "text",
+                "text": "supports a structured rehabilitation approach. Exercises, taping, inserts and other measures should be selected together to suit the assessment."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Do You Need an X-Ray, MRI or a Heel Spur Removed?",
+          "paragraphs": [
+            "Typical plantar heel pain is often assessed through the history and examination. Imaging may be useful if the pattern is unusual, symptoms persist or another condition is suspected. An MRI is not automatically necessary.",
+            "A heel spur on an X-ray does not by itself explain the pain. Spurs can occur without symptoms, and plantar fascia pain can improve without removing one. Ask what a scan finding means for your symptoms and whether it changes the treatment plan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Are Night Splints, Injections or Shockwave Discussed?",
+          "paragraphs": [
+            "A clinician may suggest a night splint for persistent first-step symptoms. If initial care has not helped, specialist options can include shockwave therapy or an injection after reviewing the diagnosis. Results vary; none is an automatic next step for every painful heel.",
+            "Corticosteroid injections carry risks, including weakening or tearing the plantar fascia. Discuss expected benefit, alternatives and how recovery will be monitored before proceeding. Ask what evidence supports any proposed treatment and how it fits with rehabilitation."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Long Does Morning Heel Pain Take to Settle?",
+          "paragraphs": [
+            "Improvement can be gradual over months. A useful review looks at walking, work and first-step discomfort together. A comfortable afternoon does not necessarily mean the foot is ready for a sudden return to long runs.",
+            "Agree on a practical goal, such as walking to the local shop or standing through a shorter work task. If progress stalls, review the diagnosis, exercise plan and activity changes rather than repeatedly buying another device."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Should You See a Doctor?",
+          "paragraphs": [
+            "Arrange assessment if heel pain is severe, keeps returning, restricts normal activities or has not improved after about two weeks of self-care. Seek earlier advice for tingling, loss of feeling or foot pain with diabetes.",
+            "Get urgent care after an injury if you cannot walk or have sudden severe pain with a snap, marked swelling or bruising. Do not treat this as routine plantar fasciitis.",
+            "For a Jain Pain Clinic consultation in Gurugram, bring a timeline, your usual footwear and previous treatment details. Explain which activities you want to regain and ask for a review plan with clear reasons for each recommendation."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Plantar fasciitis: symptoms and self-care",
+        "href": "https://www.nhs.uk/conditions/plantar-fasciitis/",
+        "source": "NHS"
+      },
+      {
+        "title": "Heel pain: other causes and when to seek help",
+        "href": "https://www.nhs.uk/symptoms/foot-pain/heel-pain/",
+        "source": "NHS"
+      },
+      {
+        "title": "Plantar fasciitis and heel spurs",
+        "href": "https://www.orthoinfo.org/diseases--conditions/plantar-fasciitis-and-bone-spurs/",
+        "source": "American Academy of Orthopaedic Surgeons"
+      },
+      {
+        "title": "Plantar fasciitis: physiotherapy advice",
+        "href": "https://www.cuh.nhs.uk/patient-information/plantar-fasciitis/",
+        "source": "Cambridge University Hospitals"
+      },
+      {
+        "title": "Heel pain clinical practice guideline, 2023",
+        "href": "https://www.orthopt.org/content/s/heel-pain-plantar-fasciitis-revision-2023",
+        "source": "APTA Orthopedics"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why does my heel hurt when I get out of bed?",
+        "answer": [
+          "First-step pain under the heel can occur with plantar fascia irritation. The location, examination and other symptoms help distinguish it from tendon, bone or nerve problems."
+        ]
+      },
+      {
+        "question": "Can I keep walking with plantar fasciitis?",
+        "answer": [
+          "Adjust the distance and pace to your symptoms. Avoid pushing through increasing pain; a clinician can help plan a gradual return to walking and exercise."
+        ]
+      },
+      {
+        "question": "Does a heel spur mean I need surgery?",
+        "answer": [
+          "No. A spur may be present without causing pain. Treatment is guided by the assessment, and removing a spur is not routinely needed for plantar fascia pain."
+        ]
+      },
+      {
+        "question": "Should I stretch before my first steps?",
+        "answer": [
+          "A gentle plantar fascia stretch may help some people. Do not force it, and ask a physiotherapist for advice if stretching causes sharp or persistent pain."
+        ]
+      },
+      {
+        "question": "Will a steroid injection cure heel pain?",
+        "answer": [
+          "Relief varies and an injection does not suit every cause. Discuss alternatives and risks, including plantar fascia weakening or rupture."
+        ]
+      },
+      {
+        "question": "When is morning heel pain worth checking?",
+        "answer": [
+          "Seek assessment if it is severe, recurrent, limiting activity or not improving after two weeks. Seek earlier help for diabetes, altered sensation or symptoms after an injury."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "electric-shock-pain-in-face-trigeminal-neuralgia",
+    "title": "Electric Shock Pain in the Face: Could It Be Trigeminal Neuralgia?",
+    "canonicalPath": "/blog/electric-shock-pain-in-face-trigeminal-neuralgia",
+    "ogImage": "/assets/blog/trigeminal-neuralgia-facial-pain-hero.jpg",
+    "category": "Facial Pain",
+    "readTime": "6 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-21",
+    "publishedLabel": "October 21, 2026",
+    "cardImage": "/assets/blog/trigeminal-neuralgia-facial-pain-hero.jpg",
+    "cardAlt": "Woman with facial discomfort and an illustrative trigeminal nerve overlay highlighting the cheek and jaw",
+    "bannerImage": "/assets/blog/trigeminal-neuralgia-facial-pain-hero.jpg",
+    "bannerAlt": "Woman with facial discomfort and an illustrative trigeminal nerve overlay highlighting the cheek and jaw",
+    "bannerCaption": "AI-generated illustration. The nerve overlay highlights the pain area and is not a diagnostic image.",
+    "showTableOfContents": true,
+    "seoTitle": "Electric Shock Facial Pain: Causes | Jain Pain Clinic",
+    "description": "Sharp, electric shock-like pain in your cheek or jaw? Learn how trigeminal neuralgia differs from toothache, how it is assessed and what treatment can involve.",
+    "keywords": "electric shock pain in face, trigeminal neuralgia, sharp facial pain, nerve pain in jaw, face pain when chewing, trigeminal neuralgia treatment Gurgaon",
+    "excerpt": "Brief shocks in the cheek or jaw can make eating and brushing teeth difficult. Learn when facial pain may involve a nerve and why dental assessment still matters.",
+    "heroSubtitle": "The duration, location and triggers of facial pain help distinguish a nerve-pain pattern from dental and other causes.",
+    "tags": [
+      "Facial Pain",
+      "Trigeminal Neuralgia",
+      "Nerve Pain",
+      "Pain Management"
+    ],
+    "content": {
+      "intro": "A sudden jolt passes through one cheek while you brush your teeth. It stops, then happens again when you chew or wash your face. Brief electric shock-like attacks can occur with trigeminal neuralgia, a condition involving a facial sensory nerve. They can feel as though they come from a tooth, so the next step is a careful assessment rather than assuming either a dental or nerve diagnosis.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Does Trigeminal Neuralgia Feel Like?",
+          "paragraphs": [
+            "The typical pattern is a sudden, sharp burst of pain, usually on one side of the face. Attacks may last seconds to about two minutes and affect the cheek, upper or lower jaw, teeth or gums. Some people also have aching or burning between episodes.",
+            "Symptoms can come in clusters with quieter periods in between. Note the duration of an individual burst as well as how long the overall problem has been present. A constant toothache and repeated short shocks deserve different questions even if they seem to occupy the same area."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Can Light Touch or Chewing Trigger Pain?",
+          "paragraphs": [
+            "The trigeminal nerve carries sensation from the face through branches supplying the forehead, cheek and jaw. In trigeminal neuralgia, ordinary activities can provoke intense pain. Talking, brushing teeth, shaving or a light breeze may be enough; attacks can also happen without an obvious trigger.",
+            "A nearby blood vessel pressing on the nerve is one possible cause. Other conditions can affect the nerve too, which is why assessment is more useful than choosing a diagnosis from an online symptom list."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Could It Still Be a Dental Problem?",
+          "paragraphs": [
+            "Yes. Dental infections, a cracked tooth and other tooth or gum problems can produce facial pain. A dentist can examine the teeth and arrange dental imaging when appropriate. Swelling, fever, pain on biting or a bad taste should be described clearly.",
+            "If dental assessment does not explain recurring shocks, arrange medical review. Bring the dental findings so the next clinician can build on them. Before further irreversible dental treatment, ask what finding supports the proposed treatment and whether the pain pattern needs another assessment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Other Conditions Can Resemble Facial Nerve Pain",
+          "paragraphs": [
+            "Jaw-joint disorders, headache conditions and pain after shingles are among the alternatives a clinician considers. Persistent pain or numbness after a facial injury or dental procedure also needs its own assessment; it should not automatically be labelled trigeminal neuralgia.",
+            [
+              {
+                "type": "text",
+                "text": "Our guide to"
+              },
+              {
+                "type": "link",
+                "text": "pain after shingles",
+                "href": "/blog/pain-after-shingles-postherpetic-neuralgia"
+              },
+              {
+                "type": "text",
+                "text": "explains another nerve-pain pattern. Mention any previous rash, dental work, injury, altered sensation or headache when describing your facial symptoms."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is Trigeminal Neuralgia Diagnosed?",
+          "paragraphs": [
+            "Diagnosis depends heavily on the description of the pain and an examination. There is no single test that confirms every case. A clinician will ask about the affected side, exact location, duration, triggers, intervals between attacks and previous treatment.",
+            "An MRI is often used to investigate potential causes, including nerve compression or another condition affecting the nerve. The report needs to be interpreted alongside the symptoms. Ask what a finding means and how it would change care."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Record which part of the face hurts and whether it is always the same side.",
+              "Estimate how long each attack lasts and how often it happens.",
+              "List triggers without repeatedly provoking pain to test them.",
+              "Bring dental reports, scans and the names of medicines already tried."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "Why Might Ordinary Painkillers Not Help?",
+          "paragraphs": [
+            "Medicines such as paracetamol often do not control trigeminal neuralgia. Doctors commonly prescribe medicines that reduce abnormal nerve signalling, such as carbamazepine or, in some cases, oxcarbazepine. The choice depends on the diagnosis, health conditions, interactions and individual response.",
+            "Treatment usually involves a planned schedule and gradual adjustment. Do not start, stop or change these medicines without medical advice. Ask about monitoring and side effects; seek urgent help for a severe rash with blisters or mouth sores after starting a medicine."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What If Medicines Are Not Enough?",
+          "paragraphs": [
+            "Persistent pain or troublesome side effects may lead to discussion with a neurologist, pain specialist or neurosurgeon. Options include procedures that alter pain signalling and, in selected cases, microvascular decompression to separate a compressing blood vessel from the nerve.",
+            [
+              {
+                "type": "text",
+                "text": "One option discussed for selected patients is"
+              },
+              {
+                "type": "link",
+                "text": "trigeminal ganglion radiofrequency treatment",
+                "href": "/procedures/trigeminal-ganglion-rfa"
+              },
+              {
+                "type": "text",
+                "text": ". It intentionally changes nerve function and carries risks such as facial numbness. Ask about recurrence, altered sensation and eye-related risks, as well as alternatives. No procedure guarantees lasting relief."
+              }
+            ],
+            "The decision should compare expected benefit, risks and recovery for your situation. Ask which symptoms the procedure is intended to improve and how continuing or reducing medicines will be supervised."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Eating, Oral Care and Everyday Tasks",
+          "paragraphs": [
+            "Fear of an attack can make meals and face washing difficult. Tell your care team if you are eating or drinking less, losing weight or struggling with oral hygiene. These effects are reasons to seek help rather than simply avoid more activities.",
+            "A practical review includes function as well as a pain score. For example, record whether you can finish a meal or brush your teeth more comfortably. Agree on whom to contact during a flare and when the treatment plan should be reviewed."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Does Facial Pain Need Urgent Attention?",
+          "paragraphs": [
+            "Arrange assessment for frequent or persistent facial pain, especially when dental causes have not explained it. Seek prompt advice if pain prevents eating or drinking, or if symptoms are changing.",
+            "Sudden facial drooping, arm weakness or trouble speaking needs emergency assessment for a possible stroke, even if symptoms improve. Swelling around the eye or neck, or mouth swelling that makes breathing or swallowing difficult, also needs emergency care. These should not be treated as a routine neuralgia flare.",
+            [
+              {
+                "type": "text",
+                "text": "For"
+              },
+              {
+                "type": "link",
+                "text": "trigeminal neuralgia assessment at Jain Pain Clinic",
+                "href": "/treatments/trigeminal-neuralgia"
+              },
+              {
+                "type": "text",
+                "text": ", bring your symptom timeline and previous findings. A useful plan explains the likely cause, the reason for each treatment and how both benefit and side effects will be reviewed."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Trigeminal neuralgia: overview",
+        "href": "https://www.nhs.uk/conditions/trigeminal-neuralgia/",
+        "source": "NHS"
+      },
+      {
+        "title": "Facial pain patterns and triggers",
+        "href": "https://www.nhs.uk/conditions/trigeminal-neuralgia/symptoms/",
+        "source": "NHS"
+      },
+      {
+        "title": "Diagnosis and MRI assessment",
+        "href": "https://www.nhs.uk/conditions/trigeminal-neuralgia/diagnosis/",
+        "source": "NHS"
+      },
+      {
+        "title": "Medicines and procedures for trigeminal neuralgia",
+        "href": "https://www.nhs.uk/conditions/trigeminal-neuralgia/treatment/",
+        "source": "NHS"
+      },
+      {
+        "title": "Trigeminal neuralgia: anatomy and treatment options",
+        "href": "https://www.aans.org/patients/conditions-treatments/trigeminal-neuralgia/",
+        "source": "American Association of Neurological Surgeons"
+      },
+      {
+        "title": "Toothache: dental assessment and warning signs",
+        "href": "https://www.nhs.uk/symptoms/toothache/",
+        "source": "NHS"
+      },
+      {
+        "title": "Recognising stroke symptoms",
+        "href": "https://www.nhs.uk/conditions/stroke/symptoms/",
+        "source": "NHS"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What causes electric shock-like pain in the face?",
+        "answer": [
+          "Trigeminal neuralgia is one possible cause, particularly for brief one-sided attacks triggered by light touch or chewing. Dental and other facial pain conditions must also be considered."
+        ]
+      },
+      {
+        "question": "Can trigeminal neuralgia feel like toothache?",
+        "answer": [
+          "Yes. It can affect the jaw, teeth or gums. Dental assessment helps identify tooth-related causes; unexplained recurring shocks need medical review."
+        ]
+      },
+      {
+        "question": "Can brushing my teeth trigger facial nerve pain?",
+        "answer": [
+          "Brushing, washing the face, talking or a light breeze can trigger attacks in some people. Avoid repeatedly testing a trigger, and describe the pattern to your clinician."
+        ]
+      },
+      {
+        "question": "Does an MRI confirm trigeminal neuralgia?",
+        "answer": [
+          "MRI can investigate nerve compression and other causes. Diagnosis also relies on the symptom history and examination rather than a scan result alone."
+        ]
+      },
+      {
+        "question": "Will ordinary painkillers treat trigeminal neuralgia?",
+        "answer": [
+          "They often do not control this pain pattern. A clinician may prescribe medicines that act on nerve signalling, with a monitored schedule and review of side effects."
+        ]
+      },
+      {
+        "question": "Does everyone with trigeminal neuralgia need surgery?",
+        "answer": [
+          "No. Medicines are usually tried first. Procedures may be considered if pain remains uncontrolled or medicines are unsuitable, after discussing alternatives and risks."
+        ]
+      }
+    ]
   }
 ];
 

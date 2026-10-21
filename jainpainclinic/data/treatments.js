@@ -945,7 +945,7 @@ const rawTreatments = [
           [
             {
               "type": "text",
-              "text": "Gangrene is a serious condition that requires a coordinated approach. The vascular surgeon will assess whether blood flow can be restored by bypass surgery or angioplasty. Dead tissue may need to be removed surgically. Alongside this, the pain specialist plays a critical role in controlling severe pain, improving microcirculation through sympathetic blocks, and supporting the healing process. Early presentation gives the best chance of avoiding major amputation."
+              "text": "Gangrene is a serious condition that requires a coordinated approach. The vascular surgeon will assess whether blood flow can be restored by bypass surgery or angioplasty. Dead tissue may need to be removed surgically. Alongside this, the pain specialist plays a critical role in controlling severe pain, improving microcirculation through sympathetic blocks, and supporting the healing process. Early presentation can improve the chance of avoiding major amputation."
             }
           ]
         ],
@@ -1856,7 +1856,7 @@ const rawTreatments = [
           [
             {
               "type": "text",
-              "text": "We primarily cover Gurgaon (Gurugram) and the surrounding NCR areas. For patients outside this range, teleconsultation is often an appropriate alternative for initial assessment and ongoing management. Please contact us to discuss we will do our best to accommodate genuine need."
+              "text": "We primarily cover Gurgaon (Gurugram) and the surrounding NCR areas. For patients outside this range, teleconsultation is often an appropriate alternative for initial assessment and ongoing management. Please contact us to discuss your needs and the available options."
             }
           ]
         ],
@@ -6217,7 +6217,7 @@ const rawTreatments = [
           [
             {
               "type": "text",
-              "text": "Good pain control generally improves rehabilitation outcomes, not reduces them. Pain is one of the single biggest barriers to participation in physiotherapy and occupational therapy. Patients who sleep better, have fewer spasms, and can engage more fully in rehab sessions make faster progress. Treating spasticity pain also often reveals underlying motor function that was masked by the spasms. Pain management and rehabilitation are not competing tools. They work best together."
+              "text": "Good pain control generally improves rehabilitation outcomes, not reduces them. Pain is one of the single biggest barriers to participation in physiotherapy and occupational therapy. Patients who sleep better, have fewer spasms, and can engage more fully in rehab sessions make faster progress. Treating spasticity pain also often reveals underlying motor function that was masked by the spasms. Pain management and rehabilitation are not competing tools. They work together."
             }
           ]
         ],
@@ -6894,7 +6894,7 @@ const rawTreatments = [
             [
               {
                 "type": "text",
-                "text": "Classic trigeminal neuralgia (Type 1) is purely episodic. There is no background pain between attacks, and episodes are sharply triggered by light stimulation. This type responds best to interventional treatment."
+                "text": "Classic trigeminal neuralgia (Type 1) is purely episodic. There is no background pain between attacks, and episodes are sharply triggered by light stimulation. This type can respond to interventional treatment."
               }
             ],
             [

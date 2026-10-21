@@ -58,7 +58,7 @@ function getResult(score, t) {
     return {
       title: t("Unlikely Match"),
       message:
-        t("Based on your responses, this treatment may not be the best fit right now. If symptoms change or worsen, feel free to revisit or consult our specialists."),
+        t("Based on your responses, this treatment may not be a suitable fit right now. If symptoms change or worsen, feel free to revisit or consult our specialists."),
     };
   }
 

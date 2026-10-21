@@ -56,7 +56,7 @@ export const UI_STRINGS = [
   "Good Candidate",
   "You may benefit from this treatment. We recommend scheduling a consultation to review your specific case with our specialists.",
   "Unlikely Match",
-  "Based on your responses, this treatment may not be the best fit right now. If symptoms change or worsen, feel free to revisit or consult our specialists.",
+  "Based on your responses, this treatment may not be a suitable fit right now. If symptoms change or worsen, feel free to revisit or consult our specialists.",
   "Treatment Not Indicated",
   "Your responses suggest you may not need this treatment at this time. If you develop new symptoms in the future, do not hesitate to check again.",
   "Try Again",

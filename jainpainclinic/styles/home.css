@@ -711,10 +711,6 @@ button {
   line-height: 1.5;
 }
 
-.testimonials-section {
-  padding: 48px 0 90px;
-}
-
 .carousel {
   display: grid;
   grid-template-columns: 40px 1fr 40px;
@@ -744,7 +740,6 @@ button {
   color: #ffffff;
 }
 
-.testimonial-track,
 .video-track {
   display: grid;
   grid-auto-flow: column;
@@ -753,75 +748,8 @@ button {
   scrollbar-width: none;
 }
 
-.testimonial-track::-webkit-scrollbar,
 .video-track::-webkit-scrollbar {
   display: none;
-}
-
-.testimonial-track {
-  grid-auto-columns: 340px;
-  gap: 24px;
-}
-
-.testimonial-card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid rgba(3, 33, 38, 0.09);
-  border-radius: 24px;
-  background: #f8f9f9;
-  overflow: hidden;
-}
-
-.testimonial-video {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  background: #000;
-}
-
-.testimonial-video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.testimonial-body {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
-}
-
-.testimonial-body strong,
-.testimonial-body p,
-.testimonial-rating {
-  margin: 0;
-}
-
-.testimonial-body strong {
-  color: var(--ink);
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 1.4;
-}
-
-.testimonial-body p {
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.testimonial-rating {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: #e2a23c;
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .appointment-section {
@@ -1494,7 +1422,6 @@ button {
   .team-section,
   .treat-section,
   .beliefs-section,
-  .testimonial-section,
   .appointment-section,
   .video-section {
     content-visibility: auto;
@@ -1795,11 +1722,7 @@ button {
     letter-spacing: -0.84px;
   }
 
-  /* ── Testimonials mobile ── */
-  .testimonials-section {
-    padding: 40px 0 60px;
-  }
-
+  /* ── Carousel mobile ── */
   .carousel {
     grid-template-columns: 1fr;
     gap: 16px;
@@ -1807,16 +1730,6 @@ button {
 
   .carousel-button {
     display: none;
-  }
-
-  .testimonial-track {
-    grid-auto-columns: 312px;
-    gap: 16px;
-    padding: 0 4px;
-  }
-
-  .testimonial-card {
-    border-radius: 36px;
   }
 
   /* ── Appointment mobile ── */
