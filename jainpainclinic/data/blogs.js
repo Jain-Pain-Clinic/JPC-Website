@@ -11622,6 +11622,15 @@ const rawBlogs = [
         },
         {
           "type": "section",
+          "heading": "Ultrasound-Guided Regenerative Treatment at Jain Pain Clinic",
+          "paragraphs": [
+            "For suitable patients with persistent plantar fascia degeneration, Dr Ashu Kumar Jain favours ultrasound-guided platelet-rich plasma (PRP) injection as a regenerative treatment option. This is routinely offered at Jain Pain Clinic after assessment of the diagnosis and previous treatment.",
+            "PRP is prepared from a sample of your own blood. Ultrasound guidance, also called USG guidance, helps the clinician visualise the plantar fascia and guide the needle to the intended site. The aim is to support tissue repair and improve pain and function; the response and recovery time vary.",
+            "This is the clinic's preferred regenerative approach for selected cases, rather than a first-line requirement for every painful heel. Published trials report benefit in some patients, but PRP preparations and treatment protocols differ. Discuss suitability, risks, cost and the rehabilitation plan; an injection does not guarantee that damaged tissue will regenerate."
+          ]
+        },
+        {
+          "type": "section",
           "heading": "How Long Does Morning Heel Pain Take to Settle?",
           "paragraphs": [
             "Improvement can be gradual over months. A useful review looks at walking, work and first-step discomfort together. A comfortable afternoon does not necessarily mean the foot is ready for a sudden return to long runs.",
@@ -11664,6 +11673,16 @@ const rawBlogs = [
         "title": "Heel pain clinical practice guideline, 2023",
         "href": "https://www.orthopt.org/content/s/heel-pain-plantar-fasciitis-revision-2023",
         "source": "APTA Orthopedics"
+      },
+      {
+        "title": "Ultrasound-guided PRP injection for plantar fasciitis: randomised trial",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/37949704/",
+        "source": "Foot and Ankle Surgery, 2024"
+      },
+      {
+        "title": "Plantar fasciitis consensus: where PRP fits in treatment",
+        "href": "https://annals.edu.sg/consensus-statements-and-guideline-for-the-diagnosis-and-management-of-plantar-fasciitis-in-singapore/",
+        "source": "Annals, Academy of Medicine, Singapore"
       }
     ],
     "faqs": [
@@ -11702,9 +11721,16 @@ const rawBlogs = [
         "answer": [
           "Seek assessment if it is severe, recurrent, limiting activity or not improving after two weeks. Seek earlier help for diabetes, altered sensation or symptoms after an injury."
         ]
+      },
+      {
+        "question": "Does Jain Pain Clinic offer ultrasound-guided regenerative injections for plantar fasciitis?",
+        "answer": [
+          "Yes. Ultrasound-guided PRP injection is routinely offered for suitable patients and is Dr Ashu Kumar Jain's preferred regenerative option for selected persistent cases. Assessment, previous care and a rehabilitation plan guide whether it is appropriate for you."
+        ]
       }
     ]
   },
+
   {
     "slug": "electric-shock-pain-in-face-trigeminal-neuralgia",
     "title": "Electric Shock Pain in the Face: Could It Be Trigeminal Neuralgia?",
@@ -11741,7 +11767,8 @@ const rawBlogs = [
           "heading": "What Does Trigeminal Neuralgia Feel Like?",
           "paragraphs": [
             "The typical pattern is a sudden, sharp burst of pain, usually on one side of the face. Attacks may last seconds to about two minutes and affect the cheek, upper or lower jaw, teeth or gums. Some people also have aching or burning between episodes.",
-            "Symptoms can come in clusters with quieter periods in between. Note the duration of an individual burst as well as how long the overall problem has been present. A constant toothache and repeated short shocks deserve different questions even if they seem to occupy the same area."
+            "Symptoms can come in clusters with quieter periods in between. Note the duration of an individual burst as well as how long the overall problem has been present. A constant toothache and repeated short shocks deserve different questions even if they seem to occupy the same area.",
+            "Attacks can be so severe that eating, drinking or speaking becomes difficult or temporarily impossible. Trigeminal neuralgia has historically been nicknamed the “suicide disease” because of the extreme distress it can cause. Effective treatments are available; pain that prevents normal eating or speaking deserves prompt specialist help."
           ]
         },
         {
@@ -11815,7 +11842,7 @@ const rawBlogs = [
             [
               {
                 "type": "text",
-                "text": "One option discussed for selected patients is"
+                "text": "An established option for suitable patients is"
               },
               {
                 "type": "link",
@@ -11824,10 +11851,19 @@ const rawBlogs = [
               },
               {
                 "type": "text",
-                "text": ". It intentionally changes nerve function and carries risks such as facial numbness. Ask about recurrence, altered sensation and eye-related risks, as well as alternatives. No procedure guarantees lasting relief."
+                "text": ". It can provide rapid, substantial pain relief by using controlled heat to interrupt selected pain signals. Suitability depends on the pain pattern, health and previous treatment."
               }
             ],
             "The decision should compare expected benefit, risks and recovery for your situation. Ask which symptoms the procedure is intended to improve and how continuing or reducing medicines will be supervised."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "RFA: Day-Care Treatment and Long-Term Pain Relief",
+          "paragraphs": [
+            "Trigeminal ganglion radiofrequency ablation (RFA) is usually performed as a day-care procedure. After image-guided treatment and recovery monitoring, suitable patients can return home the same day. The treating team confirms discharge arrangements and aftercare; some patients may need longer observation.",
+            "RFA can achieve excellent initial pain relief in carefully selected patients. Long-term studies document relief at five years and, in some patients, ten years or longer. The duration varies between patients; pain can recur and further treatment may be needed.",
+            "Discuss expected benefit alongside facial numbness, altered sensation and eye-related risks. Agree how medicines will be reviewed and whom to contact if symptoms return. A good initial response does not remove the need for follow-up."
           ]
         },
         {
@@ -11898,6 +11934,11 @@ const rawBlogs = [
         "title": "Recognising stroke symptoms",
         "href": "https://www.nhs.uk/conditions/stroke/symptoms/",
         "source": "NHS"
+      },
+      {
+        "title": "Long-term results of radiofrequency trigeminal rhizotomy in 1,600 patients",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/11270542/",
+        "source": "Neurosurgery, 2001"
       }
     ],
     "faqs": [
@@ -11936,8 +11977,574 @@ const rawBlogs = [
         "answer": [
           "No. Medicines are usually tried first. Procedures may be considered if pain remains uncontrolled or medicines are unsuitable, after discussing alternatives and risks."
         ]
+      },
+      {
+        "question": "Is trigeminal RFA a day-care procedure?",
+        "answer": [
+          "Usually, yes. Suitable patients can return home after recovery and observation on the same day. Your treating team will confirm the plan and whether longer observation is needed."
+        ]
+      },
+      {
+        "question": "Can RFA relieve trigeminal neuralgia for five to ten years?",
+        "answer": [
+          "Some patients have relief lasting five years, ten years or longer, but this duration is not guaranteed. Published outcomes vary, and recurrence or repeat treatment may occur."
+        ]
       }
     ]
+  },
+
+  {
+    "slug": "outer-hip-pain-lying-on-side-gluteal-tendinopathy",
+    "title": "Outer Hip Pain When Lying on Your Side: Bursitis or Gluteal Tendinopathy?",
+    "seoTitle": "Outer Hip Pain When Lying on Your Side | Jain Pain Clinic",
+    "description": "Learn why the outside of your hip hurts at night, how gluteal tendinopathy differs from bursitis and arthritis, and what research says about exercise and injections.",
+    "keywords": "outer hip pain, hip pain when lying on side, greater trochanteric pain syndrome, gluteal tendinopathy, hip bursitis treatment, lateral hip pain, hip pain treatment Gurgaon",
+    "excerpt": "Side-sleeping, stairs and standing on one leg can aggravate outer hip pain. Learn which tissues may be involved and how rehabilitation compares with injections.",
+    "heroSubtitle": "The painful spot outside the hip is often a tendon problem rather than a worn-out joint. Understanding the difference helps you choose useful changes and judge treatment claims.",
+    "tags": [
+      "Hip Pain",
+      "Gluteal Tendinopathy",
+      "GTPS",
+      "Hip Bursitis"
+    ],
+    "content": {
+      "intro": "You turn onto your side in bed and a familiar ache returns over the outside of the hip. Stairs have become uncomfortable, and standing with your weight on that leg makes it worse. This pattern can occur with greater trochanteric pain syndrome, or GTPS. It is often called hip bursitis, but the gluteal tendons may be an important part of the problem. The right next step is to identify the source, reduce aggravating pressure and rebuild useful strength—not simply choose a stronger painkiller.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is Greater Trochanteric Pain Syndrome?",
+          "paragraphs": [
+            "The greater trochanter is the bony prominence on the outer upper part of the thigh bone. Tendons from the gluteus medius and minimus muscles attach around it and help control the pelvis when you walk or stand on one leg. Small fluid-filled sacs called bursae help nearby tissues glide.",
+            "GTPS is an umbrella term for pain arising around these outer-hip tissues. Gluteal tendinopathy describes a problem involving the tendons. Trochanteric bursitis refers to the bursa. They may coexist, so describing every case as inflammation in a small sac can miss an important contributor.",
+            "A tender spot on the side does not establish the diagnosis by itself. A clinician checks whether the location, movements and other findings fit together before recommending treatment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Does Lying on Your Side Make It Worse?",
+          "paragraphs": [
+            "Lying directly on a sensitive hip applies pressure to the tissues over the greater trochanter. Positions that allow the upper leg to fall across the body can also increase compression around the outer hip. This helps explain why some people hurt even when lying on the opposite side.",
+            "Compare positions rather than repeatedly pressing the tender area. Does lying on your back help? Does supporting the upper leg reduce discomfort? Record whether pain wakes you only after rolling onto the hip or remains severe regardless of position. That distinction is useful at assessment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Common Symptoms and Changes in Activity",
+          "paragraphs": [
+            "Pain is usually concentrated on the outer hip and can extend along the outer thigh or towards the buttock. It may be aggravated by walking, hills, stairs, standing on one leg or getting out of a low chair. Direct tenderness is common. Symptoms can develop gradually without a fall.",
+            "A recent change in demand can matter: longer walking distances, a hilly holiday, more running or returning to activity after time off. Tell your clinician what changed in the weeks before symptoms began. The aim is to understand the current load, not assume that every painful step is causing fresh damage."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Note which side is painful and point to the main location.",
+              "Describe what happens during stairs, walking and sleep.",
+              "Mention a fall, new limp, sudden weakness or difficulty bearing weight.",
+              "Bring previous hip and spine reports, but explain the current symptoms in your own words."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "How Is It Different From Hip Arthritis or Sciatica?",
+          "paragraphs": [
+            "Pain deep in the groin, restricted hip movement and difficulty with shoes or socks can suggest a problem within the joint, including arthritis. Pain travelling from the back into the leg with tingling or numbness raises a different question about nerves. These patterns are clues, and more than one condition can be present.",
+            [
+              {
+                "type": "text",
+                "text": "Our guide to"
+              },
+              {
+                "type": "link",
+                "text": "recurring groin pain",
+                "href": "/blog/groin-pain-keeps-coming-back-muscle-pull-or-nerve-pain"
+              },
+              {
+                "type": "text",
+                "text": "discusses a different location. If your main symptom is leg tingling, say so rather than assuming it belongs to the outer-hip diagnosis."
+              }
+            ],
+            "An examination may check hip motion, walking, local tenderness, strength and the lower back. Avoid repeatedly trying painful one-leg tests at home to prove which condition you have. A finding is useful only in the context of the full assessment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Do You Need an Ultrasound or MRI?",
+          "paragraphs": [
+            "Many cases are assessed clinically. Imaging becomes more useful when symptoms are atypical, a significant tendon tear or another diagnosis is suspected, or appropriate treatment has not helped. An X-ray addresses different questions from ultrasound or MRI.",
+            "Ask what a proposed scan will change: will it check the joint, investigate an injury or guide a specific treatment? Tendon and bursal changes on imaging must be interpreted alongside the examination. A scan label alone does not tell you how much you can walk or whether an injection will help.",
+            "If pain follows a fall and weight-bearing is difficult, the priority is prompt assessment for injury rather than arranging a routine rehabilitation scan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Sleeping, Sitting and Standing With Less Pressure",
+          "paragraphs": [
+            "If comfortable, sleep on your back with support under the knees. When lying on the less painful side, a pillow between the legs can keep the upper leg from dropping across the body. Choose enough support for comfortable alignment rather than forcing a particular position.",
+            "Avoid prolonged crossed-leg sitting and repeatedly hanging your body weight over one hip. A slightly higher, supportive chair may be more comfortable than a low seat. Change positions during the day; there is no need to hold a rigid posture.",
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "Cambridge University Hospitals gluteal tendinopathy guide",
+                "href": "https://www.cuh.nhs.uk/patient-information/gluteal-tendinopathy/"
+              },
+              {
+                "type": "text",
+                "text": "explains ways to reduce tendon compression. Try one practical change at a time so you can judge its effect on sleep or a daily task. Buying a new mattress is not automatically the first solution."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Walking and Exercise: Build Capacity Without Repeated Flares",
+          "paragraphs": [
+            "An individual programme usually combines advice about load with progressive hip-muscle strengthening. This means matching what you do to current tolerance, then building capacity. It does not mean stopping all movement indefinitely or pushing through a worsening limp.",
+            "For example, if one long walk consistently causes a bad night, shorter, flatter walks may be a workable starting point. Consider the combined demand from walks, stairs, standing and exercises. Adding strengthening on top of an already excessive day may need adjustment.",
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "NHS inform exercise guide for GTPS",
+                "href": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/leg-and-foot-problems-and-conditions/exercises-for-greater-trochanteric-pain-syndrome/"
+              },
+              {
+                "type": "text",
+                "text": "includes bridging, supported side-lying leg lifts and step work for diagnosed cases. Your physiotherapist can choose suitable movements and loading. Symptoms should not be worse overall or worse the following morning."
+              }
+            ],
+            "If an exercise increases pain, reduce its load, range or amount and discuss the response. Do not assume that aggressive stretching across the body or repeatedly rolling directly over the painful outer hip will improve a tendon problem."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Does Research Say About Exercise Versus Steroid Injection?",
+          "paragraphs": [
+            [
+              {
+                "type": "text",
+                "text": "A"
+              },
+              {
+                "type": "link",
+                "text": "2018 randomised trial of gluteal tendinopathy",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/29720374/"
+              },
+              {
+                "type": "text",
+                "text": "compared education plus exercise, one corticosteroid injection and a wait-and-see approach in 204 adults. The exercise group received a structured eight-week programme rather than a generic exercise handout."
+              }
+            ],
+            "At eight weeks, education plus exercise produced better patient-reported improvement and pain outcomes than injection. At 52 weeks, more people in the education-and-exercise group reported overall improvement than in the injection group, but pain intensity was not significantly different between those two groups.",
+            "This distinction matters: the trial supports a structured rehabilitation approach, but it does not prove that every exercise programme works or that every injection is inappropriate. Participants had clinically and MRI-confirmed gluteal tendinopathy; the findings should not be applied to every cause of hip pain."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Might Medicines, Injections or Other Procedures Be Considered?",
+          "paragraphs": [
+            "Suitable pain relief may help you sleep or participate in rehabilitation. Check the choice with a pharmacist or clinician, particularly with stomach ulcers, kidney disease, pregnancy or blood-thinning medicines. Symptom relief does not replace identifying the source and adjusting demand.",
+            "A corticosteroid injection may offer short-term relief for selected patients. Ask where the medicine would be placed, what risks apply, whether guidance is needed and what happens after the temporary benefit fades. Repeating an injection simply because the pain returns needs a fresh discussion.",
+            "For persistent symptoms, a specialist may discuss other options or reassess for a tear or a different source. Ask what evidence supports the proposed procedure compared with a well-supported rehabilitation programme. A claim of permanent tendon regeneration deserves scrutiny.",
+            "Surgery is uncommon and requires a specific indication. A tendon tear on a scan does not automatically make surgery necessary; symptoms, function and response to treatment also matter."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Long Does Recovery Take, and How Should You Track It?",
+          "paragraphs": [
+            "Outer-hip tendon symptoms can take months to settle, and progress is not always a straight line. A flare after an unusually busy day does not by itself prove that rehabilitation has failed. Increasing disability or a new pattern of pain, however, should prompt reassessment.",
+            "Choose two useful measures: nights disturbed by hip pain and the walking or stair task you can manage. Review the trend at an agreed interval. If progress has stalled, discuss exercise technique, total activity, sleep position, adherence barriers and whether the original diagnosis still fits."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Should You Seek Prompt Medical Assessment?",
+          "paragraphs": [
+            "Arrange a review if hip pain disrupts sleep or normal activity, worsens or keeps recurring. Seek urgent care for severe sudden pain, a hot or swollen hip with fever, or severe symptoms after a fall. Inability to walk or bear weight needs urgent assessment rather than treatment as routine bursitis.",
+            "If a new symptom is clearly different from your usual outer-hip pain, explain it separately. At a Jain Pain Clinic consultation, bring the timeline and previous treatment, and identify the activity you most want to regain. A useful plan should give each treatment a purpose and include a review point."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Greater trochanteric pain syndrome: symptoms and self-management",
+        "href": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/leg-and-foot-problems-and-conditions/greater-trochanteric-pain-syndrome/",
+        "source": "NHS inform"
+      },
+      {
+        "title": "Gluteal tendinopathy: tendon compression and positioning",
+        "href": "https://www.cuh.nhs.uk/patient-information/gluteal-tendinopathy/",
+        "source": "Cambridge University Hospitals"
+      },
+      {
+        "title": "Exercises for greater trochanteric pain syndrome",
+        "href": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/leg-and-foot-problems-and-conditions/exercises-for-greater-trochanteric-pain-syndrome/",
+        "source": "NHS inform"
+      },
+      {
+        "title": "Education plus exercise versus corticosteroid injection: randomised trial",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/29720374/",
+        "source": "BMJ, 2018"
+      },
+      {
+        "title": "Hip bursitis: assessment and treatment options",
+        "href": "https://www.orthoinfo.org/diseases--conditions/hip-bursitis/",
+        "source": "AAOS OrthoInfo"
+      },
+      {
+        "title": "A patient guide to gluteal tendinopathy",
+        "href": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/patients-guide-gluteal-tendinopathy",
+        "source": "Royal National Orthopaedic Hospital"
+      },
+      {
+        "title": "Hip pain: when to get urgent help",
+        "href": "https://www.nhs.uk/symptoms/hip-pain/",
+        "source": "NHS"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why does my hip hurt when I lie on my side?",
+        "answer": [
+          "Direct pressure can aggravate the tendons and bursa around the outer hip. GTPS is one possibility, but an examination is needed to distinguish it from joint, nerve or injury-related pain."
+        ]
+      },
+      {
+        "question": "Is gluteal tendinopathy the same as hip bursitis?",
+        "answer": [
+          "They describe different tissues. Tendinopathy involves the tendon, while bursitis involves a nearby fluid-filled sac. They can coexist within greater trochanteric pain syndrome."
+        ]
+      },
+      {
+        "question": "Should I stop walking if I have outer hip pain?",
+        "answer": [
+          "Adjust the distance, pace or terrain to what you can tolerate and seek advice if you limp or worsen. Sudden severe pain or inability to bear weight needs urgent assessment."
+        ]
+      },
+      {
+        "question": "Can a pillow help hip pain at night?",
+        "answer": [
+          "Some people find that lying on the less painful side with a pillow between the legs reduces compression. Lying on the back with knee support is another option when comfortable."
+        ]
+      },
+      {
+        "question": "Is a steroid injection better than exercise?",
+        "answer": [
+          "It depends on the diagnosis and goal. In a trial of gluteal tendinopathy, a structured education-and-exercise programme had better overall improvement than a single injection at one year, although pain intensity was similar."
+        ]
+      },
+      {
+        "question": "Do I need surgery if a scan shows a tendon tear?",
+        "answer": [
+          "Not automatically. A specialist considers the examination, degree of weakness, function and response to suitable rehabilitation alongside imaging."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/outer-hip-pain-lying-on-side-gluteal-tendinopathy",
+    "ogImage": "/assets/blog/outer-hip-pain-gluteal-tendon-hero.jpg",
+    "category": "Hip Pain",
+    "readTime": "9 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-25",
+    "publishedLabel": "October 25, 2026",
+    "cardImage": "/assets/blog/outer-hip-pain-gluteal-tendon-hero.jpg",
+    "cardAlt": "Man holding the outside of his hip with a red pain highlight and illustrative gluteal tendon overlay",
+    "bannerImage": "/assets/blog/outer-hip-pain-gluteal-tendon-hero.jpg",
+    "bannerAlt": "Man holding the outside of his hip with a red pain highlight and illustrative gluteal tendon overlay",
+    "bannerCaption": "AI-generated illustration. The anatomical overlay highlights the pain area and is not a diagnostic image.",
+    "showTableOfContents": true
+  },
+  {
+    "slug": "fibromyalgia-symptoms-diagnosis-treatment",
+    "title": "Fibromyalgia: Widespread Pain, Fatigue and What Treatment Can Help",
+    "seoTitle": "Fibromyalgia Symptoms, Diagnosis and Treatment | Jain Pain Clinic",
+    "description": "Understand fibromyalgia symptoms, normal test results, fatigue and treatment options. Learn how exercise, sleep care, psychological support and medicines fit together.",
+    "keywords": "fibromyalgia symptoms, fibromyalgia treatment, widespread body pain, body pain and fatigue, fibromyalgia diagnosis, fibro fog, fibromyalgia specialist Gurgaon",
+    "excerpt": "Pain in several areas, unrefreshing sleep and fatigue can occur together in fibromyalgia. Learn how it is assessed and how a realistic treatment plan is built.",
+    "heroSubtitle": "Normal scans do not make persistent widespread pain imaginary. Fibromyalgia needs a clinical assessment and a plan for pain, sleep, fatigue and everyday function.",
+    "tags": [
+      "Fibromyalgia",
+      "Widespread Pain",
+      "Fatigue",
+      "Chronic Pain"
+    ],
+    "content": {
+      "intro": "Your shoulders ache, your legs feel sore and even after a full night in bed you wake exhausted. Concentration slips, plans become unpredictable and repeated tests have not provided a simple explanation. Fibromyalgia is one possible cause of this combination. It is a recognised long-term pain condition, but the symptoms also overlap with other illnesses. A useful assessment explains both what supports the diagnosis and whether anything else needs treatment.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is Fibromyalgia?",
+          "paragraphs": [
+            "Fibromyalgia causes widespread pain and often occurs with fatigue, disturbed or unrefreshing sleep and difficulties with concentration. Research points to changes in how the nervous system processes pain and other sensory signals. The condition is not itself an inflammatory arthritis or autoimmune disease.",
+            "Pain can be substantial even when a scan does not show damaged joints or a blood test does not show inflammation. That does not mean it is invented. Equally, pain in several places does not automatically establish fibromyalgia: the symptom pattern, history and examination still matter.",
+            "The cause is not fully understood, and there is no single explanation that fits everyone. Avoid promises that one supplement, scan, injection or emotional breakthrough will identify and remove the cause for every patient."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Symptoms Beyond Pain: Fatigue, Sleep and Brain Fog",
+          "paragraphs": [
+            "Pain may be described as aching, burning or unusually strong sensitivity to pressure. People can also experience stiffness, headaches, digestive symptoms and fluctuations in symptom severity. The combination differs between individuals.",
+            "Fibro fog describes problems with attention, memory or clear thinking. Fatigue can affect both physical and mental tasks. These symptoms deserve discussion alongside pain rather than being treated as minor side effects of it.",
+            "Before an appointment, write down a typical day. When do you feel least and most limited? Does sleep feel refreshing? What task becomes difficult first? A short description helps the clinician see the whole pattern instead of focusing only on the body part that hurts most that morning."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is Fibromyalgia Diagnosed If There Is No Single Test?",
+          "paragraphs": [
+            "Diagnosis is clinical. A clinician reviews the distribution and duration of pain, associated symptoms, daily function and findings on examination. There is no routine blood test or scan that independently confirms fibromyalgia.",
+            "Tests may still be appropriate when the history suggests other causes of pain or fatigue, such as thyroid disease, anaemia or an inflammatory condition. The selection should follow the assessment rather than a blanket panel of expensive investigations.",
+            "A normal result answers a particular question; it does not automatically prove fibromyalgia or invalidate your symptoms. Ask what conditions were considered, what findings support the diagnosis and what changes would require another look."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Fibromyalgia Can Coexist With Another Illness",
+          "paragraphs": [
+            "A person can have fibromyalgia and another condition at the same time, including arthritis. Persistent fatigue can also be affected by sleep disorders, medicines or other illnesses. It is important to identify treatable contributors rather than attach every symptom to one label.",
+            "New swollen joints, fever, unexplained weight loss, focal weakness or a distinctly new pain should be assessed on their own merits. A previous fibromyalgia diagnosis should not prevent a clinician from investigating a new problem.",
+            "If you already see several clinicians, bring a clear medicine list and recent reports. Ask who will coordinate the plan so treatment for sleep, mood, a separate joint problem and widespread pain does not become a set of conflicting instructions."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Are Realistic Treatment Goals?",
+          "paragraphs": [
+            "There is currently no single cure. Treatment aims to reduce the impact of symptoms and improve quality of life. A combination of education, manageable activity, sleep care, psychological support and selected medicines may be useful.",
+            "Start with the problem that most limits your day. For one person this is repeated night-time waking; for another it is the inability to sustain a short walk or complete a work shift. Choose a goal that is meaningful and small enough to review.",
+            "Progress may show up as greater consistency or fewer days lost to a flare before a large change in pain intensity. Review both benefit and burden: a treatment that modestly reduces pain but leaves you too sleepy to function may need adjustment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Exercise Helps, but the Starting Point Matters",
+          "paragraphs": [
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "EULAR recommendations for fibromyalgia",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/27377815/"
+              },
+              {
+                "type": "text",
+                "text": "gave exercise their strongest treatment recommendation. This supports helping people find sustainable movement, not prescribing the same demanding routine to everyone."
+              }
+            ],
+            "Low-impact walking, water-based activity, cycling, adapted strengthening, yoga or tai chi may be options depending on your health, preferences and access. Start from an amount you can repeat rather than the amount you could do before symptoms began.",
+            "A physiotherapist can help adjust the activity, duration and recovery time. If a session leaves you markedly worse, review the dose instead of assuming you must either push through or abandon movement completely. Unusual, prolonged worsening after small amounts of exertion should be discussed so the programme and diagnosis can be reconsidered.",
+            "A Cochrane review found that aerobic exercise can improve some outcomes, including quality of life and physical function, but the size and durability of benefit vary. Exercise is part of care; it does not make ongoing symptoms your fault."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Pacing and Work: Avoid the All-or-Nothing Pattern",
+          "paragraphs": [
+            "On a better day, it is tempting to catch up on every postponed task. If that repeatedly leads to a difficult following day, spreading work into smaller amounts may be more sustainable. Pacing means planning activity and breaks around current capacity while keeping useful goals.",
+            "Try separating heavy household tasks rather than completing them all on one morning. At work, discuss short breaks, changes of task or a gradual return where relevant. Choose adjustments that are practical for your role.",
+            "Track the pattern briefly rather than monitoring symptoms all day. A weekly note about activity, sleep and the main task you want to improve can help identify what is manageable. A plan should be adjusted as capacity changes, not become a permanent restriction without review."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Treat Sleep as a Separate Part of the Plan",
+          "paragraphs": [
+            "Keep regular sleep and waking times where possible and create a wind-down routine. Review caffeine, late work and factors that repeatedly interrupt sleep. If snoring, breathing pauses or severe daytime sleepiness are present, tell your clinician; a separate sleep disorder may need assessment.",
+            [
+              {
+                "type": "text",
+                "text": "Our guide to"
+              },
+              {
+                "type": "link",
+                "text": "chronic pain and sleep",
+                "href": "/blog/chronic-pain-and-sleep"
+              },
+              {
+                "type": "text",
+                "text": "explains how pain and poor sleep can reinforce one another. Practical sleep support should be discussed even when the main reason for the visit is body pain."
+              }
+            ],
+            "If a prescribed medicine helps sleep but causes troublesome daytime drowsiness, report both effects. More hours in bed are not the only measure of benefit; feeling safer and more functional during the day also matters."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Are CBT or ACT Offered for a Pain Condition?",
+          "paragraphs": [
+            "Cognitive behavioural therapy, or CBT, and acceptance and commitment therapy, or ACT, can help people respond to pain, manage distress and reconnect with valued activities. They are approaches to coping and function; they do not imply that pain is imaginary.",
+            "Explain what you would want help with: fear of a flare, difficulty planning around symptoms, low mood or an exhausting struggle to complete everyday tasks. Treatment should have a clear purpose that you understand.",
+            "These therapies can be offered alongside physical care and medicines. They should not be used as a reason to dismiss new symptoms or to withhold assessment for another illness."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Medicines: Why Guidelines Differ and Review Is Essential",
+          "paragraphs": [
+            "Selected medicines may help pain or sleep, but response and tolerability vary. Antidepressants such as amitriptyline or duloxetine may be considered for pain even without depression. Some international fibromyalgia guidance also includes medicines such as pregabalin.",
+            [
+              {
+                "type": "text",
+                "text": "Recommendations differ. For example,"
+              },
+              {
+                "type": "link",
+                "text": "NICE guidance for chronic primary pain",
+                "href": "https://www.nice.org.uk/guidance/ng193/chapter/recommendations"
+              },
+              {
+                "type": "text",
+                "text": "advises against starting gabapentinoids, opioids, anti-inflammatory medicines and several other drugs for that indication. Guidance from other settings may weigh the evidence differently. This makes an individual discussion of the diagnosis, benefits, risks and local prescribing guidance essential."
+              }
+            ],
+            "Ask which symptom the medicine is targeting, how long a trial will last, what improvement would justify continuing and which side effects need attention. Stronger painkillers are not automatically more suitable for this type of pain.",
+            "If you already take a medicine, do not abruptly stop it because you read a recommendation against starting it. Review benefit, side effects and any gradual withdrawal plan with the prescriber. A separate condition, such as inflammatory arthritis, may also have its own medication needs."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Do Injections, Scans or Supplements Have a Routine Role?",
+          "paragraphs": [
+            "Fibromyalgia is not usually explained by a single joint, trapped nerve or inflamed tendon. An injection aimed at one location should therefore have a separate, specific indication rather than be presented as a cure for widespread fibromyalgia.",
+            "Likewise, repeated scans without a new clinical question may add little. Ask what a test or procedure would change. If a separate local problem is found, it can be treated alongside the wider condition.",
+            "No special diet or supplement reliably cures fibromyalgia. Discuss suspected deficiencies or dietary concerns based on your symptoms and health. Bring supplements to the medicine review because cost, interactions and unwanted effects also matter."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Preparing for Review and Recognising Warning Signs",
+          "paragraphs": [
+            "Bring a short symptom timeline, previous investigations, the full medicine list and two practical goals. At a Jain Pain Clinic consultation, discuss what you have tried, for how long, and what helped or caused problems. A useful plan should cover more than the next prescription.",
+            "Arrange reassessment for a new symptom pattern, fever, unexplained weight loss, new joint swelling or progressive weakness. Seek urgent care for chest pain with breathlessness or for new bladder or bowel dysfunction with saddle numbness or significant leg weakness. These should not be attributed to a familiar fibromyalgia flare.",
+            "Agree when to review the plan and which finding would change direction. Continued care can focus on a repeatable routine, treatment of coexisting problems and gradual gains in the activities that matter to you."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Fibromyalgia: clinical overview and treatment options",
+        "href": "https://rheumatology.org/patients/fibromyalgia",
+        "source": "American College of Rheumatology"
+      },
+      {
+        "title": "Fibromyalgia: symptoms",
+        "href": "https://www.nhs.uk/conditions/fibromyalgia/symptoms/",
+        "source": "NHS"
+      },
+      {
+        "title": "Fibromyalgia: diagnosis and other conditions",
+        "href": "https://www.nhs.uk/conditions/fibromyalgia/diagnosis/",
+        "source": "NHS"
+      },
+      {
+        "title": "Fibromyalgia: diagnosis, treatment and daily management",
+        "href": "https://www.niams.nih.gov/health-topics/fibromyalgia/diagnosis-treatment-and-steps-to-take",
+        "source": "NIAMS"
+      },
+      {
+        "title": "Fibromyalgia: exercise, talking therapies and medicines",
+        "href": "https://www.nhs.uk/conditions/fibromyalgia/treatment/",
+        "source": "NHS"
+      },
+      {
+        "title": "Fibromyalgia: self-help and pacing",
+        "href": "https://www.nhs.uk/conditions/fibromyalgia/self-help/",
+        "source": "NHS"
+      },
+      {
+        "title": "EULAR revised recommendations for fibromyalgia",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27377815/",
+        "source": "Annals of the Rheumatic Diseases, 2017"
+      },
+      {
+        "title": "Aerobic exercise for adults with fibromyalgia",
+        "href": "https://www.cochrane.org/evidence/CD012700_aerobic-exercise-adults-fibromyalgia",
+        "source": "Cochrane"
+      },
+      {
+        "title": "Chronic primary pain: assessment and management recommendations",
+        "href": "https://www.nice.org.uk/guidance/ng193/chapter/recommendations",
+        "source": "NICE NG193"
+      },
+      {
+        "title": "Fibromyalgia: symptoms and possible mechanisms",
+        "href": "https://www.niams.nih.gov/health-topics/fibromyalgia",
+        "source": "NIAMS"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I have fibromyalgia if my blood tests and scans are normal?",
+        "answer": [
+          "Yes. There is no single routine test that confirms it. Diagnosis depends on the symptom pattern and clinical assessment, with tests selected to check other possible causes. Normal tests alone do not prove fibromyalgia."
+        ]
+      },
+      {
+        "question": "Is fibromyalgia an autoimmune disease or a form of arthritis?",
+        "answer": [
+          "Fibromyalgia itself is neither an autoimmune disease nor inflammatory arthritis. It can coexist with those conditions, so new swelling or other symptoms still need assessment."
+        ]
+      },
+      {
+        "question": "Why am I exhausted even after sleeping all night?",
+        "answer": [
+          "Unrefreshing sleep and fatigue are common in fibromyalgia, but sleep disorders, medicines and other illnesses can also contribute. Describe the sleep pattern and any snoring or breathing pauses to your clinician."
+        ]
+      },
+      {
+        "question": "Can exercise make fibromyalgia worse?",
+        "answer": [
+          "An amount that exceeds current tolerance can aggravate symptoms. A suitable programme starts at a manageable level and is adjusted to your response. Marked or prolonged worsening needs discussion rather than instructions to push through."
+        ]
+      },
+      {
+        "question": "Does being offered an antidepressant mean the pain is psychological?",
+        "answer": [
+          "No. Some antidepressants affect pain processing and can help pain or sleep without a diagnosis of depression. The proposed benefit and risks should be explained."
+        ]
+      },
+      {
+        "question": "Should I stop pregabalin or another medicine after reading a guideline?",
+        "answer": [
+          "Do not stop abruptly. Recommendations about starting treatment are different from decisions about an existing prescription. Review its benefit, safety and any gradual withdrawal plan with your prescriber."
+        ]
+      },
+      {
+        "question": "Can an injection cure fibromyalgia?",
+        "answer": [
+          "No injection reliably cures widespread fibromyalgia. A local procedure may be appropriate for a separately identified problem, but it needs its own indication and explanation."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/fibromyalgia-symptoms-diagnosis-treatment",
+    "ogImage": "/assets/blog/fibromyalgia-widespread-pain-fatigue-hero.jpg",
+    "category": "Chronic Pain",
+    "readTime": "9 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-28",
+    "publishedLabel": "October 28, 2026",
+    "cardImage": "/assets/blog/fibromyalgia-widespread-pain-fatigue-hero.jpg",
+    "cardAlt": "Man experiencing fatigue and widespread pain, with symbolic shoulder and forearm pain highlights",
+    "bannerImage": "/assets/blog/fibromyalgia-widespread-pain-fatigue-hero.jpg",
+    "bannerAlt": "Man experiencing fatigue and widespread pain, with symbolic shoulder and forearm pain highlights",
+    "bannerCaption": "AI-generated illustration. The highlights symbolise widespread pain sensitivity, not joint damage or inflammation.",
+    "showTableOfContents": true
   }
 ];
 
