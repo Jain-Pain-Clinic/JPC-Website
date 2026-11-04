@@ -12545,6 +12545,484 @@ const rawBlogs = [
     "bannerAlt": "Man experiencing fatigue and widespread pain, with symbolic shoulder and forearm pain highlights",
     "bannerCaption": "AI-generated illustration. The highlights symbolise widespread pain sensitivity, not joint damage or inflammation.",
     "showTableOfContents": true
+  },
+  {
+    "slug": "lumbar-spinal-stenosis-leg-pain-when-walking",
+    "title": "Lumbar Spinal Stenosis: Why Walking Causes Leg Pain That Sitting Relieves",
+    "seoTitle": "Lumbar Spinal Stenosis | Jain Pain Clinic",
+    "description": "Leg pain or heaviness when walking that eases when sitting? Learn about lumbar spinal stenosis, circulation checks, rehabilitation and when surgery is considered.",
+    "keywords": "lumbar spinal stenosis, leg pain when walking, neurogenic claudication, spinal stenosis treatment, leg pain relieved by sitting, spinal stenosis Gurgaon",
+    "excerpt": "Leg heaviness after a short walk can come from the spine or circulation. Learn which clues matter and how treatment decisions are made.",
+    "heroSubtitle": "The distance you can walk, the position that brings relief and the examination tell more than an MRI label alone.",
+    "tags": [
+      "Spinal Stenosis",
+      "Leg Pain",
+      "Walking Pain",
+      "Spine Care"
+    ],
+    "content": {
+      "intro": "You start a walk comfortably, but your legs soon ache, tingle or feel heavy. Sitting for a few minutes helps, and leaning over a shopping trolley seems easier than standing upright. This pattern can occur with lumbar spinal stenosis. It deserves assessment because poor circulation and other conditions can cause similar walking limitations. Treatment should address the cause and the activities you want to regain, rather than rely on the wording of a scan.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is Lumbar Spinal Stenosis?",
+          "paragraphs": [
+            "Lumbar spinal stenosis means narrowing of spaces available for nerves in the lower back. Age-related changes in discs, joints and ligaments can contribute. Narrowing may involve the central canal or the areas where individual nerves travel and leave the spine.",
+            "Some people have narrowing on imaging without troublesome symptoms. Others develop leg pain, numbness or reduced walking tolerance. The important question is whether the history, examination and imaging point to the same explanation for your current limitations."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Do Walking and Standing Trigger Symptoms?",
+          "paragraphs": [
+            "For some people, standing upright or extending the lower back reduces the available space around sensitive nerves. Sitting or bending slightly forward can make symptoms easier. Walking-related leg symptoms from this mechanism are called neurogenic claudication.",
+            "Pain may affect the buttocks, thighs or lower legs, sometimes on both sides. Heaviness, tingling and a feeling that the legs will not keep going can be more noticeable than back pain. A shopping-trolley pattern is a clue, not a test that confirms the diagnosis."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Could the Problem Be Poor Circulation Instead?",
+          "paragraphs": [
+            "Peripheral arterial disease can also cause leg discomfort during walking that settles with rest. A clinician may check pulses, skin changes and risk factors and, when appropriate, arrange a circulation assessment. Spine-related and vascular problems can coexist.",
+            [
+              {
+                "type": "text",
+                "text": "Our article on"
+              },
+              {
+                "type": "link",
+                "text": "smoking-related leg pain and circulation",
+                "href": "/blog/smokers-foot-smoking-leg-pain-cold-feet-wounds"
+              },
+              {
+                "type": "text",
+                "text": "covers a different pathway that should not be overlooked. Cold feet, colour changes or wounds that do not heal are important details to mention."
+              }
+            ],
+            "Do not repeatedly walk to severe pain to work out the cause yourself. Describe where symptoms start, how far you walk before stopping and whether standing still is enough to settle them or you need to sit or bend forward."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Is It an Emergency?",
+          "paragraphs": [
+            "New difficulty passing urine, loss of bladder or bowel control, numbness around the genitals or anus, or severe or worsening weakness in both legs needs emergency assessment. These can indicate serious nerve compression and should not be managed as an ordinary flare.",
+            "A suddenly painful, cold, pale or numb foot also needs urgent assessment for impaired blood supply. Increasing weakness or a new foot drop warrants prompt medical review even without bladder symptoms. Do not delay an assessment while waiting for a routine scan appointment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Should an Assessment and MRI Clarify?",
+          "paragraphs": [
+            "The assessment includes the symptom history, walking ability, leg strength, sensation and relevant examination of the spine, hips and circulation. MRI can show nerve-space narrowing, but a report cannot by itself decide whether surgery is needed.",
+            "Bring examples of real tasks: reaching a nearby shop, standing to prepare a meal or getting through a commute. Note whether the limitation is pain, balance, breathlessness or true weakness. These details help avoid attributing every walking problem to a spine scan.",
+            "Ask which part of the scan matches the symptoms, whether another condition contributes and what a proposed test would change. A more alarming-sounding report is not automatically evidence that daily function has deteriorated."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Can Help Without Surgery?",
+          "paragraphs": [
+            "An individual plan may include education, supervised exercise, activity adjustments and a review of suitable symptom relief. Rehabilitation aims to improve strength, endurance, balance and confidence within your health and current ability. It does not physically reverse the narrowing.",
+            "Shorter walks with planned rests may be more manageable than repeatedly reaching a severe flare. Some people tolerate supported walking or cycling better, but the choice depends on balance, heart and lung health and symptom response. Have walking aids fitted and demonstrated if recommended.",
+            "Choose one functional goal and agree a starting point you can repeat. If an activity causes new weakness or a clear deterioration, stop and seek advice. Improving tolerance is different from simply accepting progressively less activity."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Record a familiar walking distance and the time needed to recover.",
+              "Break up prolonged standing with comfortable position changes.",
+              "Ask for an exercise plan matched to the findings, not only a generic back routine.",
+              "Review medicines for benefit and unwanted effects such as dizziness or sleepiness."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "Do Epidural Injections Treat Spinal Stenosis?",
+          "paragraphs": [
+            "An injection does not widen the spinal canal. Evidence and recommendations depend on the exact pain pattern, so results from acute sciatica should not automatically be applied to walking-related symptoms from central stenosis.",
+            [
+              {
+                "type": "text",
+                "text": "In a"
+              },
+              {
+                "type": "link",
+                "text": "randomised trial of epidural injections for lumbar spinal stenosis",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/24988555/"
+              },
+              {
+                "type": "text",
+                "text": "adding a glucocorticoid to lidocaine produced minimal or no extra short-term benefit compared with lidocaine alone. Because both groups received an injection, this did not establish that either was better than no injection."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "NICE low-back-pain and sciatica guideline",
+                "href": "https://www.nice.org.uk/guidance/ng59/chapter/recommendations"
+              },
+              {
+                "type": "text",
+                "text": "recommends against epidural injections for neurogenic claudication caused by central spinal canal stenosis. If a procedure is proposed, ask which diagnosis it targets, what evidence applies and what improvement would justify it."
+              }
+            ],
+            "Procedures aimed at a separate source of back pain may address that component, but should not be described as removing the stenosis. A treatment plan needs a clear target and a review of alternatives."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Should You Discuss a Surgical Opinion?",
+          "paragraphs": [
+            "A spinal specialist may discuss decompression when leg symptoms and walking restriction remain substantial despite appropriate non-surgical care, or when neurological findings make earlier assessment necessary. The aim is to create more space for affected nerves.",
+            "The decision considers the examination, imaging, health, expectations and previous treatment together. Fusion is not required for every stenosis operation; ask why it is being considered in your case. Surgery also has risks and cannot guarantee complete relief of every pain.",
+            "Ask which symptoms are most likely to improve and what recovery involves. Leg symptoms from nerve compression and a separate longstanding backache may respond differently. A pain consultation and a surgical opinion can be useful parts of the same assessment."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Preparing for Review at Jain Pain Clinic",
+          "paragraphs": [
+            "Bring the MRI report and images if available, previous treatment details and your medicine list. Explain what has changed over time and whether walking distance is stable or declining. Report new weakness separately from pain.",
+            "At Jain Pain Clinic, discuss which part of the problem needs rehabilitation, symptom management, a circulation assessment or a spinal opinion. A useful plan should state the next step, its purpose and when progress will be reviewed. The goal is a safer, more manageable daily routine and a clear response to any deterioration."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Lumbar spinal stenosis: symptoms and treatment",
+        "href": "https://www.orthoinfo.org/diseases--conditions/lumbar-spinal-stenosis/",
+        "source": "AAOS OrthoInfo"
+      },
+      {
+        "title": "Spinal stenosis: diagnosis and treatment decisions",
+        "href": "https://www.niams.nih.gov/health-topics/spinal-stenosis/diagnosis-treatment-and-steps-to-take",
+        "source": "NIAMS"
+      },
+      {
+        "title": "Spinal stenosis: walking and rehabilitation",
+        "href": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/neck-and-back-problems-and-conditions/spinal-stenosis/",
+        "source": "NHS inform"
+      },
+      {
+        "title": "Peripheral arterial disease: walking pain and circulation",
+        "href": "https://www.nhs.uk/conditions/peripheral-arterial-disease-pad/",
+        "source": "NHS"
+      },
+      {
+        "title": "Epidural glucocorticoid injections for spinal stenosis: randomised trial",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24988555/",
+        "source": "New England Journal of Medicine, 2014"
+      },
+      {
+        "title": "Low back pain and sciatica: treatment recommendations",
+        "href": "https://www.nice.org.uk/guidance/ng59/chapter/recommendations",
+        "source": "NICE NG59"
+      },
+      {
+        "title": "Lumbar spinal stenosis: surgical assessment",
+        "href": "https://www.aans.org/patients/conditions-treatments/lumbar-spinal-stenosis/",
+        "source": "American Association of Neurological Surgeons"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does leg pain that improves with sitting always mean spinal stenosis?",
+        "answer": [
+          "No. The pattern can suggest neurogenic claudication, but circulation, hip and other problems need consideration. Diagnosis requires a clinical assessment."
+        ]
+      },
+      {
+        "question": "Can I have spinal stenosis without much back pain?",
+        "answer": [
+          "Yes. Leg pain, heaviness, numbness or reduced walking tolerance may be more prominent than lower-back pain."
+        ]
+      },
+      {
+        "question": "Does severe narrowing on MRI mean I need surgery immediately?",
+        "answer": [
+          "Not by itself. Symptoms, examination and function matter. New bladder or bowel problems, saddle numbness or major neurological deterioration need urgent assessment."
+        ]
+      },
+      {
+        "question": "Can exercise open a narrowed spinal canal?",
+        "answer": [
+          "Exercise does not remove the narrowing. A suitable programme may improve strength, endurance and daily function."
+        ]
+      },
+      {
+        "question": "Will an epidural injection cure stenosis?",
+        "answer": [
+          "No. It does not enlarge the canal, and evidence for walking-related symptoms from central stenosis is limited. Ask what diagnosis and outcome a proposed injection addresses."
+        ]
+      },
+      {
+        "question": "What should I measure while trying treatment?",
+        "answer": [
+          "Use a repeatable task such as a familiar walking route or standing activity. Note symptoms, rests and recovery, and report any new weakness promptly."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/lumbar-spinal-stenosis-leg-pain-when-walking",
+    "ogImage": "/assets/blog/lumbar-spinal-stenosis-walking-leg-pain-hero.jpg",
+    "category": "Spine Care",
+    "readTime": "7 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-10-31",
+    "publishedLabel": "October 31, 2026",
+    "cardImage": "/assets/blog/lumbar-spinal-stenosis-walking-leg-pain-hero.jpg",
+    "cardAlt": "Older man supporting himself near a doorway, with an illustrative lower-spine overlay and pain highlight",
+    "bannerImage": "/assets/blog/lumbar-spinal-stenosis-walking-leg-pain-hero.jpg",
+    "bannerAlt": "Older man supporting himself near a doorway, with an illustrative lower-spine overlay and pain highlight",
+    "bannerCaption": "AI-generated illustration. The overlay highlights a possible pain area and is not a diagnostic image.",
+    "showTableOfContents": true
+  },
+  {
+    "slug": "crps-burning-pain-swelling-after-injury",
+    "title": "CRPS After an Injury: Burning Pain, Swelling and a Hand or Foot That Feels Different",
+    "seoTitle": "CRPS After an Injury | Jain Pain Clinic",
+    "description": "Persistent burning pain, swelling or colour changes after an injury? Learn how CRPS is assessed, what else must be ruled out and why coordinated rehabilitation matters.",
+    "keywords": "CRPS symptoms, complex regional pain syndrome, burning pain after injury, hand swelling after fracture, CRPS treatment, pain sensitivity, CRPS specialist Gurgaon",
+    "excerpt": "An unusually sensitive, swollen or stiff limb after injury needs assessment. Learn what CRPS means and why treatment goes beyond a stronger painkiller.",
+    "heroSubtitle": "Pain, touch sensitivity and changes in skin temperature or colour can occur together. Early assessment helps distinguish CRPS from problems needing different treatment.",
+    "tags": [
+      "CRPS",
+      "Complex Regional Pain Syndrome",
+      "Nerve Pain",
+      "Rehabilitation"
+    ],
+    "content": {
+      "intro": "The injury is healing, but the hand still burns. A sleeve brushing the skin feels painful, the fingers are stiff and the affected side sometimes looks or feels different from the other. Complex regional pain syndrome, or CRPS, is one possible explanation. It is not the only one: infection, circulation problems and ongoing injury must also be considered. Prompt assessment is more useful than either dismissing the symptoms or assuming the worst.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is Complex Regional Pain Syndrome?",
+          "paragraphs": [
+            "CRPS is a persistent pain condition usually affecting a limb, often after a fracture, operation, sprain or another injury. The pain is greater or lasts longer than would be expected from the usual course of the original injury, and can occur with sensory, skin and movement changes.",
+            "The mechanisms are complex and not fully understood. Changes in inflammation, nerve signalling and the regulation of blood flow may contribute. Symptoms are real even when a routine scan does not provide a complete explanation.",
+            "CRPS type 1 is diagnosed without a confirmed major nerve injury; type 2 involves an identified nerve injury. This distinction does not by itself measure how severe the pain is or determine the whole treatment plan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Which Symptoms Should You Describe?",
+          "paragraphs": [
+            "Pain can be burning, stinging or severe and persistent. Light contact may hurt, a response called allodynia. Some people notice swelling, a difference in skin colour or temperature, altered sweating, stiffness or difficulty using the affected limb.",
+            "The appearance can vary over time. One photograph or one normal-looking day does not explain the full pattern. Describe changes you have actually noticed rather than repeatedly provoking them to check whether they are still present."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Explain what light touch, movement and normal tasks feel like.",
+              "Report swelling, sweating, colour or temperature differences.",
+              "Mention stiffness, shaking, reduced movement or changes in skin, hair or nails.",
+              "Bring the original injury or operation details and any restrictions from the treating team."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "When Is It Something That Needs Urgent Care?",
+          "paragraphs": [
+            "Increasing pain after injury is not automatically CRPS. A tight cast, infection, a new fracture problem or impaired blood supply may require urgent treatment. New severe pain, rapidly increasing swelling, fever, wound discharge or a cold, pale or blue hand or foot warrants prompt assessment.",
+            "If you have a cast or splint and develop worsening pain, numbness or cold fingers or toes, contact the treating service urgently. Do not wait for a routine pain-clinic appointment or try to cut off a cast yourself.",
+            "CRPS can coexist with other problems. A previous diagnosis should not prevent assessment of a new symptom that differs from the familiar pattern."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is CRPS Diagnosed? Understanding the Budapest Criteria",
+          "paragraphs": [
+            "There is no single blood test, X-ray or scan that confirms every case. Clinicians use the history, examination and diagnostic criteria while checking for a better explanation. Tests may be selected to investigate infection, injury, circulation or other nerve conditions.",
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "CRPS practical diagnostic and treatment guidelines",
+                "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186375/"
+              },
+              {
+                "type": "text",
+                "text": "describe the Budapest criteria. These consider continuing disproportionate pain, symptoms reported in several categories and signs observed during examination, with no better diagnosis explaining the findings."
+              }
+            ],
+            "The categories include sensation, skin colour or temperature, swelling or sweating, and movement or tissue changes. This is a clinical framework, not a home checklist. Burning pain alone or a single colour change is insufficient to establish CRPS."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Rehabilitation Is Central to Treatment",
+          "paragraphs": [
+            "Treatment commonly combines education, physical or occupational rehabilitation, symptom relief and support for the emotional impact. The aim is to restore useful function gradually while addressing barriers such as pain, fear, swelling and stiffness.",
+            "A therapist may begin with a small amount of tolerated movement, careful touch-based desensitisation or strategies for swelling, depending on the examination and injury restrictions. The plan should be individual and coordinated with the team treating the original injury.",
+            "Neither prolonged avoidance of every movement nor forceful treatment through severe pain is a universal solution. Ask what amount to start with, how to adjust after a flare and which response means you should seek review. Follow any specific surgical or fracture precautions."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Are Mirror Therapy and Graded Motor Imagery?",
+          "paragraphs": [
+            "Specialist rehabilitation may include mirror therapy or graded motor imagery. These use approaches such as recognising left and right body images, imagined movement or a mirror reflection to work with movement and sensory processing.",
+            "They are options to discuss with a trained therapist rather than tests you need to pass. Benefit is not guaranteed, and the sequence and amount may need adjustment. Tell the therapist if a technique increases symptoms or is difficult to follow.",
+            "Choose a functional target such as using cutlery, wearing a sock or touching a keyboard. A programme is easier to review when it is linked to a meaningful task rather than only completing an exercise list."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Medicines and Psychological Support Have Specific Roles",
+          "paragraphs": [
+            "A clinician may consider medicines used for nerve pain or other selected treatments according to symptoms, timing, health and other medicines. Ask what the drug is intended to improve and how benefit and side effects will be assessed. Do not start, stop or increase medicines without a plan.",
+            "Psychological support can help with distress, disrupted sleep and fear of movement. Offering this support does not mean that the condition is imagined. It can be part of the same plan as physical rehabilitation and medical care.",
+            [
+              {
+                "type": "text",
+                "text": "Our guide to"
+              },
+              {
+                "type": "link",
+                "text": "talking to a doctor about pain",
+                "href": "/blog/how-to-talk-to-doctor-about-pain"
+              },
+              {
+                "type": "text",
+                "text": "can help you prepare. Include what you can no longer do, what you fear will happen with movement and which treatments have already helped or caused problems."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Do Nerve Blocks or Stimulation Cure CRPS?",
+          "paragraphs": [
+            "Specialists sometimes consider selected procedures when pain remains difficult despite coordinated care. A block should have a clear purpose, with realistic expectations about benefit, risks and whether it will help participation in rehabilitation. A response to one block does not prove every part of the diagnosis.",
+            [
+              {
+                "type": "text",
+                "text": "A"
+              },
+              {
+                "type": "link",
+                "text": "2023 Cochrane overview of CRPS treatments",
+                "href": "https://www.cochrane.org/evidence/CD009416_which-treatments-are-effective-management-complex-regional-pain-syndrome-adults"
+              },
+              {
+                "type": "text",
+                "text": "found substantial limitations in the evidence for many interventions. It found that local-anaesthetic sympathetic blocks probably do not reduce pain intensity compared with placebo. A procedure should not be advertised as a reliable cure."
+              }
+            ],
+            "Spinal cord or dorsal root ganglion stimulation may be discussed for selected persistent cases by a specialist team after careful assessment. These involve additional decisions about a trial, possible implantation, follow-up and risks. They are not routine first steps after an injury."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Long Does Recovery Take, and What Should You Track?",
+          "paragraphs": [
+            "The course varies. Some people improve substantially, while others need longer-term care. Early recognition supports timely treatment, but no clinician can promise exactly when symptoms will resolve. A flare does not automatically mean fresh damage; new warning signs still need assessment.",
+            "Track one or two practical measures, such as tolerating a sleeve, opening the hand or walking a familiar short distance. Discuss the trend at an agreed interval and review the plan if progress stalls. Daily function, sleep and treatment burden matter alongside pain scores.",
+            "For a Jain Pain Clinic consultation, bring injury records, current medicines and previous investigation results. Ask who will coordinate rehabilitation, medical treatment and the original injury care. A useful plan gives each step a purpose and explains when to seek earlier help."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "CRPS: overview and timely assessment",
+        "href": "https://www.nhs.uk/conditions/complex-regional-pain-syndrome/",
+        "source": "NHS"
+      },
+      {
+        "title": "CRPS: symptoms and physical changes",
+        "href": "https://www.nhs.uk/conditions/complex-regional-pain-syndrome/symptoms/",
+        "source": "NHS"
+      },
+      {
+        "title": "CRPS: diagnosis and excluding other conditions",
+        "href": "https://www.nhs.uk/conditions/complex-regional-pain-syndrome/diagnosis/",
+        "source": "NHS"
+      },
+      {
+        "title": "CRPS: rehabilitation, medicines and specialist treatments",
+        "href": "https://www.nhs.uk/conditions/complex-regional-pain-syndrome/treatment/",
+        "source": "NHS"
+      },
+      {
+        "title": "CRPS: possible causes and mechanisms",
+        "href": "https://www.nhs.uk/conditions/complex-regional-pain-syndrome/causes/",
+        "source": "NHS"
+      },
+      {
+        "title": "CRPS practical diagnostic and treatment guidelines, fifth edition",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9186375/",
+        "source": "Pain Medicine, 2022"
+      },
+      {
+        "title": "Treatments for adults with CRPS: overview of systematic reviews",
+        "href": "https://www.cochrane.org/evidence/CD009416_which-treatments-are-effective-management-complex-regional-pain-syndrome-adults",
+        "source": "Cochrane, 2023"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does burning pain after a fracture mean I have CRPS?",
+        "answer": [
+          "Not necessarily. Ongoing injury, a cast problem, infection and other nerve or circulation conditions must be considered. CRPS is diagnosed through a clinical assessment."
+        ]
+      },
+      {
+        "question": "Can CRPS happen without a confirmed nerve injury?",
+        "answer": [
+          "Yes. CRPS type 1 does not require an identified major nerve injury. Type 2 involves a confirmed nerve injury; both need individual assessment."
+        ]
+      },
+      {
+        "question": "Will a scan prove or rule out CRPS?",
+        "answer": [
+          "No single scan confirms or excludes every case. Investigations are selected to answer specific questions and check other explanations."
+        ]
+      },
+      {
+        "question": "Should I avoid using the painful limb completely?",
+        "answer": [
+          "Follow any injury restrictions, but prolonged avoidance is not a universal treatment. A therapist can guide gradual use matched to your condition and response."
+        ]
+      },
+      {
+        "question": "Does psychological support mean the pain is imagined?",
+        "answer": [
+          "No. It can help with the real distress, sleep disruption and fear that accompany persistent pain, alongside rehabilitation and medical treatment."
+        ]
+      },
+      {
+        "question": "Can a sympathetic nerve block guarantee recovery?",
+        "answer": [
+          "No. Evidence is limited and a block is not a reliable cure. Ask about the purpose, evidence, risks and alternatives before any procedure."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/crps-burning-pain-swelling-after-injury",
+    "ogImage": "/assets/blog/crps-hand-wrist-pain-after-injury-hero.jpg",
+    "category": "Nerve Pain",
+    "readTime": "7 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-11-04",
+    "publishedLabel": "November 4, 2026",
+    "cardImage": "/assets/blog/crps-hand-wrist-pain-after-injury-hero.jpg",
+    "cardAlt": "Man gently supporting a sensitive hand and wrist, with a symbolic pain highlight and anatomy overlay",
+    "bannerImage": "/assets/blog/crps-hand-wrist-pain-after-injury-hero.jpg",
+    "bannerAlt": "Man gently supporting a sensitive hand and wrist, with a symbolic pain highlight and anatomy overlay",
+    "bannerCaption": "AI-generated illustration. The overlay highlights a possible pain area and is not a diagnostic image.",
+    "showTableOfContents": true
   }
 ];
 
