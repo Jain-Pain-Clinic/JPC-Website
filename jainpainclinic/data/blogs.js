@@ -13023,6 +13023,666 @@ const rawBlogs = [
     "bannerAlt": "Man gently supporting a sensitive hand and wrist, with a symbolic pain highlight and anatomy overlay",
     "bannerCaption": "AI-generated illustration. The overlay highlights a possible pain area and is not a diagnostic image.",
     "showTableOfContents": true
+  },
+  {
+    "slug": "thumb-side-wrist-pain-de-quervains-tenosynovitis",
+    "title": "Thumb-Side Wrist Pain: Is It De Quervain’s Tenosynovitis?",
+    "seoTitle": "Thumb-Side Wrist Pain: De Quervain’s | Jain Pain Clinic",
+    "description": "Pain near the thumb when lifting, gripping or twisting? Learn how de Quervain’s is assessed and when a splint, rehabilitation or a guided injection may help.",
+    "keywords": "de Quervain tenosynovitis, thumb side wrist pain, wrist pain when lifting, thumb tendon pain, de Quervain treatment, ultrasound guided wrist injection Gurgaon",
+    "excerpt": "Thumb-side wrist pain is different from tingling fingers. Learn how tendon irritation is assessed and what research says about splints and injections.",
+    "heroSubtitle": "Lifting a kettle, turning a key or using your thumb can become painful when tendons are irritated near the wrist. The location and examination guide treatment.",
+    "tags": [
+      "Wrist Pain",
+      "De Quervain’s",
+      "Thumb Pain",
+      "Tendon Care"
+    ],
+    "content": {
+      "intro": "A sharp pain appears on the thumb side of your wrist when you lift a kettle or twist a lid. You try resting the hand, but ordinary tasks keep bringing it back. De Quervain’s tenosynovitis is one possible cause. It involves thumb tendons near the wrist, rather than automatically being arthritis or a trapped nerve. A useful assessment checks the exact site, movements and any injury before choosing a splint, an exercise plan or an injection.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is De Quervain’s Tenosynovitis?",
+          "paragraphs": [
+            "Two tendons that help move the thumb pass through a narrow compartment on the thumb side of the wrist. When the tendons or their surrounding sheath become thickened or irritated, movement through that space can hurt. The condition is called de Quervain’s tenosynovitis.",
+            "The painful spot is usually near the bony prominence on the thumb side of the wrist. Pain can extend towards the thumb or forearm, and swelling may be present. The diagnosis describes a local tendon-sheath problem; it does not mean that every structure in the wrist is damaged."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Can Lifting or Gripping Hurt?",
+          "paragraphs": [
+            "Thumb movements and sideways wrist movements can load these tendons. Symptoms may appear during lifting, carrying, twisting or repeated hand use. Work, hobbies and caring tasks can all contribute, although a single cause is not always identifiable.",
+            "Explain the task that brings it on. Lifting an object with the thumb stretched out may feel different from holding it close with both hands. This gives the clinician something practical to assess instead of relying only on a general description of wrist pain.",
+            "Note recent changes in activity, equipment or time spent doing a task. The aim is to find manageable adjustments, not assume that one phone habit explains every painful wrist."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is It Different From Carpal Tunnel or Thumb Arthritis?",
+          "paragraphs": [
+            "Carpal tunnel syndrome more often causes tingling or numbness in particular fingers, sometimes waking you at night. Pain centred at the base of the thumb joint with stiffness can raise a different question about arthritis. A fall can cause an injury that needs its own assessment.",
+            [
+              {
+                "type": "text",
+                "text": "Our guide to"
+              },
+              {
+                "type": "link",
+                "text": "hand tingling and carpal tunnel syndrome",
+                "href": "/blog/carpal-tunnel-syndrome-hand-tingling-at-night"
+              },
+              {
+                "type": "text",
+                "text": "explains that nerve-related pattern. Describe altered feeling, weakness or a recent injury separately rather than assuming it belongs to a tendon diagnosis."
+              }
+            ],
+            "More than one problem can coexist. The location helps guide examination, but an online diagram or a painful home manoeuvre cannot reliably distinguish all the possibilities."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is the Diagnosis Checked?",
+          "paragraphs": [
+            "A clinician asks about symptoms and examines the wrist, thumb movement and local tenderness. Specific manoeuvres may help reproduce the familiar pain. Do not repeatedly force your thumb into a fist and bend the wrist to test yourself; an overly forceful manoeuvre can be painful without resolving the diagnosis.",
+            "An X-ray, ultrasound or another investigation may be selected if injury, arthritis or a different diagnosis is suspected, or if the result would change treatment. Not everyone needs an MRI. Ask what question a proposed test is intended to answer."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Activity Changes and a Thumb Spica Splint",
+          "paragraphs": [
+            "A thumb spica splint supports the thumb and wrist together. A simple wrist band may not serve the same purpose. Have the fit and wearing schedule checked so support does not cause pressure, numbness or unnecessary restriction.",
+            "Temporarily adapt the tasks that repeatedly provoke symptoms. Use both hands for heavier objects when comfortable, keep the wrist closer to a neutral position and divide long repetitive sessions. A hand therapist can suggest modifications suited to your work or home responsibilities."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Identify one or two frequent tasks that are hardest to avoid.",
+              "Reduce repeated forceful gripping or sideways wrist movements that trigger pain.",
+              "Ask how to remove the splint safely for hygiene and any prescribed movement.",
+              "Arrange review if symptoms worsen or support causes numbness, swelling or skin irritation."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "When Are Medicines and Exercises Useful?",
+          "paragraphs": [
+            "Suitable pain relief may make daily tasks easier, but the choice needs to fit your health and other medicines. Check with a pharmacist or clinician, especially during pregnancy or breastfeeding, or with stomach ulcers, kidney problems or blood-thinning medicines.",
+            "Gentle movement and later strengthening may be included in a hand-therapy plan. Timing and load depend on irritability and the assessment. Repeated aggressive stretching through sharp pain is not a requirement for recovery.",
+            "Ask what response is acceptable and what to change if symptoms remain worse after the session. A useful plan should build towards an everyday task rather than simply increase repetitions."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Does Research Say About Injections and Splinting?",
+          "paragraphs": [
+            [
+              {
+                "type": "text",
+                "text": "A"
+              },
+              {
+                "type": "link",
+                "text": "2023 systematic review and network meta-analysis",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/37889490/"
+              },
+              {
+                "type": "text",
+                "text": "included 30 studies involving 1,663 patients. It supported local corticosteroid injection combined with short-term thumb spica immobilisation as an effective treatment approach. Ultrasound-guided injections also ranked favourably for pain outcomes."
+              }
+            ],
+            "This does not make an injection compulsory for every patient. Discuss the severity, diagnosis, previous care and preferences. Ultrasound can help identify the tendon compartment and guide the needle, especially when anatomy or a previous unsuccessful treatment raises questions.",
+            "Potential risks include skin colour changes, thinning of tissue, infection and tendon injury. Diabetes and medicines can affect planning. Ask about the expected benefit, aftercare and when the response will be reviewed rather than expecting an instant permanent cure."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Is Surgery Considered?",
+          "paragraphs": [
+            "Persistent symptoms despite appropriate treatment may prompt a hand-surgery opinion. Release surgery aims to provide more room for the affected tendons. Whether it is appropriate depends on the examination, previous treatment and the impact on normal function.",
+            "Ask what recovery involves, when work or lifting can resume and what risks apply, including irritation of nearby sensory nerves. An unsuccessful first treatment should also prompt a check that the original diagnosis and treatment target were correct."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Should You Seek Medical Help?",
+          "paragraphs": [
+            "Have persistent or worsening thumb-side wrist pain assessed, especially if normal tasks are becoming difficult. Seek prompt care after an injury with severe pain, deformity or inability to use the hand. A hot, red, swollen wrist with fever also needs urgent assessment.",
+            "For a Jain Pain Clinic consultation, bring the symptom timeline, previous treatment and examples of the movements that hurt. A clear plan should explain the likely source, why each treatment is being considered and how progress will be judged. New numbness or worsening weakness deserves earlier review."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "De Quervain’s tenosynovitis: anatomy and treatment",
+        "href": "https://www.orthoinfo.org/diseases--conditions/de-quervains-tendinosis/",
+        "source": "AAOS OrthoInfo"
+      },
+      {
+        "title": "De Quervain tenosynovitis: diagnosis and care",
+        "href": "https://www.mayoclinic.org/diseases-conditions/de-quervain-tenosynovitis/diagnosis-treatment/drc-20371337",
+        "source": "Mayo Clinic"
+      },
+      {
+        "title": "Treatment options: systematic review and network meta-analysis",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/37889490/",
+        "source": "JAMA Network Open, 2023"
+      },
+      {
+        "title": "De Quervain’s: activity advice",
+        "href": "https://www.healthnz.govt.nz/health-topics/conditions-treatments/bones-and-joints/de-quervains-tenosynovitis",
+        "source": "Health New Zealand"
+      },
+      {
+        "title": "De Quervain tenosynovitis: assessment",
+        "href": "https://www.aapmr.org/about-physiatry/conditions-treatments/musculoskeletal-medicine/de-quervain-tenosynovitis",
+        "source": "American Academy of Physical Medicine and Rehabilitation"
+      },
+      {
+        "title": "Thumb-side wrist pain: physiotherapy advice",
+        "href": "https://sbuhb.nhs.wales/hospitals/a-z-services/physiotherapy/musculoskeletal-physiotherapy/hand-wrist-pain/de-quervains-tenosynovitis/",
+        "source": "Swansea Bay University Health Board"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does thumb-side wrist pain always mean de Quervain’s?",
+        "answer": [
+          "No. Arthritis, injury and other tendon or nerve problems can overlap. The history and examination help identify the source."
+        ]
+      },
+      {
+        "question": "Is de Quervain’s the same as carpal tunnel syndrome?",
+        "answer": [
+          "No. De Quervain’s involves thumb tendons near the wrist. Carpal tunnel involves pressure on a nerve and commonly causes tingling or numbness in specific fingers."
+        ]
+      },
+      {
+        "question": "Can I use a normal wrist support?",
+        "answer": [
+          "A thumb spica supports both the thumb and wrist, which may be more appropriate. Ask for a fit check and wearing instructions."
+        ]
+      },
+      {
+        "question": "Should I keep repeating a painful thumb stretch?",
+        "answer": [
+          "Do not force repeated sharp pain. A therapist can advise which movements are appropriate and when to add strengthening."
+        ]
+      },
+      {
+        "question": "Does ultrasound guidance guarantee an injection will work?",
+        "answer": [
+          "No. It helps visualise the target and guide the needle, but the diagnosis, technique and individual response still matter."
+        ]
+      },
+      {
+        "question": "Will everyone need surgery?",
+        "answer": [
+          "No. Many people improve with non-surgical care. A surgical opinion may be appropriate for persistent symptoms after suitable treatment."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/thumb-side-wrist-pain-de-quervains-tenosynovitis",
+    "ogImage": "/assets/blog/de-quervains-thumb-side-wrist-pain-hero.jpg",
+    "category": "Wrist Pain",
+    "readTime": "7 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-11-08",
+    "publishedLabel": "November 8, 2026",
+    "cardImage": "/assets/blog/de-quervains-thumb-side-wrist-pain-hero.jpg",
+    "cardAlt": "Man supporting his painful thumb-side wrist, with an illustrative tendon overlay and red pain highlight",
+    "bannerImage": "/assets/blog/de-quervains-thumb-side-wrist-pain-hero.jpg",
+    "bannerAlt": "Man supporting his painful thumb-side wrist, with an illustrative tendon overlay and red pain highlight",
+    "bannerCaption": "AI-generated illustration. The anatomy overlay highlights the symptom area and is not a diagnostic image.",
+    "showTableOfContents": true
+  },
+  {
+    "slug": "achilles-tendon-pain-morning-stiffness-treatment",
+    "title": "Achilles Tendon Pain and Morning Stiffness: What Helps and When to Stop",
+    "seoTitle": "Achilles Tendon Pain and Treatment | Jain Pain Clinic",
+    "description": "Pain behind the heel or ankle? Learn how Achilles tendinopathy differs from a rupture, why exercise location matters and what evidence says about injections.",
+    "keywords": "Achilles tendon pain, Achilles tendinopathy treatment, pain behind heel, Achilles morning stiffness, insertional Achilles pain, tendon loading exercises, Achilles pain Gurgaon",
+    "excerpt": "Pain behind the heel needs a different approach from pain under the sole. Learn about progressive loading, rupture warning signs and treatment limits.",
+    "heroSubtitle": "The precise location—at the heel attachment or higher in the tendon—changes the exercise advice. A sudden snap needs urgent assessment.",
+    "tags": [
+      "Achilles Tendinopathy",
+      "Ankle Pain",
+      "Tendon Rehabilitation",
+      "Heel Pain"
+    ],
+    "content": {
+      "intro": "The back of your ankle feels stiff with the first steps of the day. It eases as you move, then aches after a longer walk or run. Achilles tendinopathy is one possible cause. It can affect active people and those who do not play sport. Treatment usually involves understanding the tendon’s current tolerance and gradually rebuilding capacity. Sudden pain with a snap or loss of push-off is a different situation and needs prompt assessment.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "Where Is the Achilles Tendon, and What Is Tendinopathy?",
+          "paragraphs": [
+            "The Achilles tendon connects the calf muscles to the heel bone and helps you push off when walking, running or climbing stairs. Tendinopathy describes tendon pain and impaired function associated with loading. It is not simply a synonym for an acute tear.",
+            "Pain can occur at the insertion into the heel bone or in the midportion, higher above the attachment. The distinction matters because a movement that is useful for one pattern can compress and aggravate the other."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Common Symptoms and Changes in Load",
+          "paragraphs": [
+            "Symptoms may include morning stiffness, tenderness behind the ankle, thickening of the tendon and pain during or after activity. Some people feel better once warmed up but become more uncomfortable later or the next morning.",
+            "A change in walking distance, hills, running, jumping or footwear can be relevant. Tell your clinician about the weeks before symptoms began, including a return to activity after time off. Sometimes there is no single obvious trigger.",
+            "Pain under the heel is a different location. Our existing plantar heel-pain article covers that pattern; do not assume the same exercise or injection plan fits both."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "A Sudden Snap or Loss of Push-Off Needs Assessment",
+          "paragraphs": [
+            "A rupture can feel like a sudden kick to the back of the leg, sometimes with a pop or snap. Difficulty pushing off, walking normally or rising onto the toes after a sudden injury needs prompt medical assessment. Do not repeatedly test a painful heel raise to reassure yourself.",
+            "Some movement may still be possible after a rupture. Being able to move the ankle does not reliably exclude it. Avoid treating a new acute injury as a familiar tendinopathy flare until it has been checked.",
+            "A hot, rapidly swollen area, fever or marked calf swelling also deserves assessment for other causes rather than automatic treatment as tendon pain."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "How Is Achilles Tendinopathy Assessed?",
+          "paragraphs": [
+            "The clinician checks the location, symptom behaviour, tendon and calf function and the effect on walking. Ultrasound or MRI may help when a tear or a different diagnosis is suspected, or when imaging would change management. A scan is not obligatory for every typical case.",
+            "Bring your usual footwear and a description of activity, including the point at which symptoms appear. A thickened tendon on an old scan does not alone explain a new loss of strength. Explain any recent injury separately."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Progressive Loading Is a Main Part of Treatment",
+          "paragraphs": [
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "2024 clinical practice guideline for midportion Achilles tendinopathy",
+                "href": "https://doi.org/10.2519/jospt.2024.0302"
+              },
+              {
+                "type": "text",
+                "text": "recommends tendon-loading exercise as first-line care for suitable patients. This means gradually challenging the tendon within tolerance rather than either stopping all activity indefinitely or exercising through escalating pain."
+              }
+            ],
+            "A therapist may use controlled calf raises and adjust the starting position, resistance, speed and frequency. The programme should reflect your current ability and any other health problems. A seated or supported starting exercise may be more realistic than a single-leg exercise immediately.",
+            "Agree how to judge the response during the session and the following day. A programme that repeatedly worsens walking or morning symptoms needs adjustment. The goal is a repeatable amount from which you can progress."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Insertional Pain: Why Heel Drops Off a Step May Be Wrong",
+          "paragraphs": [
+            "When pain is at the attachment to the heel bone, lowering the heel below the level of a step can increase compression at the insertion. Exercises may need to begin on a flat surface with a controlled range. Do not copy a step-based routine without checking which tendon region is affected.",
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "AAOS Achilles tendinitis guide",
+                "href": "https://www.orthoinfo.org/bodypart/foot-ankle/achilles-tendinitis/"
+              },
+              {
+                "type": "text",
+                "text": "distinguishes insertional and non-insertional care. A clinician can also review whether a temporary heel lift or footwear adjustment is appropriate."
+              }
+            ],
+            "More stretching is not automatically better. Avoid forceful calf stretches or repeated deep ankle bending that aggravates insertional symptoms. Equipment and exercise choices should serve the diagnosis, not the other way around."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Can You Change in Daily Life?",
+          "paragraphs": [
+            "Adjust the activity that repeatedly exceeds tolerance while maintaining comfortable alternatives. Shorter, flatter walks or another suitable form of exercise may help preserve fitness. Review footwear pressure at the back of the heel and avoid abrupt changes in shoe type.",
+            "Suitable pain relief may ease symptoms, but check it against your health and other medicines. It should not become a way to push through a load the tendon cannot currently tolerate."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Record morning stiffness and the response the day after exercise.",
+              "Consider the combined load from work, walking, stairs and training.",
+              "Increase one part of the programme at a time when advised.",
+              "Report new loss of strength or a sudden change in symptoms promptly."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "Do PRP, Steroid Injections or Shockwave Heal the Tendon?",
+          "paragraphs": [
+            "Injection decisions need evidence for the particular condition. Corticosteroid injection into the Achilles tendon is generally avoided because of rupture risk. Do not assume that a treatment used for another tendon has the same benefit or safety here.",
+            [
+              {
+                "type": "text",
+                "text": "A"
+              },
+              {
+                "type": "link",
+                "text": "2021 randomised trial of PRP for chronic midportion Achilles tendinopathy",
+                "href": "https://pubmed.ncbi.nlm.nih.gov/34255009/"
+              },
+              {
+                "type": "text",
+                "text": "included 240 participants. A single PRP injection did not improve tendon-related dysfunction at six months compared with a sham procedure. This finding applies to that condition and protocol; it does not establish a universal effect for every platelet preparation or tendon disorder."
+              }
+            ],
+            "Shockwave or other specialist options may be discussed for persistent symptoms, but response varies. Ask what the proposed treatment adds to an adequately supported loading programme and what outcome would justify its cost and risks."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Recovery, Surgical Review and Your Next Appointment",
+          "paragraphs": [
+            "Improvement often takes months, and returning to high-demand activity may take longer than comfortable everyday walking. Review the trend in function rather than expecting the tendon to look normal on a scan or relying only on pain during a warm-up.",
+            "Surgery may be considered in selected persistent cases after suitable non-surgical treatment and reassessment. A pain score alone is not the indication; location, structural findings, function and personal goals matter.",
+            "For a Jain Pain Clinic consultation, bring the timeline, previous treatment and activity goals. Ask for a plan that distinguishes symptom relief from rehabilitation and includes a clear review point. A new snap, major weakness or inability to walk needs urgent care rather than waiting for a routine follow-up."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Achilles tendinitis: insertional and non-insertional care",
+        "href": "https://www.orthoinfo.org/bodypart/foot-ankle/achilles-tendinitis/",
+        "source": "AAOS OrthoInfo"
+      },
+      {
+        "title": "A patient guide to Achilles tendinopathy",
+        "href": "https://www.rnoh.nhs.uk/patients-and-visitors/patient-information-guides/achilles-tendinopathy",
+        "source": "Royal National Orthopaedic Hospital"
+      },
+      {
+        "title": "Midportion Achilles tendinopathy: clinical practice guideline",
+        "href": "https://doi.org/10.2519/jospt.2024.0302",
+        "source": "Journal of Orthopaedic & Sports Physical Therapy, 2024"
+      },
+      {
+        "title": "Achilles tendinopathy: diagnosis and rehabilitation",
+        "href": "https://www.guysandstthomas.nhs.uk/health-information/achilles-tendinopathy",
+        "source": "Guy’s and St Thomas’ NHS Foundation Trust"
+      },
+      {
+        "title": "PRP versus sham injection: randomised clinical trial",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/34255009/",
+        "source": "JAMA, 2021"
+      },
+      {
+        "title": "Insertional Achilles tendinopathy: compression and footwear",
+        "href": "https://www.kentcht.nhs.uk/leaflet/achilles-insertional-tendinopathy/",
+        "source": "Kent Community Health NHS Foundation Trust"
+      },
+      {
+        "title": "Achilles tendinopathy: exercise and step precautions",
+        "href": "https://www.geh.nhs.uk/patients-and-visitors/patients/patient-leaflets/achilles-tendinopathy",
+        "source": "George Eliot Hospital"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Achilles pain the same as plantar fasciitis?",
+        "answer": [
+          "No. Achilles pain is behind the heel or ankle, while plantar fascia pain is usually under the heel. Location and examination guide treatment."
+        ]
+      },
+      {
+        "question": "Can a tendon rupture happen even if I can move my ankle?",
+        "answer": [
+          "Yes. Some movement may remain. A sudden pop, loss of push-off or difficulty walking after injury needs prompt assessment."
+        ]
+      },
+      {
+        "question": "Should everyone do heel drops off a step?",
+        "answer": [
+          "No. Lowering below step level can aggravate insertional symptoms. Have the affected region and suitable exercise range checked."
+        ]
+      },
+      {
+        "question": "Should I stop every form of exercise?",
+        "answer": [
+          "Not automatically. Adjust aggravating activity and discuss suitable alternatives while following an individual loading programme."
+        ]
+      },
+      {
+        "question": "Does PRP reliably cure Achilles tendinopathy?",
+        "answer": [
+          "That is not established. A trial of a single PRP injection for chronic midportion tendinopathy found no functional benefit over sham at six months."
+        ]
+      },
+      {
+        "question": "How should I judge whether treatment is working?",
+        "answer": [
+          "Track morning symptoms, comfortable walking and a relevant activity. Review progress and any next-day worsening with your clinician."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/achilles-tendon-pain-morning-stiffness-treatment",
+    "ogImage": "/assets/blog/achilles-tendon-pain-morning-stiffness-hero.jpg",
+    "category": "Ankle Pain",
+    "readTime": "7 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-11-12",
+    "publishedLabel": "November 12, 2026",
+    "cardImage": "/assets/blog/achilles-tendon-pain-morning-stiffness-hero.jpg",
+    "cardAlt": "Man touching the back of a painful ankle, with an illustrative Achilles tendon overlay and red pain highlight",
+    "bannerImage": "/assets/blog/achilles-tendon-pain-morning-stiffness-hero.jpg",
+    "bannerAlt": "Man touching the back of a painful ankle, with an illustrative Achilles tendon overlay and red pain highlight",
+    "bannerCaption": "AI-generated illustration. The anatomy overlay highlights the symptom area and is not a diagnostic image.",
+    "showTableOfContents": true
+  },
+  {
+    "slug": "sudden-back-pain-osteoporosis-spinal-compression-fracture",
+    "title": "Sudden Back Pain With Osteoporosis: Could It Be a Spinal Compression Fracture?",
+    "seoTitle": "Osteoporosis and Spinal Compression Fractures | Jain Pain Clinic",
+    "description": "New back pain after a small strain can need a bone-health assessment. Learn about vertebral compression fractures, treatment options and preventing another fracture.",
+    "keywords": "osteoporosis back pain, spinal compression fracture, vertebral fracture symptoms, sudden back pain older adults, vertebroplasty kyphoplasty, spine fracture treatment Gurgaon",
+    "excerpt": "A major fall is not always needed to fracture a fragile vertebra. Learn when new back pain needs assessment and why bone treatment matters after pain improves.",
+    "heroSubtitle": "Pain relief and future-fracture prevention are both important. A scan finding needs to match the examination before a procedure is considered.",
+    "tags": [
+      "Osteoporosis",
+      "Spinal Fracture",
+      "Back Pain",
+      "Bone Health"
+    ],
+    "content": {
+      "intro": "You bend to lift something light and develop a new, sharply localised back pain. Or pain appears after a small stumble that would once have seemed harmless. In someone with fragile bones, a vertebral compression fracture is one possibility. It should not automatically be dismissed as muscle strain or an inevitable part of ageing. Assessment needs to identify the painful structure, check for nerve involvement and address the risk of another fracture.",
+      "blocks": [
+        {
+          "type": "section",
+          "heading": "What Is a Vertebral Compression Fracture?",
+          "paragraphs": [
+            "A vertebra is one of the bones forming the spine. In a compression fracture, part of the vertebral body loses height or collapses, sometimes producing a wedge shape. Osteoporosis makes bone more fragile, so a relatively small load can be enough to cause a fracture.",
+            "The middle and lower back can be affected. Not every vertebral fracture causes obvious sudden pain, and an old fracture may be found incidentally. Conversely, a new painful fracture may occur without a major accident. The history and imaging need to be interpreted together."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Which Symptoms Should Prompt Assessment?",
+          "paragraphs": [
+            "A new focal ache or sharp pain, particularly after a minor strain in someone at risk of osteoporosis, deserves attention. Pain may worsen with movement or being upright. Loss of height or a change in spinal shape may also lead to investigation, although these can develop gradually.",
+            "Tell the clinician about previous fractures, known low bone density, falls and long-term steroid treatment. Men can have osteoporosis too. The absence of a previous osteoporosis diagnosis does not rule out a fragility fracture.",
+            "Other conditions can cause similar symptoms, including muscle or joint pain, infection and cancer-related disease. The purpose of assessment is to distinguish them, not to assume that all new back pain in an older adult is a fracture."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Is Back Pain an Emergency?",
+          "paragraphs": [
+            "New leg weakness, numbness around the genitals or anus, or a new loss of bladder or bowel control needs emergency assessment. Severe back pain after a major accident also requires urgent evaluation. Do not wait for a routine pain appointment with these symptoms.",
+            "Back pain with fever, feeling very unwell or a relevant cancer history needs prompt medical review. Explain new or progressive symptoms separately from any familiar longstanding backache. A known old fracture should not automatically explain a new deterioration."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "What Do X-Rays, MRI and Bone-Density Tests Tell You?",
+          "paragraphs": [
+            "An X-ray can show vertebral height loss. MRI may help assess whether a fracture is recent or still active and investigate nerves or alternative causes. Other imaging is selected according to the question and the examination.",
+            "A bone-density scan, usually called DXA, answers a different question about bone strength and future fracture risk. It does not replace investigation of a newly painful part of the spine. Blood tests may also be used to check for contributing conditions.",
+            "Ask which finding matches the painful level and whether a fracture appears old or recent. An imaging label alone should not determine whether an invasive treatment is appropriate."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Initial Care: Pain Relief, Safe Movement and Support",
+          "paragraphs": [
+            "Treatment often starts with suitable pain relief and practical help to move safely. The choice should account for age, kidney function, other medicines, constipation, dizziness and fall risk. Report side effects that make walking or alertness worse.",
+            "Follow the clinician’s advice about lifting, bending and movements while the fracture is healing. Prolonged bed rest can bring its own problems, so discuss a safe amount of mobility rather than assuming complete inactivity is protective.",
+            "A physiotherapist may guide transfers, walking and later strengthening. A brace may help selected patients, but it is not routinely required and does not have proven benefit for fracture healing. Ask what a proposed brace is intended to improve and how long it should be used."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "When Are Vertebroplasty or Kyphoplasty Considered?",
+          "paragraphs": [
+            "Vertebroplasty injects bone cement into a fractured vertebra. Kyphoplasty uses a balloon step before cement placement. These procedures are options for selected patients, rather than a routine response to every fracture shown on a scan.",
+            [
+              {
+                "type": "text",
+                "text": "The"
+              },
+              {
+                "type": "link",
+                "text": "NICE appraisal on vertebral augmentation",
+                "href": "https://www.nice.org.uk/guidance/ta279/resources/percutaneous-vertebroplasty-and-percutaneous-balloon-kyphoplasty-for-treating-osteoporotic-vertebral-compression-fractures-pdf-82600620856261"
+              },
+              {
+                "type": "text",
+                "text": "limits these options to severe ongoing pain after a recent, unhealed fracture despite optimal pain management, with the painful level confirmed by examination and imaging."
+              }
+            ],
+            "Other guidelines emphasise the inconsistent benefit of routine augmentation. This makes careful selection and discussion important. Ask what improvement is expected, what alternatives remain and which risks apply, including cement leakage, infection and possible nerve injury.",
+            "A procedure may help pain in an appropriately selected case, but it does not treat the underlying osteoporosis. Any decision should sit within a wider bone-health and rehabilitation plan."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Why Preventing the Next Fracture Matters",
+          "paragraphs": [
+            "A fragility fracture is an important signal about future risk. Even when pain settles, arrange a bone-health assessment and discuss whether osteoporosis medication is needed. Treatment selection depends on risk, other conditions and previous medicines.",
+            "Calcium and vitamin D may be relevant when intake is inadequate or deficiency is present, but supplements alone are not a complete treatment for everyone. Avoid changing doses or stopping long-term medicines without advice.",
+            "Ask who will coordinate follow-up: your primary clinician, an osteoporosis service or a fracture liaison service where available. The plan should include monitoring and a clear explanation of any medication schedule."
+          ]
+        },
+        {
+          "type": "section",
+          "heading": "Rehabilitation, Falls and Everyday Tasks",
+          "paragraphs": [
+            "As recovery allows, an individual programme may include progressive strength, balance and back-extensor work. It should be adapted to the fracture and your starting ability. Do not force a generic routine of deep spinal bending or twisting while a new fracture is being assessed.",
+            "Review lighting, footwear, trip hazards and medicines that contribute to dizziness. Ask for help with the tasks that are currently difficult, such as getting out of bed, dressing or carrying shopping. A walking aid may be useful when properly selected and fitted."
+          ],
+          "list": {
+            "type": "ul",
+            "items": [
+              "Keep a record of new falls, loss of height or changes in pain.",
+              "Ask for instructions on safe lifting and returning to activity.",
+              "Bring all medicines and supplements to the review.",
+              "Continue bone-health follow-up even after the back feels better."
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "heading": "What to Bring to a Jain Pain Clinic Consultation",
+          "paragraphs": [
+            "Bring the pain timeline, injury details, previous spine images, bone-density results and any history of fractures. Explain what you can no longer do and whether pain is stable or worsening. Mention neurological symptoms promptly.",
+            "A useful plan should identify the likely painful level, the role of non-surgical care, whether a spinal procedure or opinion is appropriate and how future-fracture risk will be addressed. Ask for a review point and instructions about symptoms that should trigger earlier assessment. Pain treatment and bone protection should progress together."
+          ]
+        }
+      ]
+    },
+    "resources": [
+      {
+        "title": "Osteoporosis and spinal fractures",
+        "href": "https://www.orthoinfo.org/diseases--conditions/osteoporosis-and-spinal-fractures/",
+        "source": "AAOS OrthoInfo"
+      },
+      {
+        "title": "Osteoporosis: diagnosis and fracture risk",
+        "href": "https://www.nhs.uk/conditions/osteoporosis/",
+        "source": "NHS"
+      },
+      {
+        "title": "Management of symptomatic osteoporotic vertebral fractures",
+        "href": "https://www.nogg.org.uk/full-guideline/section-8-management-symptomatic-osteoporotic-vertebral-fractures",
+        "source": "National Osteoporosis Guideline Group"
+      },
+      {
+        "title": "Vertebroplasty and kyphoplasty: recommendations",
+        "href": "https://www.nice.org.uk/guidance/ta279/resources/percutaneous-vertebroplasty-and-percutaneous-balloon-kyphoplasty-for-treating-osteoporotic-vertebral-compression-fractures-pdf-82600620856261",
+        "source": "NICE TA279"
+      },
+      {
+        "title": "Vertebral augmentation: patient selection and governance",
+        "href": "https://ebi.aomrc.org.uk/interventions/vertebral-augmentation-for-painful-osteoporotic-vertebral-fractures/",
+        "source": "Academy of Medical Royal Colleges"
+      },
+      {
+        "title": "UK osteoporosis guideline: rehabilitation and fracture prevention",
+        "href": "https://link.springer.com/article/10.1007/s11657-025-01588-3",
+        "source": "Archives of Osteoporosis, 2025"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can a spinal fracture occur without a major fall?",
+        "answer": [
+          "Yes. Fragile vertebrae may fracture after a relatively small load or minor injury. New focal back pain in someone at risk deserves assessment."
+        ]
+      },
+      {
+        "question": "Does an old fracture on a scan explain all new back pain?",
+        "answer": [
+          "No. The timing, examination and imaging need to match. New symptoms may require assessment for another cause."
+        ]
+      },
+      {
+        "question": "Does every compression fracture need cement injection?",
+        "answer": [
+          "No. Vertebroplasty or kyphoplasty is considered only for selected patients after assessment of pain, fracture activity and response to suitable care."
+        ]
+      },
+      {
+        "question": "Will a brace make the fracture heal faster?",
+        "answer": [
+          "That is not established. A brace may help selected patients with symptoms or support, but routine use is not recommended for everyone."
+        ]
+      },
+      {
+        "question": "Do I still need osteoporosis treatment after the pain improves?",
+        "answer": [
+          "Pain improvement does not remove future-fracture risk. Bone-health review and, where appropriate, medication are important parts of follow-up."
+        ]
+      },
+      {
+        "question": "Which symptoms need emergency care?",
+        "answer": [
+          "New significant leg weakness, saddle numbness or loss of bladder or bowel control needs emergency assessment. Severe pain after a major accident also requires urgent evaluation."
+        ]
+      }
+    ],
+    "canonicalPath": "/blog/sudden-back-pain-osteoporosis-spinal-compression-fracture",
+    "ogImage": "/assets/blog/osteoporosis-spinal-compression-fracture-hero.jpg",
+    "category": "Bone Health",
+    "readTime": "7 min read",
+    "author": "Jain Pain Clinic",
+    "authorImage": "/assets/logo.png",
+    "publishedAt": "2026-11-15",
+    "publishedLabel": "November 15, 2026",
+    "cardImage": "/assets/blog/osteoporosis-spinal-compression-fracture-hero.jpg",
+    "cardAlt": "Older man supporting his back, with an illustrative vertebral compression-fracture overlay and red pain highlight",
+    "bannerImage": "/assets/blog/osteoporosis-spinal-compression-fracture-hero.jpg",
+    "bannerAlt": "Older man supporting his back, with an illustrative vertebral compression-fracture overlay and red pain highlight",
+    "bannerCaption": "AI-generated illustration. The anatomy overlay highlights the symptom area and is not a diagnostic image.",
+    "showTableOfContents": true
   }
 ];
 
