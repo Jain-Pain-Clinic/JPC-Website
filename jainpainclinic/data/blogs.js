@@ -1147,6 +1147,282 @@ const rawBlogs = [
   }
   },
   {
+  "slug": "wrist-ganglion-cyst-lump-pain-treatment",
+  "title": "Lump on the Wrist: Could It Be a Ganglion Cyst?",
+  "seoTitle": "Wrist Ganglion Cyst: Causes, Symptoms and Treatment | Jain Pain Clinic",
+  "description": "A smooth lump near the wrist may be a ganglion cyst. Learn common symptoms, how clinicians assess a wrist lump, treatment options and when to seek review.",
+  "keywords": "ganglion cyst wrist, lump on wrist, wrist ganglion symptoms, ganglion cyst treatment, painful wrist lump, wrist cyst aspiration",
+  "excerpt": "A wrist lump that changes size or aches with movement may be a ganglion cyst, but not every lump is one. Learn what to watch for and how it is assessed.",
+  "heroSubtitle": "Many wrist ganglia can be observed, but a growing, firm or painful lump should be assessed rather than diagnosed by appearance alone.",
+  "tags": [
+    "Wrist Pain",
+    "Ganglion Cyst",
+    "Hand Conditions",
+    "Pain Assessment"
+  ],
+  "content": {
+    "intro": "You notice a smooth bump on the back of your wrist while putting your palm on the floor or lifting a bag. It may change size, disappear for a while, or ache only when you bend the wrist. A ganglion cyst is a common explanation, but the appearance of a lump alone cannot confirm what it is. The useful questions are where it sits, whether it is changing, and whether it is affecting movement, grip or sensation.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Is a Ganglion Cyst?",
+        "paragraphs": [
+          "A ganglion is a small sac filled with thick, jelly-like fluid that forms beside a joint or tendon sheath. At the wrist it commonly appears on the back of the joint, although it can form on the palm side or near a finger. Its size can fluctuate, and a lump on the back of the wrist may become more obvious when the wrist bends.",
+          "The cyst is usually benign. It may be painless, or it may cause an ache when the wrist is loaded or moved to its limit. The size of the bump does not reliably tell you how much it will hurt: some noticeable ganglia cause no symptoms, while a small one in a sensitive place may interfere with gripping."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "A Wrist Lump Is Not Always a Ganglion",
+        "paragraphs": [
+          "Several problems can cause pain around the wrist, and they need different care. De Quervain’s tenosynovitis usually causes pain on the thumb side during gripping or lifting; our guide to [thumb-side wrist pain and De Quervain’s](/blog/thumb-side-wrist-pain-de-quervains-tenosynovitis) explains that tendon pattern. Carpal tunnel syndrome more often causes tingling or numbness in the fingers. Arthritis, an old injury and other soft-tissue lumps can also be considered.",
+          "A ganglion often feels smooth and rounded, but self-examination cannot rule out other causes. A lump that is hard, fixed, steadily enlarging or associated with marked weakness should be assessed rather than watched based on an online image."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Is a Ganglion Diagnosed?",
+        "paragraphs": [
+          "The clinician will ask when you first noticed the lump, whether its size changes, what movements bring on symptoms and whether there was an injury. They may check wrist movement, grip, sensation and the lump’s position. If the history and examination fit a typical ganglion, further tests may not be needed.",
+          "Ultrasound or another scan can help when the diagnosis is uncertain or when the result would change a treatment decision. The exact location matters. A lump on the palm side can sit close to the radial artery and nerves, so it should not be punctured or treated as if every wrist cyst were in the same place."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Do You Need Treatment?",
+        "paragraphs": [
+          "If the lump is not painful and does not limit hand use, observation is often a reasonable choice. Many ganglia settle or shrink over time, and leaving a typical ganglion alone does not usually damage the wrist. You can temporarily adjust a movement that repeatedly provokes pain, while keeping the joint moving comfortably.",
+          "A wrist support may help during a particularly aggravating task, but constant immobilisation is rarely the goal. If the support causes tingling, skin irritation or more pain, stop using it and ask for advice. Pain relief medicines are not suitable for everyone; check with a clinician or pharmacist if you have other conditions, take regular medicines, or are unsure what is safe for you."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Aspiration and Surgery: What Are the Trade-offs?",
+        "paragraphs": [
+          "Aspiration means removing fluid from the cyst with a needle. The bump may flatten, but the connection to the joint or tendon sheath can remain and the ganglion often returns. The [British Society for Surgery of the Hand](https://www.bssh.ac.uk/patients/conditions/20/ganglion_cysts) notes that treatment depends on location and symptoms; it also highlights the artery’s proximity to palm-side ganglia. Aspiration should therefore be a clinician’s decision, not a home procedure.",
+          "Surgery may be discussed when a confirmed ganglion continues to cause substantial pain or interferes with work and daily activities despite simpler care. Removing it does not guarantee that it will never recur, and recovery can include scar tenderness, stiffness or ongoing pain. Ask what improvement is realistically expected, what the operation involves and whether the likely benefit is worth those trade-offs for your situation."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Get the Lump Checked?",
+        "paragraphs": [
+          "Arrange an assessment if you are unsure what the lump is, it is getting bigger, wrist movement or grip is becoming difficult, or pain keeps returning. Seek prompt advice if the area becomes very painful, hot or red, or if new numbness or weakness develops. A clinician can decide whether the lump looks typical, whether imaging would help and whether a hand specialist should be involved.",
+          "At Jain Pain Clinic, an assessment can help distinguish a local tendon or nerve pain pattern from pain associated with a lump. If the lump itself needs treatment, the appropriate next step may be a hand or orthopaedic specialist. The plan should follow the diagnosis rather than assume that every bump needs an injection or removal."
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Ganglion cysts",
+      "href": "https://www.bssh.ac.uk/patients/conditions/20/ganglion_cysts",
+      "source": "British Society for Surgery of the Hand"
+    },
+    {
+      "title": "Ganglion cyst of the wrist and hand",
+      "href": "https://www.orthoinfo.org/bodypart/hand-wrist/ganglion-cyst-of-the-wrist-and-hand/?webid=2FDEE455",
+      "source": "AAOS OrthoInfo"
+    },
+    {
+      "title": "Ganglion cyst",
+      "href": "https://www.nhs.uk/conditions/ganglion-cyst/",
+      "source": "NHS"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will a ganglion cyst go away on its own?",
+      "answer": [
+        "Some wrist ganglia shrink or disappear without treatment. If the lump is growing, painful or limiting hand use, arrange an assessment rather than assuming it is a cyst."
+      ]
+    },
+    {
+      "question": "Can I hit or pop a wrist ganglion?",
+      "answer": [
+        "No. Hitting or puncturing it can injure the hand or cause infection and is unlikely to provide reliable treatment."
+      ]
+    },
+    {
+      "question": "Does aspiration permanently remove a ganglion?",
+      "answer": [
+        "Not always. Fluid can return because the connection to the joint or tendon sheath may remain. The chance and risks depend partly on the cyst’s location."
+      ]
+    },
+    {
+      "question": "Does every ganglion need surgery?",
+      "answer": [
+        "No. Many can be observed. Surgery is usually considered when a confirmed cyst continues to cause meaningful pain or functional difficulty."
+      ]
+    },
+    {
+      "question": "Can a ganglion cause numbness?",
+      "answer": [
+        "A ganglion can sometimes press on a nearby nerve, but numbness has other causes too. New or persistent altered sensation should be assessed."
+      ]
+    }
+  ],
+  "canonicalPath": "/blog/wrist-ganglion-cyst-lump-pain-treatment",
+  "ogImage": "/assets/blog/de-quervains-thumb-side-wrist-pain-hero.jpg",
+  "category": "Wrist Pain",
+  "readTime": "6 min read",
+  "author": "Jain Pain Clinic",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-11-18",
+  "publishedLabel": "November 18, 2026",
+  "cardImage": "/assets/blog/de-quervains-thumb-side-wrist-pain-hero.jpg",
+  "cardAlt": "Man holding his wrist; representative wrist-pain artwork, not a diagnostic image of a ganglion cyst",
+  "bannerImage": "/assets/blog/de-quervains-thumb-side-wrist-pain-hero.jpg",
+  "bannerAlt": "Man holding his wrist; representative wrist-pain artwork, not a diagnostic image of a ganglion cyst",
+  "bannerCaption": "Illustrative wrist-pain image. It does not show or diagnose a ganglion cyst.",
+  "showTableOfContents": true
+},
+  {
+  "slug": "ankle-sprain-not-healing-persistent-pain",
+  "title": "Ankle Sprain Not Healing? Why Pain and Swelling Can Persist",
+  "seoTitle": "Ankle Sprain Recovery: Persistent Pain, Swelling and Treatment | Jain Pain Clinic",
+  "description": "Ankle pain after a sprain can linger, but persistent swelling or difficulty walking deserves a closer look. Learn recovery basics, rehabilitation and warning signs.",
+  "keywords": "ankle sprain not healing, ankle sprain recovery time, ankle pain after sprain, persistent ankle swelling, ankle sprain treatment, ankle sprain exercises",
+  "excerpt": "A sprained ankle should gradually improve. If pain, swelling or instability persists, the injury may need reassessment and a more structured recovery plan.",
+  "heroSubtitle": "Lingering ankle pain is a reason to review the injury and recovery plan, especially when walking remains difficult or the joint repeatedly gives way.",
+  "tags": [
+    "Ankle Pain",
+    "Ankle Sprain",
+    "Sports Injury",
+    "Rehabilitation"
+  ],
+  "content": {
+    "intro": "You roll your ankle, manage the first few days and expect it to be nearly normal by the next week. Instead, it swells after a short walk or feels unreliable on stairs. A sprain can take longer to settle than the initial pain suggests, but recovery should move in the right direction. If it is not, the question is whether the ligament is still healing, the ankle needs a better rehabilitation plan, or the original injury involved something else.",
+    "blocks": [
+      {
+        "type": "section",
+        "heading": "What Happens When You Sprain an Ankle?",
+        "paragraphs": [
+          "A sprain is an injury to a ligament, the tissue that helps hold the ankle bones together. It often happens when the foot rolls inward, stretching or tearing ligaments on the outside of the ankle. Pain, swelling, bruising and difficulty putting weight on the foot are common. A more severe sprain may affect several ligaments and take longer to recover.",
+          "A fracture, tendon injury or damage to the joint surface can look similar at first. The word “sprain” describes a possible ligament injury; it is not a guarantee that the bones and other structures are uninjured. The way the injury happened, where it is tender and whether you can bear weight all matter."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Why Might Pain, Swelling or Instability Persist?",
+        "paragraphs": [
+          "The ankle may still be stiff and weak after the first swelling settles. If you protect it for a long time and then return quickly to hills, running or sport, its strength and balance may not yet match the demands. Some people also have repeated sprains or a feeling that the ankle gives way. That can reflect reduced movement control as well as a ligament that has not regained its usual support.",
+          "Persistent pain does not always mean the ligament has failed to heal. But pain that is not gradually improving, repeated swelling after modest activity, a tender spot over bone, catching inside the joint or ongoing instability deserves a fresh assessment. Other injuries can be missed when every symptom is attributed to the original sprain."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "How Is a Slow-Healing Ankle Assessed?",
+        "paragraphs": [
+          "A clinician will ask how the ankle twisted, whether you heard or felt a pop, how much weight you could put on it afterwards and what has changed since. They may check areas of bone tenderness, swelling, ankle movement, ligament stability, strength and balance. Previous sprains and the tasks you are trying to return to are useful parts of the history.",
+          "An X-ray is considered when the history and examination raise concern for a fracture; it is not needed for every sprain. If pain or function is not following the expected course, additional imaging may sometimes be useful to look for another injury. The choice depends on the examination and whether the result would change the plan."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Early Care: Protect It, Then Gradually Reload",
+        "paragraphs": [
+          "In the first days, reduce movements that sharply worsen pain and elevate the ankle when swelling is troublesome. A wrapped cold pack may help with comfort for short periods; it should not touch bare skin. Supportive footwear, a brace or walking aid may be appropriate depending on the injury and how safely you can walk.",
+          "Once a serious injury has been considered, prolonged complete rest is not usually the whole recovery plan. The 2021 lateral ankle sprain [clinical practice guideline](https://www.jospt.org/doi/10.2519/jospt.2021.0302) recommends support and progressive weight-bearing matched to injury severity, with exercise-based rehabilitation. More severe sprains may need a brief period of immobilisation, but the timing and duration should be decided with a clinician."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "Rehabilitation Should Restore More Than Walking",
+        "paragraphs": [
+          "Rehabilitation often starts with comfortable ankle movement and a gradual return to walking. As the ankle tolerates more load, a physiotherapist may add calf and ankle strengthening, balance and coordination work, then faster or sport-specific tasks. These stages help restore the ankle’s ability to respond when the ground is uneven or you change direction.",
+          "Progress by function, not just by counting days. Can you walk on level ground without a limp? Manage stairs? Balance and push off without the ankle giving way? The next stage should match your symptoms and examination. If pain or swelling is clearly worse later that day or the next morning, reduce the load and review the progression rather than forcing through it.",
+          "A brace or tape can be useful during selected activities, especially when returning to higher-risk sport, but it does not replace strength and balance training. Recurrent sprains are a reason to address the underlying control and confidence, not simply to keep wearing support indefinitely."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Is It Safe to Return to Sport or Longer Walks?",
+        "paragraphs": [
+          "There is no single calendar date that is right for every sprain. Return should be gradual and should take account of pain, swelling, ankle movement, strength, balance and the demands of the activity. Start with the parts you can do confidently and increase speed, distance, uneven ground or direction changes one at a time.",
+          "If the ankle still gives way, you are limping, or a basic walk brings back substantial swelling, it is too early to use a full training session as a test. A physiotherapist or clinician can help decide which parts of function need work before you return."
+        ]
+      },
+      {
+        "type": "section",
+        "heading": "When Should You Seek Medical Advice?",
+        "paragraphs": [
+          "Seek urgent assessment after an injury if the ankle or foot looks deformed, you cannot bear weight or walk a few steps, pain is severe or worsening, or you heard a crack. New numbness or pins and needles, or skin that becomes unusually cold, blue or grey, also needs urgent care.",
+          "Arrange a review if pain is stopping normal activities, keeps returning, is not improving after around two weeks of self-care, or comes with tingling or loss of feeling. A person with diabetes should seek advice about foot or ankle pain because complications may need earlier attention. For Jain Pain Clinic, bring the injury timeline, prior images and a clear example of the activity you cannot yet do. A useful consultation should explain the likely pain source, whether more tests are needed and how recovery will be measured."
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Lateral ankle ligament sprains: clinical practice guideline",
+      "href": "https://www.jospt.org/doi/10.2519/jospt.2021.0302",
+      "source": "Journal of Orthopaedic & Sports Physical Therapy"
+    },
+    {
+      "title": "Sprains and strains",
+      "href": "https://www.nhs.uk/conditions/sprains-and-strains/",
+      "source": "NHS"
+    },
+    {
+      "title": "Ankle pain",
+      "href": "https://www.nhs.uk/symptoms/foot-pain/ankle-pain/",
+      "source": "NHS"
+    },
+    {
+      "title": "Caring for your ankle injury",
+      "href": "https://www.cuh.nhs.uk/patient-information/caring-for-your-ankle-injury/",
+      "source": "Cambridge University Hospitals NHS Foundation Trust"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long does an ankle sprain take to heal?",
+      "answer": [
+        "It depends on the severity and what you need to return to. A mild sprain may improve over a couple of weeks, while a more significant injury can take several weeks or longer. Function should gradually improve."
+      ]
+    },
+    {
+      "question": "Why is my ankle still swollen after a sprain?",
+      "answer": [
+        "Swelling may recur when activity increases during recovery. If it is worsening, not settling over time, or occurs with difficulty walking or instability, arrange an assessment."
+      ]
+    },
+    {
+      "question": "Should I completely rest a sprained ankle?",
+      "answer": [
+        "Protect it from painful loads at first, but once a fracture or serious injury has been considered, gradual weight-bearing and guided movement are commonly part of recovery."
+      ]
+    },
+    {
+      "question": "Do I need an X-ray for an ankle sprain?",
+      "answer": [
+        "Not every sprain needs an X-ray. A clinician uses the injury history and examination, including weight-bearing ability and areas of bone tenderness, to decide whether imaging is needed."
+      ]
+    },
+    {
+      "question": "Can I return to sport if the ankle still gives way?",
+      "answer": [
+        "Repeated giving-way suggests the ankle may not be ready. Have it assessed and work on the strength, balance and sport-specific control needed for your activity before returning fully."
+      ]
+    }
+  ],
+  "canonicalPath": "/blog/ankle-sprain-not-healing-persistent-pain",
+  "ogImage": "/assets/blog/achilles-tendon-pain-morning-stiffness-hero.jpg",
+  "category": "Ankle Pain",
+  "readTime": "7 min read",
+  "author": "Jain Pain Clinic",
+  "authorImage": "/assets/logo.png",
+  "publishedAt": "2026-11-22",
+  "publishedLabel": "November 22, 2026",
+  "cardImage": "/assets/blog/achilles-tendon-pain-morning-stiffness-hero.jpg",
+  "cardAlt": "Man holding the back of his ankle with a highlighted pain area; representative ankle-pain artwork, not a sprain diagnosis",
+  "bannerImage": "/assets/blog/achilles-tendon-pain-morning-stiffness-hero.jpg",
+  "bannerAlt": "Man holding the back of his ankle with a highlighted pain area; representative ankle-pain artwork, not a sprain diagnosis",
+  "bannerCaption": "Illustrative ankle-pain image. It does not show or diagnose an ankle sprain.",
+  "showTableOfContents": true
+},
+  {
   "slug": "sacroiliac-joint-injection-back-pain-pelvis",
   "title": "Sacroiliac Joint Injection: When Back Pain Is Actually Coming From the Pelvis",
   "seoTitle": "Sacroiliac Joint Injection for Back and Pelvic Pain | Jain Pain Clinic",

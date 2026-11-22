@@ -561,6 +561,134 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.jainpainclinic.com/blog/page-11</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/page-11" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/hi/blog/page-11</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/page-11" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/ar/blog/page-11</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/page-11" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/ru/blog/page-11</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/page-11" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/page-11" />
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/hi/blog/ankle-sprain-not-healing-persistent-pain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/ar/blog/ankle-sprain-not-healing-persistent-pain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/ru/blog/ankle-sprain-not-healing-persistent-pain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/ankle-sprain-not-healing-persistent-pain" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/ankle-sprain-not-healing-persistent-pain" />
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/hi/blog/wrist-ganglion-cyst-lump-pain-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/ar/blog/wrist-ganglion-cyst-lump-pain-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.jainpainclinic.com/ru/blog/wrist-ganglion-cyst-lump-pain-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.jainpainclinic.com/ar/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.jainpainclinic.com/ru/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jainpainclinic.com/blog/wrist-ganglion-cyst-lump-pain-treatment" />
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.jainpainclinic.com/blog/sudden-back-pain-osteoporosis-spinal-compression-fracture</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.jainpainclinic.com/blog/sudden-back-pain-osteoporosis-spinal-compression-fracture" />
     <xhtml:link rel="alternate" hreflang="hi" href="https://www.jainpainclinic.com/hi/blog/sudden-back-pain-osteoporosis-spinal-compression-fracture" />
